@@ -1,0 +1,14 @@
+# 1. 统计当前目录下的文件数量
+ls -1 | wc -l
+
+# 2. 统计一个文本文件中包含 "gene" 的行数
+grep -c "gene" data.txt
+
+# 3. 打印当前目录下按文件大小排序的前 5 个文件
+ls -lhS | head -n 5
+
+# 4. 从 data.csv 中提取第 2 列的唯一值并计数
+cut -d',' -f2 data.csv | sort | uniq -c
+
+# 5. 计算名为 numbers.txt 的文件中所有数字的平均值
+awk '{sum += $1} END {print sum/NR}' numbers.txt

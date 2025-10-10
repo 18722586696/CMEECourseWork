@@ -1,0 +1,7 @@
+# Best alignment result
+Score : 8
+Offset: 1
+
+ACCGTTGACCT
+  ||||||||
+ ACGTTGACC
