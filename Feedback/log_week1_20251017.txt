@@ -1,0 +1,1216 @@
+======================================================================
+AUTOMATED FEEDBACK LOG
+======================================================================
+
+HOW TO READ THIS FEEDBACK:
+--------------------------
+1. This log contains detailed feedback on your code execution
+2. Each script is tested and results are shown with output and errors
+3. IMPORTANT: Read all the way to the END for a summary and debugging guidance
+4. The summary at the end will help you understand and fix any issues
+5. Scripts are run in a headless environment (no GUI applications)
+
+======================================================================
+
+Starting testing for Hanxiao Wang
+
+Processing week 1
+
+Your current Git repo size is about 147.79 KiB on disk
+
+Found directories: .git, week1, week2, Feedback
+Found files: .gitignore, README.md
+
+Processing week 1: week1
+
+Found 17 code files to test.
+
+Note: Expected file checking not performed (no FileList provided).
+Expected file checking will only be performed during final assessment.
+
+======================================================================
+Script: lc2.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+lc2.py — Slightly trickier list/dict/set comprehensions.
+"""
+from typing import Dict, Iterable, List, Tuple
+
+def word_lengths(words: Iterable[str]) -> Dict[str, int]:
+    return {w: len(w) for w in words}
+
+def vowels_only(s: str) -> List[str]:
+    return [ch for ch in s if ch.lower() in "aeiou"]
+
+def cartesian_comp(a: Iterable[int], b: Iterable[int]) -> List[Tuple[int,int]]:
+    return [(x,y) for x in a for y in b]
+
+def invert_dict(d: Dict[str, int]) -> Dict[int, List[str]]:
+    # value-> list of keys
+    inv: Dict[int, List[str]] = {}
+    for k, v in d.items():
+        inv.setdefault(v, []).append(k)
+    return inv
+
+if __name__ == "__main__":
+    words = ["eco","evo","bio","python",""]
+    print("[lc2] word_lengths:", word_lengths(words))
+    print("[lc2] vowels_only('MulQuaBio'):", vowels_only("MulQuaBio"))
+    print("[lc2] cartesian_comp([1,2],[10,20]):", cartesian_comp([1,2],[10,20]))
+    print("[lc2] invert_dict({'a':1,'b':2,'c':1}):", invert_dict({"a":1,"b":2,"c":1}))
+
+**********
+
+Output (first 500 chars):
+
+**********
+[lc2] word_lengths: {'eco': 3, 'evo': 3, 'bio': 3, 'python': 6, '': 0}
+[lc2] vowels_only('MulQuaBio'): ['u', 'u', 'a', 'i', 'o']
+[lc2] cartesian_comp([1,2],[10,20]): [(1, 10), (1, 20), (2, 10), (2, 20)]
+[lc2] invert_dict({'a':1,'b':2,'c':1}): {1: ['a', 'c'], 2: ['b']}
+
+**********
+No errors.
+======================================================================
+Script: Vectorize2.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+Vectorize2.py — compare loop vs NumPy vectorization on L2 norm (sum of squares).
+Prints per-N function timings with a stable, greppable format.
+"""
+import time, math
+import numpy as np
+
+def l2_loop(a: np.ndarray) -> float:
+    s = 0.0
+    for i in range(len(a)):
+        s += a[i] * a[i]
+    return math.sqrt(s)
+
+def l2_vect(a: np.ndarray) -> float:
+    return float(np.linalg.norm(a))
+
+def bench_once(fn, *args, repeats=5):
+    tmin = math.inf
+    for _ in range(repeats):
+        t0 = time.perf_counter()
+        _ = fn(*args)
+        t = (time.perf_counter() - t0) * 1000.0
+        if t < tmin: tmin = t
+    return tmin
+
+def main():
+    rng = np.random.default_rng(123)
+    sizes = [10**k for k in range(1, 7)]
+    for N in sizes:
+        a = rng.random(N, dtype=np.float64)
+        t_loop = bench_once(l2_loop, a)
+        t_vect = bench_once(l2_vect, a)
+        print(f"TIMING Vectorize2 loop N={N} ms={t_loop:.4f}")
+        print(f"TIMING Vectorize2 vect N={N} ms={t_vect:.4f}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Output (first 500 chars):
+
+**********
+TIMING Vectorize2 loop N=10 ms=0.0013
+TIMING Vectorize2 vect N=10 ms=0.0011
+TIMING Vectorize2 loop N=100 ms=0.0115
+TIMING Vectorize2 vect N=100 ms=0.0010
+TIMING Vectorize2 loop N=1000 ms=0.1138
+TIMING Vectorize2 vect N=1000 ms=0.0014
+TIMING Vectorize2 loop N=10000 ms=1.1441
+TIMING Vectorize2 vect N=10000 ms=0.0053
+TIMING Vectorize2 loop N=100000 ms=11.5150
+TIMING Vectorize2 vect N=100000 ms=0.0432
+TIMING Vectorize2 loop N=1000000 ms=115.8323
+TIMING Vectorize2 vect N=1000000 ms=0.4208
+
+**********
+No errors.
+======================================================================
+Script: Vectorize1.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+Vectorize1.py — compare loop vs NumPy vectorization on elementwise product & sum.
+Prints per-N function timings with a stable, greppable format.
+"""
+import time, math
+import numpy as np
+
+def product_loop(a: np.ndarray, b: np.ndarray) -> float:
+    s = 0.0
+    for i in range(len(a)):
+        s += a[i] * b[i]
+    return s
+
+def product_vect(a: np.ndarray, b: np.ndarray) -> float:
+    return float((a * b).sum())
+
+def bench_once(fn, *args, repeats=5):
+    tmin = math.inf
+    for _ in range(repeats):
+        t0 = time.perf_counter()
+        _ = fn(*args)
+        t = (time.perf_counter() - t0) * 1000.0  # ms
+        if t < tmin: tmin = t
+    return tmin
+
+def main():
+    rng = np.random.default_rng(42)
+    sizes = [10**k for k in range(1, 7)]  # 10..1,000,000
+    for N in sizes:
+        a = rng.random(N, dtype=np.float64)
+        b = rng.random(N, dtype=np.float64)
+        t_loop = bench_once(product_loop, a, b)
+        t_vect = bench_once(product_vect, a, b)
+        print(f"TIMING Vectorize1 loop N={N} ms={t_loop:.4f}")
+        print(f"TIMING Vectorize1 vect N={N} ms={t_vect:.4f}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Output (first 500 chars):
+
+**********
+TIMING Vectorize1 loop N=10 ms=0.0013
+TIMING Vectorize1 vect N=10 ms=0.0011
+TIMING Vectorize1 loop N=100 ms=0.0113
+TIMING Vectorize1 vect N=100 ms=0.0010
+TIMING Vectorize1 loop N=1000 ms=0.1155
+TIMING Vectorize1 vect N=1000 ms=0.0014
+TIMING Vectorize1 loop N=10000 ms=1.1732
+TIMING Vectorize1 vect N=10000 ms=0.0067
+TIMING Vectorize1 loop N=100000 ms=11.7324
+TIMING Vectorize1 vect N=100000 ms=0.0574
+TIMING Vectorize1 loop N=1000000 ms=118.4210
+TIMING Vectorize1 vect N=1000000 ms=1.3528
+
+**********
+No errors.
+======================================================================
+Script: dictionary.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+dictionary.py — Common dictionary patterns.
+"""
+from typing import Dict, Iterable, List, Tuple
+from collections import defaultdict
+
+def count_tokens(tokens: Iterable[str]) -> Dict[str, int]:
+    cnt: Dict[str, int] = defaultdict(int)
+    for t in tokens:
+        cnt[t] += 1
+    return dict(cnt)
+
+def list_of_tuples_to_dict(pairs: Iterable[Tuple[str, int]]) -> Dict[str, int]:
+    return {k: v for k, v in pairs}
+
+def dict_to_sorted_items(d: Dict[str,int]) -> List[Tuple[str,int]]:
+    return sorted(d.items(), key=lambda kv: (kv[1], kv[0]))
+
+def merge_sum(d1: Dict[str,int], d2: Dict[str,int]) -> Dict[str,int]:
+    out = dict(d1)
+    for k, v in d2.items():
+        out[k] = out.get(k, 0) + v
+    return out
+
+if __name__ == "__main__":
+    toks = ["a","b","a","c","b","a"]
+    print("[dict] count_tokens:", count_tokens(toks))
+    pairs = [("x",2),("y",1)]
+    print("[dict] list_of_tuples_to_dict:", list_of_tuples_to_dict(pairs))
+    print("[dict] dict_to_sorted_items:", dict_to_sorted_items({"x":2,"y":1,"z":1}))
+    print("[dict] merge_sum:", merge_sum({"a":1,"b":2},{"b":5,"c":3}))
+
+**********
+
+Output (first 500 chars):
+
+**********
+[dict] count_tokens: {'a': 3, 'b': 2, 'c': 1}
+[dict] list_of_tuples_to_dict: {'x': 2, 'y': 1}
+[dict] dict_to_sorted_items: [('y', 1), ('z', 1), ('x', 2)]
+[dict] merge_sum: {'a': 1, 'b': 7, 'c': 3}
+
+**********
+No errors.
+======================================================================
+Script: compare_vectorization.sh
+
+Contents:
+
+**********
+#!/usr/bin/env bash
+# Compare R vs Python timings for equivalent vectorized/loop functions.
+set -euo pipefail
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+PY="${PYTHON:-python}"
+RSCRIPT="${RSCRIPT:-Rscript}"
+
+P_VEC1="${HERE}/Vectorize1.py"
+P_VEC2="${HERE}/Vectorize2.py"
+R_VEC1="${HERE}/Vectorize1.R"
+R_VEC2="${HERE}/Vectorize2.R"
+
+echo "== Running Python Vectorize1/2 =="
+$PY "$P_VEC1" | tee /tmp/py_vec1.out
+$PY "$P_VEC2" | tee /tmp/py_vec2.out
+
+echo
+echo "== Running R Vectorize1/2 =="
+$RSCRIPT "$R_VEC1" | tee /tmp/r_vec1.out
+$RSCRIPT "$R_VEC2" | tee /tmp/r_vec2.out
+
+echo
+echo "== Summary (function-level timings, ms) =="
+printf "%-20s %-10s %-12s %-12s\n" "Case" "N" "Python" "R"
+join_lines () {
+  awk -v tag="$1" '
+    $1=="TIMING" && $2==tag { 
+      # TIMING Vectorize1 loop N=1000 ms=0.1234
+      for(i=1;i<=NF;i++){ if($i ~ /^N=/){n=substr($i,3)} if($i ~ /^ms=/){ms=substr($i,4)} }
+      print n, ms
+    }' "$2" | sort -n
+}
+
+for kind in "Vectorize1" "Vectorize2"; do
+  for mode in "loop" "vect"; do
+    echo
+    echo "-- ${kind} ${mode} --"
+    py_file="/tmp/$( [ "$kind" = "Vectorize1" ] && echo py_vec1.out || echo py_vec2.out )"
+    r_file="/tmp/$( [ "$kind" = "Vectorize1" ] && echo r_vec1.out || echo r_vec2.out )"
+    paste <(join_lines "$kind" "$py_file" | awk '{print $1" "$2}') \
+          <(join_lines "$kind" "$r_file" | awk '{print $1" "$2}') \
+      | awk -v k="$kind" -v m="$mode" '
+        { printf "%-20s %-10s %-12s %-12s\n", k" "m, $1, $2, $4 }'
+  done
+done
+
+**********
+
+Output (first 500 chars):
+
+**********
+== Running Python Vectorize1/2 ==
+
+**********
+Errors:
+**********
+compare_vectorization.sh: line 15: python: command not found
+
+**********
+======================================================================
+Script: cfexercises1.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+cfexercises1.py — Control-flow exercises rewritten as a reusable module.
+
+Run directly to see demo evaluations; import to reuse functions elsewhere.
+"""
+__author__ = "Your Name <you@example.com>"
+__version__ = "0.1.0"
+
+from typing import List
+
+def foo_1(x: float = 4.0) -> float:
+    """Square root (example control-flow kept trivial)."""
+    return x ** 0.5
+
+def foo_2(x: float, y: float):
+    """Return the larger of two numbers."""
+    return x if x > y else y
+
+def foo_3(x: float, y: float, z: float) -> List[float]:
+    """Return [x,y,z] sorted ascending (no .sort used to mirror notes)."""
+    if x > y: x, y = y, x
+    if x > z: x, z = z, x
+    if y > z: y, z = z, y
+    return [x, y, z]
+
+def foo_4(n: int) -> int:
+    """Factorial via for-loop; handles 0! = 1."""
+    if n < 0:
+        raise ValueError("n must be >= 0")
+    out = 1
+    for i in range(1, n+1):
+        out *= i
+    return out
+
+def foo_5(n: int) -> int:
+    """Factorial via recursion; handles 0! = 1."""
+    if n < 0:
+        raise ValueError("n must be >= 0")
+    if n in (0, 1):
+        return 1
+    return n * foo_5(n-1)
+
+def foo_6(n: int) -> int:
+    """Factorial via while-loop; handles 0! = 1."""
+    if n < 0:
+        raise ValueError("n must be >= 0")
+    out = 1
+    while n >= 1:
+        out *= n
+        n -= 1
+    return out
+
+def _demo():
+    print("foo_1(9)   ->", foo_1(9))
+    print("foo_2(7,3) ->", foo_2(7,3))
+    print("foo_3(9,1,5) ->", foo_3(9,1,5))
+    print("foo_4(5)   ->", foo_4(5))
+    print("foo_5(10)  ->", foo_5(10))  # 文档示例中的测试方式
+    print("foo_6(6)   ->", foo_6(6))
+
+if __name__ == "__main__":
+    _demo()
+
+**********
+
+Output (first 500 chars):
+
+**********
+foo_1(9)   -> 3.0
+foo_2(7,3) -> 7
+foo_3(9,1,5) -> [1, 5, 9]
+foo_4(5)   -> 120
+foo_5(10)  -> 3628800
+foo_6(6)   -> 720
+
+**********
+No errors.
+======================================================================
+Script: LVspeedtest.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+run_LV.py — Run & profile LV1.py (CT), LV2.py (CT+K), LV3.py (DT+K), LV4.py (DT+K+noise).
+Print wall-clock timings and cProfile summaries (top tail).
+"""
+import subprocess, sys, time
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+PY = sys.executable
+
+LV1 = HERE / "LV1.py"
+LV2 = HERE / "LV2.py"
+LV3 = HERE / "LV3.py"
+LV4 = HERE / "LV4.py"
+
+COMMON_CT = ["--r","1.0","--a","0.5","--z","0.3","--e","0.75","--tmax","80","--dt","0.005","--R0","10","--C0","5"]
+LV2_ONLY   = ["--K","50"]
+COMMON_DT = ["--r","1.0","--a","0.5","--z","0.3","--e","0.75","--tmax","80","--R0","10","--C0","5","--K","50"]
+LV4_ONLY  = ["--sigma","0.05","--seed","1"]
+
+def run_timed(cmd):
+    t0 = time.perf_counter()
+    p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    dt = time.perf_counter() - t0
+    return p.returncode, dt, p.stdout.strip(), p.stderr.strip()
+
+def profile_script(script, args):
+    cmd = [PY, "-m", "cProfile", "-s", "tottime", str(script), *args]
+    p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    return p.returncode, p.stdout.strip(), p.stderr.strip()
+
+def section(title): print("\n" + title + "\n" + "="*len(title))
+
+def do_one(name, script, args):
+    rc, secs, out, err = run_timed([PY, str(script), *args])
+    print(f"[{name}] rc={rc}, time={secs:.3f}s")
+    if out: print(f"[{name}] stdout:", out)
+    if err: print(f"[{name}] stderr:", err)
+    prc, prof, perr = profile_script(script, args)
+    tail = "\n".join(prof.splitlines()[-15:])
+    print(f"[{name} profile]\n{tail}")
+    if perr: print(f"[{name} profile stderr]\n{perr}")
+
+def main():
+    for f in (LV1,LV2,LV3,LV4):
+        if not f.exists():
+            print(f"WARNING: {f.name} not found — skipping its tests.")
+
+    section("Wall-clock timing & profile")
+    if LV1.exists(): do_one("LV1", LV1, COMMON_CT)
+    if LV2.exists(): do_one("LV2", LV2, [*COMMON_CT, *LV2_ONLY])
+    if LV3.exists(): do_one("LV3", LV3, COMMON_DT)
+    if LV4.exists(): do_one("LV4", LV4, [*COMMON_DT, *LV4_ONLY])
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Output (first 500 chars):
+
+**********
+
+Wall-clock timing & profile
+===========================
+[LV1] rc=0, time=0.489s
+[LV1] stdout: [OK] Saved: LV_model_timeseries.pdf, LV_model_phaseplane.pdf -> /home/mhasoba/Documents/Teaching/IC_CMEE/2025-26/Coursework/StudentRepos/HanxiaoWang_hw2625/week1/results
+[LV1 profile]
+        1    0.000    0.000    0.000    0.000 _iotools.py:437(ConversionWarning)
+        1    0.000    0.000    0.000    0.000 otConverters.py:408(ComputedUShort)
+        1    0.000    0.000    0.000    0.000 __init__.py:
+**********
+No errors.
+======================================================================
+Script: boilerplate.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+boilerplate.py — a template for all Python scripts in The MulQuaBio course.
+
+Demonstrates good coding practice:
+- Shebang for portability.
+- Module-level docstring (describes purpose, author, version, usage).
+- Imports at top.
+- main() function encapsulation.
+- sys.argv for command-line argument reading.
+- __name__ guard.
+"""
+
+__author__ = "Your Name <you@example.com>"
+__version__ = "0.1.0"
+__license__ = "MIT"
+__status__ = "Development"
+
+# ---- imports ----
+import sys
+from pathlib import Path
+
+# ---- functions ----
+def greet(name: str = "world") -> str:
+    """Return a simple greeting message."""
+    return f"Hello, {name}!"
+
+# ---- main ----
+def main(argv=None):
+    """
+    Entry point for command-line execution.
+
+    Parameters
+    ----------
+    argv : list, optional
+        Command-line arguments (defaults to sys.argv[1:]).
+
+    Returns
+    -------
+    int
+        Exit status code (0 for success).
+    """
+    if argv is None:
+        argv = sys.argv[1:]
+
+    # handle arguments
+    if len(argv) == 0:
+        name = "world"
+    else:
+        name = argv[0]
+
+    message = greet(name)
+    print(message)
+
+    # create an example output file (shows file I/O)
+    outdir = Path(__file__).resolve().parents[1] / "results"
+    outdir.mkdir(parents=True, exist_ok=True)
+    outfile = outdir / "boilerplate_output.txt"
+    with open(outfile, "w") as f:
+        f.write(message + "\n")
+
+    print(f"[OK] Message written to {outfile}")
+    return 0
+
+# ---- script execution ----
+if __name__ == "__main__":
+    sys.exit(main())
+
+**********
+
+Output (first 500 chars):
+
+**********
+Hello, world!
+[OK] Message written to /home/mhasoba/Documents/Teaching/IC_CMEE/2025-26/Coursework/StudentRepos/HanxiaoWang_hw2625/week1/results/boilerplate_output.txt
+
+**********
+No errors.
+======================================================================
+Script: data.py
+
+Contents:
+
+**********
+import re
+pat_simple = re.compile(r'^(?:19(0[1-9]|[1-9]\d)|[2-9]\d{3})(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])$')
+pat_strict = re.compile(r'''^(?:(?:19(0[1-9]|[1-9]\d)|[2-9]\d{3})(?:(?:0[13578]|1[02])(?:0[1-9]|[12]\d|3[01])|(?:0[469]|11)(?:0[1-9]|[12]\d|30)|02(?:0[1-9]|1\d|2[0-8])))|(?:(?:(?:19|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]00|[3579]200))0229)$''')
+tests = ["19000101","19010228","20000229","21000229","20250230","20251231"]
+for s in tests:
+    print(s, bool(pat_simple.match(s)), bool(pat_strict.match(s)))
+
+**********
+
+Output (first 500 chars):
+
+**********
+19000101 False False
+19010228 True True
+20000229 True True
+21000229 True False
+20250230 True False
+20251231 True True
+
+**********
+No errors.
+======================================================================
+Script: lc1.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+lc1.py — Loop -> List comprehension basics with quick self-tests.
+"""
+from typing import Iterable, List
+
+def squares_loop(n: int) -> List[int]:
+    out = []
+    for i in range(n):
+        out.append(i*i)
+    return out
+
+def squares_comp(n: int) -> List[int]:
+    return [i*i for i in range(n)]
+
+def evens_comp(seq: Iterable[int]) -> List[int]:
+    return [x for x in seq if x % 2 == 0]
+
+def lens_comp(names: Iterable[str]) -> List[int]:
+    return [len(s) for s in names]
+
+def flatten_pairs_comp(pairs: Iterable[tuple]) -> List:
+    return [item for p in pairs for item in p]
+
+def unique_sorted_comp(seq: Iterable[int]) -> List[int]:
+    # “列表推导 + 去重 + 排序”
+    return sorted({x for x in seq})
+
+if __name__ == "__main__":
+    print("[lc1] squares_loop(6)      =", squares_loop(6))
+    print("[lc1] squares_comp(6)      =", squares_comp(6))
+    print("[lc1] evens_comp(range(10))=", evens_comp(range(10)))
+    print("[lc1] lens_comp(['a','abcd','']) =", lens_comp(["a","abcd",""]))
+    print("[lc1] flatten_pairs_comp([(1,2),(3,4)]) =", flatten_pairs_comp([(1,2),(3,4)]))
+    print("[lc1] unique_sorted_comp([3,1,2,3,2]) =", unique_sorted_comp([3,1,2,3,2]))
+
+**********
+
+Output (first 500 chars):
+
+**********
+[lc1] squares_loop(6)      = [0, 1, 4, 9, 16, 25]
+[lc1] squares_comp(6)      = [0, 1, 4, 9, 16, 25]
+[lc1] evens_comp(range(10))= [0, 2, 4, 6, 8]
+[lc1] lens_comp(['a','abcd','']) = [1, 4, 0]
+[lc1] flatten_pairs_comp([(1,2),(3,4)]) = [1, 2, 3, 4]
+[lc1] unique_sorted_comp([3,1,2,3,2]) = [1, 2, 3]
+
+**********
+No errors.
+======================================================================
+Script: tuple.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+tuple.py — Tuple basics: packing/unpacking; tuples as dict keys.
+"""
+from typing import Dict, List, Tuple
+
+def swap(a, b):
+    # tuple packing/unpacking
+    a, b = b, a
+    return a, b
+
+def coords_to_dict(coords: List[Tuple[int,int]], label: str="P") -> Dict[Tuple[int,int], str]:
+    # 使用 tuple 作为 key
+    return {xy: f"{label}{i}" for i, xy in enumerate(coords, 1)}
+
+def unzip_pairs(pairs: List[Tuple]) -> Tuple[List, List]:
+    # 解包 zip(*pairs)
+    left, right = zip(*pairs) if pairs else ([], [])
+    return list(left), list(right)
+
+if __name__ == "__main__":
+    print("[tuple] swap(1,9) =>", swap(1,9))
+    print("[tuple] coords_to_dict([(0,0),(1,2)]) =>", coords_to_dict([(0,0),(1,2)]))
+    print("[tuple] unzip_pairs =>", unzip_pairs([("a",1),("b",2)]))
+
+**********
+
+Output (first 500 chars):
+
+**********
+[tuple] swap(1,9) => (9, 1)
+[tuple] coords_to_dict([(0,0),(1,2)]) => {(0, 0): 'P1', (1, 2): 'P2'}
+[tuple] unzip_pairs => (['a', 'b'], [1, 2])
+
+**********
+No errors.
+======================================================================
+Script: LV4.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+LV4.py — Discrete-time LV with Gaussian noise on growth rates.
+Default: noise on prey growth (r + eps). Optionally also on z (consumer mortality).
+"""
+import argparse
+from pathlib import Path
+import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
+def simulate(r=1.0, a=0.5, z=0.3, e=0.75, K=50.0,
+             tmax=80, R0=10.0, C0=5.0, sigma=0.05, both=False, seed=1234):
+    rng = np.random.default_rng(seed)
+    n = int(tmax) + 1
+    t = np.arange(n)
+    R = np.zeros(n); C = np.zeros(n)
+    R[0], C[0] = R0, C0
+    for i in range(n-1):
+        eps_r = rng.normal(0.0, sigma)
+        rr = r + eps_r
+        if both:
+            eps_z = rng.normal(0.0, sigma)
+            zz = max(z + eps_z, 0.0)
+        else:
+            zz = z
+        R[i+1] = max(R[i]*(1 + rr*(1 - R[i]/K) - a*C[i]), 0.0)
+        C[i+1] = max(C[i]*(1 - zz + e*a*R[i]), 0.0)
+    return t, R, C
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--r", type=float, default=1.0)
+    p.add_argument("--a", type=float, default=0.5)
+    p.add_argument("--z", type=float, default=0.3)
+    p.add_argument("--e", type=float, default=0.75)
+    p.add_argument("--K", type=float, default=50.0)
+    p.add_argument("--tmax", type=int, default=80)
+    p.add_argument("--R0", type=float, default=10.0)
+    p.add_argument("--C0", type=float, default=5.0)
+    p.add_argument("--sigma", type=float, default=0.05, help="stddev of Gaussian noise")
+    p.add_argument("--both", action="store_true", help="also add noise to z")
+    p.add_argument("--seed", type=int, default=1234)
+    p.add_argument("--pdf", type=str, default=None)
+    args = p.parse_args()
+
+    out = Path(args.pdf) if args.pdf else (Path(__file__).resolve().parents[1]/"results"/"LV4.pdf")
+    out.parent.mkdir(parents=True, exist_ok=True)
+
+    t, R, C = simulate(args.r,args.a,args.z,args.e,args.K,args.tmax,args.R0,args.C0,args.sigma,args.both,args.seed)
+    print(f"Final DT+noise pops -> R: {R[-1]:.6f}, C: {C[-1]:.6f} (t={t[-1]})")
+
+    fig, ax = plt.subplots(figsize=(7,4))
+    ax.plot(t, R, label="R (prey)")
+    ax.plot(t, C, label="C (predator)")
+    ax.set_xlabel("Time step"); ax.set_ylabel("Population")
+    ax.set_title("Discrete-time LV with Gaussian noise")
+    ax.grid(True); ax.legend(loc="best")
+    ax.text(0.02,0.95,
+            f"r={args.r}, a={args.a}, z={args.z}, e={args.e}, K={args.K}, sigma={args.sigma}, both={args.both}\nR0={args.R0}, C0={args.C0}",
+            transform=ax.transAxes, va="top", ha="left")
+    fig.tight_layout(); fig.savefig(out)
+    print(f"[OK] Saved plot -> {out}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Output (first 500 chars):
+
+**********
+Final DT+noise pops -> R: -0.000000, C: 0.000000 (t=80)
+[OK] Saved plot -> /home/mhasoba/Documents/Teaching/IC_CMEE/2025-26/Coursework/StudentRepos/HanxiaoWang_hw2625/week1/results/LV4.pdf
+
+**********
+No errors.
+======================================================================
+Script: name.py
+
+Contents:
+
+**********
+# 姓名由一个或多个“单词”组成，每个单词以字母开头，后续可带字母/数字/撇号/连字符/点，
+# 单词之间允许一个或多个空白。
+name_re = r"(?:[^\W\d_][\w'’.-]*)(?:\s+(?:[^\W\d_][\w'’.-]*))*"
+
+**********
+
+Output (first 500 chars):
+
+**********
+
+**********
+No errors.
+======================================================================
+Script: LV1.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+LV1.py — Basic continuous-time Lotka–Volterra model (predator–prey)
+Generates two PDF figures (time series & phase-plane) in ../results/ without showing them.
+
+Model (as in the notes):
+    dR/dt = r*R - a*C*R
+    dC/dt = -z*C + e*a*C*R
+"""
+
+from pathlib import Path
+import numpy as np
+import scipy.integrate as integrate
+import matplotlib
+matplotlib.use("Agg")  # ensure no GUI backend is needed
+import matplotlib.pyplot as plt
+
+# -----------------------
+# Parameters & ICs
+# -----------------------
+r = 1.0     # intrinsic growth rate of resource (prey)
+a = 0.5     # search/attack rate
+z = 0.3     # consumer (predator) mortality
+e = 0.75    # consumer efficiency
+R0 = 10.0   # initial resource density
+C0 = 5.0    # initial consumer density
+t0, tmax, dt = 0.0, 60.0, 0.01
+
+# Output paths
+OUT_DIR = Path(__file__).resolve().parents[1] / "results"
+FIG1 = OUT_DIR / "LV_model_timeseries.pdf"
+FIG2 = OUT_DIR / "LV_model_phaseplane.pdf"
+
+# -----------------------
+# ODE system
+# -----------------------
+def dCR_dt(pop, t=0.0):
+    R, C = pop
+    dR = r*R - a*C*R
+    dC = -z*C + e*a*C*R
+    return np.array([dR, dC])
+
+def main():
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    # time grid & solve
+    t = np.arange(t0, tmax + dt, dt)
+    pops, infodict = integrate.odeint(dCR_dt, y0=(R0, C0), t=t, full_output=True)
+
+    # ---------------
+    # Figure 1: time series
+    # ---------------
+    fig1, ax1 = plt.subplots(figsize=(7, 4))
+    ax1.plot(t, pops[:, 0], "g-", label="Resource R (prey)")
+    ax1.plot(t, pops[:, 1], "b-", label="Consumer C (predator)")
+    ax1.grid(True)
+    ax1.legend(loc="best")
+    ax1.set_xlabel("Time")
+    ax1.set_ylabel("Population density")
+    ax1.set_title("Lotka–Volterra (time series)")
+    # Optional: include params in the plot for clarity
+    txt = f"r={r}, a={a}, z={z}, e={e}; R0={R0}, C0={C0}"
+    ax1.text(0.02, 0.95, txt, transform=ax1.transAxes, va="top", ha="left")
+    fig1.tight_layout()
+    fig1.savefig(FIG1)
+    plt.close(fig1)
+
+    # ---------------
+    # Figure 2 (“Fig. 15”): phase-plane (C vs R)
+    # ---------------
+    R = pops[:, 0]
+    C = pops[:, 1]
+    fig2, ax2 = plt.subplots(figsize=(5.2, 5.2))
+    ax2.plot(R, C, "-")
+    ax2.set_xlabel("Resource R")
+    ax2.set_ylabel("Consumer C")
+    ax2.set_title("Lotka–Volterra (phase plane)")
+    ax2.grid(True)
+    fig2.tight_layout()
+    fig2.savefig(FIG2)
+    plt.close(fig2)
+
+    # A small success message (not required by the notes, but handy)
+    print(f"[OK] Saved: {FIG1.name}, {FIG2.name} -> {OUT_DIR}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Output (first 500 chars):
+
+**********
+[OK] Saved: LV_model_timeseries.pdf, LV_model_phaseplane.pdf -> /home/mhasoba/Documents/Teaching/IC_CMEE/2025-26/Coursework/StudentRepos/HanxiaoWang_hw2625/week1/results
+
+**********
+No errors.
+======================================================================
+Script: align_seqs.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+Align two DNA sequences by sliding the shorter along the longer and
+counting matches; write the best alignment and its score to a text file.
+No interactive input is required.
+"""
+from pathlib import Path
+import csv
+
+DATA_IN = Path(__file__).resolve().parents[1] / "data" / "two_seqs.csv"
+OUT_DIR = Path(__file__).resolve().parents[1] / "results"
+OUT_FILE = OUT_DIR / "best_alignment.txt"
+
+def read_two_sequences(csv_path: Path):
+    with open(csv_path, "r", newline="") as f:
+        rows = list(csv.reader(f))
+    # 允许：两行两列 或 一行两列
+    flat = []
+    for r in rows:
+        flat.extend([c.strip().upper() for c in r if c.strip()])
+    if len(flat) < 2:
+        raise ValueError("Input CSV must contain two DNA sequences.")
+    return flat[0], flat[1]
+
+def score_alignment(longer: str, shorter: str, offset: int) -> int:
+    """Count matches when `shorter` is aligned to `longer` starting at `offset`."""
+    score = 0
+    for i, base in enumerate(shorter):
+        j = i + offset
+        if j >= len(longer):  # beyond end
+            break
+        if base == longer[j]:
+            score += 1
+    return score
+
+def best_alignment(seq1: str, seq2: str):
+    # 确保 longer/shorter
+    if len(seq1) >= len(seq2):
+        longer, shorter = seq1, seq2
+        swapped = False
+    else:
+        longer, shorter = seq2, seq1
+        swapped = True
+
+    best = {"score": -1, "offset": 0}
+    for offset in range(len(longer)):  # 将短序列起点滑过长序列的每个位置
+        s = score_alignment(longer, shorter, offset)
+        if s > best["score"]:
+            best.update(score=s, offset=offset)
+
+    # 生成可视化对齐字符串
+    aligned_shorter = " " * best["offset"] + shorter
+    match_line = []
+    for i, ch in enumerate(aligned_shorter):
+        if i < len(longer) and ch == longer[i]:
+            match_line.append("|")
+        else:
+            match_line.append(" ")
+    match_line = "".join(match_line)
+
+    # 若原序列被交换过，在输出里仍按原顺序展示
+    if swapped:
+        top = seq2
+        bottom = " " * best["offset"] + seq1 if len(seq2) < len(seq1) else aligned_shorter
+        # 当交换时重新构造对齐行以与输出两行长度一致
+        # 简化处理：统一以 longer 在上、对齐 shorter 在下展示
+        top = longer
+        bottom = aligned_shorter
+        mid = match_line
+    else:
+        top = longer
+        bottom = aligned_shorter
+        mid = match_line
+
+    return {
+        "score": best["score"],
+        "offset": best["offset"],
+        "longer": longer,
+        "shorter": shorter,
+        "top": top,
+        "mid": mid,
+        "bottom": bottom,
+    }
+
+def main():
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    s1, s2 = read_two_sequences(DATA_IN)
+    res = best_alignment(s1, s2)
+    with open(OUT_FILE, "w") as f:
+        f.write("# Best alignment result\n")
+        f.write(f"Score : {res['score']}\n")
+        f.write(f"Offset: {res['offset']}\n\n")
+        f.write(res["top"] + "\n")
+        f.write(res["mid"] + "\n")
+        f.write(res["bottom"] + "\n")
+    print(f"[OK] Best alignment written to: {OUT_FILE} (score={res['score']})")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Output (first 500 chars):
+
+**********
+[OK] Best alignment written to: /home/mhasoba/Documents/Teaching/IC_CMEE/2025-26/Coursework/StudentRepos/HanxiaoWang_hw2625/week1/results/best_alignment.txt (score=8)
+
+**********
+No errors.
+======================================================================
+Script: LV3.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+LV3.py — Discrete-time LV with prey density-dependence (K).
+Print final populations and save a PDF time-series plot (no GUI).
+"""
+import argparse
+from pathlib import Path
+import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
+def simulate(r=1.0, a=0.5, z=0.3, e=0.75, K=50.0,
+             tmax=80, R0=10.0, C0=5.0):
+    n = int(tmax) + 1
+    t = np.arange(n)
+    R = np.zeros(n); C = np.zeros(n)
+    R[0], C[0] = R0, C0
+    for i in range(n-1):
+        R[i+1] = max(R[i]*(1 + r*(1 - R[i]/K) - a*C[i]), 0.0)
+        C[i+1] = max(C[i]*(1 - z + e*a*R[i]), 0.0)
+    return t, R, C
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--r", type=float, default=1.0)
+    p.add_argument("--a", type=float, default=0.5)
+    p.add_argument("--z", type=float, default=0.3)
+    p.add_argument("--e", type=float, default=0.75)
+    p.add_argument("--K", type=float, default=50.0)
+    p.add_argument("--tmax", type=int, default=80)
+    p.add_argument("--R0", type=float, default=10.0)
+    p.add_argument("--C0", type=float, default=5.0)
+    p.add_argument("--pdf", type=str, default=None)
+    args = p.parse_args()
+
+    out = Path(args.pdf) if args.pdf else (Path(__file__).resolve().parents[1]/"results"/"LV3.pdf")
+    out.parent.mkdir(parents=True, exist_ok=True)
+
+    t, R, C = simulate(args.r,args.a,args.z,args.e,args.K,args.tmax,args.R0,args.C0)
+    print(f"Final DT pops -> R: {R[-1]:.6f}, C: {C[-1]:.6f} (t={t[-1]})")
+
+    fig, ax = plt.subplots(figsize=(7,4))
+    ax.plot(t, R, label="R (prey)")
+    ax.plot(t, C, label="C (predator)")
+    ax.set_xlabel("Time step"); ax.set_ylabel("Population")
+    ax.set_title("Discrete-time LV (with K)")
+    ax.grid(True); ax.legend(loc="best")
+    ax.text(0.02,0.95,f"r={args.r}, a={args.a}, z={args.z}, e={args.e}, K={args.K}\nR0={args.R0}, C0={args.C0}",
+            transform=ax.transAxes, va="top", ha="left")
+    fig.tight_layout(); fig.savefig(out)
+    print(f"[OK] Saved plot -> {out}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Output (first 500 chars):
+
+**********
+Final DT pops -> R: -0.000000, C: 0.000000 (t=80)
+[OK] Saved plot -> /home/mhasoba/Documents/Teaching/IC_CMEE/2025-26/Coursework/StudentRepos/HanxiaoWang_hw2625/week1/results/LV3.pdf
+
+**********
+No errors.
+======================================================================
+Script: LV2.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+LV2.py — Lotka–Volterra with prey density dependence (carrying capacity K).
+Takes parameters from CLI, saves a PDF, prints final (non-zero) populations.
+
+Model:
+    dR/dt = r*R*(1 - R/K) - a*C*R
+    dC/dt = -z*C + e*a*C*R
+"""
+import argparse
+from pathlib import Path
+import numpy as np
+import matplotlib
+matplotlib.use("Agg")  # no GUI
+import matplotlib.pyplot as plt
+
+def simulate(r=1.0, a=0.5, z=0.3, e=0.75, K=50.0,
+             tmax=60.0, dt=0.01, R0=10.0, C0=5.0):
+    n = int(tmax / dt) + 1
+    t = np.linspace(0.0, tmax, n)
+    R = np.zeros(n); C = np.zeros(n)
+    R[0], C[0] = float(R0), float(C0)
+    for i in range(n - 1):
+        dR = r*R[i]*(1 - R[i]/K) - a*C[i]*R[i]
+        dC = -z*C[i] + e*a*C[i]*R[i]
+        R[i+1] = max(R[i] + dR*dt, 0.0)
+        C[i+1] = max(C[i] + dC*dt, 0.0)
+    return t, R, C
+
+def main():
+    p = argparse.ArgumentParser(
+        description="LV with prey density dependence (K). Saves PDF and prints final populations."
+    )
+    p.add_argument("--r", type=float, default=1.0)
+    p.add_argument("--a", type=float, default=0.5)
+    p.add_argument("--z", type=float, default=0.3)
+    p.add_argument("--e", type=float, default=0.75)
+    p.add_argument("--K", type=float, default=50.0)
+    p.add_argument("--tmax", type=float, default=60.0)
+    p.add_argument("--dt", type=float, default=0.01)
+    p.add_argument("--R0", type=float, default=10.0)
+    p.add_argument("--C0", type=float, default=5.0)
+    p.add_argument("--pdf", type=str, default=None,
+                   help="Output PDF path; default ../results/LV2.pdf")
+    args = p.parse_args()
+
+    out_path = Path(args.pdf) if args.pdf else (Path(__file__).resolve().parents[1] / "results" / "LV2.pdf")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    t, R, C = simulate(args.r, args.a, args.z, args.e, args.K, args.tmax, args.dt, args.R0, args.C0)
+
+    # print final (non-zero) populations
+    print(f"Final populations -> R: {R[-1]:.6f}, C: {C[-1]:.6f} (t={t[-1]:.2f})")
+
+    # plot
+    fig, ax = plt.subplots(figsize=(7, 4))
+    ax.plot(t, R, label="Resource R (prey)")
+    ax.plot(t, C, label="Consumer C (predator)")
+    ax.set_xlabel("Time")
+    ax.set_ylabel("Population")
+    ax.set_title("Lotka–Volterra with Prey Density Dependence (K)")
+    ax.grid(True)
+    ax.legend(loc="best")
+    ax.text(
+        0.02, 0.95,
+        f"r={args.r}, a={args.a}, z={args.z}, e={args.e}, K={args.K}\n"
+        f"R0={args.R0}, C0={args.C0}, tmax={args.tmax}, dt={args.dt}",
+        transform=ax.transAxes, ha="left", va="top"
+    )
+    fig.tight_layout()
+    fig.savefig(out_path)
+    print(f"[OK] Saved plot -> {out_path}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Output (first 500 chars):
+
+**********
+Final populations -> R: 0.008232, C: 0.332714 (t=60.00)
+[OK] Saved plot -> /home/mhasoba/Documents/Teaching/IC_CMEE/2025-26/Coursework/StudentRepos/HanxiaoWang_hw2625/week1/results/LV2.pdf
+
+**********
+No errors.
+
+======================================================================
+FEEDBACK SUMMARY
+======================================================================
+
+Scripts tested: 17
+Scripts successful: 16
+Scripts with errors: 1
+Warnings/Notes: 1
+
+IMPORTANT DEBUGGING GUIDANCE:
+------------------------------
+
+Please review all warnings and errors, and your directory structure based on the above log.
+
+Ask yourself: Why did I not get these warnings or errors on my machine when I tested my code?
+Common reasons for environment differences:
+
+• File paths: Your local machine may have different directory structures
+• Dependencies: Missing packages or different versions
+• File permissions: Scripts may not be executable on the testing server
+• Case sensitivity: Linux systems are case-sensitive (your laptop may not be)
+• Working directory: Scripts may assume they run from a specific location
+• Input files: Required data files may be missing or in wrong locations
+
+Debugging steps:
+1. Test your code in a clean environment (fresh directory)
+2. Check all file paths are relative and correct
+3. Verify all required files are present and properly named
+4. Test on a case-sensitive system if possible
+5. Run your scripts from different directories to check robustness
+
+Fix these issues and test again. Good debugging skills are essential for scientific computing!
+
