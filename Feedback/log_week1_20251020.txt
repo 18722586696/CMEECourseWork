@@ -127,16 +127,16 @@ Output (first 500 chars):
 **********
 TIMING Vectorize2 loop N=10 ms=0.0013
 TIMING Vectorize2 vect N=10 ms=0.0011
-TIMING Vectorize2 loop N=100 ms=0.0113
-TIMING Vectorize2 vect N=100 ms=0.0010
-TIMING Vectorize2 loop N=1000 ms=0.1118
-TIMING Vectorize2 vect N=1000 ms=0.0014
-TIMING Vectorize2 loop N=10000 ms=1.1338
-TIMING Vectorize2 vect N=10000 ms=0.0053
-TIMING Vectorize2 loop N=100000 ms=11.3960
-TIMING Vectorize2 vect N=100000 ms=0.0430
-TIMING Vectorize2 loop N=1000000 ms=113.8310
-TIMING Vectorize2 vect N=1000000 ms=2.1693
+TIMING Vectorize2 loop N=100 ms=0.0112
+TIMING Vectorize2 vect N=100 ms=0.0011
+TIMING Vectorize2 loop N=1000 ms=0.1117
+TIMING Vectorize2 vect N=1000 ms=0.0016
+TIMING Vectorize2 loop N=10000 ms=1.1590
+TIMING Vectorize2 vect N=10000 ms=0.0052
+TIMING Vectorize2 loop N=100000 ms=11.6209
+TIMING Vectorize2 vect N=100000 ms=0.0436
+TIMING Vectorize2 loop N=1000000 ms=119.5616
+TIMING Vectorize2 vect N=1000000 ms=0.4378
 
 **********
 No errors.
@@ -191,18 +191,18 @@ if __name__ == "__main__":
 Output (first 500 chars):
 
 **********
-TIMING Vectorize1 loop N=10 ms=0.0016
-TIMING Vectorize1 vect N=10 ms=0.0014
-TIMING Vectorize1 loop N=100 ms=0.0138
-TIMING Vectorize1 vect N=100 ms=0.0012
-TIMING Vectorize1 loop N=1000 ms=0.1431
-TIMING Vectorize1 vect N=1000 ms=0.0017
-TIMING Vectorize1 loop N=10000 ms=1.3231
-TIMING Vectorize1 vect N=10000 ms=0.0075
-TIMING Vectorize1 loop N=100000 ms=12.2801
-TIMING Vectorize1 vect N=100000 ms=0.0684
-TIMING Vectorize1 loop N=1000000 ms=131.1717
-TIMING Vectorize1 vect N=1000000 ms=2.4113
+TIMING Vectorize1 loop N=10 ms=0.0013
+TIMING Vectorize1 vect N=10 ms=0.0011
+TIMING Vectorize1 loop N=100 ms=0.0123
+TIMING Vectorize1 vect N=100 ms=0.0011
+TIMING Vectorize1 loop N=1000 ms=0.1167
+TIMING Vectorize1 vect N=1000 ms=0.0015
+TIMING Vectorize1 loop N=10000 ms=1.1995
+TIMING Vectorize1 vect N=10000 ms=0.0066
+TIMING Vectorize1 loop N=100000 ms=12.6476
+TIMING Vectorize1 vect N=100000 ms=0.0587
+TIMING Vectorize1 loop N=1000000 ms=127.5814
+TIMING Vectorize1 vect N=1000000 ms=2.8078
 
 **********
 No errors.
@@ -479,11 +479,11 @@ Output (first 500 chars):
 
 Wall-clock timing & profile
 ===========================
-[LV1] rc=0, time=0.735s
+[LV1] rc=0, time=0.668s
 [LV1] stdout: [OK] Saved: LV_model_timeseries.pdf, LV_model_phaseplane.pdf -> /home/mhasoba/Documents/Teaching/IC_CMEE/2025-26/Coursework/StudentRepos/HanxiaoWang_hw2625/week1/results
 [LV1 profile]
-        1    0.000    0.000    0.000    0.000 {built-in method posix.waitstatus_to_exitcode}
-        1    0.000    0.000    0.000    0.000 _mathtext.py:873(DejaVuSansFontConstants)
+        1    0.000    0.000    0.000    0.000 E_B_L_C_.py:581(eblc_index_sub_table_1)
+        1    0.000    0.000    0.000    0.000 __init__.py:3201(MissingUnicodesSubsettingError)
         1    0.000    0.000    0.000    
 **********
 No errors.
