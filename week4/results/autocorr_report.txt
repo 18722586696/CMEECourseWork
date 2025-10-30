@@ -1,0 +1,5 @@
+Autocorrelation in Florida Weather (Permutation Test)
+Observed successive-year correlation (Pearson): 0.7525
+Permutation p-value (>= observed): 0.0014
+n_permutations = 5000
+
