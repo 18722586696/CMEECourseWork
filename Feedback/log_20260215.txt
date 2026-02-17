@@ -1,0 +1,3269 @@
+======================================================================
+AUTOMATED FEEDBACK LOG
+======================================================================
+
+HOW TO READ THIS FEEDBACK:
+--------------------------
+1. This log is organized into sections (structure, documentation, quality, git history).
+2. Each section reports checks performed and highlights warnings (⚠) or failures (✗).
+3. Script execution results appear later in the log with full script contents, output, and errors.
+4. Scripts are run in a headless environment (no GUI applications).
+5. Criterion labels (e.g., "Criterion 1") refer to the course rubric for marking guidance.
+6. Scripts that have been named incorrectly by a student may be classified as "missing" if the the name deviates significantly from what was expected/required; Student will not be penalised heavily for this, but should discuss with assessor/instructor if they are concerned.).
+7. IMPORTANT: Read to the end for the summary and debugging guidance.
+
+Evidence collection keys (used in Script Execution Results):
+  - Command: exact command executed for the script.
+  - CWD: working directory used for the command.
+  - Exit code: 0 means success; non-zero means an error occurred.
+  - Stdout: standard output (normal program output).
+  - Stderr: standard error (warnings and error messages).
+  - Timed out: whether the run exceeded the time limit.
+
+======================================================================
+
+RUN CONFIGURATION
+-----------------
+Command: feedback.py tmp/students_all.csv repos/ --weeks 1-4 --groupwork --groups-csv tmp/groups.csv --group-repos-root repos_groups --script-rules configs/assignments/script_rules_2025-26.json
+Weeks: 1-4
+Groupwork: enabled
+Script rules: configs/assignments/script_rules_2025-26.json
+
+Starting testing for Hanxiao Wang
+
+Group name: 03_Cool_Coatis
+Group repo URL: git@github.com:Mikael54/03_cool_coatis.git
+Group repo path: repos_groups/03_Cool_Coatis
+
+Processing all code files found in code directories
+
+Your current Git repo size is about 174.23 KiB on disk
+
+======================================================================
+REPOSITORY STRUCTURE ANALYSIS
+======================================================================
+
+Top-level directories: Feedback, week1, week2, week4
+Top-level files: README.md
+
+Standard files present:
+  README file: ✓ Yes
+  .gitignore file: ✓ Yes
+
+Code directories found (2):
+  • week1/code
+  • week2/Code
+
+Repository statistics:
+  Total directories: 11
+  Total files: 69
+  Maximum directory depth: 2
+
+Scripts found (total: 35):
+  Python (.py): 16
+  R (.r): 8
+  Shell (.sh): 11
+
+======================================================================
+
+Found 2 code directory(ies):
+  • week1/code
+  • week2/Code
+
+Found 27 code files to test.
+
+======================================================================
+DUPLICATE SCRIPT FILENAMES (Criterion 1)
+======================================================================
+
+No duplicate script basenames detected.
+
+======================================================================
+SCRIPT CLASSIFICATION (Taught vs Assigned)
+======================================================================
+
+This classification is used to scope some criteria (e.g., Criterion 8).
+Rules loaded: configs/assignments/script_rules_2025-26.json
+  taught:   9
+  assigned: 7
+  unknown:  11
+
+Criterion 8 scope: assigned scripts only
+
+Note: Expected scripts/files checks scan all code directories in the repository (not just the selected weeks).
+
+======================================================================
+CHECKING FOR EXPECTED SCRIPTS
+
+Expected scripts list contains 62 entries.
+
+Scope: non-groupwork + groupwork (groupwork excluded)
+Expected taught scripts: 50
+Expected assigned scripts: 12
+
+Expected taught scripts (50):
+  .py (20):
+    - blackbirds.py
+    - boilerplate.py
+    - control_flow.py
+    - debugme.py
+    - loops.py
+    - myexamplescript.py
+    - myscript.py
+    - profileme.py
+    - profileme2.py
+    - re4.py
+    - regexs.py
+    - run_fmr_r.py
+    - scope.py
+    - sysargv.py
+    - test_control_flow.py
+    - timeitme.py
+    - using_name.py
+    - using_os.py
+    - Vectorize1.py
+    - vectorize2.py
+  .r (23):
+    - apply1.R
+    - apply2.R
+    - basic_io.R
+    - boilerplate.R
+    - break.R
+    - browse.R
+    - control.R
+    - control_flow.R
+    - DataWrang.R
+    - fmr.R
+    - Girko.R
+    - MyBars.R
+    - next.R
+    - plotLin.R
+    - preallocate.R
+    - r_conditionals.R
+    - ricker.R
+    - sample.R
+    - SQLinR.R
+    - TreeHeight.R
+    - try.R
+    - Vectorize1.R
+    - vectorize2.R
+  .sh (7):
+    - boilerplate.sh
+    - ConcatenateTwoFiles.sh
+    - CountLines.sh
+    - MyExampleScript.sh
+    - tabtocsv.sh
+    - tiff2_png.sh
+    - variables.sh
+
+Expected assigned scripts (12):
+  .py (6):
+    - align_seqs.py
+    - cfexercises1.py
+    - dictionary.py
+    - lc1.py
+    - lc2.py
+    - tuple.py
+  .r (3):
+    - Florida.R
+    - PP_Dists.R
+    - PP_Regress.R
+  .sh (2):
+    - csvtospace.sh
+    - run_get_TreeHeight.sh
+  .txt (1):
+    - unixPrac1.txt
+
+Found taught scripts (matched) (9):
+  .py (3):
+    - boilerplate.py
+    - Vectorize1.py
+    - Vectorize2.py
+  .sh (6):
+    - boilerplate.sh
+    - ConcatenateTwoFiles.sh
+    - CountLines.sh
+    - MyExampleScript.sh
+    - tabtocsv.sh
+    - variables.sh
+
+Found assigned scripts (matched) (7):
+  .py (6):
+    - align_seqs.py
+    - cfexercises1.py
+    - dictionary.py
+    - lc1.py
+    - lc2.py
+    - tuple.py
+  .sh (1):
+    - csvtospace.sh
+
+Found unexpected scripts (not in expected non-groupwork list) (11):
+  .py (7):
+    - data.py
+    - LV1.py
+    - LV2.py
+    - LV3.py
+    - LV4.py
+    - LVspeedtest.py
+    - name.py
+  .sh (4):
+    - compare_vectorization.sh
+    - CompileLaTeX.sh
+    - run_all.sh
+    - tiff2png.sh
+
+Missing 46 expected scripts:
+  Missing taught (41):
+  .py (17):
+    - blackbirds.py
+    - control_flow.py
+    - debugme.py
+    - loops.py
+    - myexamplescript.py
+    - myscript.py
+    - profileme.py
+    - profileme2.py
+    - re4.py
+    - regexs.py
+    - run_fmr_r.py
+    - scope.py
+    - sysargv.py
+    - test_control_flow.py
+    - timeitme.py
+    - using_name.py
+    - using_os.py
+  .r (23):
+    - apply1.R
+    - apply2.R
+    - basic_io.R
+    - boilerplate.R
+    - break.R
+    - browse.R
+    - control.R
+    - control_flow.R
+    - DataWrang.R
+    - fmr.R
+    - Girko.R
+    - MyBars.R
+    - next.R
+    - plotLin.R
+    - preallocate.R
+    - r_conditionals.R
+    - ricker.R
+    - sample.R
+    - SQLinR.R
+    - TreeHeight.R
+    - try.R
+    - Vectorize1.R
+    - vectorize2.R
+  .sh (1):
+    - tiff2_png.sh
+
+  Missing assigned (5):
+  .r (3):
+    - Florida.R
+    - PP_Dists.R
+    - PP_Regress.R
+  .sh (1):
+    - run_get_TreeHeight.sh
+  .txt (1):
+    - unixPrac1.txt
+
+======================================================================
+
+======================================================================
+CHECKING FOR EXPECTED OUTPUTS
+
+Expected outputs list contains 1 entries.
+
+Missing 1 expected outputs:
+  ✗ **/*_space.txt
+
+Found 3 additional non-script files not in expected outputs list:
+  + week2/Code/FirstBiblio.bib
+  + week2/Code/FirstExample.pdf
+  + week2/Code/FirstExample.tex
+
+======================================================================
+
+Criterion evidence snapshot:
+  Criterion 2/10:
+  - Expected outputs: 1
+  - Missing expected outputs: 1
+  - Validated outputs: 0
+
+======================================================================
+REPOSITORY QUALITY & ORGANISATION (Criterion 1)
+======================================================================
+
+.gitignore Analysis:
+  ✓ .gitignore file present (2 rules)
+  ⚠ Missing patterns: Python (__pycache__, *.pyc), R (.Rhistory, .RData), OS files (.DS_Store, Thumbs.db), Editor files (*.swp, .vscode), Results/outputs
+
+Large Files Check:
+  ✓ No files > 10MB detected
+
+Results Directories - 2 found:
+  ✗ week1/results contains 7 files
+     Files: LV_model_timeseries.pdf, LV_model_phaseplane.pdf, boilerplate_output.txt, LV2.pdf, LV3.pdf
+  ✗ week4/results contains 5 files
+     Files: autocorr_input.csv, ricker_trajectory.pdf, autocorr_report.txt, autocorr_stats.csv, autocorr_hist.pdf
+
+Standard Directory Layout:
+  ✓ Week-based structure detected (3 weeks)
+  Weeks with complete structure (code/data/results): 1/3
+  ⚠ Incomplete week structures:
+     week4: missing code
+     week2: missing data, results
+
+Naming Consistency:
+  Week naming patterns: lowercase_week
+  ✓ Consistent week naming convention
+
+Criterion evidence snapshot:
+  Criterion 1:
+  - .gitignore present: Yes
+  - Results dirs with files: 2
+  - Large files >10MB: 0
+
+======================================================================
+
+======================================================================
+DOCUMENTATION ANALYSIS (Criterion 4)
+======================================================================
+
+Main README File:
+  ✓ README file present: README.md
+  Lines: 2 (non-empty)
+  Headings: 0
+  Quality: Poor (0/5)
+  ⚠ No code examples found
+
+Code Documentation:
+  Total code files analyzed: 35
+  Overall documentation ratio: 80.0%
+
+  Python files (16):
+    With docstrings: 15/16 (93.8%)
+    ✓ Good docstring coverage
+  R files (8):
+    With comments: 4/8 (50.0%)
+    → Moderate comment coverage
+  Shell scripts (11):
+    With comments: 9/11 (81.8%)
+    ✓ Good comment coverage
+
+Per-Week Documentation:
+  Total weeks: 3
+  Weeks with README: 3/3 (100.0%)
+  ✓ Good per-week documentation coverage
+
+Documentation Best Practices:
+  • Main README should explain project purpose, structure, and usage
+  • Python: Use docstrings for modules, classes, and functions
+  • R: Add comments explaining logic and data transformations
+  • Shell: Document script purpose, arguments, and usage
+  • Per-week READMEs help track learning and activities
+
+Criterion evidence snapshot:
+  Criterion 4:
+  - README present: Yes
+  - Documentation ratio: 80.0%
+  - Weeks with README: 3/3
+
+======================================================================
+
+======================================================================
+CODE QUALITY & STYLE ANALYSIS (Criterion 3)
+======================================================================
+
+Available Tools:
+  Python syntax checker: ✓
+  Pylint: ✓
+  Pyflakes: ✓
+  Shellcheck: ✗ (not installed)
+
+Python Code Quality (16 files):
+  Clean files: 8/16
+  Files with issues: 8
+  ⚠ Style issues: 19
+  ⚠ Multiple style issues detected
+
+R Code Quality (8 files):
+  Clean files: 2/8
+  Files with issues: 6
+  ⚠ Style issues: 41
+
+  Files with significant issues:
+    week4/TAutoCorr.R:
+      • Line 7: Consider using <- instead of = for assignment
+      • Line 10: Consider using <- instead of = for assignment
+      • Line 19: Consider using <- instead of = for assignment
+    week4/basic_warmup.R:
+      • Line 39: Consider using <- instead of = for assignment
+      • Line 47: Consider using <- instead of = for assignment
+      • Line 49: Consider using <- instead of = for assignment
+    week4/vectorization_challenge_ricker.R:
+      • Line 9: Consider using <- instead of = for assignment
+      • Line 12: Consider using <- instead of = for assignment
+      • Line 19: Consider using <- instead of = for assignment
+  ⚠ Multiple style issues detected
+
+Shell Script Quality (11 files):
+  → Basic checks only (shellcheck not installed)
+  Clean files: 7/11
+  Files with issues: 4
+  ⚠ Basic issues: 19
+
+  Files with significant issues:
+    week1/code/compare_vectorization.sh:
+      • Line 28: Consider quoting variables
+      • Line 30: Consider quoting variables
+      • Line 41: Consider quoting variables
+      • Line 42: Consider quoting variables
+      • Line 44: Consider quoting variables
+    week2/Code/CompileLaTeX.sh:
+      • Line 2: Consider quoting variables
+      • Line 4: Consider quoting variables
+      • Line 5: Consider quoting variables
+      • Line 9: Consider quoting variables
+    week2/Code/run_all.sh:
+      • Line 20: Consider quoting variables
+      • Line 24: Consider quoting variables
+      • Line 28: Consider quoting variables
+      • Line 38: Consider quoting variables
+      • Line 42: Consider quoting variables
+  ⚠ Multiple issues detected
+
+Code Quality Best Practices:
+  • Python: Follow PEP 8 style guide, use meaningful variable names
+  • R: Use <- for assignment, consistent indentation and naming
+  • Shell: Use shellcheck, quote variables, check for errors
+  • All: Keep lines under 120 chars, avoid complex nested logic
+  • Run linters locally: pylint, shellcheck, or IDE integrations
+
+Criterion evidence snapshot:
+  Criterion 3:
+  - Python files with issues: 8
+  - R files with issues: 6
+  - Shell files with issues: 4
+
+======================================================================
+
+======================================================================
+LEARNING PROGRESSION (Criterion 11)
+======================================================================
+
+Weeks detected: 1, 2
+
+Per-week summary (heuristic):
+  Week | Scripts | Lines | Docs | Functions | Validation | Error-handling | Py syntax OK
+     1 |      17 |   711 |  88% |       88% |        18% |            6% |       100%
+     2 |      10 |   164 |  90% |       30% |        40% |           40% |         0%
+
+Progression rating: moderate
+Compared week 1 → week 2:
+  Docs coverage: 88% → 90% (Δ +2%)
+  Validation coverage: 18% → 40% (Δ +22%)
+  Error-handling coverage: 6% → 40% (Δ +34%)
+  Functions coverage: 88% → 30% (Δ -58%)
+  Python syntax OK: 100% → 0% (Δ -100%)
+  Scripts: 17 → 10
+  Lines:   711 → 164
+
+Per-week README coverage:
+  Weeks with README: 3/3 (100%)
+
+Guidance (from rubric expectations):
+  • Later weeks should show more structure (functions) and robustness (input checks).
+  • Documentation habits (per-week READMEs + script headers) should become consistent.
+
+Criterion evidence snapshot:
+  Criterion 11:
+  - Weeks detected: 2
+  - Progression rating: moderate
+
+======================================================================
+
+======================================================================
+ERROR HANDLING & INPUT VALIDATION (Criterion 8)
+======================================================================
+
+Scripts Analyzed: 7/7
+
+Code Analysis (Error Handling Patterns):
+  Scripts with error handling: 1/7 (14.3%)
+  Scripts with input validation: 1/7 (14.3%)
+  ⚠ Low error handling coverage - add try/except, tryCatch, or error checks
+
+Runtime Testing (Missing File Handling):
+  Graceful failures: 1/7 (14.3%)
+  Scripts with informative errors: 1/7
+  Scripts that crash on missing file: 6/7
+  ⚠ Many scripts fail without proper error handling
+
+Scripts Needing Improvement:
+
+  week1/code/align_seqs.py:
+    ⚠ No error handling patterns detected in code
+    ⚠ No input validation detected
+    ✗ Does not handle missing files gracefully
+    ⚠ Error messages not informative or absent
+
+  week1/code/cfexercises1.py:
+    ⚠ No error handling patterns detected in code
+    ⚠ No input validation detected
+    ✗ Does not handle missing files gracefully
+    ⚠ Error messages not informative or absent
+
+  week1/code/dictionary.py:
+    ⚠ No error handling patterns detected in code
+    ⚠ No input validation detected
+    ✗ Does not handle missing files gracefully
+    ⚠ Error messages not informative or absent
+
+  week1/code/lc1.py:
+    ⚠ No error handling patterns detected in code
+    ⚠ No input validation detected
+    ✗ Does not handle missing files gracefully
+    ⚠ Error messages not informative or absent
+
+  week1/code/lc2.py:
+    ⚠ No error handling patterns detected in code
+    ⚠ No input validation detected
+    ✗ Does not handle missing files gracefully
+    ⚠ Error messages not informative or absent
+
+  week1/code/tuple.py:
+    ⚠ No error handling patterns detected in code
+    ⚠ No input validation detected
+    ✗ Does not handle missing files gracefully
+    ⚠ Error messages not informative or absent
+
+Error Handling Best Practices:
+  • Python: Use try/except blocks, check file existence with os.path.exists()
+  • Python: Validate arguments early, provide usage messages (argparse)
+  • R: Use tryCatch(), check with file.exists(), validate args with stopifnot()
+  • R: Provide informative error messages with stop() or warning()
+  • Shell: Use set -e, check file existence with [ -f ], validate arg count
+  • Shell: Provide usage messages when arguments are missing
+  • All: Exit with non-zero status on errors, print informative messages to stderr
+
+Criterion evidence snapshot:
+  Criterion 8:
+  - Scripts tested: 7
+  - With error handling: 1
+  - Graceful failures: 1
+
+======================================================================
+
+======================================================================
+VERSION CONTROL (Criterion 5)
+======================================================================
+Criterion evidence snapshot:
+  Criterion 5:
+  - Commits: 8
+  - Branches: 3
+  - Unwanted files: 0
+
+
+Total commits: 8
+Total branches: 3
+Merge commits: 0
+
+Commit Message Quality:
+  Average message length: 20.0 characters
+  Properly capitalized: 7/8
+  Empty/generic messages: 0/8
+  Quality ratio: 100.0%
+
+Commit Activity by Author:
+  Samraat Pawar: 4 commits, +5042/-25 lines
+  Hansel: 2 commits, +1803/-0 lines
+  Hanxiao Wnag: 2 commits, +4/-0 lines
+
+Branches (Criterion 5 - Branching practice):
+  Main branches: 3
+  Feature/topic branches: 0
+  No feature branches detected (all work on main branch)
+
+No unwanted files detected - good repository hygiene!
+
+======================================================================
+
+======================================================================
+COLLABORATIVE WORKFLOW (Criteria 6-7)
+======================================================================
+Criterion evidence snapshot:
+  Criteria 6/7:
+  - Commits: 88
+  - Branches: 10
+
+
+Total commits: 88
+Total branches: 10
+Merge commits: 13
+
+Commit Activity by Author:
+  Daniel Zhu: 26 commits, +667/-219 lines
+  Mikael54: 24 commits, +113526/-94 lines
+  ore-sol: 18 commits, +476/-283 lines
+  Avery Chen: 8 commits, +262/-122 lines
+  DanielZ25: 4 commits, +0/-0 lines
+  Ore: 2 commits, +4/-1 lines
+  Hanxiao Wnag: 2 commits, +20/-12 lines
+  Hansel: 2 commits, +349/-10 lines
+  AmorFati-coder: 1 commits, +322/-78667 lines
+  Samraat Pawar: 1 commits, +520/-0 lines
+
+Branches (Criterion 6 - Collaborative workflow):
+  Main branches: 3
+  Feature/topic branches: 0
+  No feature branches detected (all work on main branch)
+
+Individual Contribution Analysis for Hanxiao Wang:
+  Commits by student: 2
+  Contribution ratio: 2.3% of total commits
+  Total lines changed: 32
+  Average files per commit: 1.0
+  CONTRIBUTIONS.md present: Yes
+  Matched Git authors: Hanxiao Wnag
+  Recent commit dates: 2025-10-31, 2025-10-31
+
+======================================================================
+
+======================================================================
+CONTRIBUTIONS FILE (Criterion 7)
+======================================================================
+
+Source: group repo
+Path checked: repos_groups/03_Cool_Coatis
+
+CONTRIBUTIONS.md present (119 non-empty lines).
+Content appears non-empty.
+
+Criterion evidence snapshot:
+  Criterion 7:
+  - CONTRIBUTIONS.md present: Yes
+  - Non-empty lines: 119
+
+======================================================================
+GROUPWORK SCRIPT EVIDENCE (shared across group members)
+======================================================================
+
+======================================================================
+GROUPWORK EXPECTED SCRIPTS
+
+Expected scripts list contains 4 entries.
+
+Scope: groupwork-only
+Expected taught scripts: 0
+Expected assigned scripts: 4
+
+Expected taught scripts (0):
+  (none)
+
+Expected assigned scripts (4):
+  .py (2):
+    - align_seqs_fasta.py
+    - oaks_debugme.py
+  .r (2):
+    - PP_Regress_loc.R
+    - TAutoCorr.R
+
+Found taught scripts (matched) (0):
+  (none)
+
+Found assigned scripts (matched) (4):
+  .py (2):
+    - align_seqs_fasta.py
+    - oaks_debugme.py
+  .r (2):
+    - pp_regress_loc.R
+    - TAutoCorr.R
+
+Found additional scripts in group repo (not required for groupwork expectations) (1):
+  .py (1):
+    - align_seqs_better.py
+
+All expected scripts are present.
+
+======================================================================
+
+Note: Expected outputs checking not performed (no FileList or assignment config with expected outputs provided).
+Expected outputs checking will only be performed during final assessment.
+
+======================================================================
+GROUPWORK SCRIPT EXECUTION RESULTS
+======================================================================
+The following sections show each script as executed, plus its output and errors.
+
+======================================================================
+Script: TAutoCorr.R
+
+Contents:
+
+**********
+
+# TAutoCorr.R
+# Groupwork Practical: Autocorrelation in Florida weather (successive-year correlation)
+# Usage:
+#   Rscript TAutoCorr.R --input data/florida_temp.csv --output results/autocorr --nperm 5000
+
+
+infile  <- "../data/florida_weather.csv"
+outstem <- "../results/autocorr"
+nperm   <- 5000
+dir.create(dirname(outstem), showWarnings=FALSE, recursive=TRUE)
+
+df <- read.csv(infile, header=TRUE)
+stopifnot(all(c("Year","Temp") %in% names(df)))
+df <- df[order(df$Year), ]
+
+# Compute observed correlation between successive years
+# i.e., cor(Temp[t], Temp[t+1]) for t=1..n-1
+T_t   <- head(df$Temp, -1)
+T_tp1 <- tail(df$Temp, -1)
+obs_cor <- cor(T_t, T_tp1, use="complete.obs", method="pearson")
+
+set.seed(123)
+perm_cors <- numeric(nperm)
+for (i in seq_len(nperm)) {
+  shuf <- sample(df$Temp, replace=FALSE)
+  perm_cors[i] <- suppressWarnings(cor(shuf[-length(shuf)], shuf[-1], use="complete.obs", method="pearson"))
+
+}
+
+pval <- mean(perm_cors >= obs_cor)
+
+pdf(sprintf("%s_hist.pdf", outstem), width=6, height=4)
+hist(perm_cors, breaks=50, main="Null distribution of successive-year correlation",
+     xlab="Correlation under permutation")
+abline(v=obs_cor, lwd=2)
+legend("topright", legend=sprintf("Observed = %.3f\np = %.4f", obs_cor, pval), bty="n")
+dev.off()
+
+# Short LaTeX-ready report (plain text for now)
+report <- sprintf(
+"Autocorrelation in Florida Weather (Permutation Test)
+Observed successive-year correlation (Pearson): %.4f
+Permutation p-value (>= observed): %.4f
+n_permutations = %d
+", obs_cor, pval, nperm)
+writeLines(report, con=sprintf("%s_report.txt", outstem))
+
+
+**********
+
+Run metadata:
+  Command: cd "code" && Rscript --vanilla --slave TAutoCorr.R
+  CWD: code
+  Exit code: 0
+  Runtime (s): 0.26
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+null device 
+          1 
+
+**********
+No errors.
+======================================================================
+Script: align_seqs_better.py
+
+Contents:
+
+**********
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+align_seqs_fasta.py
+-------------------
+Align two DNA sequences by sliding the shorter across the longer and scoring matches.
+Records *all* equally-best alignments, saves a human-readable report and a pickle file.
+
+Usage:
+    python3 align_seqs_fasta.py seq1.fasta seq2.fasta
+If no paths are provided, the script will try ./data/seq1.fasta and ./data/seq2.fasta.
+If those are missing, it falls back to two built-in example sequences so it still runs.
+
+Outputs (created under ./results/):
+    - alignment_results.txt : human-readable summary
+    - alignment_results.pkl : python pickle with the full results dict
+
+This implementation follows the classic MulQuaBio "Align DNA sequences" practical.
+"""
+
+import argparse
+import os
+import pickle
+from typing import List, Dict, Tuple
+
+# ---------------------------
+# FASTA utilities
+# ---------------------------
+
+def read_fasta(path: str) -> Tuple[str, str]:
+    """Read a (single-sequence) FASTA file and return (header, sequence in uppercase)."""
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"FASTA not found: {path}")
+    header = None
+    seq_parts: List[str] = []
+    with open(path, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith('>'):
+                # Keep the first header, ignore subsequent ones for simplicity
+                if header is None:
+                    header = line[1:].strip()
+            else:
+                seq_parts.append(line.upper())
+    seq = ''.join(seq_parts)
+    if header is None:
+        header = os.path.basename(path)
+    return header, seq
+
+def sanitize_dna(seq: str) -> str:
+    """Uppercase and keep only A/C/G/T/N; remove others (spaces, numbers, etc.)."""
+    seq = seq.upper()
+    allowed = {'A', 'C', 'G', 'T', 'N'}
+    return ''.join(ch for ch in seq if ch in allowed)
+
+# ---------------------------
+# Alignment core
+# ---------------------------
+
+def calculate_score(s1: str, s2: str, startpoint: int) -> int:
+    """Return the number of matching bases when s2 is aligned to s1 at startpoint."""
+    score = 0
+    l1 = len(s1)
+    l2 = len(s2)
+    for i in range(l2):
+        pos_in_s1 = startpoint + i
+        if pos_in_s1 >= l1:
+            break  # s2 hangs off the end of s1
+        if s1[pos_in_s1] == s2[i]:
+            score += 1
+    return score
+
+def align_sequences(raw_s1: str, raw_s2: str) -> Dict:
+    """Align two sequences, returning a dict with best score and all equally-best alignments."""
+    # Ensure we slide the *shorter* across the *longer*
+    s1 = sanitize_dna(raw_s1)
+    s2 = sanitize_dna(raw_s2)
+    if len(s1) < len(s2):
+        s1, s2 = s2, s1  # swap so s1 is the longer
+    
+    best_score = -1
+    best_alignments: List[Dict] = []
+    l1 = len(s1)
+    l2 = len(s2)
+
+    for start in range(0, l1):  # try all start positions on s1
+        sc = calculate_score(s1, s2, start)
+        if sc > best_score:
+            best_score = sc
+            best_alignments = [{
+                'start': start,
+                'aligned_s2': ('.' * start) + s2,
+            }]
+        elif sc == best_score:
+            best_alignments.append({
+                'start': start,
+                'aligned_s2': ('.' * start) + s2,
+            })
+
+    return {
+        's1': s1,
+        's2': s2,
+        'best_score': best_score,
+        'best_alignments': best_alignments,
+    }
+
+# ---------------------------
+# I/O helpers
+# ---------------------------
+
+def ensure_dir(path: str) -> None:
+    os.makedirs(path, exist_ok=True)
+
+def save_results(results: Dict, out_dir: str = 'results') -> Tuple[str, str]:
+    """Save results as text and pickle in out_dir. Return (txt_path, pkl_path)."""
+    ensure_dir(out_dir)
+    txt_path = os.path.join(out_dir, 'alignment_results.txt')
+    pkl_path = os.path.join(out_dir, 'alignment_results.pkl')
+
+    s1 = results['s1']
+    s2 = results['s2']
+    best_score = results['best_score']
+    best_alignments = results['best_alignments']
+
+    # Human-readable report
+    with open(txt_path, 'w', encoding='utf-8') as f:
+        f.write('== DNA Alignment Results ==\n\n')
+        f.write(f'Length(s): s1={len(s1)}, s2={len(s2)}\n')
+        f.write(f'Best score: {best_score}\n')
+        f.write(f'Number of equally-best alignments: {len(best_alignments)}\n\n')
+
+        # Show the base sequences
+        f.write('S1 (reference):\n')
+        f.write(s1 + '\n\n')
+        f.write('S2 (query):\n')
+        f.write(s2 + '\n\n')
+
+        f.write('--- Best alignments (all ties) ---\n')
+        for i, aln in enumerate(best_alignments, 1):
+            f.write(f'[{i}] start={aln["start"]}\n')
+            f.write(aln['aligned_s2'] + '\n\n')
+
+    # Pickle everything
+    with open(pkl_path, 'wb') as pf:
+        pickle.dump(results, pf)
+
+    return txt_path, pkl_path
+
+# ---------------------------
+# Defaults & CLI
+# ---------------------------
+
+DEFAULTS = (
+    os.path.join('..', 'data', '407228326.fasta'),
+    os.path.join('..', 'data', '407228412.fasta'),
+)
+
+BUILTIN_EXAMPLE = (
+    '>Example_seq_1\nGATTACAAGGTTAC\n',
+    '>Example_seq_2\nTTACAGTTAC\n',
+)
+
+def main():
+    parser = argparse.ArgumentParser(description='Align two DNA FASTA sequences and record all best alignments.')
+    parser.add_argument('fasta1', nargs='?', help='Path to first FASTA file')
+    parser.add_argument('fasta2', nargs='?', help='Path to second FASTA file')
+    parser.add_argument('-o', '--outdir', default='../results', help='Output directory (default: ../results)')
+    args = parser.parse_args()
+
+    # Determine input sources
+    candidates = []
+    if args.fasta1 and args.fasta2:
+        candidates = [args.fasta1, args.fasta2]
+    else:
+        candidates = list(DEFAULTS)
+
+    try:
+        if all(os.path.exists(p) for p in candidates):
+            h1, s1 = read_fasta(candidates[0])
+            h2, s2 = read_fasta(candidates[1])
+        else:
+            # fall back to built-in example sequences so the script still runs
+            h1, s1 = 'Builtin_1', sanitize_dna(BUILTIN_EXAMPLE[0].split('\n', 1)[1])
+            h2, s2 = 'Builtin_2', sanitize_dna(BUILTIN_EXAMPLE[1].split('\n', 1)[1])
+    except Exception as e:
+        print(f'[ERROR] Failed to read FASTA inputs: {e}')
+        print('Falling back to built-in example sequences.')
+        h1, s1 = 'Builtin_1', sanitize_dna(BUILTIN_EXAMPLE[0].split('\n', 1)[1])
+        h2, s2 = 'Builtin_2', sanitize_dna(BUILTIN_EXAMPLE[1].split('\n', 1)[1])
+
+    results = align_sequences(s1, s2)
+    results['header1'] = h1
+    results['header2'] = h2
+
+    txt_path, pkl_path = save_results(results, args.outdir)
+    print('Done.')
+    print(f'Best score: {results["best_score"]} | #best alignments: {len(results["best_alignments"]) }')
+    print(f'Report   : {txt_path}')
+    print(f'Pickle   : {pkl_path}')
+
+if __name__ == '__main__':
+    main()
+
+
+
+**********
+
+Run metadata:
+  Command: cd "code" && python3 align_seqs_better.py
+  CWD: code
+  Exit code: 0
+  Runtime (s): 0.69
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+Done.
+Best score: 527 | #best alignments: 1
+Report   : ../results/alignment_results.txt
+Pickle   : ../results/alignment_results.pkl
+
+**********
+No errors.
+======================================================================
+Script: align_seqs_fasta.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+
+"""A code that finds the best allignent for two strands of fasta files, files must be located in the data folder"""
+__version__ = '0.0.1'
+
+import sys
+
+
+
+def import_values(file_1, file_2):
+    filepath_1 = f"../data/{file_1}"
+    filepath_2 = f"../data/{file_2}"
+    with open(filepath_1, "r") as f:
+        lines = f.readlines()
+        seq1 = ''.join(line.strip() for line in lines if not line.startswith('>'))
+    with open(filepath_2, "r") as f:
+        lines = f.readlines()
+        seq2 = ''.join(line.strip() for line in lines if not line.startswith('>'))
+    l1 = len(seq1)
+    l2 = len(seq2)
+    if l1 >= l2:
+        s1 = seq1
+        s2 = seq2
+    else:
+        s1 = seq2
+        s2 = seq1
+        l1, l2 = l2, l1 # swap the two lengths
+
+    return(s1, s2, l1, l2)
+
+
+def calculate_score(s1, s2, l1, l2, startpoint):
+    matched = "" # to hold string displaying alignements
+    score = 0
+    for i in range(l2):
+        if (i + startpoint) < l1:
+            if s1[i + startpoint] == s2[i]: # if the bases match
+                matched = matched + "*"
+                score = score + 1
+            else:
+                matched = matched + "-"
+
+    # some formatted output
+    print("." * startpoint + matched)           
+    print("." * startpoint + s2)
+    print(s1)
+    print(score) 
+    print(" ")
+
+    return score
+
+
+def find_best_score(s1, s2, l1, l2):
+    my_best_align = None
+    my_best_score = -1
+
+    for i in range(l1): # Note that you just take the last alignment with the highest score
+        z = calculate_score(s1, s2, l1, l2, i)
+        if z > my_best_score:
+            my_best_align = "." * i + s2 # think about what this is doing!
+            my_best_score = z 
+    print(f"{my_best_align}\n{s1}\nBest score: {my_best_score}")
+    result = f"{my_best_align}\n{s1}\nBest score: {my_best_score}"
+    return result 
+
+
+
+def main(argv):
+    if len(sys.argv) != 3:
+        # Default files if no arguments given
+        s1, s2, l1, l2 = import_values("407228326.fasta", "407228412.fasta")
+    else:
+        # Use command-line arguments
+        s1, s2, l1, l2 = import_values(sys.argv[1], sys.argv[2])    
+    with open( '../results/aligned_seq.txt', 'w') as f:
+        f.write(find_best_score(s1, s2, l1, l2))    
+    return(0)
+
+
+if (__name__ == "__main__"):
+    status = main(sys.argv)
+    sys.exit(status)
+
+**********
+
+Run metadata:
+  Command: cd "code" && python3 align_seqs_fasta.py
+  CWD: code
+  Exit code: 0
+  Runtime (s): 1.69
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+*-**---*--*---*-------*-*---*-*--*-*-*---*---*-----*--***----*--********-**---**--*---***------*-*--**---*-*---*-----*--****--------*--*--*-------**-*--*-*-----*-***-----**-----*-*-**--*--------*--**---*-**--*---*-**---*-*-*-*--**-*-******------**--*---*------****-*-*----*---*-------*-------------**-*-**--**-*------*-*--------**--*---------**---------*-**-------**-*--*--*--------*------------*-*-*--*-*---*-*-*--*-*----------**--------*-*--*------*-------**-----*--------*-----*--*--*----------*--
+**********
+No errors.
+======================================================================
+Script: oaks_debugme.py
+
+Contents:
+
+**********
+### code below
+import csv
+import sys
+import doctest
+
+#Define function
+def is_an_oak(name):
+    """ Returns True if name is starts with 'quercus' 
+    >>> is_an_oak('Quercus')
+    True
+
+    >>> is_an_oak('Quercus robur')
+    True
+
+    >>> is_an_oak('quercus')
+    True
+
+    >>> is_an_oak('Fagus sylvatica')
+    False
+
+    >>> is_an_oak('Quercuss')
+    True
+
+    >>> is_an_oak('Quercs')
+    True
+
+    >>> is_an_oak('Pinus')
+    False
+
+    >>> is_an_oak('')
+    False
+
+    >>> is_an_oak('QUERCUS ALBA')
+    True
+    """
+    # Handle empty strings or None
+    if not name:
+        return False
+    # Convert to lowercase and strip whitespace
+    name_lower = name.lower().strip()
+    genus = name_lower.split()[0] if ' ' in name_lower else name_lower
+
+    if genus.startswith('quercus'):
+        return True
+    #Handle typos
+    if genus.startswith ('q') and 5 <= len(genus) <= 9:
+        target = 'quercus'
+        matches = sum(1 for i, char in enumerate(genus) if i < len(target) and char == target[i])
+        if matches >=5:
+            return True
+    return False
+
+#main code
+def main(argv): 
+    f = open('../data/TestOaksData.csv','r')
+    g = open('../data/JustOaksData.csv','w')
+    taxa = csv.reader(f)
+    csvwrite = csv.writer(g)
+    csvwrite.writerow(['Genus', 'Species'])  # Write header to output file
+    next(taxa) # Skip the header row (first line) of the input CSV
+
+    for row in taxa:
+        print(row)
+        print ("The genus is: ") 
+        print(row[0] + '\n')
+        if is_an_oak(row[0]):
+            print('FOUND AN OAK!\n')
+            csvwrite.writerow([row[0], row[1]])    
+
+    return 0
+
+#run and test  
+if (__name__ == "__main__"):
+    status = main(sys.argv)
+
+    print("\nRunning doctests...")
+    doctest.testmod()
+**********
+
+Run metadata:
+  Command: cd "code" && python3 oaks_debugme.py
+  CWD: code
+  Exit code: 0
+  Runtime (s): 0.06
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+['Quercus', ' robur']
+The genus is: 
+Quercus
+
+FOUND AN OAK!
+
+['Fraxinus', ' excelsior']
+The genus is: 
+Fraxinus
+
+['Pinus', ' sylvestris']
+The genus is: 
+Pinus
+
+['Quercus', ' cerris']
+The genus is: 
+Quercus
+
+FOUND AN OAK!
+
+['Quercus', ' petraea']
+The genus is: 
+Quercus
+
+FOUND AN OAK!
+
+
+Running doctests...
+
+**********
+No errors.
+======================================================================
+Script: pp_regress_loc.R
+
+Contents:
+
+**********
+# Author: Ore Solanke, Mikael Minten
+# Date: October 2025
+# Script: pp_regress.R
+# Description: EcolArchives Linear Regression Plotting and LM analysis
+
+
+rm(list=ls())
+
+## load required packages
+packages<-c('tidyr', 'dplyr', 'ggplot2', 'ggthemes')
+lapply(packages, require, character.only=TRUE)
+
+## load in data 
+eco.df <-read.csv("../data/EcolArchives-E089-51-D1.csv")
+#glimpse(eco.df)
+
+## set factors 
+eco.df$Type.of.feeding.interaction <- as.factor(eco.df$Type.of.feeding.interaction)
+eco.df$Location <- as.factor(eco.df$Location)
+eco.df$Predator.lifestage <- as.factor(eco.df$Predator.lifestage)
+
+## convert units mg to g 
+eco.df$Prey.mass[eco.df$Prey.mass.unit == "mg"] <- eco.df$Prey.mass[eco.df$Prey.mass.unit == "mg"] / 1000
+eco.df$Prey.mass.unit[eco.df$Prey.mass.unit == "mg"] <- "g"
+
+## linear regression considering three variables 
+
+location_eco_reg <- eco.df %>% 
+  group_by(Location, Type.of.feeding.interaction, Predator.lifestage) %>% 
+  summarise({
+    # Only perform regression if there are at least 3 data points
+    if(n() < 3) {
+      tibble(
+        slope = NA_real_,
+        intercept = NA_real_,
+        R_squared = NA_real_,
+        F_statistic = NA_real_,
+        p_value = NA_real_
+      )
+    } else {
+      tryCatch({
+        # Try to extract values for a linear model
+        location_interation_lm <- lm(log10(Prey.mass) ~ log10(Predator.mass), data = cur_data())
+        loc_lm_summary <- summary(location_interation_lm)
+        tibble(
+          slope = coef(location_interation_lm)[2],
+          intercept = coef(location_interation_lm)[1],
+          R_squared = sqrt(loc_lm_summary$r.squared),
+          F_statistic = loc_lm_summary$fstatistic[1],
+          p_value = loc_lm_summary$coefficients[2, 4]
+        )
+        # If an error occurs, return NA values
+      }, error = function(e) {
+        tibble(
+          slope = NA_real_,
+          intercept = NA_real_,
+          R_squared = NA_real_,
+          F_statistic = NA_real_,
+          p_value = NA_real_
+        )
+      })
+    }
+  }, .groups = 'drop')
+
+# Remove rows with NA slope values
+location_eco_reg <- location_eco_reg %>% 
+  filter(!is.na(slope))
+
+# Write results to CSV
+write.csv(location_eco_reg, "../results/pp_regress_location_results.csv")
+
+**********
+
+Run metadata:
+  Command: cd "code" && Rscript --vanilla --slave pp_regress_loc.R
+  CWD: code
+  Exit code: 0
+  Runtime (s): 0.94
+  Timed out: No
+  Stderr bytes: 819
+
+Stdout (first 500 chars):
+
+**********
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] FALSE
+
+
+**********
+Warnings/Notes:
+**********
+Loading required package: tidyr
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: ggplot2
+Loading required package: ggthemes
+Warning message:
+In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘ggthemes’
+Warning message:
+There was 1 warning in `summarise()`.
+ℹ In argument: `{ ... }`.
+ℹ In group 1: `Location = "Andaman Sea (West of South Thailand)"`,
+  `Type.of.feeding.interaction = predacious`, `Predator.lifestage = larva`.
+Caused by warning:
+! `cur_data()` was deprecated in dplyr 1.1.0.
+ℹ Please use `pick()` instead. 
+
+**********
+======================================================================
+GROUPWORK FUNCTIONAL CORRECTNESS (Criterion 2)
+======================================================================
+
+Scripts executed: 5
+Scripts successful: 5
+Scripts with errors: 0
+Success rate: 100.0%
+
+Expected outputs/files check: not configured (no expected files list provided).
+
+Scripts that error on a clean run are treated as non-runnable under Criterion 2.
+
+Criterion evidence snapshot:
+  Criterion 2:
+  - Scripts executed: 5
+  - Scripts with errors: 0
+
+======================================================================
+SCRIPT EXECUTION RESULTS
+======================================================================
+The following sections show each script as executed, plus its output and errors.
+
+======================================================================
+Script: LV1.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+LV1.py — Basic continuous-time Lotka–Volterra model (predator–prey)
+Generates two PDF figures (time series & phase-plane) in ../results/ without showing them.
+
+Model (as in the notes):
+    dR/dt = r*R - a*C*R
+    dC/dt = -z*C + e*a*C*R
+"""
+
+from pathlib import Path
+import numpy as np
+import scipy.integrate as integrate
+import matplotlib
+matplotlib.use("Agg")  # ensure no GUI backend is needed
+import matplotlib.pyplot as plt
+
+# -----------------------
+# Parameters & ICs
+# -----------------------
+r = 1.0     # intrinsic growth rate of resource (prey)
+a = 0.5     # search/attack rate
+z = 0.3     # consumer (predator) mortality
+e = 0.75    # consumer efficiency
+R0 = 10.0   # initial resource density
+C0 = 5.0    # initial consumer density
+t0, tmax, dt = 0.0, 60.0, 0.01
+
+# Output paths
+OUT_DIR = Path(__file__).resolve().parents[1] / "results"
+FIG1 = OUT_DIR / "LV_model_timeseries.pdf"
+FIG2 = OUT_DIR / "LV_model_phaseplane.pdf"
+
+# -----------------------
+# ODE system
+# -----------------------
+def dCR_dt(pop, t=0.0):
+    R, C = pop
+    dR = r*R - a*C*R
+    dC = -z*C + e*a*C*R
+    return np.array([dR, dC])
+
+def main():
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    # time grid & solve
+    t = np.arange(t0, tmax + dt, dt)
+    pops, infodict = integrate.odeint(dCR_dt, y0=(R0, C0), t=t, full_output=True)
+
+    # ---------------
+    # Figure 1: time series
+    # ---------------
+    fig1, ax1 = plt.subplots(figsize=(7, 4))
+    ax1.plot(t, pops[:, 0], "g-", label="Resource R (prey)")
+    ax1.plot(t, pops[:, 1], "b-", label="Consumer C (predator)")
+    ax1.grid(True)
+    ax1.legend(loc="best")
+    ax1.set_xlabel("Time")
+    ax1.set_ylabel("Population density")
+    ax1.set_title("Lotka–Volterra (time series)")
+    # Optional: include params in the plot for clarity
+    txt = f"r={r}, a={a}, z={z}, e={e}; R0={R0}, C0={C0}"
+    ax1.text(0.02, 0.95, txt, transform=ax1.transAxes, va="top", ha="left")
+    fig1.tight_layout()
+    fig1.savefig(FIG1)
+    plt.close(fig1)
+
+    # ---------------
+    # Figure 2 (“Fig. 15”): phase-plane (C vs R)
+    # ---------------
+    R = pops[:, 0]
+    C = pops[:, 1]
+    fig2, ax2 = plt.subplots(figsize=(5.2, 5.2))
+    ax2.plot(R, C, "-")
+    ax2.set_xlabel("Resource R")
+    ax2.set_ylabel("Consumer C")
+    ax2.set_title("Lotka–Volterra (phase plane)")
+    ax2.grid(True)
+    fig2.tight_layout()
+    fig2.savefig(FIG2)
+    plt.close(fig2)
+
+    # A small success message (not required by the notes, but handy)
+    print(f"[OK] Saved: {FIG1.name}, {FIG2.name} -> {OUT_DIR}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 LV1.py
+  CWD: week1/code
+  Exit code: 1
+  Runtime (s): 0.02
+  Timed out: No
+  Stderr bytes: 227
+
+Stdout (first 500 chars):
+
+**********
+
+**********
+Errors:
+**********
+Traceback (most recent call last):
+  File "/home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week1/code/LV1.py", line 12, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+**********
+======================================================================
+Script: LV2.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+LV2.py — Lotka–Volterra with prey density dependence (carrying capacity K).
+Takes parameters from CLI, saves a PDF, prints final (non-zero) populations.
+
+Model:
+    dR/dt = r*R*(1 - R/K) - a*C*R
+    dC/dt = -z*C + e*a*C*R
+"""
+import argparse
+from pathlib import Path
+import numpy as np
+import matplotlib
+matplotlib.use("Agg")  # no GUI
+import matplotlib.pyplot as plt
+
+def simulate(r=1.0, a=0.5, z=0.3, e=0.75, K=50.0,
+             tmax=60.0, dt=0.01, R0=10.0, C0=5.0):
+    n = int(tmax / dt) + 1
+    t = np.linspace(0.0, tmax, n)
+    R = np.zeros(n); C = np.zeros(n)
+    R[0], C[0] = float(R0), float(C0)
+    for i in range(n - 1):
+        dR = r*R[i]*(1 - R[i]/K) - a*C[i]*R[i]
+        dC = -z*C[i] + e*a*C[i]*R[i]
+        R[i+1] = max(R[i] + dR*dt, 0.0)
+        C[i+1] = max(C[i] + dC*dt, 0.0)
+    return t, R, C
+
+def main():
+    p = argparse.ArgumentParser(
+        description="LV with prey density dependence (K). Saves PDF and prints final populations."
+    )
+    p.add_argument("--r", type=float, default=1.0)
+    p.add_argument("--a", type=float, default=0.5)
+    p.add_argument("--z", type=float, default=0.3)
+    p.add_argument("--e", type=float, default=0.75)
+    p.add_argument("--K", type=float, default=50.0)
+    p.add_argument("--tmax", type=float, default=60.0)
+    p.add_argument("--dt", type=float, default=0.01)
+    p.add_argument("--R0", type=float, default=10.0)
+    p.add_argument("--C0", type=float, default=5.0)
+    p.add_argument("--pdf", type=str, default=None,
+                   help="Output PDF path; default ../results/LV2.pdf")
+    args = p.parse_args()
+
+    out_path = Path(args.pdf) if args.pdf else (Path(__file__).resolve().parents[1] / "results" / "LV2.pdf")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    t, R, C = simulate(args.r, args.a, args.z, args.e, args.K, args.tmax, args.dt, args.R0, args.C0)
+
+    # print final (non-zero) populations
+    print(f"Final populations -> R: {R[-1]:.6f}, C: {C[-1]:.6f} (t={t[-1]:.2f})")
+
+    # plot
+    fig, ax = plt.subplots(figsize=(7, 4))
+    ax.plot(t, R, label="Resource R (prey)")
+    ax.plot(t, C, label="Consumer C (predator)")
+    ax.set_xlabel("Time")
+    ax.set_ylabel("Population")
+    ax.set_title("Lotka–Volterra with Prey Density Dependence (K)")
+    ax.grid(True)
+    ax.legend(loc="best")
+    ax.text(
+        0.02, 0.95,
+        f"r={args.r}, a={args.a}, z={args.z}, e={args.e}, K={args.K}\n"
+        f"R0={args.R0}, C0={args.C0}, tmax={args.tmax}, dt={args.dt}",
+        transform=ax.transAxes, ha="left", va="top"
+    )
+    fig.tight_layout()
+    fig.savefig(out_path)
+    print(f"[OK] Saved plot -> {out_path}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 LV2.py
+  CWD: week1/code
+  Exit code: 1
+  Runtime (s): 0.03
+  Timed out: No
+  Stderr bytes: 227
+
+Stdout (first 500 chars):
+
+**********
+
+**********
+Errors:
+**********
+Traceback (most recent call last):
+  File "/home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week1/code/LV2.py", line 12, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+**********
+======================================================================
+Script: LV3.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+LV3.py — Discrete-time LV with prey density-dependence (K).
+Print final populations and save a PDF time-series plot (no GUI).
+"""
+import argparse
+from pathlib import Path
+import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
+def simulate(r=1.0, a=0.5, z=0.3, e=0.75, K=50.0,
+             tmax=80, R0=10.0, C0=5.0):
+    n = int(tmax) + 1
+    t = np.arange(n)
+    R = np.zeros(n); C = np.zeros(n)
+    R[0], C[0] = R0, C0
+    for i in range(n-1):
+        R[i+1] = max(R[i]*(1 + r*(1 - R[i]/K) - a*C[i]), 0.0)
+        C[i+1] = max(C[i]*(1 - z + e*a*R[i]), 0.0)
+    return t, R, C
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--r", type=float, default=1.0)
+    p.add_argument("--a", type=float, default=0.5)
+    p.add_argument("--z", type=float, default=0.3)
+    p.add_argument("--e", type=float, default=0.75)
+    p.add_argument("--K", type=float, default=50.0)
+    p.add_argument("--tmax", type=int, default=80)
+    p.add_argument("--R0", type=float, default=10.0)
+    p.add_argument("--C0", type=float, default=5.0)
+    p.add_argument("--pdf", type=str, default=None)
+    args = p.parse_args()
+
+    out = Path(args.pdf) if args.pdf else (Path(__file__).resolve().parents[1]/"results"/"LV3.pdf")
+    out.parent.mkdir(parents=True, exist_ok=True)
+
+    t, R, C = simulate(args.r,args.a,args.z,args.e,args.K,args.tmax,args.R0,args.C0)
+    print(f"Final DT pops -> R: {R[-1]:.6f}, C: {C[-1]:.6f} (t={t[-1]})")
+
+    fig, ax = plt.subplots(figsize=(7,4))
+    ax.plot(t, R, label="R (prey)")
+    ax.plot(t, C, label="C (predator)")
+    ax.set_xlabel("Time step"); ax.set_ylabel("Population")
+    ax.set_title("Discrete-time LV (with K)")
+    ax.grid(True); ax.legend(loc="best")
+    ax.text(0.02,0.95,f"r={args.r}, a={args.a}, z={args.z}, e={args.e}, K={args.K}\nR0={args.R0}, C0={args.C0}",
+            transform=ax.transAxes, va="top", ha="left")
+    fig.tight_layout(); fig.savefig(out)
+    print(f"[OK] Saved plot -> {out}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 LV3.py
+  CWD: week1/code
+  Exit code: 1
+  Runtime (s): 0.02
+  Timed out: No
+  Stderr bytes: 226
+
+Stdout (first 500 chars):
+
+**********
+
+**********
+Errors:
+**********
+Traceback (most recent call last):
+  File "/home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week1/code/LV3.py", line 8, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+**********
+======================================================================
+Script: LV4.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+LV4.py — Discrete-time LV with Gaussian noise on growth rates.
+Default: noise on prey growth (r + eps). Optionally also on z (consumer mortality).
+"""
+import argparse
+from pathlib import Path
+import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
+def simulate(r=1.0, a=0.5, z=0.3, e=0.75, K=50.0,
+             tmax=80, R0=10.0, C0=5.0, sigma=0.05, both=False, seed=1234):
+    rng = np.random.default_rng(seed)
+    n = int(tmax) + 1
+    t = np.arange(n)
+    R = np.zeros(n); C = np.zeros(n)
+    R[0], C[0] = R0, C0
+    for i in range(n-1):
+        eps_r = rng.normal(0.0, sigma)
+        rr = r + eps_r
+        if both:
+            eps_z = rng.normal(0.0, sigma)
+            zz = max(z + eps_z, 0.0)
+        else:
+            zz = z
+        R[i+1] = max(R[i]*(1 + rr*(1 - R[i]/K) - a*C[i]), 0.0)
+        C[i+1] = max(C[i]*(1 - zz + e*a*R[i]), 0.0)
+    return t, R, C
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--r", type=float, default=1.0)
+    p.add_argument("--a", type=float, default=0.5)
+    p.add_argument("--z", type=float, default=0.3)
+    p.add_argument("--e", type=float, default=0.75)
+    p.add_argument("--K", type=float, default=50.0)
+    p.add_argument("--tmax", type=int, default=80)
+    p.add_argument("--R0", type=float, default=10.0)
+    p.add_argument("--C0", type=float, default=5.0)
+    p.add_argument("--sigma", type=float, default=0.05, help="stddev of Gaussian noise")
+    p.add_argument("--both", action="store_true", help="also add noise to z")
+    p.add_argument("--seed", type=int, default=1234)
+    p.add_argument("--pdf", type=str, default=None)
+    args = p.parse_args()
+
+    out = Path(args.pdf) if args.pdf else (Path(__file__).resolve().parents[1]/"results"/"LV4.pdf")
+    out.parent.mkdir(parents=True, exist_ok=True)
+
+    t, R, C = simulate(args.r,args.a,args.z,args.e,args.K,args.tmax,args.R0,args.C0,args.sigma,args.both,args.seed)
+    print(f"Final DT+noise pops -> R: {R[-1]:.6f}, C: {C[-1]:.6f} (t={t[-1]})")
+
+    fig, ax = plt.subplots(figsize=(7,4))
+    ax.plot(t, R, label="R (prey)")
+    ax.plot(t, C, label="C (predator)")
+    ax.set_xlabel("Time step"); ax.set_ylabel("Population")
+    ax.set_title("Discrete-time LV with Gaussian noise")
+    ax.grid(True); ax.legend(loc="best")
+    ax.text(0.02,0.95,
+            f"r={args.r}, a={args.a}, z={args.z}, e={args.e}, K={args.K}, sigma={args.sigma}, both={args.both}\nR0={args.R0}, C0={args.C0}",
+            transform=ax.transAxes, va="top", ha="left")
+    fig.tight_layout(); fig.savefig(out)
+    print(f"[OK] Saved plot -> {out}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 LV4.py
+  CWD: week1/code
+  Exit code: 1
+  Runtime (s): 0.03
+  Timed out: No
+  Stderr bytes: 226
+
+Stdout (first 500 chars):
+
+**********
+
+**********
+Errors:
+**********
+Traceback (most recent call last):
+  File "/home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week1/code/LV4.py", line 8, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+**********
+======================================================================
+Script: LVspeedtest.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+run_LV.py — Run & profile LV1.py (CT), LV2.py (CT+K), LV3.py (DT+K), LV4.py (DT+K+noise).
+Print wall-clock timings and cProfile summaries (top tail).
+"""
+import subprocess, sys, time
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+PY = sys.executable
+
+LV1 = HERE / "LV1.py"
+LV2 = HERE / "LV2.py"
+LV3 = HERE / "LV3.py"
+LV4 = HERE / "LV4.py"
+
+COMMON_CT = ["--r","1.0","--a","0.5","--z","0.3","--e","0.75","--tmax","80","--dt","0.005","--R0","10","--C0","5"]
+LV2_ONLY   = ["--K","50"]
+COMMON_DT = ["--r","1.0","--a","0.5","--z","0.3","--e","0.75","--tmax","80","--R0","10","--C0","5","--K","50"]
+LV4_ONLY  = ["--sigma","0.05","--seed","1"]
+
+def run_timed(cmd):
+    t0 = time.perf_counter()
+    p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    dt = time.perf_counter() - t0
+    return p.returncode, dt, p.stdout.strip(), p.stderr.strip()
+
+def profile_script(script, args):
+    cmd = [PY, "-m", "cProfile", "-s", "tottime", str(script), *args]
+    p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    return p.returncode, p.stdout.strip(), p.stderr.strip()
+
+def section(title): print("\n" + title + "\n" + "="*len(title))
+
+def do_one(name, script, args):
+    rc, secs, out, err = run_timed([PY, str(script), *args])
+    print(f"[{name}] rc={rc}, time={secs:.3f}s")
+    if out: print(f"[{name}] stdout:", out)
+    if err: print(f"[{name}] stderr:", err)
+    prc, prof, perr = profile_script(script, args)
+    tail = "\n".join(prof.splitlines()[-15:])
+    print(f"[{name} profile]\n{tail}")
+    if perr: print(f"[{name} profile stderr]\n{perr}")
+
+def main():
+    for f in (LV1,LV2,LV3,LV4):
+        if not f.exists():
+            print(f"WARNING: {f.name} not found — skipping its tests.")
+
+    section("Wall-clock timing & profile")
+    if LV1.exists(): do_one("LV1", LV1, COMMON_CT)
+    if LV2.exists(): do_one("LV2", LV2, [*COMMON_CT, *LV2_ONLY])
+    if LV3.exists(): do_one("LV3", LV3, COMMON_DT)
+    if LV4.exists(): do_one("LV4", LV4, [*COMMON_DT, *LV4_ONLY])
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 LVspeedtest.py
+  CWD: week1/code
+  Exit code: 0
+  Runtime (s): 0.31
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+
+Wall-clock timing & profile
+===========================
+[LV1] rc=1, time=0.019s
+[LV1] stderr: Traceback (most recent call last):
+  File "/home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week1/code/LV1.py", line 12, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+[LV1 profile]
+        1    0.000    0.000    0.000    0.000 pathlib.py:190(_WildcardSelector)
+        1    0.000    0.000    0.000    0.000 parse.py:331(SplitResult)
+        1   
+**********
+No errors.
+======================================================================
+Script: Vectorize1.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+Vectorize1.py — compare loop vs NumPy vectorization on elementwise product & sum.
+Prints per-N function timings with a stable, greppable format.
+"""
+import time, math
+import numpy as np
+
+def product_loop(a: np.ndarray, b: np.ndarray) -> float:
+    s = 0.0
+    for i in range(len(a)):
+        s += a[i] * b[i]
+    return s
+
+def product_vect(a: np.ndarray, b: np.ndarray) -> float:
+    return float((a * b).sum())
+
+def bench_once(fn, *args, repeats=5):
+    tmin = math.inf
+    for _ in range(repeats):
+        t0 = time.perf_counter()
+        _ = fn(*args)
+        t = (time.perf_counter() - t0) * 1000.0  # ms
+        if t < tmin: tmin = t
+    return tmin
+
+def main():
+    rng = np.random.default_rng(42)
+    sizes = [10**k for k in range(1, 7)]  # 10..1,000,000
+    for N in sizes:
+        a = rng.random(N, dtype=np.float64)
+        b = rng.random(N, dtype=np.float64)
+        t_loop = bench_once(product_loop, a, b)
+        t_vect = bench_once(product_vect, a, b)
+        print(f"TIMING Vectorize1 loop N={N} ms={t_loop:.4f}")
+        print(f"TIMING Vectorize1 vect N={N} ms={t_vect:.4f}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 Vectorize1.py
+  CWD: week1/code
+  Exit code: 1
+  Runtime (s): 0.01
+  Timed out: No
+  Stderr bytes: 233
+
+Stdout (first 500 chars):
+
+**********
+
+**********
+Errors:
+**********
+Traceback (most recent call last):
+  File "/home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week1/code/Vectorize1.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+**********
+======================================================================
+Script: Vectorize2.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+Vectorize2.py — compare loop vs NumPy vectorization on L2 norm (sum of squares).
+Prints per-N function timings with a stable, greppable format.
+"""
+import time, math
+import numpy as np
+
+def l2_loop(a: np.ndarray) -> float:
+    s = 0.0
+    for i in range(len(a)):
+        s += a[i] * a[i]
+    return math.sqrt(s)
+
+def l2_vect(a: np.ndarray) -> float:
+    return float(np.linalg.norm(a))
+
+def bench_once(fn, *args, repeats=5):
+    tmin = math.inf
+    for _ in range(repeats):
+        t0 = time.perf_counter()
+        _ = fn(*args)
+        t = (time.perf_counter() - t0) * 1000.0
+        if t < tmin: tmin = t
+    return tmin
+
+def main():
+    rng = np.random.default_rng(123)
+    sizes = [10**k for k in range(1, 7)]
+    for N in sizes:
+        a = rng.random(N, dtype=np.float64)
+        t_loop = bench_once(l2_loop, a)
+        t_vect = bench_once(l2_vect, a)
+        print(f"TIMING Vectorize2 loop N={N} ms={t_loop:.4f}")
+        print(f"TIMING Vectorize2 vect N={N} ms={t_vect:.4f}")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 Vectorize2.py
+  CWD: week1/code
+  Exit code: 1
+  Runtime (s): 0.01
+  Timed out: No
+  Stderr bytes: 233
+
+Stdout (first 500 chars):
+
+**********
+
+**********
+Errors:
+**********
+Traceback (most recent call last):
+  File "/home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week1/code/Vectorize2.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+**********
+======================================================================
+Script: align_seqs.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+Align two DNA sequences by sliding the shorter along the longer and
+counting matches; write the best alignment and its score to a text file.
+No interactive input is required.
+"""
+from pathlib import Path
+import csv
+
+DATA_IN = Path(__file__).resolve().parents[1] / "data" / "two_seqs.csv"
+OUT_DIR = Path(__file__).resolve().parents[1] / "results"
+OUT_FILE = OUT_DIR / "best_alignment.txt"
+
+def read_two_sequences(csv_path: Path):
+    with open(csv_path, "r", newline="") as f:
+        rows = list(csv.reader(f))
+    # 允许：两行两列 或 一行两列
+    flat = []
+    for r in rows:
+        flat.extend([c.strip().upper() for c in r if c.strip()])
+    if len(flat) < 2:
+        raise ValueError("Input CSV must contain two DNA sequences.")
+    return flat[0], flat[1]
+
+def score_alignment(longer: str, shorter: str, offset: int) -> int:
+    """Count matches when `shorter` is aligned to `longer` starting at `offset`."""
+    score = 0
+    for i, base in enumerate(shorter):
+        j = i + offset
+        if j >= len(longer):  # beyond end
+            break
+        if base == longer[j]:
+            score += 1
+    return score
+
+def best_alignment(seq1: str, seq2: str):
+    # 确保 longer/shorter
+    if len(seq1) >= len(seq2):
+        longer, shorter = seq1, seq2
+        swapped = False
+    else:
+        longer, shorter = seq2, seq1
+        swapped = True
+
+    best = {"score": -1, "offset": 0}
+    for offset in range(len(longer)):  # 将短序列起点滑过长序列的每个位置
+        s = score_alignment(longer, shorter, offset)
+        if s > best["score"]:
+            best.update(score=s, offset=offset)
+
+    # 生成可视化对齐字符串
+    aligned_shorter = " " * best["offset"] + shorter
+    match_line = []
+    for i, ch in enumerate(aligned_shorter):
+        if i < len(longer) and ch == longer[i]:
+            match_line.append("|")
+        else:
+            match_line.append(" ")
+    match_line = "".join(match_line)
+
+    # 若原序列被交换过，在输出里仍按原顺序展示
+    if swapped:
+        top = seq2
+        bottom = " " * best["offset"] + seq1 if len(seq2) < len(seq1) else aligned_shorter
+        # 当交换时重新构造对齐行以与输出两行长度一致
+        # 简化处理：统一以 longer 在上、对齐 shorter 在下展示
+        top = longer
+        bottom = aligned_shorter
+        mid = match_line
+    else:
+        top = longer
+        bottom = aligned_shorter
+        mid = match_line
+
+    return {
+        "score": best["score"],
+        "offset": best["offset"],
+        "longer": longer,
+        "shorter": shorter,
+        "top": top,
+        "mid": mid,
+        "bottom": bottom,
+    }
+
+def main():
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    s1, s2 = read_two_sequences(DATA_IN)
+    res = best_alignment(s1, s2)
+    with open(OUT_FILE, "w") as f:
+        f.write("# Best alignment result\n")
+        f.write(f"Score : {res['score']}\n")
+        f.write(f"Offset: {res['offset']}\n\n")
+        f.write(res["top"] + "\n")
+        f.write(res["mid"] + "\n")
+        f.write(res["bottom"] + "\n")
+    print(f"[OK] Best alignment written to: {OUT_FILE} (score={res['score']})")
+
+if __name__ == "__main__":
+    main()
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 align_seqs.py
+  CWD: week1/code
+  Exit code: 0
+  Runtime (s): 0.03
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+[OK] Best alignment written to: /home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week1/results/best_alignment.txt (score=8)
+
+**********
+No errors.
+======================================================================
+Script: boilerplate.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+boilerplate.py — a template for all Python scripts in The MulQuaBio course.
+
+Demonstrates good coding practice:
+- Shebang for portability.
+- Module-level docstring (describes purpose, author, version, usage).
+- Imports at top.
+- main() function encapsulation.
+- sys.argv for command-line argument reading.
+- __name__ guard.
+"""
+
+__author__ = "Your Name <you@example.com>"
+__version__ = "0.1.0"
+__license__ = "MIT"
+__status__ = "Development"
+
+# ---- imports ----
+import sys
+from pathlib import Path
+
+# ---- functions ----
+def greet(name: str = "world") -> str:
+    """Return a simple greeting message."""
+    return f"Hello, {name}!"
+
+# ---- main ----
+def main(argv=None):
+    """
+    Entry point for command-line execution.
+
+    Parameters
+    ----------
+    argv : list, optional
+        Command-line arguments (defaults to sys.argv[1:]).
+
+    Returns
+    -------
+    int
+        Exit status code (0 for success).
+    """
+    if argv is None:
+        argv = sys.argv[1:]
+
+    # handle arguments
+    if len(argv) == 0:
+        name = "world"
+    else:
+        name = argv[0]
+
+    message = greet(name)
+    print(message)
+
+    # create an example output file (shows file I/O)
+    outdir = Path(__file__).resolve().parents[1] / "results"
+    outdir.mkdir(parents=True, exist_ok=True)
+    outfile = outdir / "boilerplate_output.txt"
+    with open(outfile, "w") as f:
+        f.write(message + "\n")
+
+    print(f"[OK] Message written to {outfile}")
+    return 0
+
+# ---- script execution ----
+if __name__ == "__main__":
+    sys.exit(main())
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 boilerplate.py
+  CWD: week1/code
+  Exit code: 0
+  Runtime (s): 0.03
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+Hello, world!
+[OK] Message written to /home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week1/results/boilerplate_output.txt
+
+**********
+No errors.
+======================================================================
+Script: cfexercises1.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+cfexercises1.py — Control-flow exercises rewritten as a reusable module.
+
+Run directly to see demo evaluations; import to reuse functions elsewhere.
+"""
+__author__ = "Your Name <you@example.com>"
+__version__ = "0.1.0"
+
+from typing import List
+
+def foo_1(x: float = 4.0) -> float:
+    """Square root (example control-flow kept trivial)."""
+    return x ** 0.5
+
+def foo_2(x: float, y: float):
+    """Return the larger of two numbers."""
+    return x if x > y else y
+
+def foo_3(x: float, y: float, z: float) -> List[float]:
+    """Return [x,y,z] sorted ascending (no .sort used to mirror notes)."""
+    if x > y: x, y = y, x
+    if x > z: x, z = z, x
+    if y > z: y, z = z, y
+    return [x, y, z]
+
+def foo_4(n: int) -> int:
+    """Factorial via for-loop; handles 0! = 1."""
+    if n < 0:
+        raise ValueError("n must be >= 0")
+    out = 1
+    for i in range(1, n+1):
+        out *= i
+    return out
+
+def foo_5(n: int) -> int:
+    """Factorial via recursion; handles 0! = 1."""
+    if n < 0:
+        raise ValueError("n must be >= 0")
+    if n in (0, 1):
+        return 1
+    return n * foo_5(n-1)
+
+def foo_6(n: int) -> int:
+    """Factorial via while-loop; handles 0! = 1."""
+    if n < 0:
+        raise ValueError("n must be >= 0")
+    out = 1
+    while n >= 1:
+        out *= n
+        n -= 1
+    return out
+
+def _demo():
+    print("foo_1(9)   ->", foo_1(9))
+    print("foo_2(7,3) ->", foo_2(7,3))
+    print("foo_3(9,1,5) ->", foo_3(9,1,5))
+    print("foo_4(5)   ->", foo_4(5))
+    print("foo_5(10)  ->", foo_5(10))  # 文档示例中的测试方式
+    print("foo_6(6)   ->", foo_6(6))
+
+if __name__ == "__main__":
+    _demo()
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 cfexercises1.py
+  CWD: week1/code
+  Exit code: 0
+  Runtime (s): 0.02
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+foo_1(9)   -> 3.0
+foo_2(7,3) -> 7
+foo_3(9,1,5) -> [1, 5, 9]
+foo_4(5)   -> 120
+foo_5(10)  -> 3628800
+foo_6(6)   -> 720
+
+**********
+No errors.
+======================================================================
+Script: compare_vectorization.sh
+
+Contents:
+
+**********
+#!/usr/bin/env bash
+# Compare R vs Python timings for equivalent vectorized/loop functions.
+set -euo pipefail
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+PY="${PYTHON:-python}"
+RSCRIPT="${RSCRIPT:-Rscript}"
+
+P_VEC1="${HERE}/Vectorize1.py"
+P_VEC2="${HERE}/Vectorize2.py"
+R_VEC1="${HERE}/Vectorize1.R"
+R_VEC2="${HERE}/Vectorize2.R"
+
+echo "== Running Python Vectorize1/2 =="
+$PY "$P_VEC1" | tee /tmp/py_vec1.out
+$PY "$P_VEC2" | tee /tmp/py_vec2.out
+
+echo
+echo "== Running R Vectorize1/2 =="
+$RSCRIPT "$R_VEC1" | tee /tmp/r_vec1.out
+$RSCRIPT "$R_VEC2" | tee /tmp/r_vec2.out
+
+echo
+echo "== Summary (function-level timings, ms) =="
+printf "%-20s %-10s %-12s %-12s\n" "Case" "N" "Python" "R"
+join_lines () {
+  awk -v tag="$1" '
+    $1=="TIMING" && $2==tag { 
+      # TIMING Vectorize1 loop N=1000 ms=0.1234
+      for(i=1;i<=NF;i++){ if($i ~ /^N=/){n=substr($i,3)} if($i ~ /^ms=/){ms=substr($i,4)} }
+      print n, ms
+    }' "$2" | sort -n
+}
+
+for kind in "Vectorize1" "Vectorize2"; do
+  for mode in "loop" "vect"; do
+    echo
+    echo "-- ${kind} ${mode} --"
+    py_file="/tmp/$( [ "$kind" = "Vectorize1" ] && echo py_vec1.out || echo py_vec2.out )"
+    r_file="/tmp/$( [ "$kind" = "Vectorize1" ] && echo r_vec1.out || echo r_vec2.out )"
+    paste <(join_lines "$kind" "$py_file" | awk '{print $1" "$2}') \
+          <(join_lines "$kind" "$r_file" | awk '{print $1" "$2}') \
+      | awk -v k="$kind" -v m="$mode" '
+        { printf "%-20s %-10s %-12s %-12s\n", k" "m, $1, $2, $4 }'
+  done
+done
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && bash compare_vectorization.sh
+  CWD: week1/code
+  Exit code: 1
+  Runtime (s): 0.02
+  Timed out: No
+  Stderr bytes: 233
+
+Stdout (first 500 chars):
+
+**********
+== Running Python Vectorize1/2 ==
+
+**********
+Errors:
+**********
+Traceback (most recent call last):
+  File "/home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week1/code/Vectorize1.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+**********
+======================================================================
+Script: data.py
+
+Contents:
+
+**********
+import re
+pat_simple = re.compile(r'^(?:19(0[1-9]|[1-9]\d)|[2-9]\d{3})(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])$')
+pat_strict = re.compile(r'''^(?:(?:19(0[1-9]|[1-9]\d)|[2-9]\d{3})(?:(?:0[13578]|1[02])(?:0[1-9]|[12]\d|3[01])|(?:0[469]|11)(?:0[1-9]|[12]\d|30)|02(?:0[1-9]|1\d|2[0-8])))|(?:(?:(?:19|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]00|[3579]200))0229)$''')
+tests = ["19000101","19010228","20000229","21000229","20250230","20251231"]
+for s in tests:
+    print(s, bool(pat_simple.match(s)), bool(pat_strict.match(s)))
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 data.py
+  CWD: week1/code
+  Exit code: 0
+  Runtime (s): 0.02
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+19000101 False False
+19010228 True True
+20000229 True True
+21000229 True False
+20250230 True False
+20251231 True True
+
+**********
+No errors.
+======================================================================
+Script: dictionary.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+dictionary.py — Common dictionary patterns.
+"""
+from typing import Dict, Iterable, List, Tuple
+from collections import defaultdict
+
+def count_tokens(tokens: Iterable[str]) -> Dict[str, int]:
+    cnt: Dict[str, int] = defaultdict(int)
+    for t in tokens:
+        cnt[t] += 1
+    return dict(cnt)
+
+def list_of_tuples_to_dict(pairs: Iterable[Tuple[str, int]]) -> Dict[str, int]:
+    return {k: v for k, v in pairs}
+
+def dict_to_sorted_items(d: Dict[str,int]) -> List[Tuple[str,int]]:
+    return sorted(d.items(), key=lambda kv: (kv[1], kv[0]))
+
+def merge_sum(d1: Dict[str,int], d2: Dict[str,int]) -> Dict[str,int]:
+    out = dict(d1)
+    for k, v in d2.items():
+        out[k] = out.get(k, 0) + v
+    return out
+
+if __name__ == "__main__":
+    toks = ["a","b","a","c","b","a"]
+    print("[dict] count_tokens:", count_tokens(toks))
+    pairs = [("x",2),("y",1)]
+    print("[dict] list_of_tuples_to_dict:", list_of_tuples_to_dict(pairs))
+    print("[dict] dict_to_sorted_items:", dict_to_sorted_items({"x":2,"y":1,"z":1}))
+    print("[dict] merge_sum:", merge_sum({"a":1,"b":2},{"b":5,"c":3}))
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 dictionary.py
+  CWD: week1/code
+  Exit code: 0
+  Runtime (s): 0.02
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+[dict] count_tokens: {'a': 3, 'b': 2, 'c': 1}
+[dict] list_of_tuples_to_dict: {'x': 2, 'y': 1}
+[dict] dict_to_sorted_items: [('y', 1), ('z', 1), ('x', 2)]
+[dict] merge_sum: {'a': 1, 'b': 7, 'c': 3}
+
+**********
+No errors.
+======================================================================
+Script: lc1.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+lc1.py — Loop -> List comprehension basics with quick self-tests.
+"""
+from typing import Iterable, List
+
+def squares_loop(n: int) -> List[int]:
+    out = []
+    for i in range(n):
+        out.append(i*i)
+    return out
+
+def squares_comp(n: int) -> List[int]:
+    return [i*i for i in range(n)]
+
+def evens_comp(seq: Iterable[int]) -> List[int]:
+    return [x for x in seq if x % 2 == 0]
+
+def lens_comp(names: Iterable[str]) -> List[int]:
+    return [len(s) for s in names]
+
+def flatten_pairs_comp(pairs: Iterable[tuple]) -> List:
+    return [item for p in pairs for item in p]
+
+def unique_sorted_comp(seq: Iterable[int]) -> List[int]:
+    # “列表推导 + 去重 + 排序”
+    return sorted({x for x in seq})
+
+if __name__ == "__main__":
+    print("[lc1] squares_loop(6)      =", squares_loop(6))
+    print("[lc1] squares_comp(6)      =", squares_comp(6))
+    print("[lc1] evens_comp(range(10))=", evens_comp(range(10)))
+    print("[lc1] lens_comp(['a','abcd','']) =", lens_comp(["a","abcd",""]))
+    print("[lc1] flatten_pairs_comp([(1,2),(3,4)]) =", flatten_pairs_comp([(1,2),(3,4)]))
+    print("[lc1] unique_sorted_comp([3,1,2,3,2]) =", unique_sorted_comp([3,1,2,3,2]))
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 lc1.py
+  CWD: week1/code
+  Exit code: 0
+  Runtime (s): 0.02
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+[lc1] squares_loop(6)      = [0, 1, 4, 9, 16, 25]
+[lc1] squares_comp(6)      = [0, 1, 4, 9, 16, 25]
+[lc1] evens_comp(range(10))= [0, 2, 4, 6, 8]
+[lc1] lens_comp(['a','abcd','']) = [1, 4, 0]
+[lc1] flatten_pairs_comp([(1,2),(3,4)]) = [1, 2, 3, 4]
+[lc1] unique_sorted_comp([3,1,2,3,2]) = [1, 2, 3]
+
+**********
+No errors.
+======================================================================
+Script: lc2.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+lc2.py — Slightly trickier list/dict/set comprehensions.
+"""
+from typing import Dict, Iterable, List, Tuple
+
+def word_lengths(words: Iterable[str]) -> Dict[str, int]:
+    return {w: len(w) for w in words}
+
+def vowels_only(s: str) -> List[str]:
+    return [ch for ch in s if ch.lower() in "aeiou"]
+
+def cartesian_comp(a: Iterable[int], b: Iterable[int]) -> List[Tuple[int,int]]:
+    return [(x,y) for x in a for y in b]
+
+def invert_dict(d: Dict[str, int]) -> Dict[int, List[str]]:
+    # value-> list of keys
+    inv: Dict[int, List[str]] = {}
+    for k, v in d.items():
+        inv.setdefault(v, []).append(k)
+    return inv
+
+if __name__ == "__main__":
+    words = ["eco","evo","bio","python",""]
+    print("[lc2] word_lengths:", word_lengths(words))
+    print("[lc2] vowels_only('MulQuaBio'):", vowels_only("MulQuaBio"))
+    print("[lc2] cartesian_comp([1,2],[10,20]):", cartesian_comp([1,2],[10,20]))
+    print("[lc2] invert_dict({'a':1,'b':2,'c':1}):", invert_dict({"a":1,"b":2,"c":1}))
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 lc2.py
+  CWD: week1/code
+  Exit code: 0
+  Runtime (s): 0.03
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+[lc2] word_lengths: {'eco': 3, 'evo': 3, 'bio': 3, 'python': 6, '': 0}
+[lc2] vowels_only('MulQuaBio'): ['u', 'u', 'a', 'i', 'o']
+[lc2] cartesian_comp([1,2],[10,20]): [(1, 10), (1, 20), (2, 10), (2, 20)]
+[lc2] invert_dict({'a':1,'b':2,'c':1}): {1: ['a', 'c'], 2: ['b']}
+
+**********
+No errors.
+======================================================================
+Script: name.py
+
+Contents:
+
+**********
+# 姓名由一个或多个“单词”组成，每个单词以字母开头，后续可带字母/数字/撇号/连字符/点，
+# 单词之间允许一个或多个空白。
+name_re = r"(?:[^\W\d_][\w'’.-]*)(?:\s+(?:[^\W\d_][\w'’.-]*))*"
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 name.py
+  CWD: week1/code
+  Exit code: 0
+  Runtime (s): 0.01
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+
+**********
+No errors.
+======================================================================
+Script: tuple.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+tuple.py — Tuple basics: packing/unpacking; tuples as dict keys.
+"""
+from typing import Dict, List, Tuple
+
+def swap(a, b):
+    # tuple packing/unpacking
+    a, b = b, a
+    return a, b
+
+def coords_to_dict(coords: List[Tuple[int,int]], label: str="P") -> Dict[Tuple[int,int], str]:
+    # 使用 tuple 作为 key
+    return {xy: f"{label}{i}" for i, xy in enumerate(coords, 1)}
+
+def unzip_pairs(pairs: List[Tuple]) -> Tuple[List, List]:
+    # 解包 zip(*pairs)
+    left, right = zip(*pairs) if pairs else ([], [])
+    return list(left), list(right)
+
+if __name__ == "__main__":
+    print("[tuple] swap(1,9) =>", swap(1,9))
+    print("[tuple] coords_to_dict([(0,0),(1,2)]) =>", coords_to_dict([(0,0),(1,2)]))
+    print("[tuple] unzip_pairs =>", unzip_pairs([("a",1),("b",2)]))
+
+**********
+
+Run metadata:
+  Command: cd "week1/code" && python3 tuple.py
+  CWD: week1/code
+  Exit code: 0
+  Runtime (s): 0.03
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+[tuple] swap(1,9) => (9, 1)
+[tuple] coords_to_dict([(0,0),(1,2)]) => {(0, 0): 'P1', (1, 2): 'P2'}
+[tuple] unzip_pairs => (['a', 'b'], [1, 2])
+
+**********
+No errors.
+======================================================================
+Script: CompileLaTeX.sh
+
+Contents:
+
+**********
+#!/bin/bash
+pdflatex $1.tex
+bibtex $1
+pdflatex $1.tex
+pdflatex $1.tex
+
+# 仅在有图形界面且存在 evince 时才尝试打开 PDF
+if [ -n "${DISPLAY:-}" ] && command -v evince >/dev/null 2>&1; then
+    evince $1.pdf &
+fi
+
+## Cleanup
+rm *.aux
+rm *.log
+rm *.bbl
+rm *.blg
+
+**********
+
+Run metadata:
+  Command: cd "week2/Code" && bash CompileLaTeX.sh
+  CWD: week2/Code
+  Exit code: 1
+  Runtime (s): 0.49
+  Timed out: No
+  Stderr bytes: 294
+
+Stdout (first 500 chars):
+
+**********
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+File ignored)
+*
+! Emergency stop.
+<*> 
+    
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on .log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex
+**********
+Errors:
+**********
+bibtex: Need exactly one file argument.
+Try `bibtex --help' for more information.
+rm: cannot remove '*.aux': No such file or directory
+rm: cannot remove '*.log': No such file or directory
+rm: cannot remove '*.bbl': No such file or directory
+rm: cannot remove '*.blg': No such file or directory
+
+**********
+======================================================================
+Script: ConcatenateTwoFiles.sh
+
+Contents:
+
+**********
+#!/bin/bash
+# Script: ConcatenateTwoFiles.sh
+# Desc: Merge two files into a third file
+# Usage: bash ConcatenateTwoFiles.sh file1 file2 mergedfile
+
+if [ $# -ne 3 ]; then
+  echo "Usage: bash ConcatenateTwoFiles.sh file1 file2 output"
+  exit 1
+fi
+
+cat "$1" > "$3"
+cat "$2" >> "$3"
+echo "Merged file created: $3"
+
+
+**********
+
+Run metadata:
+  Command: cd "week2/Code" && bash ConcatenateTwoFiles.sh
+  CWD: week2/Code
+  Exit code: 1
+  Runtime (s): 0.00
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+Usage: bash ConcatenateTwoFiles.sh file1 file2 output
+
+**********
+Errors:
+**********
+No stderr output captured.
+**********
+======================================================================
+Script: CountLines.sh
+
+Contents:
+
+**********
+#!/bin/bash
+# Script: CountLines.sh
+# Desc: Count the number of lines in a file
+# Usage: bash CountLines.sh file.txt
+
+if [ $# -ne 1 ]; then
+  echo "Usage: bash CountLines.sh filename"
+  exit 1
+fi
+
+if [ ! -f "$1" ]; then
+  echo "File not found!"
+  exit 1
+fi
+
+NumLines=$(wc -l < "$1")
+echo "The file $1 has $NumLines lines"
+
+**********
+
+Run metadata:
+  Command: cd "week2/Code" && bash CountLines.sh
+  CWD: week2/Code
+  Exit code: 1
+  Runtime (s): 0.00
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+Usage: bash CountLines.sh filename
+
+**********
+Errors:
+**********
+No stderr output captured.
+**********
+======================================================================
+Script: MyExampleScript.sh
+
+Contents:
+
+**********
+#!/bin/sh
+# A short script showing use of environment variables
+MSG1="Hello"
+MSG2=$USER
+echo "$MSG1 $MSG2"
+
+**********
+
+Run metadata:
+  Command: cd "week2/Code" && bash MyExampleScript.sh
+  CWD: week2/Code
+  Exit code: 0
+  Runtime (s): 0.01
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+Hello mhasoba
+
+**********
+No errors.
+======================================================================
+Script: boilerplate.sh
+
+Contents:
+
+**********
+#!/bin/sh
+# Author: Your Name your.login@imperial.ac.uk
+# Script: boilerplate.sh
+# Desc: simple boilerplate for shell scripts
+# Arguments: none
+# Date: Oct 2025
+
+echo -e "\nThis is a shell script! \n"
+
+**********
+
+Run metadata:
+  Command: cd "week2/Code" && bash boilerplate.sh
+  CWD: week2/Code
+  Exit code: 0
+  Runtime (s): 0.00
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+
+This is a shell script! 
+
+
+**********
+No errors.
+======================================================================
+Script: csvtospace.sh
+
+Contents:
+
+**********
+#!/bin/bash
+# Author: Your Name
+# Script: csvtospace.sh
+# Desc: Convert CSV to space-delimited text (without modifying original)
+# Usage: bash csvtospace.sh input.csv
+# Date: Oct 2025
+
+if [ $# -ne 1 ]; then
+  echo "Usage: bash csvtospace.sh input.csv"
+  exit 1
+fi
+
+if [ ! -f "$1" ]; then
+  echo "Error: file '$1' not found!"
+  exit 1
+fi
+
+input="$1"
+base="${input%.*}"
+outfile="${base}_space.txt"
+
+tr ',' ' ' < "$input" > "$outfile"
+echo "Converted '$input' → '$outfile'"
+
+**********
+
+Run metadata:
+  Command: cd "week2/Code" && bash csvtospace.sh
+  CWD: week2/Code
+  Exit code: 1
+  Runtime (s): 0.00
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+Usage: bash csvtospace.sh input.csv
+
+**********
+Errors:
+**********
+No stderr output captured.
+**********
+======================================================================
+Script: run_all.sh
+
+Contents:
+
+**********
+#!/bin/bash
+# Author: Your Name
+# Script: run_all.sh
+# Desc: Location-agnostic runner for all scripts. It auto-creates ../sandbox & ../data
+# Date: Oct 2025
+set -euo pipefail
+
+echo "========== Running all scripts (location-agnostic) =========="
+
+# 计算当前脚本所在目录（而不是调用时所在目录）
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SANDBOX="${DIR}/../sandbox"
+DATA="${DIR}/../data"
+
+# 保证目录存在
+mkdir -p "$SANDBOX" "$DATA"
+
+# 1. boilerplate.sh
+echo -e "\n--- Running boilerplate.sh ---"
+bash "$DIR/boilerplate.sh"
+
+# 2. variables.sh （用管道喂输入，避免交互）
+echo -e "\n--- Running variables.sh ---"
+printf "new_string\n3 5\n" | bash "$DIR/variables.sh" arg1 arg2
+
+# 3. MyExampleScript.sh
+echo -e "\n--- Running MyExampleScript.sh ---"
+bash "$DIR/MyExampleScript.sh"
+
+# 4. 准备测试文件（放在 ../sandbox 里）
+echo -e "col1\tcol2\tcol3\n1\t2\t3\n4\t5\t6" > "${SANDBOX}/test_tab.txt"
+echo -e "col1,col2,col3\n7,8,9\n10,11,12" > "${SANDBOX}/test_csv.csv"
+echo "file1 line" > "${SANDBOX}/file1.txt"
+echo "file2 line" > "${SANDBOX}/file2.txt"
+
+# 5. tabtocsv.sh
+echo -e "\n--- Running tabtocsv.sh ---"
+bash "$DIR/tabtocsv.sh" "${SANDBOX}/test_tab.txt"
+
+# 6. csvtospace.sh
+echo -e "\n--- Running csvtospace.sh ---"
+bash "$DIR/csvtospace.sh" "${SANDBOX}/test_csv.csv"
+
+# 7. CountLines.sh
+echo -e "\n--- Running CountLines.sh ---"
+bash "$DIR/CountLines.sh" "${SANDBOX}/test_tab.txt"
+
+# 8. ConcatenateTwoFiles.sh
+echo -e "\n--- Running ConcatenateTwoFiles.sh ---"
+bash "$DIR/ConcatenateTwoFiles.sh" "${SANDBOX}/file1.txt" "${SANDBOX}/file2.txt" "${SANDBOX}/merged.txt"
+
+# 9. tiff2png.sh （若无 convert 或无 .tif，则跳过）
+echo -e "\n--- Running tiff2png.sh (conditional) ---"
+if command -v convert >/dev/null 2>&1; then
+  # 在 sandbox 放一个空的示例 tif（可选）
+  # : > "${SANDBOX}/example.tif"
+  (cd "$SANDBOX" && bash "$DIR/tiff2png.sh")
+else
+  echo "Skip: 'convert' not found (ImageMagick not installed)."
+fi
+
+echo -e "\n========== All scripts executed =========="
+
+**********
+
+Run metadata:
+  Command: cd "week2/Code" && bash run_all.sh
+  CWD: week2/Code
+  Exit code: 0
+  Runtime (s): 0.03
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+========== Running all scripts (location-agnostic) ==========
+
+--- Running boilerplate.sh ---
+
+This is a shell script! 
+
+
+--- Running variables.sh ---
+This script was called with 2 parameters
+The script's name is /home/mhasoba/Documents/Teaching/MulQuaBio/MQB-TA/repos/HanxiaoWang_hw2625/week2/Code/variables.sh
+The arguments are arg1 arg2
+The first argument is arg1
+The second argument is arg2
+The current value of MY_VAR is: some string
+
+Please enter a new string:
+Now MY_VAR is: new_string
+
+Enter 
+**********
+No errors.
+======================================================================
+Script: tabtocsv.sh
+
+Contents:
+
+**********
+#!/bin/sh
+# Author: Your Name
+# Script: tabtocsv.sh
+# Desc: convert tab-delimited file to CSV
+# Usage: bash tabtocsv.sh inputfile
+# Date: Oct 2025
+
+if [ $# -ne 1 ]; then
+  echo "Error: please provide exactly one input file."
+  exit 1
+fi
+
+if [ ! -f "$1" ]; then
+  echo "Error: file '$1' not found!"
+  exit 1
+fi
+
+echo "Creating a comma delimited version of $1 ..."
+outfile="${1}.csv"
+tr -s '\t' ',' < "$1" > "$outfile"
+echo "Done! Saved as $outfile"
+
+**********
+
+Run metadata:
+  Command: cd "week2/Code" && bash tabtocsv.sh
+  CWD: week2/Code
+  Exit code: 1
+  Runtime (s): 0.01
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+Error: please provide exactly one input file.
+
+**********
+Errors:
+**********
+No stderr output captured.
+**********
+======================================================================
+Script: tiff2png.sh
+
+Contents:
+
+**********
+#!/bin/bash
+# Script: tiff2png.sh
+# Desc: Convert all .tif images in current directory to .png
+
+for f in *.tif; do
+  [ -f "$f" ] || continue
+  echo "Converting $f ..."
+  convert "$f" "$(basename "$f" .tif).png"
+done
+echo "All conversions done."
+
+**********
+
+Run metadata:
+  Command: cd "week2/Code" && bash tiff2png.sh
+  CWD: week2/Code
+  Exit code: 0
+  Runtime (s): 0.01
+  Timed out: No
+  Stderr bytes: 0
+
+Stdout (first 500 chars):
+
+**********
+All conversions done.
+
+**********
+No errors.
+======================================================================
+Script: variables.sh
+
+Contents:
+
+**********
+#!/bin/sh
+# Script illustrating variable use
+
+echo "This script was called with $# parameters"
+echo "The script's name is $0"
+echo "The arguments are $@"
+echo "The first argument is $1"
+echo "The second argument is $2"
+
+MY_VAR='some string'
+echo 'The current value of MY_VAR is:' $MY_VAR
+echo
+echo 'Please enter a new string:'
+read MY_VAR
+echo 'Now MY_VAR is:' $MY_VAR
+echo
+
+echo 'Enter two numbers separated by space(s):'
+read a b
+MY_SUM=$(expr $a + $b)
+echo "You entered $a and $b. Their sum is: $MY_SUM"
+
+**********
+
+Run metadata:
+  Command: cd "week2/Code" && bash variables.sh
+  CWD: week2/Code
+  Exit code: 0
+  Runtime (s): 0.01
+  Timed out: No
+  Stderr bytes: 51
+
+Stdout (first 500 chars):
+
+**********
+This script was called with 0 parameters
+The script's name is variables.sh
+The arguments are 
+The first argument is 
+The second argument is 
+The current value of MY_VAR is: some string
+
+Please enter a new string:
+Now MY_VAR is:
+
+Enter two numbers separated by space(s):
+You entered  and . Their sum is: 
+
+**********
+Warnings/Notes:
+**********
+expr: syntax error: missing argument after ‘+’
+
+**********
+======================================================================
+FUNCTIONAL CORRECTNESS (Criterion 2)
+======================================================================
+
+Scripts executed: 27
+Scripts successful: 15
+Scripts with errors: 12
+Success rate: 55.6%
+
+Expected outputs check:
+  Expected: 1
+  Found: 0
+  Missing: 1
+  Note: Missing expected files are treated as incomplete outputs.
+
+Scripts that error on a clean run are treated as non-runnable under Criterion 2.
+
+Criterion evidence snapshot:
+  Criterion 2:
+  - Scripts executed: 27
+  - Scripts with errors: 12
+  - Missing expected outputs: 1
+
+
+======================================================================
+FEEDBACK SUMMARY
+======================================================================
+
+Scripts tested: 32
+Scripts successful: 20
+Scripts with errors: 12
+Missing expected outputs: -2
+Warnings/Notes: 33
+
+Groupwork evidence (Criteria 6-7): collected (group repo URL provided)
+
+IMPORTANT DEBUGGING GUIDANCE:
+------------------------------
+
+Please review all warnings and errors, and your directory structure based on the above log.
+
+Read every warning/error above and reproduce failures locally.
+
+Then ask yourself: Why did I not get these warnings or errors on my machine when I tested my code?
+
+Most common causes:
+
+• File paths: Your local machine may have different directory structures
+• Dependencies: Missing packages or different versions
+• File permissions: Scripts may not be executable on the testing server
+• Case sensitivity: Linux systems are case-sensitive (your laptop may not be)
+• Working directory: Scripts may assume they run from a specific location
+• Input files: Required data files may be missing or in wrong locations
+
+Debugging steps:
+1. Test your code in a clean environment (fresh directory)
+2. Check all file paths are relative and correct
+3. Verify all required files are present and properly named
+4. Test on a case-sensitive system if possible
+5. Run your scripts from different directories to check robustness
+
+**Fix these issues and test again. Good debugging skills are essential for scientific computing!**
+
