@@ -1,0 +1,3348 @@
+"CurveID","Model","Parameter","Estimate"
+"C001","Cubic","(Intercept)",-1.72521381192809
+"C001","Cubic","poly(Time, 3, raw = TRUE)1",0.0135596556631982
+"C001","Cubic","poly(Time, 3, raw = TRUE)2",-5.56051722781545e-05
+"C001","Cubic","poly(Time, 3, raw = TRUE)3",6.41145217929294e-08
+"C001","Gompertz","N_0",-2.27351730321517
+"C001","Gompertz","N_max",-0.75292569605205
+"C001","Gompertz","r_max",0.0766921115134104
+"C001","Gompertz","t_lag",-9.60311301552813
+"C001","Quadratic","(Intercept)",-1.49214624900988
+"C001","Quadratic","poly(Time, 2, raw = TRUE)1",0.00547959883610696
+"C001","Quadratic","poly(Time, 2, raw = TRUE)2",-1.04162747137526e-05
+"C002","Cubic","(Intercept)",-1.66973889203321
+"C002","Cubic","poly(Time, 3, raw = TRUE)1",0.0444076819784169
+"C002","Cubic","poly(Time, 3, raw = TRUE)2",-0.000605460109669888
+"C002","Cubic","poly(Time, 3, raw = TRUE)3",2.2573873844834e-06
+"C002","Gompertz","N_0",-1.97428461609866
+"C002","Gompertz","N_max",-0.843947815572614
+"C002","Gompertz","r_max",0.232162215942552
+"C002","Gompertz","t_lag",-0.608311895558134
+"C002","Quadratic","(Intercept)",-1.54500741516082
+"C002","Quadratic","poly(Time, 2, raw = TRUE)1",0.0203047065861598
+"C002","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000128949273840711
+"C003","Cubic","(Intercept)",-1.54245243897397
+"C003","Cubic","poly(Time, 3, raw = TRUE)1",0.0418590482929479
+"C003","Cubic","poly(Time, 3, raw = TRUE)2",-0.000614195626026981
+"C003","Cubic","poly(Time, 3, raw = TRUE)3",2.42553651772896e-06
+"C003","Gompertz","N_0",-1.8739010767114
+"C003","Gompertz","N_max",-0.856869611562136
+"C003","Gompertz","r_max",0.292463458836741
+"C003","Gompertz","t_lag",0.431968714414612
+"C003","Quadratic","(Intercept)",-1.39523005547403
+"C003","Quadratic","poly(Time, 2, raw = TRUE)1",0.0155080523265403
+"C003","Quadratic","poly(Time, 2, raw = TRUE)2",-9.94260773074756e-05
+"C004","Cubic","(Intercept)",-1.80186855563856
+"C004","Cubic","poly(Time, 3, raw = TRUE)1",0.00266617980652245
+"C004","Cubic","poly(Time, 3, raw = TRUE)2",-5.17507064209632e-06
+"C004","Cubic","poly(Time, 3, raw = TRUE)3",3.37344072816315e-09
+"C004","Gompertz","N_0",-1.90322898346677
+"C004","Gompertz","N_max",-1.26766254125909
+"C004","Gompertz","r_max",0.00325038291685224
+"C004","Gompertz","t_lag",-117.873608157751
+"C004","Quadratic","(Intercept)",-1.75699874287556
+"C004","Quadratic","poly(Time, 2, raw = TRUE)1",0.00177425395397332
+"C004","Quadratic","poly(Time, 2, raw = TRUE)2",-1.78271258852245e-06
+"C005","Cubic","(Intercept)",-1.43860941222297
+"C005","Cubic","poly(Time, 3, raw = TRUE)1",0.0117055395622459
+"C005","Cubic","poly(Time, 3, raw = TRUE)2",-4.72101036184429e-05
+"C005","Cubic","poly(Time, 3, raw = TRUE)3",5.45848018318731e-08
+"C005","Gompertz","N_0",-2.09555495892309
+"C005","Gompertz","N_max",-0.605732232789696
+"C005","Gompertz","r_max",0.188229366426767
+"C005","Gompertz","t_lag",-1.77038699445922
+"C005","Quadratic","(Intercept)",-1.23233125482811
+"C005","Quadratic","poly(Time, 2, raw = TRUE)1",0.00474434402773169
+"C005","Quadratic","poly(Time, 2, raw = TRUE)2",-8.57512517818226e-06
+"C006","Cubic","(Intercept)",-1.51990045691769
+"C006","Cubic","poly(Time, 3, raw = TRUE)1",0.0466832287898083
+"C006","Cubic","poly(Time, 3, raw = TRUE)2",-0.000651254117329108
+"C006","Cubic","poly(Time, 3, raw = TRUE)3",2.41360280331539e-06
+"C006","Gompertz","N_0",-1.79805693659835
+"C006","Gompertz","N_max",-0.703260240320586
+"C006","Gompertz","r_max",0.223672083665578
+"C006","Gompertz","t_lag",-0.804609361088181
+"C006","Quadratic","(Intercept)",-1.39363843166994
+"C006","Quadratic","poly(Time, 2, raw = TRUE)1",0.0211222602039188
+"C006","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000142961893533623
+"C007","Cubic","(Intercept)",-1.35312715914903
+"C007","Cubic","poly(Time, 3, raw = TRUE)1",0.0502475676641668
+"C007","Cubic","poly(Time, 3, raw = TRUE)2",-0.000701072235216005
+"C007","Cubic","poly(Time, 3, raw = TRUE)3",2.81582728551079e-06
+"C007","Gompertz","N_0",-1.79471441649948
+"C007","Gompertz","N_max",-0.355388121234268
+"C007","Gompertz","r_max",0.303292392766172
+"C007","Gompertz","t_lag",-0.582806084983915
+"C007","Quadratic","(Intercept)",-1.19601515805702
+"C007","Quadratic","poly(Time, 2, raw = TRUE)1",0.0201171678277047
+"C007","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000106195621369538
+"C008","Cubic","(Intercept)",-1.74168931445189
+"C008","Cubic","poly(Time, 3, raw = TRUE)1",0.00482146814115229
+"C008","Cubic","poly(Time, 3, raw = TRUE)2",-9.43323918782851e-06
+"C008","Cubic","poly(Time, 3, raw = TRUE)3",6.06904245881592e-09
+"C008","Gompertz","N_0",-1.75461072882879
+"C008","Gompertz","N_max",-0.885372338112561
+"C008","Gompertz","r_max",0.00738076087209588
+"C008","Gompertz","t_lag",-21.2351441035569
+"C008","Quadratic","(Intercept)",-1.65929209690216
+"C008","Quadratic","poly(Time, 2, raw = TRUE)1",0.00320642091636565
+"C008","Quadratic","poly(Time, 2, raw = TRUE)2",-3.31727746960516e-06
+"C009","Cubic","(Intercept)",-1.6142391840471
+"C009","Cubic","poly(Time, 3, raw = TRUE)1",0.0146844747303019
+"C009","Cubic","poly(Time, 3, raw = TRUE)2",-6.35656872555674e-05
+"C009","Cubic","poly(Time, 3, raw = TRUE)3",7.53260423966304e-08
+"C009","Gompertz","N_0",-2.5620909644605
+"C009","Gompertz","N_max",-0.644765010581276
+"C009","Gompertz","r_max",0.47303144605416
+"C009","Gompertz","t_lag",-0.147544364497578
+"C009","Quadratic","(Intercept)",-1.43286892600498
+"C009","Quadratic","poly(Time, 2, raw = TRUE)1",0.00590920481571305
+"C009","Quadratic","poly(Time, 2, raw = TRUE)2",-1.16422058733775e-05
+"C010","Cubic","(Intercept)",-1.71596130772453
+"C010","Cubic","poly(Time, 3, raw = TRUE)1",0.0621931174932564
+"C010","Cubic","poly(Time, 3, raw = TRUE)2",-0.000846558576794173
+"C010","Cubic","poly(Time, 3, raw = TRUE)3",3.08045274776497e-06
+"C010","Gompertz","N_0",-2.27490547891853
+"C010","Gompertz","N_max",-0.819705338798414
+"C010","Gompertz","r_max",0.425524014030316
+"C010","Gompertz","t_lag",-0.999093194572331
+"C010","Quadratic","(Intercept)",-1.557403498608
+"C010","Quadratic","poly(Time, 2, raw = TRUE)1",0.0296693089056973
+"C010","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000198494470771337
+"C011","Cubic","(Intercept)",-1.45622710299349
+"C011","Cubic","poly(Time, 3, raw = TRUE)1",0.0605141079577426
+"C011","Cubic","poly(Time, 3, raw = TRUE)2",-0.000847156019356574
+"C011","Cubic","poly(Time, 3, raw = TRUE)3",3.09500713510141e-06
+"C011","Gompertz","N_0",-1.8739010767114
+"C011","Gompertz","N_max",-0.436151225246078
+"C011","Gompertz","r_max",0.305413823254628
+"C011","Gompertz","t_lag",-0.644136340194801
+"C011","Quadratic","(Intercept)",-1.27961001102687
+"C011","Quadratic","poly(Time, 2, raw = TRUE)1",0.0273206085225835
+"C011","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000193051733608834
+"C012","Cubic","(Intercept)",-1.99073278677329
+"C012","Cubic","poly(Time, 3, raw = TRUE)1",0.00683391935492536
+"C012","Cubic","poly(Time, 3, raw = TRUE)2",-1.50494591859106e-05
+"C012","Cubic","poly(Time, 3, raw = TRUE)3",1.07015214248949e-08
+"C012","Gompertz","N_0",-2.05561604235916
+"C012","Gompertz","N_max",-0.955264302549493
+"C012","Gompertz","r_max",0.0120043711932168
+"C012","Gompertz","t_lag",-19.5660365425241
+"C012","Quadratic","(Intercept)",-1.84540580541255
+"C012","Quadratic","poly(Time, 2, raw = TRUE)1",0.0039900445615834
+"C012","Quadratic","poly(Time, 2, raw = TRUE)2",-4.27454715152666e-06
+"C013","Cubic","(Intercept)",-0.19783392011686
+"C013","Cubic","poly(Time, 3, raw = TRUE)1",-0.00129583426097425
+"C013","Cubic","poly(Time, 3, raw = TRUE)2",0.000444824877476435
+"C013","Cubic","poly(Time, 3, raw = TRUE)3",-1.80359434490131e-06
+"C013","Gompertz","N_0",-0.0102365890122023
+"C013","Gompertz","N_max",3.44363157893463
+"C013","Gompertz","r_max",0.109517396174369
+"C013","Gompertz","t_lag",43.3329068129452
+"C013","Quadratic","(Intercept)",-0.997083817582451
+"C013","Quadratic","poly(Time, 2, raw = TRUE)1",0.0432259954961094
+"C013","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000102602808539026
+"C014","Cubic","(Intercept)",0.206832299269541
+"C014","Cubic","poly(Time, 3, raw = TRUE)1",-0.0293172118995736
+"C014","Cubic","poly(Time, 3, raw = TRUE)2",0.000803317354573415
+"C014","Cubic","poly(Time, 3, raw = TRUE)3",-3.21762291432514e-06
+"C014","Gompertz","N_0",-0.0090478821153407
+"C014","Gompertz","N_max",2.91339214955796
+"C014","Gompertz","r_max",0.112457592281661
+"C014","Gompertz","t_lag",50.2137279743484
+"C014","Quadratic","(Intercept)",-1.33694126153515
+"C014","Quadratic","poly(Time, 2, raw = TRUE)1",0.0439248446351891
+"C014","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000106671019933034
+"C015","Cubic","(Intercept)",-0.849236112272255
+"C015","Cubic","poly(Time, 3, raw = TRUE)1",0.0239688710112479
+"C015","Cubic","poly(Time, 3, raw = TRUE)2",0.000129892063424465
+"C015","Cubic","poly(Time, 3, raw = TRUE)3",-8.70653806894825e-07
+"C015","Gompertz","N_0",0.0018811921660939
+"C015","Gompertz","N_max",2.63200711163607
+"C015","Gompertz","r_max",0.095479029014256
+"C015","Gompertz","t_lag",42.0095691262548
+"C015","Quadratic","(Intercept)",-1.4682446613333
+"C015","Quadratic","poly(Time, 2, raw = TRUE)1",0.0495651240677198
+"C015","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000150275063648814
+"C016","Cubic","(Intercept)",0.124585927084313
+"C016","Cubic","poly(Time, 3, raw = TRUE)1",-0.0130538063487301
+"C016","Cubic","poly(Time, 3, raw = TRUE)2",0.00143951748416078
+"C016","Cubic","poly(Time, 3, raw = TRUE)3",-9.56620963837275e-06
+"C016","Gompertz","N_0",0.254311652164294
+"C016","Gompertz","N_max",3.59306367934652
+"C016","Gompertz","r_max",0.165076478006133
+"C016","Gompertz","t_lag",25.2099957094441
+"C016","Quadratic","(Intercept)",-0.902791428624095
+"C016","Quadratic","poly(Time, 2, raw = TRUE)1",0.0683997210894863
+"C016","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000228741915852998
+"C017","Cubic","(Intercept)",-0.700376725104916
+"C017","Cubic","poly(Time, 3, raw = TRUE)1",0.028481194714962
+"C017","Cubic","poly(Time, 3, raw = TRUE)2",0.000812251883090484
+"C017","Cubic","poly(Time, 3, raw = TRUE)3",-7.1264333173466e-06
+"C017","Gompertz","N_0",0.236917229967584
+"C017","Gompertz","N_max",3.1350632913959
+"C017","Gompertz","r_max",0.17229501265131
+"C017","Gompertz","t_lag",26.3808748585881
+"C017","Quadratic","(Intercept)",-1.76933908045142
+"C017","Quadratic","poly(Time, 2, raw = TRUE)1",0.0984674846266214
+"C017","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000489266257716686
+"C018","Cubic","(Intercept)",-0.400756206588538
+"C018","Cubic","poly(Time, 3, raw = TRUE)1",0.00493546329019437
+"C018","Cubic","poly(Time, 3, raw = TRUE)2",0.000877687102213703
+"C018","Cubic","poly(Time, 3, raw = TRUE)3",-6.15873893507372e-06
+"C018","Gompertz","N_0",0.152173944714106
+"C018","Gompertz","N_max",2.72754897910617
+"C018","Gompertz","r_max",0.132810695363529
+"C018","Gompertz","t_lag",29.7190052764452
+"C018","Quadratic","(Intercept)",-1.38148714533965
+"C018","Quadratic","poly(Time, 2, raw = TRUE)1",0.0674076693402442
+"C018","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000262939775556141
+"C019","Cubic","(Intercept)",0.374262635972295
+"C019","Cubic","poly(Time, 3, raw = TRUE)1",-0.0841030132830256
+"C019","Cubic","poly(Time, 3, raw = TRUE)2",0.00721330598370421
+"C019","Cubic","poly(Time, 3, raw = TRUE)3",-8.82609082024015e-05
+"C019","Gompertz","N_0",0.246178485704269
+"C019","Gompertz","N_max",3.16363009794401
+"C019","Gompertz","r_max",0.314627941202652
+"C019","Gompertz","t_lag",16.2954360927987
+"C019","Quadratic","(Intercept)",-0.415386370916515
+"C019","Quadratic","poly(Time, 2, raw = TRUE)1",0.0679801419743859
+"C019","Quadratic","poly(Time, 2, raw = TRUE)2",0.000199526174052775
+"C020","Cubic","(Intercept)",0.00504299895218428
+"C020","Cubic","poly(Time, 3, raw = TRUE)1",-0.0332986772812457
+"C020","Cubic","poly(Time, 3, raw = TRUE)2",0.00524389939941769
+"C020","Cubic","poly(Time, 3, raw = TRUE)3",-7.06877759441881e-05
+"C020","Gompertz","N_0",0.229902823080345
+"C020","Gompertz","N_max",2.66005370140195
+"C020","Gompertz","r_max",0.264441458400832
+"C020","Gompertz","t_lag",14.8705235102572
+"C020","Quadratic","(Intercept)",-1.2797818136057
+"C020","Quadratic","poly(Time, 2, raw = TRUE)1",0.13197019172565
+"C020","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000978166197957934
+"C021","Cubic","(Intercept)",0.389948509412804
+"C021","Cubic","poly(Time, 3, raw = TRUE)1",-0.109812819759499
+"C021","Cubic","poly(Time, 3, raw = TRUE)2",0.00761172560389842
+"C021","Cubic","poly(Time, 3, raw = TRUE)3",-9.07607192384646e-05
+"C021","Gompertz","N_0",0.148267944505959
+"C021","Gompertz","N_max",2.62863382453756
+"C021","Gompertz","r_max",0.298553110642838
+"C021","Gompertz","t_lag",18.6062704935757
+"C021","Quadratic","(Intercept)",-0.121764010803783
+"C021","Quadratic","poly(Time, 2, raw = TRUE)1",0.0241239903499173
+"C021","Quadratic","poly(Time, 2, raw = TRUE)2",0.000828960291921779
+"C022","Cubic","(Intercept)",0.421897135846348
+"C022","Cubic","poly(Time, 3, raw = TRUE)1",-0.00938841935103473
+"C022","Cubic","poly(Time, 3, raw = TRUE)2",6.86202270664494e-05
+"C022","Cubic","poly(Time, 3, raw = TRUE)3",-7.97649172794866e-08
+"C022","Gompertz","N_0",0.189814546840276
+"C022","Gompertz","N_max",2.88739875022544
+"C022","Gompertz","r_max",0.0283898994381013
+"C022","Gompertz","t_lag",173.667417978948
+"C022","Quadratic","(Intercept)",-0.586736542642064
+"C022","Quadratic","poly(Time, 2, raw = TRUE)1",0.00772105851431491
+"C022","Quadratic","poly(Time, 2, raw = TRUE)2",-1.88745337713325e-06
+"C023","Cubic","(Intercept)",0.239841065150164
+"C023","Cubic","poly(Time, 3, raw = TRUE)1",-0.00717386562269325
+"C023","Cubic","poly(Time, 3, raw = TRUE)2",5.85247918167994e-05
+"C023","Cubic","poly(Time, 3, raw = TRUE)3",-6.89114615423166e-08
+"C023","Gompertz","N_0",0.0971702543606481
+"C023","Gompertz","N_max",2.56957568441447
+"C023","Gompertz","r_max",0.0277071636312787
+"C023","Gompertz","t_lag",170.390530286473
+"C023","Quadratic","(Intercept)",-0.655289606570939
+"C023","Quadratic","poly(Time, 2, raw = TRUE)1",0.00774025002632456
+"C023","Quadratic","poly(Time, 2, raw = TRUE)2",-2.56154065576581e-06
+"C024","Cubic","(Intercept)",0.388881816844717
+"C024","Cubic","poly(Time, 3, raw = TRUE)1",-0.00800315976493931
+"C024","Cubic","poly(Time, 3, raw = TRUE)2",5.79548352963508e-05
+"C024","Cubic","poly(Time, 3, raw = TRUE)3",-6.5465642485467e-08
+"C024","Gompertz","N_0",0.182594062319086
+"C024","Gompertz","N_max",2.59957373553304
+"C024","Gompertz","r_max",0.0254455824036634
+"C024","Gompertz","t_lag",178.150688178249
+"C024","Quadratic","(Intercept)",-0.493905291339756
+"C024","Quadratic","poly(Time, 2, raw = TRUE)1",0.00653548724180892
+"C024","Quadratic","poly(Time, 2, raw = TRUE)2",-8.43295093217792e-07
+"C025","Cubic","(Intercept)",1.28200651198704
+"C025","Cubic","poly(Time, 3, raw = TRUE)1",-0.0265327383810981
+"C025","Cubic","poly(Time, 3, raw = TRUE)2",0.000159064202629712
+"C025","Cubic","poly(Time, 3, raw = TRUE)3",-1.92665902491362e-07
+"C025","Gompertz","N_0",0.121783335079454
+"C025","Gompertz","N_max",4.07187145540463
+"C025","Gompertz","r_max",0.0430633582765705
+"C025","Gompertz","t_lag",168.061799220946
+"C025","Quadratic","(Intercept)",-3.50693726136526
+"C025","Quadratic","poly(Time, 2, raw = TRUE)1",0.0282149037088778
+"C025","Quadratic","poly(Time, 2, raw = TRUE)2",-2.68218551063819e-05
+"C026","Cubic","(Intercept)",0.351742797523783
+"C026","Cubic","poly(Time, 3, raw = TRUE)1",-0.00965673536392473
+"C026","Cubic","poly(Time, 3, raw = TRUE)2",8.32613084483595e-05
+"C026","Cubic","poly(Time, 3, raw = TRUE)3",-1.10573187392578e-07
+"C026","Gompertz","N_0",0.11880736835512
+"C026","Gompertz","N_max",2.67633974498655
+"C026","Gompertz","r_max",0.0356522329713818
+"C026","Gompertz","t_lag",155.892587256391
+"C026","Quadratic","(Intercept)",-1.10358389839887
+"C026","Quadratic","poly(Time, 2, raw = TRUE)1",0.0135120906134247
+"C026","Quadratic","poly(Time, 2, raw = TRUE)2",-1.15858885572446e-05
+"C027","Cubic","(Intercept)",0.390110725844441
+"C027","Cubic","poly(Time, 3, raw = TRUE)1",-0.00776490211685974
+"C027","Cubic","poly(Time, 3, raw = TRUE)2",7.59583336427879e-05
+"C027","Cubic","poly(Time, 3, raw = TRUE)3",-1.00403550014108e-07
+"C027","Gompertz","N_0",0.302276104149086
+"C027","Gompertz","N_max",2.95688059890888
+"C027","Gompertz","r_max",0.0373523429232215
+"C027","Gompertz","t_lag",159.475718196886
+"C027","Quadratic","(Intercept)",-0.980294342418135
+"C027","Quadratic","poly(Time, 2, raw = TRUE)1",0.0138048148446685
+"C027","Quadratic","poly(Time, 2, raw = TRUE)2",-1.12626182940064e-05
+"C028","Cubic","(Intercept)",0.147498805481236
+"C028","Cubic","poly(Time, 3, raw = TRUE)1",-0.0186384847950179
+"C028","Cubic","poly(Time, 3, raw = TRUE)2",0.000259006654689508
+"C028","Cubic","poly(Time, 3, raw = TRUE)3",-5.19712105532713e-07
+"C028","Gompertz","N_0",0.0348500209176891
+"C028","Gompertz","N_max",3.9169421410642
+"C028","Gompertz","r_max",0.0756526955179174
+"C028","Gompertz","t_lag",111.718634190121
+"C028","Quadratic","(Intercept)",-0.401808607655701
+"C028","Quadratic","poly(Time, 2, raw = TRUE)1",0.0116756112699926
+"C028","Quadratic","poly(Time, 2, raw = TRUE)2",1.0360901391331e-05
+"C029","Cubic","(Intercept)",0.120489447284003
+"C029","Cubic","poly(Time, 3, raw = TRUE)1",-0.00979393174484969
+"C029","Cubic","poly(Time, 3, raw = TRUE)2",0.000201250147161716
+"C029","Cubic","poly(Time, 3, raw = TRUE)3",-4.47791854720967e-07
+"C029","Gompertz","N_0",0.106534871908223
+"C029","Gompertz","N_max",3.28455682841832
+"C029","Gompertz","r_max",0.0625843055951449
+"C029","Gompertz","t_lag",87.3900563282048
+"C029","Quadratic","(Intercept)",-0.291228499932021
+"C029","Quadratic","poly(Time, 2, raw = TRUE)1",0.014683645554849
+"C029","Quadratic","poly(Time, 2, raw = TRUE)2",-7.56623274053309e-06
+"C030","Cubic","(Intercept)",0.0987356883658142
+"C030","Cubic","poly(Time, 3, raw = TRUE)1",-0.00778909863384631
+"C030","Cubic","poly(Time, 3, raw = TRUE)2",0.000145719500914538
+"C030","Cubic","poly(Time, 3, raw = TRUE)3",-2.82085162225566e-07
+"C030","Gompertz","N_0",0.0975565650441906
+"C030","Gompertz","N_max",3.32010576454553
+"C030","Gompertz","r_max",0.0496791511504193
+"C030","Gompertz","t_lag",96.1792369898543
+"C030","Quadratic","(Intercept)",-0.16017284060087
+"C030","Quadratic","poly(Time, 2, raw = TRUE)1",0.00785732102720297
+"C030","Quadratic","poly(Time, 2, raw = TRUE)2",1.30326445543575e-05
+"C031","Cubic","(Intercept)",-0.355449894552691
+"C031","Cubic","poly(Time, 3, raw = TRUE)1",0.01242850363435
+"C031","Cubic","poly(Time, 3, raw = TRUE)2",0.000169665666113516
+"C031","Cubic","poly(Time, 3, raw = TRUE)3",-7.31916065300781e-07
+"C031","Gompertz","N_0",0.0228760452235748
+"C031","Gompertz","N_max",3.04891196912784
+"C031","Gompertz","r_max",0.0815136554734416
+"C031","Gompertz","t_lag",41.3884765044318
+"C031","Quadratic","(Intercept)",-0.833058801572462
+"C031","Quadratic","poly(Time, 2, raw = TRUE)1",0.0347718222020202
+"C031","Quadratic","poly(Time, 2, raw = TRUE)2",-7.58811803463872e-05
+"C032","Cubic","(Intercept)",-0.350802692505846
+"C032","Cubic","poly(Time, 3, raw = TRUE)1",0.00151223808022698
+"C032","Cubic","poly(Time, 3, raw = TRUE)2",0.00032122485551308
+"C032","Cubic","poly(Time, 3, raw = TRUE)3",-1.32068829560994e-06
+"C032","Gompertz","N_0",0.0211851629123192
+"C032","Gompertz","N_max",2.56313611564318
+"C032","Gompertz","r_max",0.0952238460370852
+"C032","Gompertz","t_lag",51.2233586781608
+"C032","Quadratic","(Intercept)",-1.26684287561594
+"C032","Quadratic","poly(Time, 2, raw = TRUE)1",0.0397492126579969
+"C032","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000100647371827469
+"C033","Cubic","(Intercept)",-0.213657341040952
+"C033","Cubic","poly(Time, 3, raw = TRUE)1",0.00891702556611709
+"C033","Cubic","poly(Time, 3, raw = TRUE)2",0.0001884678881468
+"C033","Cubic","poly(Time, 3, raw = TRUE)3",-8.03855368615486e-07
+"C033","Gompertz","N_0",0.00199628733526195
+"C033","Gompertz","N_max",2.83252512499984
+"C033","Gompertz","r_max",0.0659306896514033
+"C033","Gompertz","t_lag",33.2275507736539
+"C033","Quadratic","(Intercept)",-0.696067550532515
+"C033","Quadratic","poly(Time, 2, raw = TRUE)1",0.0319765056299055
+"C033","Quadratic","poly(Time, 2, raw = TRUE)2",-7.26172477102901e-05
+"C034","Cubic","(Intercept)",-0.131598200819416
+"C034","Cubic","poly(Time, 3, raw = TRUE)1",-5.70175923703447e-05
+"C034","Cubic","poly(Time, 3, raw = TRUE)2",0.000848625929727167
+"C034","Cubic","poly(Time, 3, raw = TRUE)3",-5.20731263688622e-06
+"C034","Gompertz","N_0",0.163085007495921
+"C034","Gompertz","N_max",3.12157835924706
+"C034","Gompertz","r_max",0.122797788829888
+"C034","Gompertz","t_lag",26.9764325751033
+"C034","Quadratic","(Intercept)",-1.19999599358582
+"C034","Quadratic","poly(Time, 2, raw = TRUE)1",0.0641827097669751
+"C034","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000223466424246244
+"C035","Cubic","(Intercept)",0.285691726333738
+"C035","Cubic","poly(Time, 3, raw = TRUE)1",-0.0307223099270263
+"C035","Cubic","poly(Time, 3, raw = TRUE)2",0.00171158055631494
+"C035","Cubic","poly(Time, 3, raw = TRUE)3",-1.10880222022716e-05
+"C035","Gompertz","N_0",0.172600455220756
+"C035","Gompertz","N_max",3.17246822766421
+"C035","Gompertz","r_max",0.151201784325507
+"C035","Gompertz","t_lag",25.6596673691536
+"C035","Quadratic","(Intercept)",-0.636485969892861
+"C035","Quadratic","poly(Time, 2, raw = TRUE)1",0.052731152559285
+"C035","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0001280424684864
+"C036","Cubic","(Intercept)",-0.247577901316671
+"C036","Cubic","poly(Time, 3, raw = TRUE)1",0.0118633558865077
+"C036","Cubic","poly(Time, 3, raw = TRUE)2",0.000548970670360556
+"C036","Cubic","poly(Time, 3, raw = TRUE)3",-3.88929990590796e-06
+"C036","Gompertz","N_0",0.0830279525682455
+"C036","Gompertz","N_max",2.53648566563619
+"C036","Gompertz","r_max",0.108707590913753
+"C036","Gompertz","t_lag",24.4008279438304
+"C036","Quadratic","(Intercept)",-0.799142994727369
+"C036","Quadratic","poly(Time, 2, raw = TRUE)1",0.051293613340098
+"C036","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000186964166927112
+"C037","Cubic","(Intercept)",0.38148300381392
+"C037","Cubic","poly(Time, 3, raw = TRUE)1",-0.0593450689281065
+"C037","Cubic","poly(Time, 3, raw = TRUE)2",0.00426677400634555
+"C037","Cubic","poly(Time, 3, raw = TRUE)3",-4.41421714942227e-05
+"C037","Gompertz","N_0",0.214626632478839
+"C037","Gompertz","N_max",2.67000864960107
+"C037","Gompertz","r_max",0.215529952010522
+"C037","Gompertz","t_lag",18.3027623148317
+"C037","Quadratic","(Intercept)",-0.502903215095037
+"C037","Quadratic","poly(Time, 2, raw = TRUE)1",0.0600255481839175
+"C037","Quadratic","poly(Time, 2, raw = TRUE)2",-1.92924453190314e-05
+"C038","Cubic","(Intercept)",0.772854727082128
+"C038","Cubic","poly(Time, 3, raw = TRUE)1",-0.128870729913018
+"C038","Cubic","poly(Time, 3, raw = TRUE)2",0.00821695452289245
+"C038","Cubic","poly(Time, 3, raw = TRUE)3",-9.72399046794278e-05
+"C038","Gompertz","N_0",0.306062222871062
+"C038","Gompertz","N_max",2.73287747133478
+"C038","Gompertz","r_max",0.282321113084966
+"C038","Gompertz","t_lag",17.847808159321
+"C038","Quadratic","(Intercept)",-1.21733319812584
+"C038","Quadratic","poly(Time, 2, raw = TRUE)1",0.114876420278042
+"C038","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000615806214011078
+"C039","Cubic","(Intercept)",-0.979951485737816
+"C039","Cubic","poly(Time, 3, raw = TRUE)1",0.0200701273959754
+"C039","Cubic","poly(Time, 3, raw = TRUE)2",0.00276708473465752
+"C039","Cubic","poly(Time, 3, raw = TRUE)3",-3.63260081735966e-05
+"C039","Gompertz","N_0",0.445362238524872
+"C039","Gompertz","N_max",2.43134166122441
+"C039","Gompertz","r_max",0.240270475120132
+"C039","Gompertz","t_lag",23.5457410776588
+"C039","Quadratic","(Intercept)",-2.76327667432134
+"C039","Quadratic","poly(Time, 2, raw = TRUE)1",0.173775690020585
+"C039","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00142285830769061
+"C040","Cubic","(Intercept)",0.350213624760422
+"C040","Cubic","poly(Time, 3, raw = TRUE)1",-0.0108960220964527
+"C040","Cubic","poly(Time, 3, raw = TRUE)2",6.85080147068367e-05
+"C040","Cubic","poly(Time, 3, raw = TRUE)3",-7.0442300837698e-08
+"C040","Gompertz","N_0",0.0124951358118899
+"C040","Gompertz","N_max",3.35514889843647
+"C040","Gompertz","r_max",0.0326003627588909
+"C040","Gompertz","t_lag",199.184217296941
+"C040","Quadratic","(Intercept)",-0.783213647278244
+"C040","Quadratic","poly(Time, 2, raw = TRUE)1",0.00695011005745424
+"C040","Quadratic","poly(Time, 2, raw = TRUE)2",7.48563773021378e-07
+"C041","Cubic","(Intercept)",0.0178011368711293
+"C041","Cubic","poly(Time, 3, raw = TRUE)1",-0.00327971938780823
+"C041","Cubic","poly(Time, 3, raw = TRUE)2",4.81513470819754e-05
+"C041","Cubic","poly(Time, 3, raw = TRUE)3",-6.02564593167783e-08
+"C041","Gompertz","N_0",0.0917245310656391
+"C041","Gompertz","N_max",2.7858402133354
+"C041","Gompertz","r_max",0.0279392369874831
+"C041","Gompertz","t_lag",145.862858046119
+"C041","Quadratic","(Intercept)",-0.976466466998027
+"C041","Quadratic","poly(Time, 2, raw = TRUE)1",0.0112768023712326
+"C041","Quadratic","poly(Time, 2, raw = TRUE)2",-7.52782567929668e-06
+"C042","Cubic","(Intercept)",-0.272016758104449
+"C042","Cubic","poly(Time, 3, raw = TRUE)1",0.00254828921656987
+"C042","Cubic","poly(Time, 3, raw = TRUE)2",2.39472986430709e-05
+"C042","Cubic","poly(Time, 3, raw = TRUE)3",-3.46547167591999e-08
+"C042","Gompertz","N_0",0.0473909234057311
+"C042","Gompertz","N_max",2.58180351847634
+"C042","Gompertz","r_max",0.025486777674126
+"C042","Gompertz","t_lag",122.345810070118
+"C042","Quadratic","(Intercept)",-0.788008182999693
+"C042","Quadratic","poly(Time, 2, raw = TRUE)1",0.0108063742608211
+"C042","Quadratic","poly(Time, 2, raw = TRUE)2",-8.31759608717696e-06
+"C043","Cubic","(Intercept)",0.679779905371325
+"C043","Cubic","poly(Time, 3, raw = TRUE)1",-0.014727153358725
+"C043","Cubic","poly(Time, 3, raw = TRUE)2",9.25480144677959e-05
+"C043","Cubic","poly(Time, 3, raw = TRUE)3",-1.03526984010988e-07
+"C043","Gompertz","N_0",0.124286215591376
+"C043","Gompertz","N_max",3.4122439192375
+"C043","Gompertz","r_max",0.0389306907227854
+"C043","Gompertz","t_lag",190.436173717948
+"C043","Quadratic","(Intercept)",-1.05439244641036
+"C043","Quadratic","poly(Time, 2, raw = TRUE)1",0.0109159525455279
+"C043","Quadratic","poly(Time, 2, raw = TRUE)2",-4.14804633918721e-06
+"C044","Cubic","(Intercept)",-0.784065309882331
+"C044","Cubic","poly(Time, 3, raw = TRUE)1",0.00766057635258063
+"C044","Cubic","poly(Time, 3, raw = TRUE)2",2.67563636232183e-05
+"C044","Cubic","poly(Time, 3, raw = TRUE)3",-5.40489835541421e-08
+"C044","Gompertz","N_0",0.741478418411165
+"C044","Gompertz","N_max",3.1459868567902
+"C044","Gompertz","r_max",0.0348734367824832
+"C044","Gompertz","t_lag",167.020950998943
+"C044","Quadratic","(Intercept)",-2.16045672070811
+"C044","Quadratic","poly(Time, 2, raw = TRUE)1",0.0232314794968099
+"C044","Quadratic","poly(Time, 2, raw = TRUE)2",-2.57085516933332e-05
+"C045","Cubic","(Intercept)",-1.44963777225536
+"C045","Cubic","poly(Time, 3, raw = TRUE)1",0.0129992994351353
+"C045","Cubic","poly(Time, 3, raw = TRUE)2",3.03336090964548e-06
+"C045","Cubic","poly(Time, 3, raw = TRUE)3",-2.45419255937254e-08
+"C045","Gompertz","N_0",0.504691419920687
+"C045","Gompertz","N_max",2.69804988252173
+"C045","Gompertz","r_max",0.0332918634746529
+"C045","Gompertz","t_lag",172.962667942778
+"C045","Quadratic","(Intercept)",-2.16195638150685
+"C045","Quadratic","poly(Time, 2, raw = TRUE)1",0.0207261239277005
+"C045","Quadratic","poly(Time, 2, raw = TRUE)2",-2.18817249560767e-05
+"C046","Cubic","(Intercept)",0.0698868835841827
+"C046","Cubic","poly(Time, 3, raw = TRUE)1",-0.012562235727633
+"C046","Cubic","poly(Time, 3, raw = TRUE)2",0.000186595919822073
+"C046","Cubic","poly(Time, 3, raw = TRUE)3",-3.65033767678863e-07
+"C046","Gompertz","N_0",0.020893128496768
+"C046","Gompertz","N_max",3.13195927197662
+"C046","Gompertz","r_max",0.0585125055633368
+"C046","Gompertz","t_lag",105.26425333563
+"C046","Quadratic","(Intercept)",-0.298556382103333
+"C046","Quadratic","poly(Time, 2, raw = TRUE)1",0.0106040786421324
+"C046","Quadratic","poly(Time, 2, raw = TRUE)2",1.84457806557052e-06
+"C047","Cubic","(Intercept)",0.063676557249017
+"C047","Cubic","poly(Time, 3, raw = TRUE)1",-0.00836412718668592
+"C047","Cubic","poly(Time, 3, raw = TRUE)2",0.000186616933881067
+"C047","Cubic","poly(Time, 3, raw = TRUE)3",-4.20104486225322e-07
+"C047","Gompertz","N_0",0.0364374145175644
+"C047","Gompertz","N_max",3.14114213677301
+"C047","Gompertz","r_max",0.0532041963100819
+"C047","Gompertz","t_lag",76.5657801163615
+"C047","Quadratic","(Intercept)",-0.318047182078903
+"C047","Quadratic","poly(Time, 2, raw = TRUE)1",0.0147341972126693
+"C047","Quadratic","poly(Time, 2, raw = TRUE)2",-1.00268220797629e-05
+"C048","Cubic","(Intercept)",0.102759827714485
+"C048","Cubic","poly(Time, 3, raw = TRUE)1",-0.00203891034135416
+"C048","Cubic","poly(Time, 3, raw = TRUE)2",9.59323852489691e-05
+"C048","Cubic","poly(Time, 3, raw = TRUE)3",-1.92859737260159e-07
+"C048","Gompertz","N_0",0.122448063448368
+"C048","Gompertz","N_max",3.01111842843437
+"C048","Gompertz","r_max",0.0385987882787709
+"C048","Gompertz","t_lag",76.1244089859309
+"C048","Quadratic","(Intercept)",-0.0902608904870045
+"C048","Quadratic","poly(Time, 2, raw = TRUE)1",0.00961961555571414
+"C048","Quadratic","poly(Time, 2, raw = TRUE)2",9.76897146751982e-07
+"C049","Cubic","(Intercept)",0.659824548633661
+"C049","Cubic","poly(Time, 3, raw = TRUE)1",-0.00505442587496097
+"C049","Cubic","poly(Time, 3, raw = TRUE)2",2.1689322622252e-05
+"C049","Cubic","poly(Time, 3, raw = TRUE)3",-1.36395611318819e-08
+"C049","Gompertz","N_0",0.438441397207147
+"C049","Gompertz","N_max",2.38747223657661
+"C049","Gompertz","r_max",0.0176841553637952
+"C049","Gompertz","t_lag",286.947234534614
+"C049","Quadratic","(Intercept)",0.500705860873267
+"C049","Quadratic","poly(Time, 2, raw = TRUE)1",-0.00203232346829348
+"C049","Quadratic","poly(Time, 2, raw = TRUE)2",9.29220605822074e-06
+"C050","Cubic","(Intercept)",0.202180152039105
+"C050","Cubic","poly(Time, 3, raw = TRUE)1",0.0460813624638061
+"C050","Cubic","poly(Time, 3, raw = TRUE)2",-0.000276915492792541
+"C050","Cubic","poly(Time, 3, raw = TRUE)3",5.11419403356289e-07
+"C050","Gompertz","N_0",0.434294509310008
+"C050","Gompertz","N_max",2.47040972059506
+"C050","Gompertz","r_max",0.118336099922923
+"C050","Gompertz","t_lag",15.6870322219979
+"C050","Quadratic","(Intercept)",0.414199946661014
+"C050","Quadratic","poly(Time, 2, raw = TRUE)1",0.0320430685853214
+"C050","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000104493096424661
+"C051","Cubic","(Intercept)",0.163431902450568
+"C051","Cubic","poly(Time, 3, raw = TRUE)1",0.0899995214336334
+"C051","Cubic","poly(Time, 3, raw = TRUE)2",-0.00104933204568573
+"C051","Cubic","poly(Time, 3, raw = TRUE)3",4.16711241174891e-06
+"C051","Gompertz","N_0",0.438441397207147
+"C051","Gompertz","N_max",2.8104534061046
+"C051","Gompertz","r_max",0.15744461674033
+"C051","Gompertz","t_lag",4.88631349840476
+"C051","Quadratic","(Intercept)",0.280675706148289
+"C051","Quadratic","poly(Time, 2, raw = TRUE)1",0.068947674010406
+"C051","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000458984652588222
+"C052","Cubic","(Intercept)",0.458378327828782
+"C052","Cubic","poly(Time, 3, raw = TRUE)1",-0.00554716566772055
+"C052","Cubic","poly(Time, 3, raw = TRUE)2",0.000152089656332484
+"C052","Cubic","poly(Time, 3, raw = TRUE)3",-4.67262711633518e-07
+"C052","Gompertz","N_0",0.438441397207147
+"C052","Gompertz","N_max",1.66591612201183
+"C052","Gompertz","r_max",0.0453928294337618
+"C052","Gompertz","t_lag",80.4964472844181
+"C052","Quadratic","(Intercept)",0.264567963822656
+"C052","Quadratic","poly(Time, 2, raw = TRUE)1",0.00881012252793096
+"C052","Quadratic","poly(Time, 2, raw = TRUE)2",-8.90901153066156e-06
+"C053","Cubic","(Intercept)",0.344748195321351
+"C053","Cubic","poly(Time, 3, raw = TRUE)1",0.0254160103086043
+"C053","Cubic","poly(Time, 3, raw = TRUE)2",-8.54881242087132e-05
+"C053","Cubic","poly(Time, 3, raw = TRUE)3",9.3563747128817e-08
+"C053","Gompertz","N_0",0.434294509310008
+"C053","Gompertz","N_max",2.8104534061046
+"C053","Gompertz","r_max",0.0613735263310947
+"C053","Gompertz","t_lag",30.0825016759861
+"C053","Quadratic","(Intercept)",0.458382104899641
+"C053","Quadratic","poly(Time, 2, raw = TRUE)1",0.0198027610961443
+"C053","Quadratic","poly(Time, 2, raw = TRUE)2",-3.9674914074667e-05
+"C054","Cubic","(Intercept)",0.474538428765862
+"C054","Cubic","poly(Time, 3, raw = TRUE)1",7.70967615083646e-05
+"C054","Cubic","poly(Time, 3, raw = TRUE)2",-1.12198099876069e-05
+"C054","Cubic","poly(Time, 3, raw = TRUE)3",4.43682596158022e-08
+"C054","Gompertz","N_0",0.436403578179257
+"C054","Gompertz","N_max",1.84902369709193
+"C054","Gompertz","r_max",0.0589980258281399
+"C054","Gompertz","t_lag",326.005289004613
+"C054","Quadratic","(Intercept)",0.644920614096706
+"C054","Quadratic","poly(Time, 2, raw = TRUE)1",-0.00499760815436298
+"C054","Quadratic","poly(Time, 2, raw = TRUE)2",1.81727033927635e-05
+"C055","Cubic","(Intercept)",0.332940589302099
+"C055","Cubic","poly(Time, 3, raw = TRUE)1",0.036921787825113
+"C055","Cubic","poly(Time, 3, raw = TRUE)2",-0.0001934412933107
+"C055","Cubic","poly(Time, 3, raw = TRUE)3",3.42394471057533e-07
+"C055","Gompertz","N_0",0.43842288159676
+"C055","Gompertz","N_max",2.75190964741632
+"C055","Gompertz","r_max",0.0805631151768862
+"C055","Gompertz","t_lag",8.788811453084
+"C055","Quadratic","(Intercept)",0.482790858007053
+"C055","Quadratic","poly(Time, 2, raw = TRUE)1",0.0258702464593901
+"C055","Quadratic","poly(Time, 2, raw = TRUE)2",-7.24461352083261e-05
+"C056","Cubic","(Intercept)",0.176291405212764
+"C056","Cubic","poly(Time, 3, raw = TRUE)1",0.0455598770961194
+"C056","Cubic","poly(Time, 3, raw = TRUE)2",-0.000323188982454691
+"C056","Cubic","poly(Time, 3, raw = TRUE)3",7.53401394940053e-07
+"C056","Gompertz","N_0",0.442562073396143
+"C056","Gompertz","N_max",2.31790628614762
+"C056","Gompertz","r_max",0.142948130670884
+"C056","Gompertz","t_lag",20.7428954663698
+"C056","Quadratic","(Intercept)",0.348904192954243
+"C056","Quadratic","poly(Time, 2, raw = TRUE)1",0.0322103048737317
+"C056","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000127555320230835
+"C057","Cubic","(Intercept)",0.0865485459636256
+"C057","Cubic","poly(Time, 3, raw = TRUE)1",0.0318644169823186
+"C057","Cubic","poly(Time, 3, raw = TRUE)2",-0.000111158202539765
+"C057","Cubic","poly(Time, 3, raw = TRUE)3",8.76952907299893e-08
+"C057","Gompertz","N_0",0.441035129584957
+"C057","Gompertz","N_max",2.70648571664973
+"C057","Gompertz","r_max",0.171336295623136
+"C057","Gompertz","t_lag",40.4218017756185
+"C057","Quadratic","(Intercept)",0.127999612307802
+"C057","Quadratic","poly(Time, 2, raw = TRUE)1",0.0293292469687964
+"C057","Quadratic","poly(Time, 2, raw = TRUE)2",-8.17905197755187e-05
+"C058","Cubic","(Intercept)",0.302900344950146
+"C058","Cubic","poly(Time, 3, raw = TRUE)1",0.00124051069886719
+"C058","Cubic","poly(Time, 3, raw = TRUE)2",6.98808571549627e-05
+"C058","Cubic","poly(Time, 3, raw = TRUE)3",-1.68512869646531e-07
+"C058","Gompertz","N_0",0.43842288159676
+"C058","Gompertz","N_max",2.32336100880892
+"C058","Gompertz","r_max",0.0578855856604259
+"C058","Gompertz","t_lag",90.4843010226244
+"C058","Quadratic","(Intercept)",0.0802129854560578
+"C058","Quadratic","poly(Time, 2, raw = TRUE)1",0.0118346173665687
+"C058","Quadratic","poly(Time, 2, raw = TRUE)2",-1.44407700196929e-05
+"C059","Cubic","(Intercept)",0.438473050581822
+"C059","Cubic","poly(Time, 3, raw = TRUE)1",-1.08139843485554e-05
+"C059","Cubic","poly(Time, 3, raw = TRUE)2",3.25017026838003e-08
+"C059","Cubic","poly(Time, 3, raw = TRUE)3",-2.44517440512321e-11
+"C059","Gompertz","N_0",0.437731915796729
+"C059","Gompertz","N_max",0.440487958484454
+"C059","Gompertz","r_max",2.37431392199826e-05
+"C059","Gompertz","t_lag",488.156450639815
+"C059","Quadratic","(Intercept)",0.438291008808592
+"C059","Quadratic","poly(Time, 2, raw = TRUE)1",-6.04004634833144e-06
+"C059","Quadratic","poly(Time, 2, raw = TRUE)2",1.1154072185647e-08
+"C060","Cubic","(Intercept)",0.329064033452766
+"C060","Cubic","poly(Time, 3, raw = TRUE)1",0.0362923861694088
+"C060","Cubic","poly(Time, 3, raw = TRUE)2",-0.000235336623241653
+"C060","Cubic","poly(Time, 3, raw = TRUE)3",4.86326243872378e-07
+"C060","Gompertz","N_0",0.44260674635941
+"C060","Gompertz","N_max",2.16834575742956
+"C060","Gompertz","r_max",0.0716013837065369
+"C060","Gompertz","t_lag",5.44619837228899
+"C060","Quadratic","(Intercept)",0.569429940598215
+"C060","Quadratic","poly(Time, 2, raw = TRUE)1",0.0197196356400645
+"C060","Quadratic","poly(Time, 2, raw = TRUE)2",-5.75993293436874e-05
+"C061","Cubic","(Intercept)",0.523589807449487
+"C061","Cubic","poly(Time, 3, raw = TRUE)1",0.0357973467141133
+"C061","Cubic","poly(Time, 3, raw = TRUE)2",-0.00023225321719764
+"C061","Cubic","poly(Time, 3, raw = TRUE)3",4.79392939676512e-07
+"C061","Gompertz","N_0",0.44260674635941
+"C061","Gompertz","N_max",2.30187389752678
+"C061","Gompertz","r_max",0.0676554122234685
+"C061","Gompertz","t_lag",-4.67550274895531
+"C061","Quadratic","(Intercept)",0.718745706166385
+"C061","Quadratic","poly(Time, 2, raw = TRUE)1",0.0224281615499431
+"C061","Quadratic","poly(Time, 2, raw = TRUE)2",-6.93910408969512e-05
+"C062","Cubic","(Intercept)",0.484298096358312
+"C062","Cubic","poly(Time, 3, raw = TRUE)1",0.0630742949090778
+"C062","Cubic","poly(Time, 3, raw = TRUE)2",-0.000582491896167773
+"C062","Cubic","poly(Time, 3, raw = TRUE)3",1.60380821801456e-06
+"C062","Gompertz","N_0",0.442617561228037
+"C062","Gompertz","N_max",2.35259481716971
+"C062","Gompertz","r_max",0.20431591925248
+"C062","Gompertz","t_lag",4.081931373063
+"C062","Quadratic","(Intercept)",0.892852701874686
+"C062","Quadratic","poly(Time, 2, raw = TRUE)1",0.0270290260408372
+"C062","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000108108689724152
+"C063","Cubic","(Intercept)",0.32091685448057
+"C063","Cubic","poly(Time, 3, raw = TRUE)1",0.00981756283455851
+"C063","Cubic","poly(Time, 3, raw = TRUE)2",-1.97086242164443e-05
+"C063","Cubic","poly(Time, 3, raw = TRUE)3",1.3908051406634e-08
+"C063","Gompertz","N_0",0.438434275911955
+"C063","Gompertz","N_max",2.06220995228543
+"C063","Gompertz","r_max",0.0162497083979202
+"C063","Gompertz","t_lag",14.882410523206
+"C063","Quadratic","(Intercept)",0.393653565687218
+"C063","Quadratic","poly(Time, 2, raw = TRUE)1",0.00761158131369691
+"C063","Quadratic","poly(Time, 2, raw = TRUE)2",-8.72537226495334e-06
+"C064","Cubic","(Intercept)",0.43749450785272
+"C064","Cubic","poly(Time, 3, raw = TRUE)1",7.82939904460329e-06
+"C064","Cubic","poly(Time, 3, raw = TRUE)2",-3.70625930612982e-08
+"C064","Cubic","poly(Time, 3, raw = TRUE)3",6.23510660530007e-11
+"C064","Gompertz","N_0",0.438054330794287
+"C064","Gompertz","N_max",0.442634958495095
+"C064","Gompertz","r_max",8.92223945040201e-05
+"C064","Gompertz","t_lag",442.448311917388
+"C064","Quadratic","(Intercept)",0.437934335674164
+"C064","Quadratic","poly(Time, 2, raw = TRUE)1",-4.3245415678167e-06
+"C064","Quadratic","poly(Time, 2, raw = TRUE)2",1.74372036805883e-08
+"C065","Cubic","(Intercept)",0.15989687133788
+"C065","Cubic","poly(Time, 3, raw = TRUE)1",0.0318726464260194
+"C065","Cubic","poly(Time, 3, raw = TRUE)2",-0.000136774850068815
+"C065","Cubic","poly(Time, 3, raw = TRUE)3",1.89357993097296e-07
+"C065","Gompertz","N_0",0.442537462116454
+"C065","Gompertz","N_max",2.59004513113857
+"C065","Gompertz","r_max",0.0719559268619237
+"C065","Gompertz","t_lag",24.8909083716371
+"C065","Quadratic","(Intercept)",0.234467956171451
+"C065","Quadratic","poly(Time, 2, raw = TRUE)1",0.0261835207268013
+"C065","Quadratic","poly(Time, 2, raw = TRUE)2",-7.02300667356834e-05
+"C066","Cubic","(Intercept)",0.366785431070876
+"C066","Cubic","poly(Time, 3, raw = TRUE)1",0.0404706690697282
+"C066","Cubic","poly(Time, 3, raw = TRUE)2",-0.000240600466925796
+"C066","Cubic","poly(Time, 3, raw = TRUE)3",4.52348161137001e-07
+"C066","Gompertz","N_0",0.442537462116454
+"C066","Gompertz","N_max",2.57232583199353
+"C066","Gompertz","r_max",0.0782353031616788
+"C066","Gompertz","t_lag",5.25844286645442
+"C066","Quadratic","(Intercept)",0.683984677958915
+"C066","Quadratic","poly(Time, 2, raw = TRUE)1",0.022698621390535
+"C066","Quadratic","poly(Time, 2, raw = TRUE)2",-6.22201777601945e-05
+"C067","Cubic","(Intercept)",0.324042986671037
+"C067","Cubic","poly(Time, 3, raw = TRUE)1",0.0550537122391042
+"C067","Cubic","poly(Time, 3, raw = TRUE)2",-0.000403421922357673
+"C067","Cubic","poly(Time, 3, raw = TRUE)3",9.21664956299184e-07
+"C067","Gompertz","N_0",0.446691534741321
+"C067","Gompertz","N_max",2.63622564775336
+"C067","Gompertz","r_max",0.114476852390995
+"C067","Gompertz","t_lag",4.65308484081618
+"C067","Quadratic","(Intercept)",0.713404894455062
+"C067","Quadratic","poly(Time, 2, raw = TRUE)1",0.0266837322868155
+"C067","Quadratic","poly(Time, 2, raw = TRUE)2",-8.6211687208508e-05
+"C068","Cubic","(Intercept)",0.484779567707634
+"C068","Cubic","poly(Time, 3, raw = TRUE)1",-0.00588939108090705
+"C068","Cubic","poly(Time, 3, raw = TRUE)2",5.31837688687561e-05
+"C068","Cubic","poly(Time, 3, raw = TRUE)3",-6.6839986601351e-08
+"C068","Gompertz","N_0",0.475369224509736
+"C068","Gompertz","N_max",2.50044259636563
+"C068","Gompertz","r_max",0.0275128383528545
+"C068","Gompertz","t_lag",182.462588168437
+"C068","Quadratic","(Intercept)",0.129568968667977
+"C068","Quadratic","poly(Time, 2, raw = TRUE)1",0.00503925926996462
+"C068","Quadratic","poly(Time, 2, raw = TRUE)2",-3.20176057279427e-07
+"C069","Cubic","(Intercept)",0.465863972243533
+"C069","Cubic","poly(Time, 3, raw = TRUE)1",-0.00340880209656346
+"C069","Cubic","poly(Time, 3, raw = TRUE)2",3.00034821184836e-05
+"C069","Cubic","poly(Time, 3, raw = TRUE)3",-3.04286927952267e-08
+"C069","Gompertz","N_0",0.436311681513608
+"C069","Gompertz","N_max",2.71890280662081
+"C069","Gompertz","r_max",0.0193591385144268
+"C069","Gompertz","t_lag",191.862830313161
+"C069","Quadratic","(Intercept)",0.137920124532822
+"C069","Quadratic","poly(Time, 2, raw = TRUE)1",0.00347029508336146
+"C069","Quadratic","poly(Time, 2, raw = TRUE)2",1.85160150711914e-06
+"C070","Cubic","(Intercept)",0.21209363226141
+"C070","Cubic","poly(Time, 3, raw = TRUE)1",0.0498355265665155
+"C070","Cubic","poly(Time, 3, raw = TRUE)2",-8.60489172700976e-05
+"C070","Cubic","poly(Time, 3, raw = TRUE)3",-1.34718320277291e-06
+"C070","Gompertz","N_0",0.459603258643982
+"C070","Gompertz","N_max",2.85436840201133
+"C070","Gompertz","r_max",0.153785203843764
+"C070","Gompertz","t_lag",13.6951170699593
+"C070","Quadratic","(Intercept)",0.126597646806848
+"C070","Quadratic","poly(Time, 2, raw = TRUE)1",0.0605401240593113
+"C070","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000324530772367102
+"C071","Cubic","(Intercept)",0.44516333474242
+"C071","Cubic","poly(Time, 3, raw = TRUE)1",-2.39515312657231e-06
+"C071","Cubic","poly(Time, 3, raw = TRUE)2",-5.52700893869624e-08
+"C071","Cubic","poly(Time, 3, raw = TRUE)3",1.08255759088609e-10
+"C071","Gompertz","N_0",0.443893061158422
+"C071","Gompertz","N_max",0.44791026001479
+"C071","Gompertz","r_max",1e-08
+"C071","Gompertz","t_lag",756.719772528214
+"C071","Quadratic","(Intercept)",0.445628398246367
+"C071","Quadratic","poly(Time, 2, raw = TRUE)1",-2.24729096630808e-05
+"C071","Quadratic","poly(Time, 2, raw = TRUE)2",3.93009631413597e-08
+"C072","Cubic","(Intercept)",0.439086271121975
+"C072","Cubic","poly(Time, 3, raw = TRUE)1",6.25006488675906e-06
+"C072","Cubic","poly(Time, 3, raw = TRUE)2",-2.96104909991028e-08
+"C072","Cubic","poly(Time, 3, raw = TRUE)3",7.27473477263163e-11
+"C072","Gompertz","N_0",0.439686370776587
+"C072","Gompertz","N_max",0.447276980718154
+"C072","Gompertz","r_max",7.89555829635651e-05
+"C072","Gompertz","t_lag",349.15150989086
+"C072","Quadratic","(Intercept)",0.439699725311666
+"C072","Quadratic","poly(Time, 2, raw = TRUE)1",-9.38028685114421e-06
+"C072","Quadratic","poly(Time, 2, raw = TRUE)2",3.67517665987151e-08
+"C073","Cubic","(Intercept)",0.277754148624243
+"C073","Cubic","poly(Time, 3, raw = TRUE)1",0.0144718445614032
+"C073","Cubic","poly(Time, 3, raw = TRUE)2",-2.07097544266102e-05
+"C073","Cubic","poly(Time, 3, raw = TRUE)3",2.34813335013328e-09
+"C073","Gompertz","N_0",0.438645491365
+"C073","Gompertz","N_max",2.87157280245561
+"C073","Gompertz","r_max",0.0396531844534712
+"C073","Gompertz","t_lag",40.3168917481747
+"C073","Quadratic","(Intercept)",0.288684023968391
+"C073","Quadratic","poly(Time, 2, raw = TRUE)1",0.014166890362903
+"C073","Quadratic","poly(Time, 2, raw = TRUE)2",-1.90528227036632e-05
+"C074","Cubic","(Intercept)",0.250305411137067
+"C074","Cubic","poly(Time, 3, raw = TRUE)1",0.00714398535442551
+"C074","Cubic","poly(Time, 3, raw = TRUE)2",-1.83602232672241e-06
+"C074","Cubic","poly(Time, 3, raw = TRUE)3",-5.91983244444954e-09
+"C074","Gompertz","N_0",0.43421477775894
+"C074","Gompertz","N_max",2.65866237792556
+"C074","Gompertz","r_max",0.0178652863566195
+"C074","Gompertz","t_lag",49.714716935208
+"C074","Quadratic","(Intercept)",0.193618925372126
+"C074","Quadratic","poly(Time, 2, raw = TRUE)1",0.00843784701593557
+"C074","Quadratic","poly(Time, 2, raw = TRUE)2",-7.25507614987789e-06
+"C075","Cubic","(Intercept)",0.193047583356297
+"C075","Cubic","poly(Time, 3, raw = TRUE)1",0.0538542645373444
+"C075","Cubic","poly(Time, 3, raw = TRUE)2",-0.000277728189504978
+"C075","Cubic","poly(Time, 3, raw = TRUE)3",-4.06200149957646e-07
+"C075","Gompertz","N_0",0.438855339355407
+"C075","Gompertz","N_max",2.44916884443117
+"C075","Gompertz","r_max",0.184275912348345
+"C075","Gompertz","t_lag",16.8799124549804
+"C075","Quadratic","(Intercept)",0.176541116006928
+"C075","Quadratic","poly(Time, 2, raw = TRUE)1",0.0563771140183137
+"C075","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000340875491221786
+"C076","Cubic","(Intercept)",0.115276585143166
+"C076","Cubic","poly(Time, 3, raw = TRUE)1",0.0476595150679253
+"C076","Cubic","poly(Time, 3, raw = TRUE)2",-0.000307437583521981
+"C076","Cubic","poly(Time, 3, raw = TRUE)3",6.29756188141243e-07
+"C076","Gompertz","N_0",0.438642644199264
+"C076","Gompertz","N_max",2.41972938575379
+"C076","Gompertz","r_max",0.12380678705095
+"C076","Gompertz","t_lag",21.6814612484715
+"C076","Quadratic","(Intercept)",0.30456746263735
+"C076","Quadratic","poly(Time, 2, raw = TRUE)1",0.0335415341403045
+"C076","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000115749924722893
+"C077","Cubic","(Intercept)",0.435665370186365
+"C077","Cubic","poly(Time, 3, raw = TRUE)1",-5.44076316367595e-05
+"C077","Cubic","poly(Time, 3, raw = TRUE)2",1.85350945715064e-07
+"C077","Cubic","poly(Time, 3, raw = TRUE)3",-1.60688601194092e-10
+"C077","Gompertz","N_0",0.43200608453823
+"C077","Gompertz","N_max",0.437538911571474
+"C077","Gompertz","r_max",3.54667888261927e-05
+"C077","Gompertz","t_lag",329.73495378054
+"C077","Quadratic","(Intercept)",0.433934643462886
+"C077","Quadratic","poly(Time, 2, raw = TRUE)1",-1.83855215072123e-05
+"C077","Quadratic","poly(Time, 2, raw = TRUE)2",3.70842019189095e-08
+"C078","Cubic","(Intercept)",0.199902974455229
+"C078","Cubic","poly(Time, 3, raw = TRUE)1",0.0197053793070559
+"C078","Cubic","poly(Time, 3, raw = TRUE)2",-5.06794085820304e-05
+"C078","Cubic","poly(Time, 3, raw = TRUE)3",4.26261428234657e-08
+"C078","Gompertz","N_0",0.434267827234177
+"C078","Gompertz","N_max",2.77304278855219
+"C078","Gompertz","r_max",0.0388001535724767
+"C078","Gompertz","t_lag",25.0428228019074
+"C078","Quadratic","(Intercept)",0.374792128772428
+"C078","Quadratic","poly(Time, 2, raw = TRUE)1",0.0143451035660515
+"C078","Quadratic","poly(Time, 2, raw = TRUE)2",-2.08605638154528e-05
+"C079","Cubic","(Intercept)",-0.0761883067496147
+"C079","Cubic","poly(Time, 3, raw = TRUE)1",0.00475676796601063
+"C079","Cubic","poly(Time, 3, raw = TRUE)2",1.13268389375571e-05
+"C079","Cubic","poly(Time, 3, raw = TRUE)3",-2.37485942864675e-08
+"C079","Gompertz","N_0",0.442842205258883
+"C079","Gompertz","N_max",2.1285245950003
+"C079","Gompertz","r_max",0.0215767715871126
+"C079","Gompertz","t_lag",130.324504875043
+"C079","Quadratic","(Intercept)",-0.469564987499887
+"C079","Quadratic","poly(Time, 2, raw = TRUE)1",0.0104954186831348
+"C079","Quadratic","poly(Time, 2, raw = TRUE)2",-1.0393347934024e-05
+"C080","Cubic","(Intercept)",0.195281360432135
+"C080","Cubic","poly(Time, 3, raw = TRUE)1",0.0622155746763805
+"C080","Cubic","poly(Time, 3, raw = TRUE)2",-0.00038837720860105
+"C080","Cubic","poly(Time, 3, raw = TRUE)3",7.26118524935294e-07
+"C080","Gompertz","N_0",0.438553739967392
+"C080","Gompertz","N_max",3.11669873110345
+"C080","Gompertz","r_max",0.167470698119195
+"C080","Gompertz","t_lag",12.5666683066521
+"C080","Quadratic","(Intercept)",0.893531643437995
+"C080","Quadratic","poly(Time, 2, raw = TRUE)1",0.0281468273988961
+"C080","Quadratic","poly(Time, 2, raw = TRUE)2",-8.29271969275067e-05
+"C081","Cubic","(Intercept)",-1.79477380001536
+"C081","Cubic","poly(Time, 3, raw = TRUE)1",0.0815661543002496
+"C081","Cubic","poly(Time, 3, raw = TRUE)2",-0.000434699586200548
+"C081","Cubic","poly(Time, 3, raw = TRUE)3",7.27686487160102e-07
+"C081","Gompertz","N_0",0.438745288547336
+"C081","Gompertz","N_max",2.98213568441443
+"C081","Gompertz","r_max",0.180509352203371
+"C081","Gompertz","t_lag",45.4281344438905
+"C081","Quadratic","(Intercept)",-0.371674465036978
+"C081","Quadratic","poly(Time, 2, raw = TRUE)1",0.0376127605127093
+"C081","Quadratic","poly(Time, 2, raw = TRUE)2",-9.98419187460205e-05
+"C082","Cubic","(Intercept)",0.43780594239466
+"C082","Cubic","poly(Time, 3, raw = TRUE)1",2.421915262515e-06
+"C082","Cubic","poly(Time, 3, raw = TRUE)2",5.29899626854056e-08
+"C082","Cubic","poly(Time, 3, raw = TRUE)3",-8.83052959879995e-11
+"C082","Gompertz","N_0",0.435990539108095
+"C082","Gompertz","N_max",0.444841417026018
+"C082","Gompertz","r_max",1.0503996036797e-05
+"C082","Gompertz","t_lag",-596.810985
+"C082","Quadratic","(Intercept)",0.436957656829168
+"C082","Quadratic","poly(Time, 2, raw = TRUE)1",2.19586355129398e-05
+"C082","Quadratic","poly(Time, 2, raw = TRUE)2",-2.82076547726953e-08
+"C083","Cubic","(Intercept)",0.405556815178371
+"C083","Cubic","poly(Time, 3, raw = TRUE)1",0.0201378968993051
+"C083","Cubic","poly(Time, 3, raw = TRUE)2",-7.31251706246496e-05
+"C083","Cubic","poly(Time, 3, raw = TRUE)3",8.87111079909531e-08
+"C083","Gompertz","N_0",0.438542506999008
+"C083","Gompertz","N_max",2.28392226664141
+"C083","Gompertz","r_max",0.0369498778725865
+"C083","Gompertz","t_lag",8.73626439025214
+"C083","Quadratic","(Intercept)",0.503165150253488
+"C083","Quadratic","poly(Time, 2, raw = TRUE)1",0.0146318023169487
+"C083","Quadratic","poly(Time, 2, raw = TRUE)2",-2.88978062248795e-05
+"C084","Cubic","(Intercept)",-2.43981983019818
+"C084","Cubic","poly(Time, 3, raw = TRUE)1",0.0185176019823506
+"C084","Cubic","poly(Time, 3, raw = TRUE)2",-6.15428111643831e-05
+"C084","Cubic","poly(Time, 3, raw = TRUE)3",6.46699964848226e-08
+"C084","Gompertz","N_0",-2.57397698431012
+"C084","Gompertz","N_max",-0.655171685669776
+"C084","Gompertz","r_max",0.0433376658847123
+"C084","Gompertz","t_lag",-2.32130990283879
+"C084","Quadratic","(Intercept)",-2.18915299880291
+"C084","Quadratic","poly(Time, 2, raw = TRUE)1",0.0102122985408224
+"C084","Quadratic","poly(Time, 2, raw = TRUE)2",-1.56553017547599e-05
+"C085","Cubic","(Intercept)",-2.24856291541467
+"C085","Cubic","poly(Time, 3, raw = TRUE)1",0.0708472423870083
+"C085","Cubic","poly(Time, 3, raw = TRUE)2",-0.000888710489528175
+"C085","Cubic","poly(Time, 3, raw = TRUE)3",3.3687427502803e-06
+"C085","Gompertz","N_0",-2.57626275001767
+"C085","Gompertz","N_max",-0.523262541607697
+"C085","Gompertz","r_max",0.344424961526754
+"C085","Gompertz","t_lag",0.647609419993898
+"C085","Quadratic","(Intercept)",-2.04333030489228
+"C085","Quadratic","poly(Time, 2, raw = TRUE)1",0.0342088972022818
+"C085","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000173273789076997
+"C086","Cubic","(Intercept)",-1.66574925575227
+"C086","Cubic","poly(Time, 3, raw = TRUE)1",0.0664832542126373
+"C086","Cubic","poly(Time, 3, raw = TRUE)2",-0.000920598459926665
+"C086","Cubic","poly(Time, 3, raw = TRUE)3",3.60774937228058e-06
+"C086","Gompertz","N_0",-2.27180860141005
+"C086","Gompertz","N_max",-0.423652889958637
+"C086","Gompertz","r_max",0.408578696423295
+"C086","Gompertz","t_lag",-0.594479085151726
+"C086","Quadratic","(Intercept)",-1.45953823083144
+"C086","Quadratic","poly(Time, 2, raw = TRUE)1",0.027725674598857
+"C086","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000157614148118743
+"C087","Cubic","(Intercept)",-7.76731166107099
+"C087","Cubic","poly(Time, 3, raw = TRUE)1",0.0493314565341939
+"C087","Cubic","poly(Time, 3, raw = TRUE)2",-0.000146112943743834
+"C087","Cubic","poly(Time, 3, raw = TRUE)3",1.27250113268671e-07
+"C087","Quadratic","(Intercept)",-2.83846059799321
+"C087","Quadratic","poly(Time, 2, raw = TRUE)1",0.00107006177227918
+"C087","Quadratic","poly(Time, 2, raw = TRUE)2",-3.86371704145301e-06
+"C088","Cubic","(Intercept)",-2.00920481750863
+"C088","Cubic","poly(Time, 3, raw = TRUE)1",0.0148638960289107
+"C088","Cubic","poly(Time, 3, raw = TRUE)2",-5.26727371898115e-05
+"C088","Cubic","poly(Time, 3, raw = TRUE)3",5.39734233043149e-08
+"C088","Gompertz","N_0",-2.27302841631712
+"C088","Gompertz","N_max",-0.761118746267362
+"C088","Gompertz","r_max",0.037487375152509
+"C088","Gompertz","t_lag",-12.5324121545572
+"C088","Quadratic","(Intercept)",-1.79604299866921
+"C088","Quadratic","poly(Time, 2, raw = TRUE)1",0.00790324872551742
+"C088","Quadratic","poly(Time, 2, raw = TRUE)2",-1.43356573958553e-05
+"C089","Cubic","(Intercept)",-2.10539362869092
+"C089","Cubic","poly(Time, 3, raw = TRUE)1",0.0523380545404585
+"C089","Cubic","poly(Time, 3, raw = TRUE)2",-0.000517829730590892
+"C089","Cubic","poly(Time, 3, raw = TRUE)3",1.54139188396574e-06
+"C089","Gompertz","N_0",-2.27417000967942
+"C089","Gompertz","N_max",-0.541764153780639
+"C089","Gompertz","r_max",0.145934049312786
+"C089","Gompertz","t_lag",-0.328932132703579
+"C089","Quadratic","(Intercept)",-1.86310827368786
+"C089","Quadratic","poly(Time, 2, raw = TRUE)1",0.0256281283699651
+"C089","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000110580677425973
+"C090","Cubic","(Intercept)",-2.73672993591833
+"C090","Cubic","poly(Time, 3, raw = TRUE)1",0.132235409929487
+"C090","Cubic","poly(Time, 3, raw = TRUE)2",-0.00190441994833044
+"C090","Cubic","poly(Time, 3, raw = TRUE)3",7.65697266359835e-06
+"C090","Gompertz","N_0",-5
+"C090","Gompertz","N_max",-0.544188577793793
+"C090","Gompertz","r_max",1.47342152670373
+"C090","Gompertz","t_lag",-0.299922824190644
+"C090","Quadratic","(Intercept)",-2.22461898265187
+"C090","Quadratic","poly(Time, 2, raw = TRUE)1",0.0476398392549515
+"C090","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000271529523084225
+"C091","Cubic","(Intercept)",-2.51953246648211
+"C091","Cubic","poly(Time, 3, raw = TRUE)1",0.00127574850551601
+"C091","Cubic","poly(Time, 3, raw = TRUE)2",-3.65441943892398e-06
+"C091","Cubic","poly(Time, 3, raw = TRUE)3",1.44443129764312e-09
+"C091","Quadratic","(Intercept)",-2.50067044237488
+"C091","Quadratic","poly(Time, 2, raw = TRUE)1",0.000900062510823136
+"C091","Quadratic","poly(Time, 2, raw = TRUE)2",-2.21256047633537e-06
+"C092","Cubic","(Intercept)",-1.63924565364775
+"C092","Cubic","poly(Time, 3, raw = TRUE)1",0.0149188105831584
+"C092","Cubic","poly(Time, 3, raw = TRUE)2",-5.5504058893553e-05
+"C092","Cubic","poly(Time, 3, raw = TRUE)3",6.18460959175771e-08
+"C092","Gompertz","N_0",-2.09691001300806
+"C092","Gompertz","N_max",-0.473660722610156
+"C092","Gompertz","r_max",0.057417103791904
+"C092","Gompertz","t_lag",-11.755455424524
+"C092","Quadratic","(Intercept)",-1.40687334551547
+"C092","Quadratic","poly(Time, 2, raw = TRUE)1",0.00705900735284629
+"C092","Quadratic","poly(Time, 2, raw = TRUE)2",-1.17950473018608e-05
+"C093","Cubic","(Intercept)",-1.85608257049403
+"C093","Cubic","poly(Time, 3, raw = TRUE)1",0.0396614518739436
+"C093","Cubic","poly(Time, 3, raw = TRUE)2",-0.000355773639708576
+"C093","Cubic","poly(Time, 3, raw = TRUE)3",9.84970566896601e-07
+"C093","Gompertz","N_0",-2.09805153492692
+"C093","Gompertz","N_max",-0.454613703154841
+"C093","Gompertz","r_max",0.104191922548922
+"C093","Gompertz","t_lag",-3.07746584627535
+"C093","Quadratic","(Intercept)",-1.650737979373
+"C093","Quadratic","poly(Time, 2, raw = TRUE)1",0.0204241075012057
+"C093","Quadratic","poly(Time, 2, raw = TRUE)2",-8.16518820454921e-05
+"C094","Cubic","(Intercept)",-1.81252096789292
+"C094","Cubic","poly(Time, 3, raw = TRUE)1",0.0642031458907219
+"C094","Cubic","poly(Time, 3, raw = TRUE)2",-0.000849803391125095
+"C094","Cubic","poly(Time, 3, raw = TRUE)3",3.26943658879899e-06
+"C094","Gompertz","N_0",-2.57626275001767
+"C094","Gompertz","N_max",-0.453521498400587
+"C094","Gompertz","r_max",0.460181787057641
+"C094","Gompertz","t_lag",-1.25369386403625
+"C094","Quadratic","(Intercept)",-1.63707878837364
+"C094","Quadratic","poly(Time, 2, raw = TRUE)1",0.0293546272140886
+"C094","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000159862104110204
+"C095","Cubic","(Intercept)",-2.20595817218088
+"C095","Cubic","poly(Time, 3, raw = TRUE)1",0.0105066902873347
+"C095","Cubic","poly(Time, 3, raw = TRUE)2",-2.31950812039343e-05
+"C095","Cubic","poly(Time, 3, raw = TRUE)3",1.69720778509756e-08
+"C095","Gompertz","N_0",-2.28257916327762
+"C095","Gompertz","N_max",-0.544925101042858
+"C095","Gompertz","r_max",0.0168904636378031
+"C095","Gompertz","t_lag",-22.3781867073372
+"C095","Quadratic","(Intercept)",-1.97870999925649
+"C095","Quadratic","poly(Time, 2, raw = TRUE)1",0.00601956163621813
+"C095","Quadratic","poly(Time, 2, raw = TRUE)2",-6.14044415869227e-06
+"C096","Cubic","(Intercept)",-1.59096438690021
+"C096","Cubic","poly(Time, 3, raw = TRUE)1",0.0168403235110948
+"C096","Cubic","poly(Time, 3, raw = TRUE)2",-6.20973148290166e-05
+"C096","Cubic","poly(Time, 3, raw = TRUE)3",6.43151060022302e-08
+"C096","Gompertz","N_0",-1.79588001734408
+"C096","Gompertz","N_max",-0.257179852630116
+"C096","Gompertz","r_max",0.0432887530457751
+"C096","Gompertz","t_lag",-7.58725164276228
+"C096","Quadratic","(Intercept)",-1.41656077246646
+"C096","Quadratic","poly(Time, 2, raw = TRUE)1",0.00919256412241234
+"C096","Quadratic","poly(Time, 2, raw = TRUE)2",-1.75135664510476e-05
+"C097","Cubic","(Intercept)",-1.65530627396489
+"C097","Cubic","poly(Time, 3, raw = TRUE)1",0.0677371617694323
+"C097","Cubic","poly(Time, 3, raw = TRUE)2",-0.00087076687719099
+"C097","Cubic","poly(Time, 3, raw = TRUE)3",3.16959695229772e-06
+"C097","Gompertz","N_0",-1.97428461609866
+"C097","Gompertz","N_max",-0.245927773709753
+"C097","Gompertz","r_max",0.290109408197702
+"C097","Gompertz","t_lag",-0.30282525317297
+"C097","Quadratic","(Intercept)",-1.4909676605334
+"C097","Quadratic","poly(Time, 2, raw = TRUE)1",0.0342626673367098
+"C097","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000203716769221206
+"C098","Cubic","(Intercept)",-1.29466821353663
+"C098","Cubic","poly(Time, 3, raw = TRUE)1",0.0663861878324922
+"C098","Cubic","poly(Time, 3, raw = TRUE)2",-0.00095205109083239
+"C098","Cubic","poly(Time, 3, raw = TRUE)3",3.78305306742686e-06
+"C098","Gompertz","N_0",-1.72776375964997
+"C098","Gompertz","N_max",-0.192660516111091
+"C098","Gompertz","r_max",0.395648116933979
+"C098","Gompertz","t_lag",0.0988181773621679
+"C098","Quadratic","(Intercept)",-1.08834403563535
+"C098","Quadratic","poly(Time, 2, raw = TRUE)1",0.0260157405818706
+"C098","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000153009856698083
+"C099","Cubic","(Intercept)",-1.73873717757685
+"C099","Cubic","poly(Time, 3, raw = TRUE)1",0.00578237514539333
+"C099","Cubic","poly(Time, 3, raw = TRUE)2",-9.9743189634545e-06
+"C099","Cubic","poly(Time, 3, raw = TRUE)3",6.23275241710717e-09
+"C099","Gompertz","N_0",-1.79403817694037
+"C099","Gompertz","N_max",-0.495443510415768
+"C099","Gompertz","r_max",0.00874043221841525
+"C099","Gompertz","t_lag",-35.2469719854467
+"C099","Quadratic","(Intercept)",-1.65561216782608
+"C099","Quadratic","poly(Time, 2, raw = TRUE)1",0.00413349511164648
+"C099","Quadratic","poly(Time, 2, raw = TRUE)2",-3.70576179174736e-06
+"C100","Cubic","(Intercept)",-1.53082869608967
+"C100","Cubic","poly(Time, 3, raw = TRUE)1",0.0173830036629366
+"C100","Cubic","poly(Time, 3, raw = TRUE)2",-6.39445722621337e-05
+"C100","Cubic","poly(Time, 3, raw = TRUE)3",6.81309634256917e-08
+"C100","Gompertz","N_0",-2.09555495892309
+"C100","Gompertz","N_max",-0.162948449168235
+"C100","Gompertz","r_max",0.0576925843001577
+"C100","Gompertz","t_lag",-18.3811989716946
+"C100","Quadratic","(Intercept)",-1.34819663920095
+"C100","Quadratic","poly(Time, 2, raw = TRUE)1",0.00931234497372739
+"C100","Quadratic","poly(Time, 2, raw = TRUE)2",-1.67875985288606e-05
+"C101","Cubic","(Intercept)",-1.44331080685908
+"C101","Cubic","poly(Time, 3, raw = TRUE)1",0.060516461788379
+"C101","Cubic","poly(Time, 3, raw = TRUE)2",-0.000761691445971325
+"C101","Cubic","poly(Time, 3, raw = TRUE)3",2.77874773393998e-06
+"C101","Gompertz","N_0",-1.79846632655662
+"C101","Gompertz","N_max",-0.0985155236384943
+"C101","Gompertz","r_max",0.277809847816676
+"C101","Gompertz","t_lag",-0.260224505549219
+"C101","Quadratic","(Intercept)",-1.27197646345043
+"C101","Quadratic","poly(Time, 2, raw = TRUE)1",0.0300810588450123
+"C101","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000169926718545911
+"C102","Cubic","(Intercept)",-1.33998923328601
+"C102","Cubic","poly(Time, 3, raw = TRUE)1",0.0707965866520683
+"C102","Cubic","poly(Time, 3, raw = TRUE)2",-0.000997244693341609
+"C102","Cubic","poly(Time, 3, raw = TRUE)3",3.95858717797827e-06
+"C102","Gompertz","N_0",-1.8739010767114
+"C102","Gompertz","N_max",-0.108978538593534
+"C102","Gompertz","r_max",0.392622044807013
+"C102","Gompertz","t_lag",-0.678259500223341
+"C102","Quadratic","(Intercept)",-1.13077430233228
+"C102","Quadratic","poly(Time, 2, raw = TRUE)1",0.0286980144471202
+"C102","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000162118270448693
+"C103","Cubic","(Intercept)",-1.75401083398564
+"C103","Cubic","poly(Time, 3, raw = TRUE)1",0.00757927433023948
+"C103","Cubic","poly(Time, 3, raw = TRUE)2",-1.51400959374082e-05
+"C103","Cubic","poly(Time, 3, raw = TRUE)3",1.03646909676544e-08
+"C103","Gompertz","N_0",-1.85152074183685
+"C103","Gompertz","N_max",-0.392875380708991
+"C103","Gompertz","r_max",0.0116934123862316
+"C103","Gompertz","t_lag",-36.1914244517063
+"C103","Quadratic","(Intercept)",-1.61527933001093
+"C103","Quadratic","poly(Time, 2, raw = TRUE)1",0.0048380895996816
+"C103","Quadratic","poly(Time, 2, raw = TRUE)2",-4.72192732041964e-06
+"C104","Cubic","(Intercept)",-1.75144877817367
+"C104","Cubic","poly(Time, 3, raw = TRUE)1",0.0240435643613993
+"C104","Cubic","poly(Time, 3, raw = TRUE)2",-9.76784390478388e-05
+"C104","Cubic","poly(Time, 3, raw = TRUE)3",1.12443844038842e-07
+"C104","Gompertz","N_0",-2.57397698431012
+"C104","Gompertz","N_max",-0.123230978428344
+"C104","Gompertz","r_max",0.226438830926473
+"C104","Gompertz","t_lag",-2.30453700599354
+"C104","Quadratic","(Intercept)",-1.40193864191809
+"C104","Quadratic","poly(Time, 2, raw = TRUE)1",0.0102986768886779
+"C104","Quadratic","poly(Time, 2, raw = TRUE)2",-1.92515914989666e-05
+"C105","Cubic","(Intercept)",-1.39478802648377
+"C105","Cubic","poly(Time, 3, raw = TRUE)1",0.0737904562360876
+"C105","Cubic","poly(Time, 3, raw = TRUE)2",-0.00103248083723981
+"C105","Cubic","poly(Time, 3, raw = TRUE)3",4.05853293179015e-06
+"C105","Gompertz","N_0",-1.67325462043468
+"C105","Gompertz","N_max",-0.0948984665734711
+"C105","Gompertz","r_max",0.413684128124655
+"C105","Gompertz","t_lag",1.48167314360369
+"C105","Quadratic","(Intercept)",-1.17581619672341
+"C105","Quadratic","poly(Time, 2, raw = TRUE)1",0.0306984604081023
+"C105","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000177584657197103
+"C106","Cubic","(Intercept)",-0.983438784895561
+"C106","Cubic","poly(Time, 3, raw = TRUE)1",0.0699022808591244
+"C106","Cubic","poly(Time, 3, raw = TRUE)2",-0.00116774172599096
+"C106","Cubic","poly(Time, 3, raw = TRUE)3",4.87179732193112e-06
+"C106","Gompertz","N_0",-1.45066866880448
+"C106","Gompertz","N_max",-0.087150079209026
+"C106","Gompertz","r_max",0.991565349559307
+"C106","Gompertz","t_lag",1.71788113163593
+"C106","Quadratic","(Intercept)",-0.74374485465138
+"C106","Quadratic","poly(Time, 2, raw = TRUE)1",0.0190405772615554
+"C106","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000147166829744007
+"C107","Cubic","(Intercept)",-2.26868736215095
+"C107","Cubic","poly(Time, 3, raw = TRUE)1",-0.000773637540401259
+"C107","Cubic","poly(Time, 3, raw = TRUE)2",2.08904871340002e-06
+"C107","Cubic","poly(Time, 3, raw = TRUE)3",-2.93102905044852e-09
+"C107","Gompertz","N_0",-2.72549528223756
+"C107","Gompertz","N_max",-2.41861911203945
+"C107","Gompertz","r_max",0.0441491548143122
+"C107","Gompertz","t_lag",-1.58761367927878
+"C107","Quadratic","(Intercept)",-2.3060928673402
+"C107","Quadratic","poly(Time, 2, raw = TRUE)1",-1.94543748433583e-05
+"C107","Quadratic","poly(Time, 2, raw = TRUE)2",-8.16822803391773e-07
+"C108","Cubic","(Intercept)",-1.29460664835284
+"C108","Cubic","poly(Time, 3, raw = TRUE)1",0.0165714396779496
+"C108","Cubic","poly(Time, 3, raw = TRUE)2",-6.81970179383976e-05
+"C108","Cubic","poly(Time, 3, raw = TRUE)3",7.84405433017995e-08
+"C108","Gompertz","N_0",-1.53524226837711
+"C108","Gompertz","N_max",-0.139786608895026
+"C108","Gompertz","r_max",0.120509936345806
+"C108","Gompertz","t_lag",5.1009106837325
+"C108","Quadratic","(Intercept)",-1.05849631415984
+"C108","Quadratic","poly(Time, 2, raw = TRUE)1",0.00708727663777788
+"C108","Quadratic","poly(Time, 2, raw = TRUE)2",-1.35781780877613e-05
+"C109","Cubic","(Intercept)",-1.44648518751905
+"C109","Cubic","poly(Time, 3, raw = TRUE)1",0.077100349568187
+"C109","Cubic","poly(Time, 3, raw = TRUE)2",-0.00107374211833874
+"C109","Cubic","poly(Time, 3, raw = TRUE)3",4.13215602129391e-06
+"C109","Gompertz","N_0",-1.73009030125024
+"C109","Gompertz","N_max",-0.0980667755070171
+"C109","Gompertz","r_max",0.468698196220205
+"C109","Gompertz","t_lag",2.0353332633017
+"C109","Quadratic","(Intercept)",-1.19977054671136
+"C109","Quadratic","poly(Time, 2, raw = TRUE)1",0.0323391144526358
+"C109","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000197780746405126
+"C110","Cubic","(Intercept)",-1.09300633533171
+"C110","Cubic","poly(Time, 3, raw = TRUE)1",0.0799617930390073
+"C110","Cubic","poly(Time, 3, raw = TRUE)2",-0.00128255986950151
+"C110","Cubic","poly(Time, 3, raw = TRUE)3",5.31853211756032e-06
+"C110","Gompertz","N_0",-1.79355193563348
+"C110","Gompertz","N_max",-0.0584910518949115
+"C110","Gompertz","r_max",0.983993706543108
+"C110","Gompertz","t_lag",0.733443886310256
+"C110","Quadratic","(Intercept)",-0.832360280575096
+"C110","Quadratic","poly(Time, 2, raw = TRUE)1",0.0243668033461604
+"C110","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00016699778936727
+"C111","Cubic","(Intercept)",-1.81946180601769
+"C111","Cubic","poly(Time, 3, raw = TRUE)1",-0.00220498075437739
+"C111","Cubic","poly(Time, 3, raw = TRUE)2",2.43826550289183e-06
+"C111","Cubic","poly(Time, 3, raw = TRUE)3",1.18520403532160e-09
+"C111","Gompertz","N_0",-2.12186647016597
+"C111","Gompertz","N_max",-1.85657921487006
+"C111","Gompertz","r_max",0.0721668443066015
+"C111","Gompertz","t_lag",595.442247564108
+"C111","Quadratic","(Intercept)",-1.80338724026319
+"C111","Quadratic","poly(Time, 2, raw = TRUE)1",-0.00252026397818387
+"C111","Quadratic","poly(Time, 2, raw = TRUE)2",3.63244392222862e-06
+"C112","Cubic","(Intercept)",-1.00117025578305
+"C112","Cubic","poly(Time, 3, raw = TRUE)1",0.0142750470429874
+"C112","Cubic","poly(Time, 3, raw = TRUE)2",-5.8467239945045e-05
+"C112","Cubic","poly(Time, 3, raw = TRUE)3",6.96843962552773e-08
+"C112","Gompertz","N_0",-1.57402583908062
+"C112","Gompertz","N_max",-0.0661752274393423
+"C112","Gompertz","r_max",0.354889976779625
+"C112","Gompertz","t_lag",0.555111085798501
+"C112","Quadratic","(Intercept)",-0.895871077440057
+"C112","Quadratic","poly(Time, 2, raw = TRUE)1",0.00668535826320493
+"C112","Quadratic","poly(Time, 2, raw = TRUE)2",-1.13627017734794e-05
+"C113","Cubic","(Intercept)",-1.47195721024701
+"C113","Cubic","poly(Time, 3, raw = TRUE)1",0.0245174360232441
+"C113","Cubic","poly(Time, 3, raw = TRUE)2",-0.000135276102520205
+"C113","Cubic","poly(Time, 3, raw = TRUE)3",2.39651476261531e-07
+"C113","Gompertz","N_0",-1.53379989755326
+"C113","Gompertz","N_max",-0.0213046630053405
+"C113","Gompertz","r_max",0.0478751984613597
+"C113","Gompertz","t_lag",-3.91692621204957
+"C113","Quadratic","(Intercept)",-1.32226463857966
+"C113","Quadratic","poly(Time, 2, raw = TRUE)1",0.0148042394869529
+"C113","Quadratic","poly(Time, 2, raw = TRUE)2",-3.84485851907841e-05
+"C114","Cubic","(Intercept)",-0.896608350566977
+"C114","Cubic","poly(Time, 3, raw = TRUE)1",0.0631770211884379
+"C114","Cubic","poly(Time, 3, raw = TRUE)2",-0.000958433983391441
+"C114","Cubic","poly(Time, 3, raw = TRUE)3",3.95588469274481e-06
+"C114","Gompertz","N_0",-1.57634460742662
+"C114","Gompertz","N_max",-0.0194217394292953
+"C114","Gompertz","r_max",0.741661957900924
+"C114","Gompertz","t_lag",0.468442364528867
+"C114","Quadratic","(Intercept)",-0.691711284739773
+"C114","Quadratic","poly(Time, 2, raw = TRUE)1",0.021441533717146
+"C114","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00012649920798355
+"C115","Cubic","(Intercept)",-1.26157179115788
+"C115","Cubic","poly(Time, 3, raw = TRUE)1",0.00976167276042731
+"C115","Cubic","poly(Time, 3, raw = TRUE)2",-2.66699686041657e-05
+"C115","Cubic","poly(Time, 3, raw = TRUE)3",2.18221466854415e-08
+"C115","Gompertz","N_0",-1.52922211666488
+"C115","Gompertz","N_max",-0.235138955234243
+"C115","Gompertz","r_max",0.041377135185264
+"C115","Gompertz","t_lag",3.1528470619075
+"C115","Quadratic","(Intercept)",-0.971163420263052
+"C115","Quadratic","poly(Time, 2, raw = TRUE)1",0.00400379635567885
+"C115","Quadratic","poly(Time, 2, raw = TRUE)2",-4.75822162192454e-06
+"C116","Cubic","(Intercept)",1.96144559690399
+"C116","Cubic","poly(Time, 3, raw = TRUE)1",-0.00811095266835052
+"C116","Cubic","poly(Time, 3, raw = TRUE)2",0.0145588539242589
+"C116","Cubic","poly(Time, 3, raw = TRUE)3",-0.000370633129603239
+"C116","Gompertz","N_0",3.61131376333798
+"C116","Gompertz","N_max",1.83088217129304
+"C116","Gompertz","r_max",0.420848216490928
+"C116","Gompertz","t_lag",13.4694739918641
+"C116","Quadratic","(Intercept)",1.93910321103831
+"C116","Quadratic","poly(Time, 2, raw = TRUE)1",0.0212150777914571
+"C116","Quadratic","poly(Time, 2, raw = TRUE)2",0.00797844888526291
+"C117","Cubic","(Intercept)",1.66585830799138
+"C117","Cubic","poly(Time, 3, raw = TRUE)1",0.32883616184899
+"C117","Cubic","poly(Time, 3, raw = TRUE)2",0.122044313524601
+"C117","Cubic","poly(Time, 3, raw = TRUE)3",-0.0236751699480651
+"C117","Gompertz","N_0",1.71134984062268
+"C117","Gompertz","N_max",3.44565798194503
+"C117","Gompertz","r_max",1.79789299773455
+"C117","Gompertz","t_lag",0.714521249614129
+"C117","Quadratic","(Intercept)",1.59388113387324
+"C117","Quadratic","poly(Time, 2, raw = TRUE)1",0.656014578756551
+"C117","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0562811950690773
+"C118","Cubic","(Intercept)",1.63176036721131
+"C118","Cubic","poly(Time, 3, raw = TRUE)1",-0.0300545102948569
+"C118","Cubic","poly(Time, 3, raw = TRUE)2",0.00757797078321121
+"C118","Cubic","poly(Time, 3, raw = TRUE)3",0.000899815779530763
+"C118","Gompertz","N_0",1.65104840654331
+"C118","Gompertz","N_max",2.62046256227499
+"C118","Gompertz","r_max",0.955344632022963
+"C118","Gompertz","t_lag",5.93342336088399
+"C118","Quadratic","(Intercept)",1.65178428525578
+"C118","Quadratic","poly(Time, 2, raw = TRUE)1",-0.0694240804274093
+"C118","Quadratic","poly(Time, 2, raw = TRUE)2",0.0195397758144078
+"C119","Cubic","(Intercept)",1.77470004820729
+"C119","Cubic","poly(Time, 3, raw = TRUE)1",0.162936493563633
+"C119","Cubic","poly(Time, 3, raw = TRUE)2",0.103553956630507
+"C119","Cubic","poly(Time, 3, raw = TRUE)3",-0.0102216815130228
+"C119","Gompertz","N_0",1.82802916507004
+"C119","Gompertz","N_max",3.87999432126059
+"C119","Gompertz","r_max",1.46009943184152
+"C119","Gompertz","t_lag",1.0553400794693
+"C119","Quadratic","(Intercept)",1.74229980951822
+"C119","Quadratic","poly(Time, 2, raw = TRUE)1",0.304599388620036
+"C119","Quadratic","poly(Time, 2, raw = TRUE)2",0.027086026659607
+"C120","Cubic","(Intercept)",1.52993612003796
+"C120","Cubic","poly(Time, 3, raw = TRUE)1",0.181567741498492
+"C120","Cubic","poly(Time, 3, raw = TRUE)2",0.077376844108021
+"C120","Cubic","poly(Time, 3, raw = TRUE)3",-0.00803552459268748
+"C120","Gompertz","N_0",1.56223058168393
+"C120","Gompertz","N_max",3.63271285688007
+"C120","Gompertz","r_max",1.24523821839508
+"C120","Gompertz","t_lag",0.979738857414732
+"C120","Quadratic","(Intercept)",1.48768679384764
+"C120","Quadratic","poly(Time, 2, raw = TRUE)1",0.330075792757414
+"C120","Quadratic","poly(Time, 2, raw = TRUE)2",0.00780611823584002
+"C121","Cubic","(Intercept)",1.53838940619216
+"C121","Cubic","poly(Time, 3, raw = TRUE)1",0.708206810274542
+"C121","Cubic","poly(Time, 3, raw = TRUE)2",0.220275664137057
+"C121","Cubic","poly(Time, 3, raw = TRUE)3",-0.063224487897081
+"C121","Gompertz","N_0",1.56019797118983
+"C121","Gompertz","N_max",3.96393334585452
+"C121","Gompertz","r_max",2.98614645313759
+"C121","Gompertz","t_lag",0.403474880965219
+"C121","Quadratic","(Intercept)",1.47473123428084
+"C121","Quadratic","poly(Time, 2, raw = TRUE)1",1.19011070058376
+"C121","Quadratic","poly(Time, 2, raw = TRUE)2",-0.137347594481234
+"C122","Cubic","(Intercept)",1.99448590390461
+"C122","Cubic","poly(Time, 3, raw = TRUE)1",1.81627384506108
+"C122","Cubic","poly(Time, 3, raw = TRUE)2",-0.0313929025627685
+"C122","Cubic","poly(Time, 3, raw = TRUE)3",-0.201911878810636
+"C122","Gompertz","N_0",2.00136581687828
+"C122","Gompertz","N_max",3.97707310015761
+"C122","Gompertz","r_max",4.796801016822
+"C122","Gompertz","t_lag",0.075796351501464
+"C122","Quadratic","(Intercept)",1.96281088632992
+"C122","Quadratic","poly(Time, 2, raw = TRUE)1",2.20763228784633
+"C122","Quadratic","poly(Time, 2, raw = TRUE)2",-0.595207984939879
+"C123","Cubic","(Intercept)",1.97721803180879
+"C123","Cubic","poly(Time, 3, raw = TRUE)1",1.31145300038066
+"C123","Cubic","poly(Time, 3, raw = TRUE)2",1.07777076536425
+"C123","Cubic","poly(Time, 3, raw = TRUE)3",-0.62962577479758
+"C123","Gompertz","N_0",2.0045689327654
+"C123","Gompertz","N_max",4.17170156698902
+"C123","Gompertz","r_max",6.09916425751446
+"C123","Gompertz","t_lag",0.172413556349068
+"C123","Quadratic","(Intercept)",1.88048088204631
+"C123","Quadratic","poly(Time, 2, raw = TRUE)1",2.5735865480695
+"C123","Quadratic","poly(Time, 2, raw = TRUE)2",-0.706619361417374
+"C124","Cubic","(Intercept)",1.49545695929945
+"C124","Cubic","poly(Time, 3, raw = TRUE)1",3.75871512254085
+"C124","Cubic","poly(Time, 3, raw = TRUE)2",-1.01286835549525
+"C124","Cubic","poly(Time, 3, raw = TRUE)3",-0.338176506758906
+"C124","Gompertz","N_0",1.56076153459204
+"C124","Gompertz","N_max",3.91449152231667
+"C124","Gompertz","r_max",9.4493933125731
+"C124","Gompertz","t_lag",0.0748452063184805
+"C124","Quadratic","(Intercept)",1.47095156121776
+"C124","Quadratic","poly(Time, 2, raw = TRUE)1",4.15848232355919
+"C124","Quadratic","poly(Time, 2, raw = TRUE)2",-1.74849157057259
+"C125","Cubic","(Intercept)",1.85566129232609
+"C125","Cubic","poly(Time, 3, raw = TRUE)1",1.94823684921844
+"C125","Cubic","poly(Time, 3, raw = TRUE)2",3.03916192638983
+"C125","Cubic","poly(Time, 3, raw = TRUE)3",-2.69308484301378
+"C125","Gompertz","N_0",1.91361006220648
+"C125","Gompertz","N_max",4.03758151145041
+"C125","Gompertz","r_max",11.4571480763961
+"C125","Gompertz","t_lag",0.146526430636836
+"C125","Quadratic","(Intercept)",1.73785695380006
+"C125","Quadratic","poly(Time, 2, raw = TRUE)1",4.31458333764692
+"C125","Quadratic","poly(Time, 2, raw = TRUE)2",-2.01105841336189
+"C126","Cubic","(Intercept)",1.54496933951079
+"C126","Cubic","poly(Time, 3, raw = TRUE)1",-0.1361354387661
+"C126","Cubic","poly(Time, 3, raw = TRUE)2",0.121165069879317
+"C126","Cubic","poly(Time, 3, raw = TRUE)3",-0.011014045821365
+"C126","Gompertz","N_0",1.53450381202596
+"C126","Gompertz","N_max",2.73827937015594
+"C126","Gompertz","r_max",0.852415884492023
+"C126","Gompertz","t_lag",1.89905265237041
+"C126","Quadratic","(Intercept)",1.47942252057031
+"C126","Quadratic","poly(Time, 2, raw = TRUE)1",0.0853061985733849
+"C126","Quadratic","poly(Time, 2, raw = TRUE)2",0.0217385449101588
+"C127","Cubic","(Intercept)",-0.917635371574881
+"C127","Cubic","poly(Time, 3, raw = TRUE)1",0.012504689963238
+"C127","Cubic","poly(Time, 3, raw = TRUE)2",-5.15746221613801e-05
+"C127","Cubic","poly(Time, 3, raw = TRUE)3",6.14182394155882e-08
+"C127","Gompertz","N_0",-1.79571718744206
+"C127","Gompertz","N_max",-0.111097471427631
+"C127","Gompertz","r_max",0.294039929549263
+"C127","Gompertz","t_lag",-3.04264105612281
+"C127","Quadratic","(Intercept)",-0.834016981021172
+"C127","Quadratic","poly(Time, 2, raw = TRUE)1",0.00589044592235929
+"C127","Quadratic","poly(Time, 2, raw = TRUE)2",-1.01892579930479e-05
+"C128","Cubic","(Intercept)",-0.900604957405677
+"C128","Cubic","poly(Time, 3, raw = TRUE)1",0.0590493193622787
+"C128","Cubic","poly(Time, 3, raw = TRUE)2",-0.000886566578999135
+"C128","Cubic","poly(Time, 3, raw = TRUE)3",3.62413094711655e-06
+"C128","Gompertz","N_0",-1.40024789073031
+"C128","Gompertz","N_max",-0.0538971779962961
+"C128","Gompertz","r_max",0.596128562363476
+"C128","Gompertz","t_lag",0.783666214936663
+"C128","Quadratic","(Intercept)",-0.714571394991564
+"C128","Quadratic","poly(Time, 2, raw = TRUE)1",0.0207185633634415
+"C128","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0001235020547605
+"C129","Cubic","(Intercept)",-0.699361467318988
+"C129","Cubic","poly(Time, 3, raw = TRUE)1",0.0538992615404057
+"C129","Cubic","poly(Time, 3, raw = TRUE)2",-0.000846627593287341
+"C129","Cubic","poly(Time, 3, raw = TRUE)3",3.55061015567851e-06
+"C129","Gompertz","N_0",-1.39677982199173
+"C129","Gompertz","N_max",-0.0401170831130109
+"C129","Gompertz","r_max",1.48281745080369
+"C129","Gompertz","t_lag",0.728929428227183
+"C129","Quadratic","(Intercept)",-0.525600919018278
+"C129","Quadratic","poly(Time, 2, raw = TRUE)1",0.0167983910441032
+"C129","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000102147037617291
+"C130","Cubic","(Intercept)",-1.86556315257008
+"C130","Cubic","poly(Time, 3, raw = TRUE)1",-0.0024640600918114
+"C130","Cubic","poly(Time, 3, raw = TRUE)2",4.11164101682763e-06
+"C130","Cubic","poly(Time, 3, raw = TRUE)3",-6.55286912996942e-10
+"C130","Gompertz","N_0",-2.14467253211845
+"C130","Gompertz","N_max",-1.91456670258301
+"C130","Gompertz","r_max",0.157175468954625
+"C130","Gompertz","t_lag",597.397375225089
+"C130","Quadratic","(Intercept)",-1.87445165671768
+"C130","Quadratic","poly(Time, 2, raw = TRUE)1",-0.00228984996232148
+"C130","Quadratic","poly(Time, 2, raw = TRUE)2",3.45159745212833e-06
+"C131","Cubic","(Intercept)",-0.98142885125667
+"C131","Cubic","poly(Time, 3, raw = TRUE)1",0.0141446000089524
+"C131","Cubic","poly(Time, 3, raw = TRUE)2",-5.79253107961576e-05
+"C131","Cubic","poly(Time, 3, raw = TRUE)3",6.85509369828284e-08
+"C131","Gompertz","N_0",-2.2761340355565
+"C131","Gompertz","N_max",-0.0683067383776896
+"C131","Gompertz","r_max",0.408346572034947
+"C131","Gompertz","t_lag",-4.40647213272779
+"C131","Quadratic","(Intercept)",-0.894750884964967
+"C131","Quadratic","poly(Time, 2, raw = TRUE)1",0.00672006257808165
+"C131","Quadratic","poly(Time, 2, raw = TRUE)2",-1.15804772901398e-05
+"C132","Cubic","(Intercept)",-0.843461788032807
+"C132","Cubic","poly(Time, 3, raw = TRUE)1",0.0590653878807778
+"C132","Cubic","poly(Time, 3, raw = TRUE)2",-0.000895069058994755
+"C132","Cubic","poly(Time, 3, raw = TRUE)3",3.6832610500309e-06
+"C132","Gompertz","N_0",-1.38546086906034
+"C132","Gompertz","N_max",-0.023737622488033
+"C132","Gompertz","r_max",0.674525928176474
+"C132","Gompertz","t_lag",0.958665911469799
+"C132","Quadratic","(Intercept)",-0.652822776771266
+"C132","Quadratic","poly(Time, 2, raw = TRUE)1",0.0202233535595527
+"C132","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000120948959835708
+"C133","Cubic","(Intercept)",-0.697530640099896
+"C133","Cubic","poly(Time, 3, raw = TRUE)1",0.0559704146811455
+"C133","Cubic","poly(Time, 3, raw = TRUE)2",-0.000880505979109984
+"C133","Cubic","poly(Time, 3, raw = TRUE)3",3.68452446750756e-06
+"C133","Gompertz","N_0",-1.57170318601712
+"C133","Gompertz","N_max",-0.0288833289413098
+"C133","Gompertz","r_max",1.7221135975329
+"C133","Gompertz","t_lag",0.343998924642896
+"C133","Quadratic","(Intercept)",-0.518873413105456
+"C133","Quadratic","poly(Time, 2, raw = TRUE)1",0.0175453085351071
+"C133","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000108110432539027
+"C134","Cubic","(Intercept)",-1.40988208954583
+"C134","Cubic","poly(Time, 3, raw = TRUE)1",0.00789709204679982
+"C134","Cubic","poly(Time, 3, raw = TRUE)2",-1.91480121469851e-05
+"C134","Cubic","poly(Time, 3, raw = TRUE)3",1.44072058196993e-08
+"C134","Gompertz","N_0",-1.43744544786335
+"C134","Gompertz","N_max",-0.399832220113582
+"C134","Gompertz","r_max",0.0173951116682013
+"C134","Gompertz","t_lag",5.48726672605772
+"C134","Quadratic","(Intercept)",-1.21680491552388
+"C134","Quadratic","poly(Time, 2, raw = TRUE)1",0.0040890677333695
+"C134","Quadratic","poly(Time, 2, raw = TRUE)2",-4.67254806004005e-06
+"C135","Cubic","(Intercept)",2.02869939263201
+"C135","Cubic","poly(Time, 3, raw = TRUE)1",0.0130121393686534
+"C135","Cubic","poly(Time, 3, raw = TRUE)2",0.000123255183011645
+"C135","Cubic","poly(Time, 3, raw = TRUE)3",-2.86899734865722e-07
+"C135","Gompertz","N_0",2.32628458425684
+"C135","Gompertz","N_max",9.2947283526363
+"C135","Gompertz","r_max",0.0834337018690489
+"C135","Gompertz","t_lag",49.0286556456013
+"C135","Quadratic","(Intercept)",1.47420264600543
+"C135","Quadratic","poly(Time, 2, raw = TRUE)1",0.0346441289804878
+"C135","Quadratic","poly(Time, 2, raw = TRUE)2",-3.33937028637776e-05
+"C136","Cubic","(Intercept)",1.7562288316208
+"C136","Cubic","poly(Time, 3, raw = TRUE)1",0.0666532925613152
+"C136","Cubic","poly(Time, 3, raw = TRUE)2",0.000701768961612879
+"C136","Cubic","poly(Time, 3, raw = TRUE)3",-6.15877865131992e-06
+"C136","Gompertz","N_0",2.07474376982512
+"C136","Gompertz","N_max",9.32615773584558
+"C136","Gompertz","r_max",0.273200989241639
+"C136","Gompertz","t_lag",13.6567848562635
+"C136","Quadratic","(Intercept)",1.21471204896792
+"C136","Quadratic","poly(Time, 2, raw = TRUE)1",0.125599444390023
+"C136","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000468995284493193
+"C137","Cubic","(Intercept)",1.69523472895909
+"C137","Cubic","poly(Time, 3, raw = TRUE)1",0.13008005200368
+"C137","Cubic","poly(Time, 3, raw = TRUE)2",0.00090420843491623
+"C137","Cubic","poly(Time, 3, raw = TRUE)3",-1.64882379516114e-05
+"C137","Gompertz","N_0",2.0131128846826
+"C137","Gompertz","N_max",9.54984270307203
+"C137","Gompertz","r_max",0.402747106670908
+"C137","Gompertz","t_lag",6.19118719962789
+"C137","Quadratic","(Intercept)",1.23226913981622
+"C137","Quadratic","poly(Time, 2, raw = TRUE)1",0.197724821524642
+"C137","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00114214629096153
+"C138","Cubic","(Intercept)",1.5977594259592
+"C138","Cubic","poly(Time, 3, raw = TRUE)1",0.255272256756482
+"C138","Cubic","poly(Time, 3, raw = TRUE)2",0.00738594932383923
+"C138","Cubic","poly(Time, 3, raw = TRUE)3",-0.00022939039787248
+"C138","Gompertz","N_0",2.0334274789591
+"C138","Gompertz","N_max",9.88654907966276
+"C138","Gompertz","r_max",0.945062214004816
+"C138","Gompertz","t_lag",3.93220175842866
+"C138","Quadratic","(Intercept)",1.11406364245597
+"C138","Quadratic","poly(Time, 2, raw = TRUE)1",0.432890724022662
+"C138","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00500989877426959
+"C139","Cubic","(Intercept)",1.7767328184464
+"C139","Cubic","poly(Time, 3, raw = TRUE)1",0.0016565859706475
+"C139","Cubic","poly(Time, 3, raw = TRUE)2",3.33047854935127e-05
+"C139","Cubic","poly(Time, 3, raw = TRUE)3",-8.89318149106437e-08
+"C139","Gompertz","N_0",1.81953320240434
+"C139","Gompertz","N_max",2.79251974498655
+"C139","Gompertz","r_max",0.0228934185062148
+"C139","Gompertz","t_lag",59.5356432152217
+"C139","Quadratic","(Intercept)",1.68482496022786
+"C139","Quadratic","poly(Time, 2, raw = TRUE)1",0.00669184376991573
+"C139","Quadratic","poly(Time, 2, raw = TRUE)2",-9.93379305129281e-06
+"C140","Cubic","(Intercept)",1.53798121125822
+"C140","Cubic","poly(Time, 3, raw = TRUE)1",0.102503831278371
+"C140","Cubic","poly(Time, 3, raw = TRUE)2",-0.000281069914538059
+"C140","Cubic","poly(Time, 3, raw = TRUE)3",-6.12866924736576e-07
+"C140","Gompertz","N_0",1.67036339363029
+"C140","Gompertz","N_max",8.86253247513988
+"C140","Gompertz","r_max",0.22890676963993
+"C140","Gompertz","t_lag",5.36882319246825
+"C140","Quadratic","(Intercept)",1.48535825079609
+"C140","Quadratic","poly(Time, 2, raw = TRUE)1",0.10952316362386
+"C140","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000412287802591569
+"C141","Cubic","(Intercept)",1.70730157953207
+"C141","Cubic","poly(Time, 3, raw = TRUE)1",0.21247190215904
+"C141","Cubic","poly(Time, 3, raw = TRUE)2",-0.00184822052071742
+"C141","Cubic","poly(Time, 3, raw = TRUE)3",4.63139791177958e-06
+"C141","Gompertz","N_0",1.95671140099676
+"C141","Gompertz","N_max",9.19933355642767
+"C141","Gompertz","r_max",0.421633576492941
+"C141","Gompertz","t_lag",3.28481543164315
+"C141","Quadratic","(Intercept)",1.85997446434771
+"C141","Quadratic","poly(Time, 2, raw = TRUE)1",0.185464327018208
+"C141","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00114109596199569
+"C142","Cubic","(Intercept)",1.99020176791503
+"C142","Cubic","poly(Time, 3, raw = TRUE)1",0.276408112827505
+"C142","Cubic","poly(Time, 3, raw = TRUE)2",-0.00252385177491083
+"C142","Cubic","poly(Time, 3, raw = TRUE)3",-1.93222372007626e-06
+"C142","Gompertz","N_0",2.12374774072798
+"C142","Gompertz","N_max",9.25858565815724
+"C142","Gompertz","r_max",0.607678423100312
+"C142","Gompertz","t_lag",1.97115375350595
+"C142","Quadratic","(Intercept)",1.97667684402592
+"C142","Quadratic","poly(Time, 2, raw = TRUE)1",0.280135565506755
+"C142","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00269169898507556
+"C143","Cubic","(Intercept)",1.56586625432185
+"C143","Cubic","poly(Time, 3, raw = TRUE)1",0.643774147081043
+"C143","Cubic","poly(Time, 3, raw = TRUE)2",-0.0153696929606654
+"C143","Cubic","poly(Time, 3, raw = TRUE)3",8.34234255234054e-05
+"C143","Gompertz","N_0",1.69422572302505
+"C143","Gompertz","N_max",9.33017266066876
+"C143","Gompertz","r_max",1.31091838953963
+"C143","Gompertz","t_lag",0.642737027259496
+"C143","Quadratic","(Intercept)",1.6705835115531
+"C143","Quadratic","poly(Time, 2, raw = TRUE)1",0.59116259813856
+"C143","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0112061005046613
+"C144","Cubic","(Intercept)",1.7250471007582
+"C144","Cubic","poly(Time, 3, raw = TRUE)1",-0.000629863234799693
+"C144","Cubic","poly(Time, 3, raw = TRUE)2",9.4043734303791e-05
+"C144","Cubic","poly(Time, 3, raw = TRUE)3",-1.96776360441669e-07
+"C144","Gompertz","N_0",1.82764009769625
+"C144","Gompertz","N_max",4.70087983159332
+"C144","Gompertz","r_max",0.0425927258331921
+"C144","Gompertz","t_lag",77.102908234074
+"C144","Quadratic","(Intercept)",1.423401100739
+"C144","Quadratic","poly(Time, 2, raw = TRUE)1",0.0125743186575882
+"C144","Quadratic","poly(Time, 2, raw = TRUE)2",-7.23085843921582e-06
+"C145","Cubic","(Intercept)",1.17371799447802
+"C145","Cubic","poly(Time, 3, raw = TRUE)1",0.0511035566574931
+"C145","Cubic","poly(Time, 3, raw = TRUE)2",-0.000105332739360324
+"C145","Cubic","poly(Time, 3, raw = TRUE)3",5.04848945457808e-08
+"C145","Gompertz","N_0",1.76581272702303
+"C145","Gompertz","N_max",8.30409229133691
+"C145","Gompertz","r_max",0.10064117072668
+"C145","Gompertz","t_lag",17.5371659504596
+"C145","Quadratic","(Intercept)",1.30828800195381
+"C145","Quadratic","poly(Time, 2, raw = TRUE)1",0.0464314450129539
+"C145","Quadratic","poly(Time, 2, raw = TRUE)2",-7.54255708784364e-05
+"C146","Cubic","(Intercept)",-0.116102436867814
+"C146","Cubic","poly(Time, 3, raw = TRUE)1",0.0336972843421948
+"C146","Cubic","poly(Time, 3, raw = TRUE)2",-0.000104680601311999
+"C146","Cubic","poly(Time, 3, raw = TRUE)3",1.05978234767068e-07
+"C146","Gompertz","N_0",0.0700064484237119
+"C146","Gompertz","N_max",3.44194450464955
+"C146","Gompertz","r_max",0.0586487137048562
+"C146","Gompertz","t_lag",5.26255990816145
+"C146","Quadratic","(Intercept)",0.045638993124646
+"C146","Quadratic","poly(Time, 2, raw = TRUE)1",0.0274164204494501
+"C146","Quadratic","poly(Time, 2, raw = TRUE)2",-5.45663338711815e-05
+"C147","Cubic","(Intercept)",-0.299268393394537
+"C147","Cubic","poly(Time, 3, raw = TRUE)1",0.0947068278863674
+"C147","Cubic","poly(Time, 3, raw = TRUE)2",-0.000529776536363363
+"C147","Cubic","poly(Time, 3, raw = TRUE)3",2.01660722008706e-07
+"C147","Gompertz","N_0",3.93979760584379
+"C147","Gompertz","N_max",-1.22480621688147
+"C147","Gompertz","r_max",0.162610837378081
+"C147","Gompertz","t_lag",58.1683551716559
+"C147","Quadratic","(Intercept)",-0.277889841539987
+"C147","Quadratic","poly(Time, 2, raw = TRUE)1",0.0928724177270073
+"C147","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000492906144054839
+"C148","Cubic","(Intercept)",-0.225862811545019
+"C148","Cubic","poly(Time, 3, raw = TRUE)1",0.155383742070816
+"C148","Cubic","poly(Time, 3, raw = TRUE)2",-0.000394556836178831
+"C148","Cubic","poly(Time, 3, raw = TRUE)3",-1.97561099021186e-05
+"C148","Gompertz","N_0",0.186371453408426
+"C148","Gompertz","N_max",4.13258181804046
+"C148","Gompertz","r_max",0.372879280068314
+"C148","Gompertz","t_lag",4.2241314971817
+"C148","Quadratic","(Intercept)",-0.394379621912495
+"C148","Quadratic","poly(Time, 2, raw = TRUE)1",0.190444272838715
+"C148","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00201016828045278
+"C149","Cubic","(Intercept)",-0.276237286224045
+"C149","Cubic","poly(Time, 3, raw = TRUE)1",0.309734242700715
+"C149","Cubic","poly(Time, 3, raw = TRUE)2",-0.0067069462222563
+"C149","Cubic","poly(Time, 3, raw = TRUE)3",4.4613979822416e-05
+"C149","Gompertz","N_0",0.35445387890549
+"C149","Gompertz","N_max",4.16058053104434
+"C149","Gompertz","r_max",0.592568190621532
+"C149","Gompertz","t_lag",3.06650773443056
+"C149","Quadratic","(Intercept)",-0.0188399633892981
+"C149","Quadratic","poly(Time, 2, raw = TRUE)1",0.245284018421757
+"C149","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0033585789663705
+"C150","Cubic","(Intercept)",0.0482855544244838
+"C150","Cubic","poly(Time, 3, raw = TRUE)1",0.00151110904391222
+"C150","Cubic","poly(Time, 3, raw = TRUE)2",1.30722610603498e-06
+"C150","Cubic","poly(Time, 3, raw = TRUE)3",-4.59123583120662e-09
+"C150","Gompertz","N_0",0.0491063325854944
+"C150","Gompertz","N_max",0.630904726819731
+"C150","Gompertz","r_max",0.00387598561033912
+"C150","Gompertz","t_lag",11.5596820083087
+"C150","Quadratic","(Intercept)",0.0322453062125025
+"C150","Quadratic","poly(Time, 2, raw = TRUE)1",0.00215763697903251
+"C150","Quadratic","poly(Time, 2, raw = TRUE)2",-2.16721890673797e-06
+"C151","Cubic","(Intercept)",0.0387373938232458
+"C151","Cubic","poly(Time, 3, raw = TRUE)1",0.00146506903823821
+"C151","Cubic","poly(Time, 3, raw = TRUE)2",2.51665133714058e-06
+"C151","Cubic","poly(Time, 3, raw = TRUE)3",-6.26727407597902e-09
+"C151","Gompertz","N_0",0.0491063325854944
+"C151","Gompertz","N_max",0.641881937631964
+"C151","Gompertz","r_max",0.00546102102877613
+"C151","Gompertz","t_lag",48.1920286631734
+"C151","Quadratic","(Intercept)",0.0165303726352478
+"C151","Quadratic","poly(Time, 2, raw = TRUE)1",0.00235145768203413
+"C151","Quadratic","poly(Time, 2, raw = TRUE)2",-2.23275149868086e-06
+"C152","Cubic","(Intercept)",0.0534123826197035
+"C152","Cubic","poly(Time, 3, raw = TRUE)1",0.00116846796797406
+"C152","Cubic","poly(Time, 3, raw = TRUE)2",7.91101427897396e-06
+"C152","Cubic","poly(Time, 3, raw = TRUE)3",-1.62208953893265e-08
+"C152","Gompertz","N_0",0.0491063325854944
+"C152","Gompertz","N_max",0.744107096609072
+"C152","Gompertz","r_max",0.00680837960933472
+"C152","Gompertz","t_lag",41.3652996104964
+"C152","Quadratic","(Intercept)",0.0212425436818581
+"C152","Quadratic","poly(Time, 2, raw = TRUE)1",0.00284740802098306
+"C152","Quadratic","poly(Time, 2, raw = TRUE)2",-2.65655786284025e-06
+"C153","Cubic","(Intercept)",0.0561388716606064
+"C153","Cubic","poly(Time, 3, raw = TRUE)1",0.00285144940670348
+"C153","Cubic","poly(Time, 3, raw = TRUE)2",-3.90806032319095e-06
+"C153","Cubic","poly(Time, 3, raw = TRUE)3",-2.84450628964668e-09
+"C153","Gompertz","N_0",0.0511644895082261
+"C153","Gompertz","N_max",0.484770615616578
+"C153","Gompertz","r_max",0.00604512912344224
+"C153","Gompertz","t_lag",2.78224856358762
+"C153","Quadratic","(Intercept)",0.0505858139632559
+"C153","Quadratic","poly(Time, 2, raw = TRUE)1",0.0031441865529914
+"C153","Quadratic","poly(Time, 2, raw = TRUE)2",-5.75678111709234e-06
+"C154","Cubic","(Intercept)",0.228769634225574
+"C154","Cubic","poly(Time, 3, raw = TRUE)1",0.00151971193944549
+"C154","Cubic","poly(Time, 3, raw = TRUE)2",-2.97894942036036e-06
+"C154","Cubic","poly(Time, 3, raw = TRUE)3",2.51666027393111e-09
+"C154","Gompertz","N_0",0.237951200671352
+"C154","Gompertz","N_max",0.572176872383937
+"C154","Gompertz","r_max",0.00261357191093121
+"C154","Gompertz","t_lag",22.4337334084759
+"C154","Quadratic","(Intercept)",0.238168163023222
+"C154","Quadratic","poly(Time, 2, raw = TRUE)1",0.00115800926698312
+"C154","Quadratic","poly(Time, 2, raw = TRUE)2",-1.06308533370799e-06
+"C155","Cubic","(Intercept)",0.240289226610603
+"C155","Cubic","poly(Time, 3, raw = TRUE)1",0.000544674779183172
+"C155","Cubic","poly(Time, 3, raw = TRUE)2",3.67615045433436e-06
+"C155","Cubic","poly(Time, 3, raw = TRUE)3",-6.70942667123249e-09
+"C155","Gompertz","N_0",0.233817698579592
+"C155","Gompertz","N_max",0.655519428311293
+"C155","Gompertz","r_max",0.00312184389619488
+"C155","Gompertz","t_lag",40.0868424143808
+"C155","Quadratic","(Intercept)",0.215368322325984
+"C155","Quadratic","poly(Time, 2, raw = TRUE)1",0.0015038675801048
+"C155","Quadratic","poly(Time, 2, raw = TRUE)2",-1.41706713202097e-06
+"C156","Cubic","(Intercept)",0.248644178466575
+"C156","Cubic","poly(Time, 3, raw = TRUE)1",0.00129425153837959
+"C156","Cubic","poly(Time, 3, raw = TRUE)2",1.04668365121444e-06
+"C156","Cubic","poly(Time, 3, raw = TRUE)3",-3.25565294580318e-09
+"C156","Gompertz","N_0",0.264226875054498
+"C156","Gompertz","N_max",0.749906677049727
+"C156","Gompertz","r_max",0.0041158145402424
+"C156","Gompertz","t_lag",44.4943754049897
+"C156","Quadratic","(Intercept)",0.236644927961422
+"C156","Quadratic","poly(Time, 2, raw = TRUE)1",0.00175849540175491
+"C156","Quadratic","poly(Time, 2, raw = TRUE)2",-1.42202099520411e-06
+"C157","Cubic","(Intercept)",0.243288210329331
+"C157","Cubic","poly(Time, 3, raw = TRUE)1",0.00276001214345374
+"C157","Cubic","poly(Time, 3, raw = TRUE)2",-6.00716992209575e-06
+"C157","Cubic","poly(Time, 3, raw = TRUE)3",4.84795973840754e-09
+"C157","Gompertz","N_0",0.266293566306946
+"C157","Gompertz","N_max",0.729238840311481
+"C157","Gompertz","r_max",0.00465593250964418
+"C157","Gompertz","t_lag",17.577588609908
+"C157","Quadratic","(Intercept)",0.261214542506105
+"C157","Quadratic","poly(Time, 2, raw = TRUE)1",0.00206751464114846
+"C157","Quadratic","poly(Time, 2, raw = TRUE)2",-2.32859036544617e-06
+"C158","Cubic","(Intercept)",-1.98952260267273
+"C158","Cubic","poly(Time, 3, raw = TRUE)1",0.0266808786439979
+"C158","Cubic","poly(Time, 3, raw = TRUE)2",-0.000111265074310193
+"C158","Cubic","poly(Time, 3, raw = TRUE)3",1.30825483648378e-07
+"C158","Gompertz","N_0",-2.58120170940965
+"C158","Gompertz","N_max",-0.194043337926275
+"C158","Gompertz","r_max",0.243846986985736
+"C158","Gompertz","t_lag",3.28111694177053
+"C158","Quadratic","(Intercept)",-1.56656644519212
+"C158","Quadratic","poly(Time, 2, raw = TRUE)1",0.0105737396173936
+"C158","Quadratic","poly(Time, 2, raw = TRUE)2",-1.96411482332232e-05
+"C159","Cubic","(Intercept)",-1.75964456188673
+"C159","Cubic","poly(Time, 3, raw = TRUE)1",0.0899412006038805
+"C159","Cubic","poly(Time, 3, raw = TRUE)2",-0.00126651967208157
+"C159","Cubic","poly(Time, 3, raw = TRUE)3",4.93548152952138e-06
+"C159","Gompertz","N_0",-1.90274139294234
+"C159","Gompertz","N_max",-0.163568273629407
+"C159","Gompertz","r_max",0.466799059894821
+"C159","Gompertz","t_lag",2.53564990420977
+"C159","Quadratic","(Intercept)",-1.50507635323892
+"C159","Quadratic","poly(Time, 2, raw = TRUE)1",0.0377965943558135
+"C159","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000227605982825755
+"C160","Cubic","(Intercept)",-1.44078207516722
+"C160","Cubic","poly(Time, 3, raw = TRUE)1",0.0888569310134587
+"C160","Cubic","poly(Time, 3, raw = TRUE)2",-0.0014122343032204
+"C160","Cubic","poly(Time, 3, raw = TRUE)3",5.88847839510583e-06
+"C160","Gompertz","N_0",-1.89298444380234
+"C160","Gompertz","N_max",-0.165168722905594
+"C160","Gompertz","r_max",0.811297711204328
+"C160","Gompertz","t_lag",2.00812850654897
+"C160","Quadratic","(Intercept)",-1.12666831934401
+"C160","Quadratic","poly(Time, 2, raw = TRUE)1",0.0261994112168293
+"C160","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000169428655728185
+"C161","Cubic","(Intercept)",-2.40272942812992
+"C161","Cubic","poly(Time, 3, raw = TRUE)1",0.0159091142406455
+"C161","Cubic","poly(Time, 3, raw = TRUE)2",-3.81426109329371e-05
+"C161","Cubic","poly(Time, 3, raw = TRUE)3",2.8420548223265e-08
+"C161","Gompertz","N_0",-2.19307628144932
+"C161","Gompertz","N_max",-0.353127919723093
+"C161","Gompertz","r_max",0.0390430097831472
+"C161","Gompertz","t_lag",37.7649761171346
+"C161","Quadratic","(Intercept)",-2.0208034219434
+"C161","Quadratic","poly(Time, 2, raw = TRUE)1",0.00838692780027035
+"C161","Quadratic","poly(Time, 2, raw = TRUE)2",-9.56921967769538e-06
+"C162","Cubic","(Intercept)",-1.33035079751256
+"C162","Cubic","poly(Time, 3, raw = TRUE)1",0.0178972010536978
+"C162","Cubic","poly(Time, 3, raw = TRUE)2",-7.7371696476386e-05
+"C162","Cubic","poly(Time, 3, raw = TRUE)3",9.22527186141615e-08
+"C162","Gompertz","N_0",-1.79588001734408
+"C162","Gompertz","N_max",-0.154075725651737
+"C162","Gompertz","r_max",0.200400606741191
+"C162","Gompertz","t_lag",3.58459908979292
+"C162","Quadratic","(Intercept)",-1.005014584469
+"C162","Quadratic","poly(Time, 2, raw = TRUE)1",0.00609206588748635
+"C162","Quadratic","poly(Time, 2, raw = TRUE)2",-1.18014127917958e-05
+"C163","Cubic","(Intercept)",-1.8370724976483
+"C163","Cubic","poly(Time, 3, raw = TRUE)1",0.04087938671562
+"C163","Cubic","poly(Time, 3, raw = TRUE)2",-0.000290011867964668
+"C163","Cubic","poly(Time, 3, raw = TRUE)3",6.01464503138218e-07
+"C163","Gompertz","N_0",-1.97314001401544
+"C163","Gompertz","N_max",-0.1249387366083
+"C163","Gompertz","r_max",0.0777212476237193
+"C163","Gompertz","t_lag",-5.27192948851492
+"C163","Quadratic","(Intercept)",-1.69201070495342
+"C163","Quadratic","poly(Time, 2, raw = TRUE)1",0.0289013974019396
+"C163","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000121131167655527
+"C164","Cubic","(Intercept)",-1.67595748031945
+"C164","Cubic","poly(Time, 3, raw = TRUE)1",0.0935509218818951
+"C164","Cubic","poly(Time, 3, raw = TRUE)2",-0.00135477426696404
+"C164","Cubic","poly(Time, 3, raw = TRUE)3",5.35781267583035e-06
+"C164","Gompertz","N_0",-2.27490547891853
+"C164","Gompertz","N_max",-0.12402883017028
+"C164","Gompertz","r_max",0.5169553810885
+"C164","Gompertz","t_lag",0.212468212229657
+"C164","Quadratic","(Intercept)",-1.35644048077542
+"C164","Quadratic","poly(Time, 2, raw = TRUE)1",0.0354009906037283
+"C164","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00021734953190864
+"C165","Cubic","(Intercept)",-2.11322950079862
+"C165","Cubic","poly(Time, 3, raw = TRUE)1",0.016809042354362
+"C165","Cubic","poly(Time, 3, raw = TRUE)2",-4.50162440648461e-05
+"C165","Cubic","poly(Time, 3, raw = TRUE)3",3.61595533189192e-08
+"C165","Gompertz","N_0",-2.27318378115767
+"C165","Gompertz","N_max",-0.28446042974496
+"C165","Gompertz","r_max",0.0611459045472292
+"C165","Gompertz","t_lag",17.2631858106914
+"C165","Quadratic","(Intercept)",-1.62589518218333
+"C165","Quadratic","poly(Time, 2, raw = TRUE)1",0.00721578744825691
+"C165","Quadratic","poly(Time, 2, raw = TRUE)2",-8.62390925041203e-06
+"C166","Cubic","(Intercept)",-1.35151558034516
+"C166","Cubic","poly(Time, 3, raw = TRUE)1",0.0173257820027613
+"C166","Cubic","poly(Time, 3, raw = TRUE)2",-7.93069391211206e-05
+"C166","Cubic","poly(Time, 3, raw = TRUE)3",9.81251020841939e-08
+"C166","Gompertz","N_0",-0.511402211558198
+"C166","Gompertz","N_max",-2.00340609150772
+"C166","Gompertz","r_max",0.81368575463894
+"C166","Gompertz","t_lag",11.2265761914293
+"C166","Quadratic","(Intercept)",-1.00387978899922
+"C166","Quadratic","poly(Time, 2, raw = TRUE)1",0.00507936980978349
+"C166","Quadratic","poly(Time, 2, raw = TRUE)2",-1.04649890980118e-05
+"C167","Cubic","(Intercept)",-2.02211110271847
+"C167","Cubic","poly(Time, 3, raw = TRUE)1",0.0487212151169761
+"C167","Cubic","poly(Time, 3, raw = TRUE)2",-0.00037712063311302
+"C167","Cubic","poly(Time, 3, raw = TRUE)3",8.35290338075584e-07
+"C167","Gompertz","N_0",-2.27417000967942
+"C167","Gompertz","N_max",-0.397090587056834
+"C167","Gompertz","r_max",0.13809855805977
+"C167","Gompertz","t_lag",-2.30236294435974
+"C167","Quadratic","(Intercept)",-1.88557532557275
+"C167","Quadratic","poly(Time, 2, raw = TRUE)1",0.0354420510225853
+"C167","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000166420834149514
+"C168","Cubic","(Intercept)",-1.7263234032639
+"C168","Cubic","poly(Time, 3, raw = TRUE)1",0.101824856276002
+"C168","Cubic","poly(Time, 3, raw = TRUE)2",-0.00153464853993246
+"C168","Cubic","poly(Time, 3, raw = TRUE)3",6.18376754821997e-06
+"C168","Gompertz","N_0",-0.356942136206611
+"C168","Gompertz","N_max",-5.08427263451099
+"C168","Gompertz","r_max",0.625616635294882
+"C168","Gompertz","t_lag",7.85432002633215
+"C168","Quadratic","(Intercept)",-1.34249037697839
+"C168","Quadratic","poly(Time, 2, raw = TRUE)1",0.0344277430690124
+"C168","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000220720882665009
+"C169","Cubic","(Intercept)",-2.26342048002414
+"C169","Cubic","poly(Time, 3, raw = TRUE)1",0.0167630138157028
+"C169","Cubic","poly(Time, 3, raw = TRUE)2",-4.13214837186786e-05
+"C169","Cubic","poly(Time, 3, raw = TRUE)3",3.03417039838464e-08
+"C169","Gompertz","N_0",-2.25685827068218
+"C169","Gompertz","N_max",-0.248372214395234
+"C169","Gompertz","r_max",0.042507148319717
+"C169","Gompertz","t_lag",17.4586827728387
+"C169","Quadratic","(Intercept)",-1.85151533353691
+"C169","Quadratic","poly(Time, 2, raw = TRUE)1",0.00870125692339991
+"C169","Quadratic","poly(Time, 2, raw = TRUE)2",-1.08106470058856e-05
+"C170","Cubic","(Intercept)",-2.22420383368057
+"C170","Cubic","poly(Time, 3, raw = TRUE)1",0.0293027380005703
+"C170","Cubic","poly(Time, 3, raw = TRUE)2",-0.000117938106974972
+"C170","Cubic","poly(Time, 3, raw = TRUE)3",1.37938279848623e-07
+"C170","Gompertz","N_0",-2.43223843910496
+"C170","Gompertz","N_max",-0.196062421735858
+"C170","Gompertz","r_max",0.250785026010458
+"C170","Gompertz","t_lag",19.0261744312806
+"C170","Quadratic","(Intercept)",-1.66034056145788
+"C170","Quadratic","poly(Time, 2, raw = TRUE)1",0.0113632239219035
+"C170","Quadratic","poly(Time, 2, raw = TRUE)2",-1.98063348610954e-05
+"C171","Cubic","(Intercept)",-2.82583092404004
+"C171","Cubic","poly(Time, 3, raw = TRUE)1",0.0474883483854167
+"C171","Cubic","poly(Time, 3, raw = TRUE)2",-0.000135322651847786
+"C171","Cubic","poly(Time, 3, raw = TRUE)3",-5.62158272213171e-07
+"C171","Gompertz","N_0",-2.57511836336893
+"C171","Gompertz","N_max",-0.148676817789386
+"C171","Gompertz","r_max",0.278830298956448
+"C171","Gompertz","t_lag",22.0222468979007
+"C171","Quadratic","(Intercept)",-2.85759931911198
+"C171","Quadratic","poly(Time, 2, raw = TRUE)1",0.0534786036847234
+"C171","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000253812668333924
+"C172","Cubic","(Intercept)",-1.4151132430278
+"C172","Cubic","poly(Time, 3, raw = TRUE)1",0.0568142432471803
+"C172","Cubic","poly(Time, 3, raw = TRUE)2",-0.000787999084801142
+"C172","Cubic","poly(Time, 3, raw = TRUE)3",2.84530965745374e-06
+"C172","Gompertz","N_0",-1.72776375964997
+"C172","Gompertz","N_max",-0.436151225246078
+"C172","Gompertz","r_max",0.266470735645943
+"C172","Gompertz","t_lag",-0.159175018690512
+"C172","Quadratic","(Intercept)",-1.2492102498574
+"C172","Quadratic","poly(Time, 2, raw = TRUE)1",0.0262288220951204
+"C172","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000186318490299311
+"C173","Cubic","(Intercept)",-2.42393582247812
+"C173","Cubic","poly(Time, 3, raw = TRUE)1",-0.000510817664879263
+"C173","Cubic","poly(Time, 3, raw = TRUE)2",6.15619549779784e-07
+"C173","Cubic","poly(Time, 3, raw = TRUE)3",3.80806395526311e-09
+"C173","Gompertz","N_0",-2.44355982815856
+"C173","Gompertz","N_max",-1.43744544786335
+"C173","Gompertz","r_max",0.0113773375387879
+"C173","Gompertz","t_lag",404.379713232806
+"C173","Quadratic","(Intercept)",-2.36862358764561
+"C173","Quadratic","poly(Time, 2, raw = TRUE)1",-0.00154307749685653
+"C173","Quadratic","poly(Time, 2, raw = TRUE)2",4.47489439099658e-06
+"C174","Cubic","(Intercept)",-0.208162673359155
+"C174","Cubic","poly(Time, 3, raw = TRUE)1",0.0819603231445731
+"C174","Cubic","poly(Time, 3, raw = TRUE)2",0.000900413326093183
+"C174","Cubic","poly(Time, 3, raw = TRUE)3",-1.18591077536326e-05
+"C174","Gompertz","N_0",0.0139859520578518
+"C174","Gompertz","N_max",5.70905201413533
+"C174","Gompertz","r_max",0.370404723931318
+"C174","Gompertz","t_lag",11.0154347057322
+"C174","Quadratic","(Intercept)",-0.519938056062152
+"C174","Quadratic","poly(Time, 2, raw = TRUE)1",0.136251229650218
+"C174","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000721514092494835
+"C175","Cubic","(Intercept)",-0.136799606538406
+"C175","Cubic","poly(Time, 3, raw = TRUE)1",0.177508921679531
+"C175","Cubic","poly(Time, 3, raw = TRUE)2",-0.00165806950732522
+"C175","Cubic","poly(Time, 3, raw = TRUE)3",4.86507142971556e-06
+"C175","Gompertz","N_0",0
+"C175","Gompertz","N_max",6.01398601398613
+"C175","Gompertz","r_max",0.36010416978977
+"C175","Gompertz","t_lag",3.61001661942404
+"C175","Quadratic","(Intercept)",-0.0201757017906047
+"C175","Quadratic","poly(Time, 2, raw = TRUE)1",0.154712972386156
+"C175","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000993381381698075
+"C176","Cubic","(Intercept)",0.0299878174352356
+"C176","Cubic","poly(Time, 3, raw = TRUE)1",0.0275779424013378
+"C176","Cubic","poly(Time, 3, raw = TRUE)2",-3.55502851807455e-05
+"C176","Cubic","poly(Time, 3, raw = TRUE)3",6.83560818892141e-09
+"C176","Gompertz","N_0",0.0209791324190413
+"C176","Gompertz","N_max",5.7482517482521
+"C176","Gompertz","r_max",0.0543906375011081
+"C176","Gompertz","t_lag",3.4459659450738
+"C176","Quadratic","(Intercept)",0.0418947177719097
+"C176","Quadratic","poly(Time, 2, raw = TRUE)1",0.026953174063089
+"C176","Quadratic","poly(Time, 2, raw = TRUE)2",-3.14207549910725e-05
+"C177","Cubic","(Intercept)",-0.0099280919098747
+"C177","Cubic","poly(Time, 3, raw = TRUE)1",0.0158479837232947
+"C177","Cubic","poly(Time, 3, raw = TRUE)2",0.000223820836598083
+"C177","Cubic","poly(Time, 3, raw = TRUE)3",-7.40314876936446e-07
+"C177","Gompertz","N_0",0
+"C177","Gompertz","N_max",6.38461538461533
+"C177","Gompertz","r_max",0.12373738345821
+"C177","Gompertz","t_lag",25.7472062276776
+"C177","Quadratic","(Intercept)",-0.345359976822049
+"C177","Quadratic","poly(Time, 2, raw = TRUE)1",0.0476276265005092
+"C177","Quadratic","poly(Time, 2, raw = TRUE)2",-8.29646676215305e-05
+"C178","Cubic","(Intercept)",-0.165738159050177
+"C178","Cubic","poly(Time, 3, raw = TRUE)1",0.0218285130220927
+"C178","Cubic","poly(Time, 3, raw = TRUE)2",0.000486512222569267
+"C178","Cubic","poly(Time, 3, raw = TRUE)3",-2.26474352872817e-06
+"C178","Gompertz","N_0",0
+"C178","Gompertz","N_max",6.2237762237762
+"C178","Gompertz","r_max",0.176783608512524
+"C178","Gompertz","t_lag",26.2510210299439
+"C178","Quadratic","(Intercept)",-0.556725410841904
+"C178","Quadratic","poly(Time, 2, raw = TRUE)1",0.0632420543083851
+"C178","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00014197374200482
+"C179","Cubic","(Intercept)",-0.0942432898667414
+"C179","Cubic","poly(Time, 3, raw = TRUE)1",0.0793221750592105
+"C179","Cubic","poly(Time, 3, raw = TRUE)2",-0.000186196268708577
+"C179","Cubic","poly(Time, 3, raw = TRUE)3",-2.58499191964297e-07
+"C179","Gompertz","N_0",0.0139859520578518
+"C179","Gompertz","N_max",6.53846153846151
+"C179","Gompertz","r_max",0.261888180010486
+"C179","Gompertz","t_lag",21.3712220971513
+"C179","Quadratic","(Intercept)",-0.129353451430169
+"C179","Quadratic","poly(Time, 2, raw = TRUE)1",0.0839719713038619
+"C179","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000257831049766248
+"C180","Cubic","(Intercept)",-2.27614929039327
+"C180","Cubic","poly(Time, 3, raw = TRUE)1",0.0772155158883445
+"C180","Cubic","poly(Time, 3, raw = TRUE)2",-0.000328811584738848
+"C180","Cubic","poly(Time, 3, raw = TRUE)3",4.33462339852992e-07
+"C180","Gompertz","N_0",-0.000742409173162583
+"C180","Gompertz","N_max",3.54413992580195
+"C180","Gompertz","r_max",0.0991293415846121
+"C180","Gompertz","t_lag",32.8084064467994
+"C180","Quadratic","(Intercept)",-1.85978480132594
+"C180","Quadratic","poly(Time, 2, raw = TRUE)1",0.0625194715179252
+"C180","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000181642786679808
+"C181","Cubic","(Intercept)",-0.381432555939872
+"C181","Cubic","poly(Time, 3, raw = TRUE)1",0.0155037404265163
+"C181","Cubic","poly(Time, 3, raw = TRUE)2",0.000189248525912702
+"C181","Cubic","poly(Time, 3, raw = TRUE)3",-8.88069889791113e-07
+"C181","Gompertz","N_0",-0.0104972336724832
+"C181","Gompertz","N_max",3.28268647929499
+"C181","Gompertz","r_max",0.0890401183060226
+"C181","Gompertz","t_lag",35.2397617356003
+"C181","Quadratic","(Intercept)",-0.802937072261931
+"C181","Quadratic","poly(Time, 2, raw = TRUE)1",0.0388970295099807
+"C181","Quadratic","poly(Time, 2, raw = TRUE)2",-9.05374712709208e-05
+"C182","Cubic","(Intercept)",-0.294958561233687
+"C182","Cubic","poly(Time, 3, raw = TRUE)1",0.0103942661840059
+"C182","Cubic","poly(Time, 3, raw = TRUE)2",0.000207974813897105
+"C182","Cubic","poly(Time, 3, raw = TRUE)3",-9.49163205143951e-07
+"C182","Gompertz","N_0",0.0186900987696468
+"C182","Gompertz","N_max",2.66540625690847
+"C182","Gompertz","r_max",0.0860870159983237
+"C182","Gompertz","t_lag",39.843405311912
+"C182","Quadratic","(Intercept)",-0.765659331883804
+"C182","Quadratic","poly(Time, 2, raw = TRUE)1",0.0353912890429319
+"C182","Quadratic","poly(Time, 2, raw = TRUE)2",-8.98969272544236e-05
+"C183","Cubic","(Intercept)",-0.57298954809493
+"C183","Cubic","poly(Time, 3, raw = TRUE)1",0.0701949638697581
+"C183","Cubic","poly(Time, 3, raw = TRUE)2",-0.000205059721949568
+"C183","Cubic","poly(Time, 3, raw = TRUE)3",-6.78183468365377e-07
+"C183","Gompertz","N_0",0.0363769474620424
+"C183","Gompertz","N_max",3.79005453628969
+"C183","Gompertz","r_max",0.151528005690992
+"C183","Gompertz","t_lag",11.5784288200217
+"C183","Quadratic","(Intercept)",-0.64497244033158
+"C183","Quadratic","poly(Time, 2, raw = TRUE)1",0.0762614927417968
+"C183","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000327900572621372
+"C184","Cubic","(Intercept)",-0.154505276380512
+"C184","Cubic","poly(Time, 3, raw = TRUE)1",0.0327615239460292
+"C184","Cubic","poly(Time, 3, raw = TRUE)2",0.00025735333612333
+"C184","Cubic","poly(Time, 3, raw = TRUE)3",-2.16704719556648e-06
+"C184","Gompertz","N_0",0.114826410237137
+"C184","Gompertz","N_max",3.72832731709505
+"C184","Gompertz","r_max",0.120683423452763
+"C184","Gompertz","t_lag",14.8352484434603
+"C184","Quadratic","(Intercept)",-0.46083754358107
+"C184","Quadratic","poly(Time, 2, raw = TRUE)1",0.0563402922208177
+"C184","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00017594523485495
+"C185","Cubic","(Intercept)",-0.148310079600051
+"C185","Cubic","poly(Time, 3, raw = TRUE)1",0.0329251296835672
+"C185","Cubic","poly(Time, 3, raw = TRUE)2",7.81845617103667e-05
+"C185","Cubic","poly(Time, 3, raw = TRUE)3",-1.1055342842488e-06
+"C185","Gompertz","N_0",0.103646046859708
+"C185","Gompertz","N_max",3.0346241966688
+"C185","Gompertz","r_max",0.0934105544355933
+"C185","Gompertz","t_lag",12.3812590620205
+"C185","Quadratic","(Intercept)",-0.279878409046764
+"C185","Quadratic","poly(Time, 2, raw = TRUE)1",0.0438081681176419
+"C185","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000132917809735669
+"C186","Cubic","(Intercept)",0.0390824331146235
+"C186","Cubic","poly(Time, 3, raw = TRUE)1",-0.028906871099315
+"C186","Cubic","poly(Time, 3, raw = TRUE)2",0.00468071947752892
+"C186","Cubic","poly(Time, 3, raw = TRUE)3",-5.55525643943657e-05
+"C186","Gompertz","N_0",0.11082262417603
+"C186","Gompertz","N_max",3.44670206127001
+"C186","Gompertz","r_max",0.295411734346818
+"C186","Gompertz","t_lag",14.8070039776057
+"C186","Quadratic","(Intercept)",-0.839661871161134
+"C186","Quadratic","poly(Time, 2, raw = TRUE)1",0.103960473036903
+"C186","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000423127542555024
+"C187","Cubic","(Intercept)",0.0224875077262931
+"C187","Cubic","poly(Time, 3, raw = TRUE)1",0.0343555518216846
+"C187","Cubic","poly(Time, 3, raw = TRUE)2",0.00139600122211414
+"C187","Cubic","poly(Time, 3, raw = TRUE)3",-1.65764548915694e-05
+"C187","Gompertz","N_0",0.325800383448816
+"C187","Gompertz","N_max",3.64246491447053
+"C187","Gompertz","r_max",0.21181389586053
+"C187","Gompertz","t_lag",12.492644174421
+"C187","Quadratic","(Intercept)",-0.349068943567142
+"C187","Quadratic","poly(Time, 2, raw = TRUE)1",0.0876811313184787
+"C187","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000392225647061446
+"C188","Cubic","(Intercept)",-0.378512097104154
+"C188","Cubic","poly(Time, 3, raw = TRUE)1",0.0297545207859291
+"C188","Cubic","poly(Time, 3, raw = TRUE)2",0.00157194926488221
+"C188","Cubic","poly(Time, 3, raw = TRUE)3",-1.94629929875988e-05
+"C188","Gompertz","N_0",0.17161091887917
+"C188","Gompertz","N_max",2.83922566215757
+"C188","Gompertz","r_max",0.202288372095243
+"C188","Gompertz","t_lag",15.3550907595099
+"C188","Quadratic","(Intercept)",-0.992466750696024
+"C188","Quadratic","poly(Time, 2, raw = TRUE)1",0.0974072779951802
+"C188","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000532498273220986
+"C189","Cubic","(Intercept)",0.0709663872155532
+"C189","Cubic","poly(Time, 3, raw = TRUE)1",-0.00313109952759379
+"C189","Cubic","poly(Time, 3, raw = TRUE)2",4.28647721762122e-05
+"C189","Cubic","poly(Time, 3, raw = TRUE)3",-4.7360042301777e-08
+"C189","Gompertz","N_0",0.112178871014665
+"C189","Gompertz","N_max",3.40958287487859
+"C189","Gompertz","r_max",0.0276277923598179
+"C189","Gompertz","t_lag",154.611837206571
+"C189","Quadratic","(Intercept)",-0.794857782154763
+"C189","Quadratic","poly(Time, 2, raw = TRUE)1",0.00991392145439152
+"C189","Quadratic","poly(Time, 2, raw = TRUE)2",-4.70330630459957e-06
+"C190","Cubic","(Intercept)",-0.815919551743055
+"C190","Cubic","poly(Time, 3, raw = TRUE)1",0.011979446694961
+"C190","Cubic","poly(Time, 3, raw = TRUE)2",-4.92185098183956e-06
+"C190","Cubic","poly(Time, 3, raw = TRUE)3",-8.89894692287167e-09
+"C190","Gompertz","N_0",0.00882535041517239
+"C190","Gompertz","N_max",2.71267442709252
+"C190","Gompertz","r_max",0.0351281615482964
+"C190","Gompertz","t_lag",112.042702722381
+"C190","Quadratic","(Intercept)",-0.978854610516848
+"C190","Quadratic","poly(Time, 2, raw = TRUE)1",0.0144506685869702
+"C190","Quadratic","poly(Time, 2, raw = TRUE)2",-1.39051667767302e-05
+"C191","Cubic","(Intercept)",-0.236206515032869
+"C191","Cubic","poly(Time, 3, raw = TRUE)1",0.0053064289024572
+"C191","Cubic","poly(Time, 3, raw = TRUE)2",1.16177942178575e-05
+"C191","Cubic","poly(Time, 3, raw = TRUE)3",-2.09113586927909e-08
+"C191","Gompertz","N_0",0.0720881524652331
+"C191","Gompertz","N_max",2.4964098641353
+"C191","Gompertz","r_max",0.0372414688609617
+"C191","Gompertz","t_lag",138.838883503223
+"C191","Quadratic","(Intercept)",-0.49499084410917
+"C191","Quadratic","poly(Time, 2, raw = TRUE)1",0.0104982561848182
+"C191","Quadratic","poly(Time, 2, raw = TRUE)2",-8.89388955901992e-06
+"C192","Cubic","(Intercept)",-6.00271701113047
+"C192","Cubic","poly(Time, 3, raw = TRUE)1",0.0510707748276002
+"C192","Cubic","poly(Time, 3, raw = TRUE)2",-9.27770778130576e-05
+"C192","Cubic","poly(Time, 3, raw = TRUE)3",5.34589326454165e-08
+"C192","Gompertz","N_0",1.29842913782046
+"C192","Gompertz","N_max",3.10334958636281
+"C192","Gompertz","r_max",0.038954451079348
+"C192","Gompertz","t_lag",234.870896602126
+"C192","Quadratic","(Intercept)",-3.16870968194784
+"C192","Quadratic","poly(Time, 2, raw = TRUE)1",0.0269299508156662
+"C192","Quadratic","poly(Time, 2, raw = TRUE)2",-2.87465156721247e-05
+"C193","Cubic","(Intercept)",-1.07796220510736
+"C193","Cubic","poly(Time, 3, raw = TRUE)1",0.0163152104547033
+"C193","Cubic","poly(Time, 3, raw = TRUE)2",-9.47769430210021e-06
+"C193","Cubic","poly(Time, 3, raw = TRUE)3",-1.28771239541204e-08
+"C193","Gompertz","N_0",0.13823099417645
+"C193","Gompertz","N_max",3.14450380105508
+"C193","Gompertz","r_max",0.0401518839109317
+"C193","Gompertz","t_lag",107.668182940947
+"C193","Quadratic","(Intercept)",-1.25823707414959
+"C193","Quadratic","poly(Time, 2, raw = TRUE)1",0.0191487489505259
+"C193","Quadratic","poly(Time, 2, raw = TRUE)2",-2.0813543469813e-05
+"C194","Cubic","(Intercept)",-0.792364463431123
+"C194","Cubic","poly(Time, 3, raw = TRUE)1",0.00883660148823276
+"C194","Cubic","poly(Time, 3, raw = TRUE)2",1.13550726890136e-05
+"C194","Cubic","poly(Time, 3, raw = TRUE)3",-3.48744664545881e-08
+"C194","Gompertz","N_0",0.0201799436981074
+"C194","Gompertz","N_max",2.22329549883161
+"C194","Gompertz","r_max",0.0399629342716044
+"C194","Gompertz","t_lag",131.882501338299
+"C194","Quadratic","(Intercept)",-1.30642714599648
+"C194","Quadratic","poly(Time, 2, raw = TRUE)1",0.0167525731642161
+"C194","Quadratic","poly(Time, 2, raw = TRUE)2",-1.9809975543046e-05
+"C195","Cubic","(Intercept)",0.128925611518032
+"C195","Cubic","poly(Time, 3, raw = TRUE)1",-0.0168589782707518
+"C195","Cubic","poly(Time, 3, raw = TRUE)2",0.00019756477743074
+"C195","Cubic","poly(Time, 3, raw = TRUE)3",-3.68713927578276e-07
+"C195","Gompertz","N_0",-0.0175895074985104
+"C195","Gompertz","N_max",2.93601362673099
+"C195","Gompertz","r_max",0.0595311685381045
+"C195","Gompertz","t_lag",125.262659633542
+"C195","Quadratic","(Intercept)",-0.280735046672982
+"C195","Quadratic","poly(Time, 2, raw = TRUE)1",0.00443740617343985
+"C195","Quadratic","poly(Time, 2, raw = TRUE)2",2.19373747612977e-05
+"C196","Cubic","(Intercept)",-0.0366236944917978
+"C196","Cubic","poly(Time, 3, raw = TRUE)1",-0.00830137632671948
+"C196","Cubic","poly(Time, 3, raw = TRUE)2",0.000164156323144517
+"C196","Cubic","poly(Time, 3, raw = TRUE)3",-3.50868944883633e-07
+"C196","Gompertz","N_0",-0.0032467829220062
+"C196","Gompertz","N_max",2.81704283108808
+"C196","Gompertz","r_max",0.0489190800118189
+"C196","Gompertz","t_lag",88.4541852624723
+"C196","Quadratic","(Intercept)",-0.307755663826548
+"C196","Quadratic","poly(Time, 2, raw = TRUE)1",0.0120730134909244
+"C196","Quadratic","poly(Time, 2, raw = TRUE)2",-5.73231816029788e-06
+"C197","Cubic","(Intercept)",0.012708959122611
+"C197","Cubic","poly(Time, 3, raw = TRUE)1",-0.00870250455083847
+"C197","Cubic","poly(Time, 3, raw = TRUE)2",0.00014793537898357
+"C197","Cubic","poly(Time, 3, raw = TRUE)3",-3.07220721444516e-07
+"C197","Gompertz","N_0",0.0961171409001336
+"C197","Gompertz","N_max",2.36772050262541
+"C197","Gompertz","r_max",0.0462346893922644
+"C197","Gompertz","t_lag",104.72569420898
+"C197","Quadratic","(Intercept)",-0.345122933607974
+"C197","Quadratic","poly(Time, 2, raw = TRUE)1",0.0100335891316682
+"C197","Quadratic","poly(Time, 2, raw = TRUE)2",-2.78459951445403e-06
+"C198","Cubic","(Intercept)",-1.94520026208787
+"C198","Cubic","poly(Time, 3, raw = TRUE)1",0.0195703865838364
+"C198","Cubic","poly(Time, 3, raw = TRUE)2",-7.85358283521571e-05
+"C198","Cubic","poly(Time, 3, raw = TRUE)3",9.02384923484556e-08
+"C198","Gompertz","N_0",-2.26704363042438
+"C198","Gompertz","N_max",-0.523106085551761
+"C198","Gompertz","r_max",0.0782790260283412
+"C198","Gompertz","t_lag",-1.73264756247397
+"C198","Quadratic","(Intercept)",-1.65325700617055
+"C198","Quadratic","poly(Time, 2, raw = TRUE)1",0.0084713044844882
+"C198","Quadratic","poly(Time, 2, raw = TRUE)2",-1.53806413641619e-05
+"C199","Cubic","(Intercept)",-1.7478290956112
+"C199","Cubic","poly(Time, 3, raw = TRUE)1",0.0526492389439519
+"C199","Cubic","poly(Time, 3, raw = TRUE)2",-0.000668023283763661
+"C199","Cubic","poly(Time, 3, raw = TRUE)3",2.39079955235377e-06
+"C199","Gompertz","N_0",-1.97469413473523
+"C199","Gompertz","N_max",-0.596395673132641
+"C199","Gompertz","r_max",0.211410378527204
+"C199","Gompertz","t_lag",0.0528842784187889
+"C199","Quadratic","(Intercept)",-1.58593744939809
+"C199","Quadratic","poly(Time, 2, raw = TRUE)1",0.0260685456014719
+"C199","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000156697849516391
+"C200","Cubic","(Intercept)",-1.73840668823786
+"C200","Cubic","poly(Time, 3, raw = TRUE)1",0.058043737943618
+"C200","Cubic","poly(Time, 3, raw = TRUE)2",-0.000811139563562884
+"C200","Cubic","poly(Time, 3, raw = TRUE)3",3.19057058436632e-06
+"C200","Gompertz","N_0",-2.27180860141005
+"C200","Gompertz","N_max",-0.715539938167766
+"C200","Gompertz","r_max",0.332685014701491
+"C200","Gompertz","t_lag",-1.34452162814444
+"C200","Quadratic","(Intercept)",-1.57151362308397
+"C200","Quadratic","poly(Time, 2, raw = TRUE)1",0.0241955680152906
+"C200","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000138373554319679
+"C201","Cubic","(Intercept)",-2.1957768907865
+"C201","Cubic","poly(Time, 3, raw = TRUE)1",0.0133583874728904
+"C201","Cubic","poly(Time, 3, raw = TRUE)2",-3.31951838185523e-05
+"C201","Cubic","poly(Time, 3, raw = TRUE)3",2.5125403478952e-08
+"C201","Gompertz","N_0",-2.27744833799904
+"C201","Gompertz","N_max",-0.547777953922697
+"C201","Gompertz","r_max",0.0295976487470206
+"C201","Gompertz","t_lag",0.454845723727777
+"C201","Quadratic","(Intercept)",-1.8572837357852
+"C201","Quadratic","poly(Time, 2, raw = TRUE)1",0.00670339065585229
+"C201","Quadratic","poly(Time, 2, raw = TRUE)2",-7.93240212162809e-06
+"C202","Cubic","(Intercept)",-1.6367658759542
+"C202","Cubic","poly(Time, 3, raw = TRUE)1",0.0147758686623037
+"C202","Cubic","poly(Time, 3, raw = TRUE)2",-5.71634612731655e-05
+"C202","Cubic","poly(Time, 3, raw = TRUE)3",6.52487916814773e-08
+"C202","Gompertz","N_0",-2.0942580726084
+"C202","Gompertz","N_max",-0.542860215340474
+"C202","Gompertz","r_max",0.0891235838865383
+"C202","Gompertz","t_lag",-4.24822421858686
+"C202","Quadratic","(Intercept)",-1.42501676541158
+"C202","Quadratic","poly(Time, 2, raw = TRUE)1",0.00672930039346424
+"C202","Quadratic","poly(Time, 2, raw = TRUE)2",-1.14339944689355e-05
+"C203","Cubic","(Intercept)",-1.80160686329789
+"C203","Cubic","poly(Time, 3, raw = TRUE)1",0.0619083336362749
+"C203","Cubic","poly(Time, 3, raw = TRUE)2",-0.00081418689491431
+"C203","Cubic","poly(Time, 3, raw = TRUE)3",3.1305081558367e-06
+"C203","Gompertz","N_0",-2.27490547891853
+"C203","Gompertz","N_max",-0.50762100795666
+"C203","Gompertz","r_max",0.25876117539962
+"C203","Gompertz","t_lag",-2.07662417210799
+"C203","Quadratic","(Intercept)",-1.61415185711173
+"C203","Quadratic","poly(Time, 2, raw = TRUE)1",0.0279056093022169
+"C203","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000149448816324435
+"C204","Cubic","(Intercept)",-1.35186803256741
+"C204","Cubic","poly(Time, 3, raw = TRUE)1",0.0454733949529611
+"C204","Cubic","poly(Time, 3, raw = TRUE)2",-0.000650804965553028
+"C204","Cubic","poly(Time, 3, raw = TRUE)3",2.54254050267274e-06
+"C204","Gompertz","N_0",-1.61863218108845
+"C204","Gompertz","N_max",-0.564271864733262
+"C204","Gompertz","r_max",0.253828193055769
+"C204","Gompertz","t_lag",0.79071447435556
+"C204","Quadratic","(Intercept)",-1.18590545982456
+"C204","Quadratic","poly(Time, 2, raw = TRUE)1",0.0173821556902523
+"C204","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000107989876543929
+"C205","Cubic","(Intercept)",-2.51229674695907
+"C205","Cubic","poly(Time, 3, raw = TRUE)1",0.0102662203159228
+"C205","Cubic","poly(Time, 3, raw = TRUE)2",-1.98543225945527e-05
+"C205","Cubic","poly(Time, 3, raw = TRUE)3",1.23823394430456e-08
+"C205","Gompertz","N_0",-2.45358073316481
+"C205","Gompertz","N_max",-0.767832633053723
+"C205","Gompertz","r_max",0.0173736053378876
+"C205","Gompertz","t_lag",-0.36706129287045
+"C205","Quadratic","(Intercept)",-2.34374051094279
+"C205","Quadratic","poly(Time, 2, raw = TRUE)1",0.00696928999928893
+"C205","Quadratic","poly(Time, 2, raw = TRUE)2",-7.37430411743916e-06
+"C206","Cubic","(Intercept)",1.66517755693148
+"C206","Cubic","poly(Time, 3, raw = TRUE)1",-0.052747706282238
+"C206","Cubic","poly(Time, 3, raw = TRUE)2",0.084687939081558
+"C206","Cubic","poly(Time, 3, raw = TRUE)3",-0.00745704337981127
+"C206","Gompertz","N_0",1.69672871423338
+"C206","Gompertz","N_max",2.58185199652354
+"C206","Gompertz","r_max",0.808070746082994
+"C206","Gompertz","t_lag",1.87710489511622
+"C206","Quadratic","(Intercept)",1.64256904761983
+"C206","Quadratic","poly(Time, 2, raw = TRUE)1",0.0501287790018612
+"C206","Quadratic","poly(Time, 2, raw = TRUE)2",0.02856413064091
+"C207","Cubic","(Intercept)",1.7162782551872
+"C207","Cubic","poly(Time, 3, raw = TRUE)1",-0.0959492551565662
+"C207","Cubic","poly(Time, 3, raw = TRUE)2",0.0529377845138208
+"C207","Cubic","poly(Time, 3, raw = TRUE)3",-0.00365051630635139
+"C207","Gompertz","N_0",1.72171153726177
+"C207","Gompertz","N_max",2.48321805391748
+"C207","Gompertz","r_max",0.676170544684255
+"C207","Gompertz","t_lag",3.71065311382592
+"C207","Quadratic","(Intercept)",1.63416829332875
+"C207","Quadratic","poly(Time, 2, raw = TRUE)1",0.0641474380172678
+"C207","Quadratic","poly(Time, 2, raw = TRUE)2",0.00437969135799161
+"C208","Cubic","(Intercept)",1.63598847270939
+"C208","Cubic","poly(Time, 3, raw = TRUE)1",0.149232142513968
+"C208","Cubic","poly(Time, 3, raw = TRUE)2",0.0750862354784163
+"C208","Cubic","poly(Time, 3, raw = TRUE)3",-0.00912836025629261
+"C208","Gompertz","N_0",1.66159433583953
+"C208","Gompertz","N_max",3.13381346939352
+"C208","Gompertz","r_max",1.03208625003508
+"C208","Gompertz","t_lag",0.86806578253415
+"C208","Quadratic","(Intercept)",1.60897303612421
+"C208","Quadratic","poly(Time, 2, raw = TRUE)1",0.273684792328248
+"C208","Quadratic","poly(Time, 2, raw = TRUE)2",0.0071917595607383
+"C209","Cubic","(Intercept)",1.66600800849554
+"C209","Cubic","poly(Time, 3, raw = TRUE)1",-0.00159448116395618
+"C209","Cubic","poly(Time, 3, raw = TRUE)2",0.138097176802814
+"C209","Cubic","poly(Time, 3, raw = TRUE)3",-0.0152439572092889
+"C209","Gompertz","N_0",1.7020606685792
+"C209","Gompertz","N_max",3.3694794056853
+"C209","Gompertz","r_max",1.16676988295664
+"C209","Gompertz","t_lag",1.27567335362475
+"C209","Quadratic","(Intercept)",1.58492060457672
+"C209","Quadratic","poly(Time, 2, raw = TRUE)1",0.281355252843306
+"C209","Quadratic","poly(Time, 2, raw = TRUE)2",0.00585773627548535
+"C210","Cubic","(Intercept)",1.78058323858414
+"C210","Cubic","poly(Time, 3, raw = TRUE)1",-0.0401345081508375
+"C210","Cubic","poly(Time, 3, raw = TRUE)2",0.636113763024553
+"C210","Cubic","poly(Time, 3, raw = TRUE)3",-0.129751092507042
+"C210","Gompertz","N_0",1.79348337398254
+"C210","Gompertz","N_max",3.73973822085457
+"C210","Gompertz","r_max",2.98169443547166
+"C210","Gompertz","t_lag",0.708440630081633
+"C210","Quadratic","(Intercept)",1.64346080097742
+"C210","Quadratic","poly(Time, 2, raw = TRUE)1",0.9512971592063
+"C210","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0974713212441542
+"C211","Cubic","(Intercept)",1.9260072197866
+"C211","Cubic","poly(Time, 3, raw = TRUE)1",0.36226592914566
+"C211","Cubic","poly(Time, 3, raw = TRUE)2",1.40686998285873
+"C211","Cubic","poly(Time, 3, raw = TRUE)3",-0.580200225008704
+"C211","Gompertz","N_0",2.0762316129512
+"C211","Gompertz","N_max",3.75089785575823
+"C211","Gompertz","r_max",5.41821645742615
+"C211","Gompertz","t_lag",0.538184265849477
+"C211","Quadratic","(Intercept)",1.83523210647077
+"C211","Quadratic","poly(Time, 2, raw = TRUE)1",1.48573501788112
+"C211","Quadratic","poly(Time, 2, raw = TRUE)2",-0.212612563480554
+"C212","Cubic","(Intercept)",1.85147507990644
+"C212","Cubic","poly(Time, 3, raw = TRUE)1",0.0141035538275486
+"C212","Cubic","poly(Time, 3, raw = TRUE)2",2.35934789118332
+"C212","Cubic","poly(Time, 3, raw = TRUE)3",-0.940012514371571
+"C212","Gompertz","N_0",1.90539542401212
+"C212","Gompertz","N_max",4.04084427769552
+"C212","Gompertz","r_max",5.86897635303165
+"C212","Gompertz","t_lag",0.393194300841799
+"C212","Quadratic","(Intercept)",1.70704939877767
+"C212","Quadratic","poly(Time, 2, raw = TRUE)1",1.89843131982017
+"C212","Quadratic","poly(Time, 2, raw = TRUE)2",-0.304693380372085
+"C213","Cubic","(Intercept)",1.71933225219791
+"C213","Cubic","poly(Time, 3, raw = TRUE)1",2.94171255158048
+"C213","Cubic","poly(Time, 3, raw = TRUE)2",-0.425611867798129
+"C213","Cubic","poly(Time, 3, raw = TRUE)3",-0.486389725020457
+"C213","Gompertz","N_0",1.73040782186268
+"C213","Gompertz","N_max",3.81851344945041
+"C213","Gompertz","r_max",6.87125008232829
+"C213","Gompertz","t_lag",0.0311754088432176
+"C213","Quadratic","(Intercept)",1.68392833323708
+"C213","Quadratic","poly(Time, 2, raw = TRUE)1",3.51665098796738
+"C213","Quadratic","poly(Time, 2, raw = TRUE)2",-1.48344416172851
+"C214","Cubic","(Intercept)",1.59089675567258
+"C214","Cubic","poly(Time, 3, raw = TRUE)1",1.8928131294607
+"C214","Cubic","poly(Time, 3, raw = TRUE)2",2.40467861083319
+"C214","Cubic","poly(Time, 3, raw = TRUE)3",-2.07188528098532
+"C214","Gompertz","N_0",1.61503260626003
+"C214","Gompertz","N_max",3.77971916284373
+"C214","Gompertz","r_max",8.64301469872085
+"C214","Gompertz","t_lag",0.107337028145413
+"C214","Quadratic","(Intercept)",1.49816358590186
+"C214","Quadratic","poly(Time, 2, raw = TRUE)1",3.72543749090185
+"C214","Quadratic","poly(Time, 2, raw = TRUE)2",-1.49036747815176
+"C215","Cubic","(Intercept)",1.74139920550951
+"C215","Cubic","poly(Time, 3, raw = TRUE)1",-0.0484452491410142
+"C215","Cubic","poly(Time, 3, raw = TRUE)2",-0.0239137548108357
+"C215","Cubic","poly(Time, 3, raw = TRUE)3",0.0069260803640293
+"C215","Gompertz","N_0",2.08639279484233
+"C215","Gompertz","N_max",1.63762166757455
+"C215","Gompertz","r_max",6.120853295076
+"C215","Gompertz","t_lag",5.11792574448145
+"C215","Quadratic","(Intercept)",1.78460825965499
+"C215","Quadratic","poly(Time, 2, raw = TRUE)1",-0.1889111672147
+"C215","Quadratic","poly(Time, 2, raw = TRUE)2",0.0387650602654414
+"C216","Cubic","(Intercept)",0.00471667967305489
+"C216","Cubic","poly(Time, 3, raw = TRUE)1",-0.000718800496150314
+"C216","Cubic","poly(Time, 3, raw = TRUE)2",1.57899893348997e-06
+"C216","Cubic","poly(Time, 3, raw = TRUE)3",-3.4608231616164e-10
+"C216","Gompertz","N_0",0.0605543593736953
+"C216","Gompertz","N_max",2.77209243776704
+"C216","Gompertz","r_max",0.00609745368634958
+"C216","Gompertz","t_lag",905.936344123385
+"C216","Quadratic","(Intercept)",-0.0438811126301415
+"C216","Quadratic","poly(Time, 2, raw = TRUE)1",0.000333044218575859
+"C216","Quadratic","poly(Time, 2, raw = TRUE)2",2.34416837066221e-07
+"C217","Cubic","(Intercept)",-0.0505961268865357
+"C217","Cubic","poly(Time, 3, raw = TRUE)1",0.000188952160200497
+"C217","Cubic","poly(Time, 3, raw = TRUE)2",6.4467023109415e-07
+"C217","Cubic","poly(Time, 3, raw = TRUE)3",-1.23015354024475e-10
+"C217","Gompertz","N_0",0.00447786359648131
+"C217","Gompertz","N_max",3.08843033252805
+"C217","Gompertz","r_max",0.00478628876549023
+"C217","Gompertz","t_lag",668.698639578788
+"C217","Quadratic","(Intercept)",-0.308109798644705
+"C217","Quadratic","poly(Time, 2, raw = TRUE)1",0.00131014008666024
+"C217","Quadratic","poly(Time, 2, raw = TRUE)2",-1.09643125072236e-07
+"C218","Cubic","(Intercept)",-0.0402340820946105
+"C218","Cubic","poly(Time, 3, raw = TRUE)1",0.00121921198979823
+"C218","Cubic","poly(Time, 3, raw = TRUE)2",-2.72726599887806e-08
+"C218","Cubic","poly(Time, 3, raw = TRUE)3",-1.86084336551216e-11
+"C218","Gompertz","N_0",-0.00928962269568287
+"C218","Gompertz","N_max",3.21424365216773
+"C218","Gompertz","r_max",0.00324432377748264
+"C218","Gompertz","t_lag",238.66169787605
+"C218","Quadratic","(Intercept)",-0.064031963107325
+"C218","Quadratic","poly(Time, 2, raw = TRUE)1",0.00138597693262155
+"C218","Quadratic","poly(Time, 2, raw = TRUE)2",-1.41416524033009e-07
+"C219","Cubic","(Intercept)",-8.88178419700125e-16
+"C219","Cubic","poly(Time, 3, raw = TRUE)1",0.000299807818515221
+"C219","Cubic","poly(Time, 3, raw = TRUE)2",4.68216666744922e-07
+"C219","Cubic","poly(Time, 3, raw = TRUE)3",-8.54398777777995e-11
+"C219","Gompertz","N_0",0
+"C219","Gompertz","N_max",3.19252645740334
+"C219","Gompertz","r_max",0.00363462463488942
+"C219","Gompertz","t_lag",638.619341001379
+"C219","Quadratic","(Intercept)",-0.100540362933971
+"C219","Quadratic","poly(Time, 2, raw = TRUE)1",0.00109407401093447
+"C219","Quadratic","poly(Time, 2, raw = TRUE)2",-6.73976794007655e-08
+"C220","Cubic","(Intercept)",0.00402662311914842
+"C220","Cubic","poly(Time, 3, raw = TRUE)1",-0.000187482670229437
+"C220","Cubic","poly(Time, 3, raw = TRUE)2",7.88617681893666e-07
+"C220","Cubic","poly(Time, 3, raw = TRUE)3",-1.33430422425938e-10
+"C220","Gompertz","N_0",0.0025598463523468
+"C220","Gompertz","N_max",3.33573237751481
+"C220","Gompertz","r_max",0.00383150717633926
+"C220","Gompertz","t_lag",797.244222359163
+"C220","Quadratic","(Intercept)",-0.156969657680787
+"C220","Quadratic","poly(Time, 2, raw = TRUE)1",0.000969082708336145
+"C220","Quadratic","poly(Time, 2, raw = TRUE)2",-1.54918467780048e-08
+"C221","Cubic","(Intercept)",-0.0046447742904554
+"C221","Cubic","poly(Time, 3, raw = TRUE)1",0.000612903371679508
+"C221","Cubic","poly(Time, 3, raw = TRUE)2",2.08508829494114e-07
+"C221","Cubic","poly(Time, 3, raw = TRUE)3",-4.32855513487262e-11
+"C221","Gompertz","N_0",-0.00464477429045536
+"C221","Gompertz","N_max",3.0330940821083
+"C221","Gompertz","r_max",0.00286607002703417
+"C221","Gompertz","t_lag",432.10225265903
+"C221","Quadratic","(Intercept)",-0.0541741614410061
+"C221","Quadratic","poly(Time, 2, raw = TRUE)1",0.00100603954647959
+"C221","Quadratic","poly(Time, 2, raw = TRUE)2",-5.97094054399127e-08
+"C222","Cubic","(Intercept)",0.00934635414174435
+"C222","Cubic","poly(Time, 3, raw = TRUE)1",0.000190748611098921
+"C222","Cubic","poly(Time, 3, raw = TRUE)2",2.6996344494374e-06
+"C222","Cubic","poly(Time, 3, raw = TRUE)3",-8.13092567725679e-10
+"C222","Gompertz","N_0",0.0447344533796916
+"C222","Gompertz","N_max",3.31265046312944
+"C222","Gompertz","r_max",0.0084791887865211
+"C222","Gompertz","t_lag",374.482180119542
+"C222","Quadratic","(Intercept)",-0.272335784363445
+"C222","Quadratic","poly(Time, 2, raw = TRUE)1",0.00299911746171281
+"C222","Quadratic","poly(Time, 2, raw = TRUE)2",-5.99980132981597e-07
+"C223","Cubic","(Intercept)",0.00019568015008648
+"C223","Cubic","poly(Time, 3, raw = TRUE)1",0.000122893368865131
+"C223","Cubic","poly(Time, 3, raw = TRUE)2",3.0864127312589e-06
+"C223","Cubic","poly(Time, 3, raw = TRUE)3",-9.15477470918556e-10
+"C223","Gompertz","N_0",0.00461134564225699
+"C223","Gompertz","N_max",3.37146103972298
+"C223","Gompertz","r_max",0.00944527474359062
+"C223","Gompertz","t_lag",378.15280615805
+"C223","Quadratic","(Intercept)",-0.168767840721716
+"C223","Quadratic","poly(Time, 2, raw = TRUE)1",0.00280126634643082
+"C223","Quadratic","poly(Time, 2, raw = TRUE)2",-5.36933198383083e-07
+"C224","Cubic","(Intercept)",-0.705939695708936
+"C224","Cubic","poly(Time, 3, raw = TRUE)1",0.00493376101809139
+"C224","Cubic","poly(Time, 3, raw = TRUE)2",-1.70273985090745e-06
+"C224","Cubic","poly(Time, 3, raw = TRUE)3",1.7205757530812e-10
+"C224","Gompertz","N_0",1.44919656403484
+"C224","Gompertz","N_max",3.51615960217451
+"C224","Gompertz","r_max",0.00778329581361038
+"C224","Gompertz","t_lag",627.61699341988
+"C224","Quadratic","(Intercept)",-0.380691421867722
+"C224","Quadratic","poly(Time, 2, raw = TRUE)1",0.00396472095745366
+"C224","Quadratic","poly(Time, 2, raw = TRUE)2",-9.13709873099536e-07
+"C225","Cubic","(Intercept)",-0.0267410807329195
+"C225","Cubic","poly(Time, 3, raw = TRUE)1",0.00224484251366824
+"C225","Cubic","poly(Time, 3, raw = TRUE)2",8.21320864744574e-07
+"C225","Cubic","poly(Time, 3, raw = TRUE)3",-4.0645177849459e-10
+"C225","Gompertz","N_0",0.0159799393293394
+"C225","Gompertz","N_max",3.46511554706519
+"C225","Gompertz","r_max",0.0110062094308992
+"C225","Gompertz","t_lag",286.813422646047
+"C225","Quadratic","(Intercept)",-0.193794092150916
+"C225","Quadratic","poly(Time, 2, raw = TRUE)1",0.00368717914141412
+"C225","Quadratic","poly(Time, 2, raw = TRUE)2",-8.32073858716737e-07
+"C226","Cubic","(Intercept)",-0.0489302863475398
+"C226","Cubic","poly(Time, 3, raw = TRUE)1",0.00111369179439514
+"C226","Cubic","poly(Time, 3, raw = TRUE)2",1.8531558299094e-06
+"C226","Cubic","poly(Time, 3, raw = TRUE)3",-6.41748976129968e-10
+"C226","Gompertz","N_0",0.00447786359648131
+"C226","Gompertz","N_max",3.3355621438222
+"C226","Gompertz","r_max",0.0108801482011816
+"C226","Gompertz","t_lag",409.002073245451
+"C226","Quadratic","(Intercept)",-0.285658579338903
+"C226","Quadratic","poly(Time, 2, raw = TRUE)1",0.00327833517561046
+"C226","Quadratic","poly(Time, 2, raw = TRUE)2",-6.95730983833605e-07
+"C227","Cubic","(Intercept)",-0.0133927233218393
+"C227","Cubic","poly(Time, 3, raw = TRUE)1",-0.000514316170172293
+"C227","Cubic","poly(Time, 3, raw = TRUE)2",3.36653557328597e-06
+"C227","Cubic","poly(Time, 3, raw = TRUE)3",-9.72246183562276e-10
+"C227","Gompertz","N_0",-0.00928962269568287
+"C227","Gompertz","N_max",3.44184182983227
+"C227","Gompertz","r_max",0.00926288722592774
+"C227","Gompertz","t_lag",429.054906609292
+"C227","Quadratic","(Intercept)",-0.375305758359505
+"C227","Quadratic","poly(Time, 2, raw = TRUE)1",0.00271758962879089
+"C227","Quadratic","poly(Time, 2, raw = TRUE)2",-4.73703631817956e-07
+"C228","Cubic","(Intercept)",0.00199507731070418
+"C228","Cubic","poly(Time, 3, raw = TRUE)1",0.000206135973725249
+"C228","Cubic","poly(Time, 3, raw = TRUE)2",4.18029973777717e-08
+"C228","Cubic","poly(Time, 3, raw = TRUE)3",-3.17647446880419e-12
+"C228","Gompertz","N_0",0.00796838782596626
+"C228","Gompertz","N_max",2.77209243776704
+"C228","Gompertz","r_max",0.00121140366692347
+"C228","Gompertz","t_lag",1451.45995282188
+"C228","Quadratic","(Intercept)",-0.0158926314141272
+"C228","Quadratic","poly(Time, 2, raw = TRUE)1",0.000320531336955658
+"C228","Quadratic","poly(Time, 2, raw = TRUE)2",2.59055638432818e-09
+"C229","Cubic","(Intercept)",0.00488290968147953
+"C229","Cubic","poly(Time, 3, raw = TRUE)1",7.0479184031718e-05
+"C229","Cubic","poly(Time, 3, raw = TRUE)2",3.58547138056038e-08
+"C229","Cubic","poly(Time, 3, raw = TRUE)3",-1.83565706982696e-12
+"C229","Gompertz","N_0",0.0382623604111305
+"C229","Gompertz","N_max",2.866035735852
+"C229","Gompertz","r_max",0.000876055241998983
+"C229","Gompertz","t_lag",2447.28279369748
+"C229","Quadratic","(Intercept)",-0.0512346174720189
+"C229","Quadratic","poly(Time, 2, raw = TRUE)1",0.00021681596373314
+"C229","Quadratic","poly(Time, 2, raw = TRUE)2",2.61588516264058e-09
+"C230","Cubic","(Intercept)",-0.0018633094768854
+"C230","Cubic","poly(Time, 3, raw = TRUE)1",4.88055072971395e-05
+"C230","Cubic","poly(Time, 3, raw = TRUE)2",4.13599023324806e-08
+"C230","Cubic","poly(Time, 3, raw = TRUE)3",-2.25238859946128e-12
+"C230","Gompertz","N_0",2.68522412114741
+"C230","Gompertz","N_max",-0.383256019018381
+"C230","Gompertz","r_max",0.000765124658101634
+"C230","Gompertz","t_lag",10229.0116354446
+"C230","Quadratic","(Intercept)",-0.0775673552183582
+"C230","Quadratic","poly(Time, 2, raw = TRUE)1",0.000212033906212685
+"C230","Quadratic","poly(Time, 2, raw = TRUE)2",9.58538870766641e-10
+"C231","Cubic","(Intercept)",-0.00163146959084982
+"C231","Cubic","poly(Time, 3, raw = TRUE)1",0.000187330183664772
+"C231","Cubic","poly(Time, 3, raw = TRUE)2",3.80587307882769e-08
+"C231","Cubic","poly(Time, 3, raw = TRUE)3",-2.89992869314435e-12
+"C231","Gompertz","N_0",0.00349649614258179
+"C231","Gompertz","N_max",2.78133274555385
+"C231","Gompertz","r_max",0.00104707192362288
+"C231","Gompertz","t_lag",1374.20997962988
+"C231","Quadratic","(Intercept)",-0.105174941753408
+"C231","Quadratic","poly(Time, 2, raw = TRUE)1",0.000385202191200257
+"C231","Quadratic","poly(Time, 2, raw = TRUE)2",-1.00885339828443e-08
+"C232","Cubic","(Intercept)",0.0488308792305027
+"C232","Cubic","poly(Time, 3, raw = TRUE)1",-0.000325555757626949
+"C232","Cubic","poly(Time, 3, raw = TRUE)2",1.40385619111852e-07
+"C232","Cubic","poly(Time, 3, raw = TRUE)3",-7.49187433058983e-12
+"C232","Gompertz","N_0",0.210948478460485
+"C232","Gompertz","N_max",3.01398784570631
+"C232","Gompertz","r_max",0.0019957958562999
+"C232","Gompertz","t_lag",4418.81738781664
+"C232","Quadratic","(Intercept)",-0.0590616800955919
+"C232","Quadratic","poly(Time, 2, raw = TRUE)1",1.02902642927533e-05
+"C232","Quadratic","poly(Time, 2, raw = TRUE)2",3.8160262080826e-08
+"C233","Cubic","(Intercept)",-0.0101145521427692
+"C233","Cubic","poly(Time, 3, raw = TRUE)1",-0.00037081602650506
+"C233","Cubic","poly(Time, 3, raw = TRUE)2",1.0419790901437e-07
+"C233","Cubic","poly(Time, 3, raw = TRUE)3",-4.65170145861158e-12
+"C233","Gompertz","N_0",0.00514192259250126
+"C233","Gompertz","N_max",2.61041175225608
+"C233","Gompertz","r_max",0.00127314536247925
+"C233","Gompertz","t_lag",5380.57420955462
+"C233","Quadratic","(Intercept)",-0.130449451031966
+"C233","Quadratic","poly(Time, 2, raw = TRUE)1",8.60581716569158e-05
+"C233","Quadratic","poly(Time, 2, raw = TRUE)2",9.68644014339304e-09
+"C234","Cubic","(Intercept)",2.32376046530163
+"C234","Cubic","poly(Time, 3, raw = TRUE)1",-0.0443797244620339
+"C234","Cubic","poly(Time, 3, raw = TRUE)2",0.0585355947997145
+"C234","Cubic","poly(Time, 3, raw = TRUE)3",-0.00354717447563631
+"C234","Gompertz","N_0",2.39148943727146
+"C234","Gompertz","N_max",4.14205970625138
+"C234","Gompertz","r_max",0.949041738905218
+"C234","Gompertz","t_lag",2.8810483105764
+"C234","Quadratic","(Intercept)",2.10568547421463
+"C234","Quadratic","poly(Time, 2, raw = TRUE)1",0.238314177412398
+"C234","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00461597749598284
+"C235","Cubic","(Intercept)",2.12436938613127
+"C235","Cubic","poly(Time, 3, raw = TRUE)1",0.822387192957972
+"C235","Cubic","poly(Time, 3, raw = TRUE)2",-0.108796937897744
+"C235","Cubic","poly(Time, 3, raw = TRUE)3",0.00496293976131556
+"C235","Gompertz","N_0",2.13320857846221
+"C235","Gompertz","N_max",4.13536353583571
+"C235","Gompertz","r_max",1.57194977079083
+"C235","Gompertz","t_lag",0.081701329853304
+"C235","Quadratic","(Intercept)",2.13946664260286
+"C235","Quadratic","poly(Time, 2, raw = TRUE)1",0.753913869758509
+"C235","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0714581574412762
+"C236","Cubic","(Intercept)",1.93266592622091
+"C236","Cubic","poly(Time, 3, raw = TRUE)1",-0.0722098674097085
+"C236","Cubic","poly(Time, 3, raw = TRUE)2",0.130040457442942
+"C236","Cubic","poly(Time, 3, raw = TRUE)3",-0.0107172624670835
+"C236","Gompertz","N_0",1.98634782172386
+"C236","Gompertz","N_max",4.10962915610123
+"C236","Gompertz","r_max",1.57385600480012
+"C236","Gompertz","t_lag",2.13228307437034
+"C236","Quadratic","(Intercept)",1.69007240153798
+"C236","Quadratic","poly(Time, 2, raw = TRUE)1",0.397734972634851
+"C236","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0124412509970617
+"C237","Cubic","(Intercept)",1.93421246111482
+"C237","Cubic","poly(Time, 3, raw = TRUE)1",0.118274454359338
+"C237","Cubic","poly(Time, 3, raw = TRUE)2",0.179158616084649
+"C237","Cubic","poly(Time, 3, raw = TRUE)3",-0.0223548000702796
+"C237","Gompertz","N_0",2.01813758731182
+"C237","Gompertz","N_max",4.18401648927378
+"C237","Gompertz","r_max",1.76138932405452
+"C237","Gompertz","t_lag",1.12571861883879
+"C237","Quadratic","(Intercept)",1.86402351362016
+"C237","Quadratic","poly(Time, 2, raw = TRUE)1",0.426354757943878
+"C237","Quadratic","poly(Time, 2, raw = TRUE)2",0.012365993316499
+"C238","Cubic","(Intercept)",2.0517959107748
+"C238","Cubic","poly(Time, 3, raw = TRUE)1",-0.142067264896462
+"C238","Cubic","poly(Time, 3, raw = TRUE)2",0.157614545044778
+"C238","Cubic","poly(Time, 3, raw = TRUE)3",-0.0139691996970721
+"C238","Gompertz","N_0",2.06330218752384
+"C238","Gompertz","N_max",3.83669565418911
+"C238","Gompertz","r_max",1.2966905316954
+"C238","Gompertz","t_lag",1.88117781433074
+"C238","Quadratic","(Intercept)",1.97710346516741
+"C238","Quadratic","poly(Time, 2, raw = TRUE)1",0.116594433311907
+"C238","Quadratic","poly(Time, 2, raw = TRUE)2",0.0366161065370154
+"C239","Cubic","(Intercept)",2.17275562455892
+"C239","Cubic","poly(Time, 3, raw = TRUE)1",0.132245733150422
+"C239","Cubic","poly(Time, 3, raw = TRUE)2",0.209624974598177
+"C239","Cubic","poly(Time, 3, raw = TRUE)3",-0.0302340686739465
+"C239","Gompertz","N_0",4.18061010184714
+"C239","Gompertz","N_max",1.83977044412519
+"C239","Gompertz","r_max",1.51622781668401
+"C239","Gompertz","t_lag",3.77003846085229
+"C239","Quadratic","(Intercept)",2.14117346449852
+"C239","Quadratic","poly(Time, 2, raw = TRUE)1",0.362499567908313
+"C239","Quadratic","poly(Time, 2, raw = TRUE)2",0.03889691943079
+"C240","Cubic","(Intercept)",2.29343915258686
+"C240","Cubic","poly(Time, 3, raw = TRUE)1",0.167474899293107
+"C240","Cubic","poly(Time, 3, raw = TRUE)2",0.433262036570614
+"C240","Cubic","poly(Time, 3, raw = TRUE)3",-0.048881713425008
+"C240","Gompertz","N_0",2.35157533561916
+"C240","Gompertz","N_max",3.71098457734416
+"C240","Gompertz","r_max",2.96444434790287
+"C240","Gompertz","t_lag",0.609893441677839
+"C240","Quadratic","(Intercept)",2.28572632718461
+"C240","Quadratic","poly(Time, 2, raw = TRUE)1",0.262299094571728
+"C240","Quadratic","poly(Time, 2, raw = TRUE)2",0.296748695934024
+"C241","Cubic","(Intercept)",2.21667471719506
+"C241","Cubic","poly(Time, 3, raw = TRUE)1",-0.211034378032129
+"C241","Cubic","poly(Time, 3, raw = TRUE)2",2.00562949546164
+"C241","Cubic","poly(Time, 3, raw = TRUE)3",-0.726515996603679
+"C241","Gompertz","N_0",2.21322326437248
+"C241","Gompertz","N_max",4.1148070933872
+"C241","Gompertz","r_max",4.44614246379274
+"C241","Gompertz","t_lag",0.386417779908644
+"C241","Quadratic","(Intercept)",2.1049420953742
+"C241","Quadratic","poly(Time, 2, raw = TRUE)1",1.24659864675856
+"C241","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0542289036578142
+"C242","Cubic","(Intercept)",1.94583635950864
+"C242","Cubic","poly(Time, 3, raw = TRUE)1",0.56977780689938
+"C242","Cubic","poly(Time, 3, raw = TRUE)2",0.996737637071643
+"C242","Cubic","poly(Time, 3, raw = TRUE)3",-0.347869300268848
+"C242","Gompertz","N_0",2.01147965349973
+"C242","Gompertz","N_max",3.74580565088705
+"C242","Gompertz","r_max",4.75617107578691
+"C242","Gompertz","t_lag",0.363458846515787
+"C242","Quadratic","(Intercept)",1.92056387832947
+"C242","Quadratic","poly(Time, 2, raw = TRUE)1",0.980527658816365
+"C242","Quadratic","poly(Time, 2, raw = TRUE)2",0.24042551360223
+"C243","Cubic","(Intercept)",2.06413638839359
+"C243","Cubic","poly(Time, 3, raw = TRUE)1",1.47718858664882
+"C243","Cubic","poly(Time, 3, raw = TRUE)2",1.77150434628722
+"C243","Cubic","poly(Time, 3, raw = TRUE)3",-1.40577416414701
+"C243","Gompertz","N_0",2.09682804521871
+"C243","Gompertz","N_max",3.99686640375463
+"C243","Gompertz","r_max",6.47799810312392
+"C243","Gompertz","t_lag",0.12645672473976
+"C243","Quadratic","(Intercept)",2.00318224350961
+"C243","Quadratic","poly(Time, 2, raw = TRUE)1",2.71286112406384
+"C243","Quadratic","poly(Time, 2, raw = TRUE)2",-0.865478791053146
+"C244","Cubic","(Intercept)",1.97885727625691
+"C244","Cubic","poly(Time, 3, raw = TRUE)1",0.0124122394265453
+"C244","Cubic","poly(Time, 3, raw = TRUE)2",0.221070431492431
+"C244","Cubic","poly(Time, 3, raw = TRUE)3",-0.0271667310605567
+"C244","Gompertz","N_0",2.04879281122982
+"C244","Gompertz","N_max",4.11906548913729
+"C244","Gompertz","r_max",2.27307848717088
+"C244","Gompertz","t_lag",1.47159287860372
+"C244","Quadratic","(Intercept)",1.81324394530667
+"C244","Quadratic","poly(Time, 2, raw = TRUE)1",0.560823033770104
+"C244","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0243640517412597
+"C245","Cubic","(Intercept)",-1.01076392882863
+"C245","Cubic","poly(Time, 3, raw = TRUE)1",0.0378639530187872
+"C245","Cubic","poly(Time, 3, raw = TRUE)2",-0.000120699418281842
+"C245","Cubic","poly(Time, 3, raw = TRUE)3",1.1799852395673e-07
+"C245","Gompertz","N_0",0.00629400189049256
+"C245","Gompertz","N_max",2.69323155393783
+"C245","Gompertz","r_max",0.0600166027350396
+"C245","Gompertz","t_lag",31.1223483690155
+"C245","Quadratic","(Intercept)",-0.909414222307862
+"C245","Quadratic","poly(Time, 2, raw = TRUE)1",0.0339310467024493
+"C245","Quadratic","poly(Time, 2, raw = TRUE)2",-8.02963746549034e-05
+"C246","Cubic","(Intercept)",-0.0479726159524025
+"C246","Cubic","poly(Time, 3, raw = TRUE)1",-0.00869324139396884
+"C246","Cubic","poly(Time, 3, raw = TRUE)2",0.000436997947170467
+"C246","Cubic","poly(Time, 3, raw = TRUE)3",-1.57854870734468e-06
+"C246","Gompertz","N_0",0.0190053129898578
+"C246","Gompertz","N_max",3.22169616228501
+"C246","Gompertz","r_max",0.0974727531345248
+"C246","Gompertz","t_lag",50.9003137223141
+"C246","Quadratic","(Intercept)",-0.870486112114676
+"C246","Quadratic","poly(Time, 2, raw = TRUE)1",0.0333278023382999
+"C246","Quadratic","poly(Time, 2, raw = TRUE)2",-5.77851945770471e-05
+"C247","Cubic","(Intercept)",-0.178722131800592
+"C247","Cubic","poly(Time, 3, raw = TRUE)1",0.0197218992689634
+"C247","Cubic","poly(Time, 3, raw = TRUE)2",9.4072627478953e-05
+"C247","Cubic","poly(Time, 3, raw = TRUE)3",-5.39736644546534e-07
+"C247","Gompertz","N_0",0.0219485105080769
+"C247","Gompertz","N_max",3.29085114451946
+"C247","Gompertz","r_max",0.0670417996602412
+"C247","Gompertz","t_lag",18.9580576143387
+"C247","Quadratic","(Intercept)",-0.483471064894559
+"C247","Quadratic","poly(Time, 2, raw = TRUE)1",0.0348751423628305
+"C247","Quadratic","poly(Time, 2, raw = TRUE)2",-8.0047588528599e-05
+"C248","Cubic","(Intercept)",-0.996482416756078
+"C248","Cubic","poly(Time, 3, raw = TRUE)1",0.0530102457640681
+"C248","Cubic","poly(Time, 3, raw = TRUE)2",-4.87371402446607e-05
+"C248","Cubic","poly(Time, 3, raw = TRUE)3",-8.3708908478809e-07
+"C248","Gompertz","N_0",0.121686535963533
+"C248","Gompertz","N_max",3.24252232736852
+"C248","Gompertz","r_max",0.1156141700803
+"C248","Gompertz","t_lag",24.3356668500488
+"C248","Quadratic","(Intercept)",-1.19854010944614
+"C248","Quadratic","poly(Time, 2, raw = TRUE)1",0.0645472506965878
+"C248","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000230514138364551
+"C249","Cubic","(Intercept)",0.247442357024568
+"C249","Cubic","poly(Time, 3, raw = TRUE)1",-0.00798306584564767
+"C249","Cubic","poly(Time, 3, raw = TRUE)2",0.000782417146514119
+"C249","Cubic","poly(Time, 3, raw = TRUE)3",-4.39399845103395e-06
+"C249","Gompertz","N_0",0.634934399019528
+"C249","Gompertz","N_max",2.99961948928035
+"C249","Gompertz","r_max",0.117571149257854
+"C249","Gompertz","t_lag",38.9255308403875
+"C249","Quadratic","(Intercept)",-0.931764479444389
+"C249","Quadratic","poly(Time, 2, raw = TRUE)1",0.0542518449672841
+"C249","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000171453256237287
+"C250","Cubic","(Intercept)",0.435356678102793
+"C250","Cubic","poly(Time, 3, raw = TRUE)1",-0.00626196127719674
+"C250","Cubic","poly(Time, 3, raw = TRUE)2",0.000753662839042707
+"C250","Cubic","poly(Time, 3, raw = TRUE)3",-4.1349108801565e-06
+"C250","Gompertz","N_0",0.571601855080824
+"C250","Gompertz","N_max",3.34692202844398
+"C250","Gompertz","r_max",0.109851525942658
+"C250","Gompertz","t_lag",30.3336084756961
+"C250","Quadratic","(Intercept)",-0.17070489505872
+"C250","Quadratic","poly(Time, 2, raw = TRUE)1",0.03866798723713
+"C250","Quadratic","poly(Time, 2, raw = TRUE)2",-6.75238553706772e-05
+"C251","Cubic","(Intercept)",-0.223659105974003
+"C251","Cubic","poly(Time, 3, raw = TRUE)1",0.0403633796528851
+"C251","Cubic","poly(Time, 3, raw = TRUE)2",0.00100323077019608
+"C251","Cubic","poly(Time, 3, raw = TRUE)3",-1.16081789324526e-05
+"C251","Gompertz","N_0",0.156493578492354
+"C251","Gompertz","N_max",3.34217927387285
+"C251","Gompertz","r_max",0.199417388681317
+"C251","Gompertz","t_lag",12.8962680155327
+"C251","Quadratic","(Intercept)",-0.477419336491501
+"C251","Quadratic","poly(Time, 2, raw = TRUE)1",0.0752173700120563
+"C251","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000194358941236584
+"C252","Cubic","(Intercept)",0.586385431160362
+"C252","Cubic","poly(Time, 3, raw = TRUE)1",-0.0362837326090948
+"C252","Cubic","poly(Time, 3, raw = TRUE)2",0.00380456034318756
+"C252","Cubic","poly(Time, 3, raw = TRUE)3",-4.29435034066651e-05
+"C252","Gompertz","N_0",0.575009753061041
+"C252","Gompertz","N_max",2.9649096397904
+"C252","Gompertz","r_max",0.220936303838837
+"C252","Gompertz","t_lag",16.5828868342283
+"C252","Quadratic","(Intercept)",-0.150384543560425
+"C252","Quadratic","poly(Time, 2, raw = TRUE)1",0.0720890096780419
+"C252","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000246389186309371
+"C253","Cubic","(Intercept)",0.194097678506648
+"C253","Cubic","poly(Time, 3, raw = TRUE)1",0.00143498257443135
+"C253","Cubic","poly(Time, 3, raw = TRUE)2",0.00196727960373068
+"C253","Cubic","poly(Time, 3, raw = TRUE)3",-1.88764483981496e-05
+"C253","Gompertz","N_0",0.369576572686826
+"C253","Gompertz","N_max",3.40299291220422
+"C253","Gompertz","r_max",0.196581214946961
+"C253","Gompertz","t_lag",16.4420725054016
+"C253","Quadratic","(Intercept)",-0.210696267737918
+"C253","Quadratic","poly(Time, 2, raw = TRUE)1",0.0576377844942883
+"C253","Quadratic","poly(Time, 2, raw = TRUE)2",2.57336415518454e-05
+"C254","Cubic","(Intercept)",-0.215178730692063
+"C254","Cubic","poly(Time, 3, raw = TRUE)1",0.000854024570562748
+"C254","Cubic","poly(Time, 3, raw = TRUE)2",1.58640165529497e-05
+"C254","Cubic","poly(Time, 3, raw = TRUE)3",-2.13248055431089e-08
+"C254","Gompertz","N_0",0.0170335744775153
+"C254","Gompertz","N_max",1.42247177974274
+"C254","Gompertz","r_max",0.024167853944136
+"C254","Gompertz","t_lag",181.035608731164
+"C254","Quadratic","(Intercept)",-0.653602968055117
+"C254","Quadratic","poly(Time, 2, raw = TRUE)1",0.00720342748874573
+"C254","Quadratic","poly(Time, 2, raw = TRUE)2",-6.39798944197852e-06
+"C255","Cubic","(Intercept)",0.161037830962417
+"C255","Cubic","poly(Time, 3, raw = TRUE)1",-0.00509141965382513
+"C255","Cubic","poly(Time, 3, raw = TRUE)2",4.17205528261951e-05
+"C255","Cubic","poly(Time, 3, raw = TRUE)3",-4.25721812693533e-08
+"C255","Gompertz","N_0",0.0948193858705052
+"C255","Gompertz","N_max",2.91549628958976
+"C255","Gompertz","r_max",0.0228671970401055
+"C255","Gompertz","t_lag",178.935102207673
+"C255","Quadratic","(Intercept)",-0.837976737411894
+"C255","Quadratic","poly(Time, 2, raw = TRUE)1",0.00722648733081199
+"C255","Quadratic","poly(Time, 2, raw = TRUE)2",-6.51294802896988e-07
+"C256","Cubic","(Intercept)",-0.14194002398172
+"C256","Cubic","poly(Time, 3, raw = TRUE)1",0.000628490861004426
+"C256","Cubic","poly(Time, 3, raw = TRUE)2",2.11978020191361e-05
+"C256","Cubic","poly(Time, 3, raw = TRUE)3",-2.32751921084678e-08
+"C256","Gompertz","N_0",-0.002039014461835
+"C256","Gompertz","N_max",2.82189466184542
+"C256","Gompertz","r_max",0.0189647438255385
+"C256","Gompertz","t_lag",127.397500115465
+"C256","Quadratic","(Intercept)",-0.50031858929842
+"C256","Quadratic","poly(Time, 2, raw = TRUE)1",0.0062862190237559
+"C256","Quadratic","poly(Time, 2, raw = TRUE)2",-6.81048879264302e-07
+"C257","Cubic","(Intercept)",-2.59632950188744
+"C257","Cubic","poly(Time, 3, raw = TRUE)1",0.0225436002126023
+"C257","Cubic","poly(Time, 3, raw = TRUE)2",-2.82941169762939e-05
+"C257","Cubic","poly(Time, 3, raw = TRUE)3",7.39602562311155e-09
+"C257","Gompertz","N_0",0.247568717940435
+"C257","Gompertz","N_max",2.47149226917867
+"C257","Gompertz","r_max",0.0354588545221625
+"C257","Gompertz","t_lag",180.272758816293
+"C257","Quadratic","(Intercept)",-2.30945939402952
+"C257","Quadratic","poly(Time, 2, raw = TRUE)1",0.0196702428252149
+"C257","Quadratic","poly(Time, 2, raw = TRUE)2",-1.99057159983823e-05
+"C258","Cubic","(Intercept)",0.0328652547349401
+"C258","Cubic","poly(Time, 3, raw = TRUE)1",-0.00282265682738662
+"C258","Cubic","poly(Time, 3, raw = TRUE)2",3.85037338537672e-05
+"C258","Cubic","poly(Time, 3, raw = TRUE)3",-4.5661874497845e-08
+"C258","Gompertz","N_0",0.0611414327262058
+"C258","Gompertz","N_max",2.47859538892271
+"C258","Gompertz","r_max",0.025802320225528
+"C258","Gompertz","t_lag",159.116869901066
+"C258","Quadratic","(Intercept)",-0.880449484238833
+"C258","Quadratic","poly(Time, 2, raw = TRUE)1",0.0100206323693118
+"C258","Quadratic","poly(Time, 2, raw = TRUE)2",-7.04415805662601e-06
+"C259","Cubic","(Intercept)",-1.12289150952707
+"C259","Cubic","poly(Time, 3, raw = TRUE)1",0.0109846667311875
+"C259","Cubic","poly(Time, 3, raw = TRUE)2",2.93659021550718e-06
+"C259","Cubic","poly(Time, 3, raw = TRUE)3",-1.97450546554171e-08
+"C259","Gompertz","N_0",0.517891136370074
+"C259","Gompertz","N_max",2.66387671689537
+"C259","Gompertz","r_max",0.0244291322998442
+"C259","Gompertz","t_lag",157.778967163586
+"C259","Quadratic","(Intercept)",-1.71079295409884
+"C259","Quadratic","poly(Time, 2, raw = TRUE)1",0.0173031877143149
+"C259","Quadratic","poly(Time, 2, raw = TRUE)2",-1.72685347406548e-05
+"C260","Cubic","(Intercept)",0.0935190686420673
+"C260","Cubic","poly(Time, 3, raw = TRUE)1",-0.00967164015333766
+"C260","Cubic","poly(Time, 3, raw = TRUE)2",0.000106408390743751
+"C260","Cubic","poly(Time, 3, raw = TRUE)3",-1.67089697321529e-07
+"C260","Gompertz","N_0",0.0216496236697388
+"C260","Gompertz","N_max",2.6393355467046
+"C260","Gompertz","r_max",0.0379296497472758
+"C260","Gompertz","t_lag",135.43260999305
+"C260","Quadratic","(Intercept)",-0.235980697204077
+"C260","Quadratic","poly(Time, 2, raw = TRUE)1",0.0040251358586077
+"C260","Quadratic","poly(Time, 2, raw = TRUE)2",1.18424092331612e-05
+"C261","Cubic","(Intercept)",-0.0894424064958026
+"C261","Cubic","poly(Time, 3, raw = TRUE)1",0.000109572732369492
+"C261","Cubic","poly(Time, 3, raw = TRUE)2",0.000129147867063852
+"C261","Cubic","poly(Time, 3, raw = TRUE)3",-3.09105393416033e-07
+"C261","Gompertz","N_0",0.012597664212788
+"C261","Gompertz","N_max",3.17364032136522
+"C261","Gompertz","r_max",0.0565090486580288
+"C261","Gompertz","t_lag",66.6618832274247
+"C261","Quadratic","(Intercept)",-0.518895099282575
+"C261","Quadratic","poly(Time, 2, raw = TRUE)1",0.0191489171660584
+"C261","Quadratic","poly(Time, 2, raw = TRUE)2",-2.18248003599597e-05
+"C262","Cubic","(Intercept)",-0.0260414390720355
+"C262","Cubic","poly(Time, 3, raw = TRUE)1",-0.00371377647773768
+"C262","Cubic","poly(Time, 3, raw = TRUE)2",0.00013043097268711
+"C262","Cubic","poly(Time, 3, raw = TRUE)3",-2.74408772940567e-07
+"C262","Gompertz","N_0",0.00815585715976117
+"C262","Gompertz","N_max",3.20419614227251
+"C262","Gompertz","r_max",0.047997934900375
+"C262","Gompertz","t_lag",75.804220757838
+"C262","Quadratic","(Intercept)",-0.405997397280258
+"C262","Quadratic","poly(Time, 2, raw = TRUE)1",0.0135857646472695
+"C262","Quadratic","poly(Time, 2, raw = TRUE)2",-5.95864480378828e-06
+"C263","Cubic","(Intercept)",-2.12855171319885
+"C263","Cubic","poly(Time, 3, raw = TRUE)1",0.0197484807318696
+"C263","Cubic","poly(Time, 3, raw = TRUE)2",-7.5051398528998e-05
+"C263","Cubic","poly(Time, 3, raw = TRUE)3",8.46556663128843e-08
+"C263","Gompertz","N_0",-2.27351730321517
+"C263","Gompertz","N_max",-0.642787673017743
+"C263","Gompertz","r_max",0.0638245399702765
+"C263","Gompertz","t_lag",5.05232076148752
+"C263","Quadratic","(Intercept)",-1.79944900356047
+"C263","Quadratic","poly(Time, 2, raw = TRUE)1",0.00891794171353602
+"C263","Quadratic","poly(Time, 2, raw = TRUE)2",-1.51121658935305e-05
+"C264","Cubic","(Intercept)",-1.92767333053048
+"C264","Cubic","poly(Time, 3, raw = TRUE)1",0.0577886570062753
+"C264","Cubic","poly(Time, 3, raw = TRUE)2",-0.000723426221377884
+"C264","Cubic","poly(Time, 3, raw = TRUE)3",2.66711151962265e-06
+"C264","Gompertz","N_0",-2.09919606518963
+"C264","Gompertz","N_max",-0.636822531881873
+"C264","Gompertz","r_max",0.196695063245679
+"C264","Gompertz","t_lag",0.145031384132459
+"C264","Quadratic","(Intercept)",-1.75231796472745
+"C264","Quadratic","poly(Time, 2, raw = TRUE)1",0.0282278639308204
+"C264","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000153484938290935
+"C265","Cubic","(Intercept)",-1.82731962514118
+"C265","Cubic","poly(Time, 3, raw = TRUE)1",0.0569622260732143
+"C265","Cubic","poly(Time, 3, raw = TRUE)2",-0.000804324016403275
+"C265","Cubic","poly(Time, 3, raw = TRUE)3",3.1486429507473e-06
+"C265","Gompertz","N_0",-2.27180860141005
+"C265","Gompertz","N_max",-0.787540713492904
+"C265","Gompertz","r_max",0.301969579438709
+"C265","Gompertz","t_lag",-1.05799220416366
+"C265","Quadratic","(Intercept)",-1.6543976513138
+"C265","Quadratic","poly(Time, 2, raw = TRUE)1",0.0232408920346374
+"C265","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000138747784158808
+"C266","Cubic","(Intercept)",-2.54172565086303
+"C266","Cubic","poly(Time, 3, raw = TRUE)1",0.00919666510227157
+"C266","Cubic","poly(Time, 3, raw = TRUE)2",-1.66875171907091e-05
+"C266","Cubic","poly(Time, 3, raw = TRUE)3",1.0232896096472e-08
+"C266","Gompertz","N_0",-2.74909230029914
+"C266","Gompertz","N_max",-0.807892729984011
+"C266","Gompertz","r_max",0.0158493724859442
+"C266","Gompertz","t_lag",-38.9656298049799
+"C266","Quadratic","(Intercept)",-2.40560062941042
+"C266","Quadratic","poly(Time, 2, raw = TRUE)1",0.0064895484274118
+"C266","Quadratic","poly(Time, 2, raw = TRUE)2",-6.39336979303795e-06
+"C267","Cubic","(Intercept)",-1.60834896105067
+"C267","Cubic","poly(Time, 3, raw = TRUE)1",0.0142688720995547
+"C267","Cubic","poly(Time, 3, raw = TRUE)2",-5.67837027495003e-05
+"C267","Cubic","poly(Time, 3, raw = TRUE)3",6.37812898953716e-08
+"C267","Gompertz","N_0",-2.27818938478745
+"C267","Gompertz","N_max",-0.586641551440326
+"C267","Gompertz","r_max",0.148833877729304
+"C267","Gompertz","t_lag",-2.05298993028364
+"C267","Quadratic","(Intercept)",-1.39152875238091
+"C267","Quadratic","poly(Time, 2, raw = TRUE)1",0.0063362063899107
+"C267","Quadratic","poly(Time, 2, raw = TRUE)2",-1.19981632535494e-05
+"C268","Cubic","(Intercept)",-1.50775870332116
+"C268","Cubic","poly(Time, 3, raw = TRUE)1",0.0436487656496182
+"C268","Cubic","poly(Time, 3, raw = TRUE)2",-0.000559068936864544
+"C268","Cubic","poly(Time, 3, raw = TRUE)3",2.00592379758722e-06
+"C268","Gompertz","N_0",-1.73009030125024
+"C268","Gompertz","N_max",-0.602059991327962
+"C268","Gompertz","r_max",0.199700497663521
+"C268","Gompertz","t_lag",-0.0733989341560936
+"C268","Quadratic","(Intercept)",-1.39542112433432
+"C268","Quadratic","poly(Time, 2, raw = TRUE)1",0.0221105767382262
+"C268","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000134804486809525
+"C269","Cubic","(Intercept)",-1.44991974065473
+"C269","Cubic","poly(Time, 3, raw = TRUE)1",0.0445181131445548
+"C269","Cubic","poly(Time, 3, raw = TRUE)2",-0.000616103672247785
+"C269","Cubic","poly(Time, 3, raw = TRUE)3",2.38845231924858e-06
+"C269","Gompertz","N_0",-1.72660514600286
+"C269","Gompertz","N_max",-0.62231863973471
+"C269","Gompertz","r_max",0.204272739267207
+"C269","Gompertz","t_lag",-0.716988404808507
+"C269","Quadratic","(Intercept)",-1.31167314333178
+"C269","Quadratic","poly(Time, 2, raw = TRUE)1",0.0187634282105817
+"C269","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000110263746400085
+"C270","Cubic","(Intercept)",-2.20090594141377
+"C270","Cubic","poly(Time, 3, raw = TRUE)1",0.012054101078132
+"C270","Cubic","poly(Time, 3, raw = TRUE)2",-2.90311202704683e-05
+"C270","Cubic","poly(Time, 3, raw = TRUE)3",2.17069238707315e-08
+"C270","Gompertz","N_0",-2.28257916327762
+"C270","Gompertz","N_max",-0.652457281280181
+"C270","Gompertz","r_max",0.0253612972100998
+"C270","Gompertz","t_lag",-2.83870772310183
+"C270","Quadratic","(Intercept)",-1.91165403845278
+"C270","Quadratic","poly(Time, 2, raw = TRUE)1",0.00632601118528328
+"C270","Quadratic","poly(Time, 2, raw = TRUE)2",-7.23648428193925e-06
+"C271","Cubic","(Intercept)",-1.80706561086347
+"C271","Cubic","poly(Time, 3, raw = TRUE)1",0.0185957873978309
+"C271","Cubic","poly(Time, 3, raw = TRUE)2",-7.3828895047588e-05
+"C271","Cubic","poly(Time, 3, raw = TRUE)3",8.22716828682939e-08
+"C271","Gompertz","N_0",-2.58120170940965
+"C271","Gompertz","N_max",-0.48430229311754
+"C271","Gompertz","r_max",0.128050672466874
+"C271","Gompertz","t_lag",-6.18816698185575
+"C271","Quadratic","(Intercept)",-1.48997523214832
+"C271","Quadratic","poly(Time, 2, raw = TRUE)1",0.00799454490896222
+"C271","Quadratic","poly(Time, 2, raw = TRUE)2",-1.52664421095101e-05
+"C272","Cubic","(Intercept)",-1.57819389484394
+"C272","Cubic","poly(Time, 3, raw = TRUE)1",0.0555158679234345
+"C272","Cubic","poly(Time, 3, raw = TRUE)2",-0.000683971740581916
+"C272","Cubic","poly(Time, 3, raw = TRUE)3",2.52868298628314e-06
+"C272","Gompertz","N_0",-1.73009030125024
+"C272","Gompertz","N_max",-0.246808518785019
+"C272","Gompertz","r_max",0.181043259209363
+"C272","Gompertz","t_lag",-0.0544177384284937
+"C272","Quadratic","(Intercept)",-1.43538223642914
+"C272","Quadratic","poly(Time, 2, raw = TRUE)1",0.0284638405778228
+"C272","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000150369126027726
+"C273","Cubic","(Intercept)",-1.47146091007215
+"C273","Cubic","poly(Time, 3, raw = TRUE)1",0.0432137668764745
+"C273","Cubic","poly(Time, 3, raw = TRUE)2",-0.000628681718938726
+"C273","Cubic","poly(Time, 3, raw = TRUE)3",2.51435020961872e-06
+"C273","Gompertz","N_0",-1.66861319902518
+"C273","Gompertz","N_max",-0.793549382953612
+"C273","Gompertz","r_max",0.203380789642354
+"C273","Gompertz","t_lag",0.220821822056675
+"C273","Quadratic","(Intercept)",-1.33198235944266
+"C273","Quadratic","poly(Time, 2, raw = TRUE)1",0.0162399039420398
+"C273","Quadratic","poly(Time, 2, raw = TRUE)2",-9.68827389442112e-05
+"C274","Cubic","(Intercept)",-2.073462804335
+"C274","Cubic","poly(Time, 3, raw = TRUE)1",0.00932141466342453
+"C274","Cubic","poly(Time, 3, raw = TRUE)2",-1.91914370508157e-05
+"C274","Cubic","poly(Time, 3, raw = TRUE)3",1.28867836073043e-08
+"C274","Gompertz","N_0",-2.15757799664235
+"C274","Gompertz","N_max",-0.577823971024898
+"C274","Gompertz","r_max",0.0163399145792339
+"C274","Gompertz","t_lag",-18.9068433546815
+"C274","Quadratic","(Intercept)",-1.9003915165348
+"C274","Quadratic","poly(Time, 2, raw = TRUE)1",0.00591346353256368
+"C274","Quadratic","poly(Time, 2, raw = TRUE)2",-6.24261374093027e-06
+"C275","Cubic","(Intercept)",2.91487089708458
+"C275","Cubic","poly(Time, 3, raw = TRUE)1",0.00791476869006707
+"C275","Cubic","poly(Time, 3, raw = TRUE)2",-1.42215007994031e-05
+"C275","Cubic","poly(Time, 3, raw = TRUE)3",7.91890315750548e-09
+"C275","Gompertz","N_0",3.07330334371841
+"C275","Gompertz","N_max",4.31854385692822
+"C275","Gompertz","r_max",0.0229931188447132
+"C275","Gompertz","t_lag",65.4814023126863
+"C275","Quadratic","(Intercept)",3.21585639561923
+"C275","Quadratic","poly(Time, 2, raw = TRUE)1",0.00361295797709909
+"C275","Quadratic","poly(Time, 2, raw = TRUE)2",-2.7863338026156e-06
+"C276","Cubic","(Intercept)",2.7674271949046
+"C276","Cubic","poly(Time, 3, raw = TRUE)1",0.0077480936793992
+"C276","Cubic","poly(Time, 3, raw = TRUE)2",-1.30004186032454e-05
+"C276","Cubic","poly(Time, 3, raw = TRUE)3",6.88105332553813e-09
+"C276","Gompertz","N_0",2.99997530808015
+"C276","Gompertz","N_max",4.30982812037415
+"C276","Gompertz","r_max",0.0342557197950086
+"C276","Gompertz","t_lag",127.298006895281
+"C276","Quadratic","(Intercept)",3.03279005823935
+"C276","Quadratic","poly(Time, 2, raw = TRUE)1",0.00399751378670522
+"C276","Quadratic","poly(Time, 2, raw = TRUE)2",-3.05217126846753e-06
+"C277","Cubic","(Intercept)",2.92182802074653
+"C277","Cubic","poly(Time, 3, raw = TRUE)1",0.00705971269387325
+"C277","Cubic","poly(Time, 3, raw = TRUE)2",-1.10969449527216e-05
+"C277","Cubic","poly(Time, 3, raw = TRUE)3",5.29284604076092e-09
+"C277","Gompertz","N_0",3.09717803034921
+"C277","Gompertz","N_max",4.31342000887182
+"C277","Gompertz","r_max",0.0235802970697607
+"C277","Gompertz","t_lag",86.4960145225913
+"C277","Quadratic","(Intercept)",3.16776988785244
+"C277","Quadratic","poly(Time, 2, raw = TRUE)1",0.00376159402984821
+"C277","Quadratic","poly(Time, 2, raw = TRUE)2",-2.89753318098195e-06
+"C278","Cubic","(Intercept)",2.61424457347224
+"C278","Cubic","poly(Time, 3, raw = TRUE)1",0.00858803347010636
+"C278","Cubic","poly(Time, 3, raw = TRUE)2",-1.35034041273067e-05
+"C278","Cubic","poly(Time, 3, raw = TRUE)3",6.55200276392027e-09
+"C278","Gompertz","N_0",2.97138729195438
+"C278","Gompertz","N_max",4.34100502695576
+"C278","Gompertz","r_max",0.0360225403005963
+"C278","Gompertz","t_lag",129.991693898913
+"C278","Quadratic","(Intercept)",2.99433183605222
+"C278","Quadratic","poly(Time, 2, raw = TRUE)1",0.00411608718455384
+"C278","Quadratic","poly(Time, 2, raw = TRUE)2",-2.97068578997811e-06
+"C279","Cubic","(Intercept)",2.88578832920831
+"C279","Cubic","poly(Time, 3, raw = TRUE)1",0.00761284430191788
+"C279","Cubic","poly(Time, 3, raw = TRUE)2",-1.25007256420759e-05
+"C279","Cubic","poly(Time, 3, raw = TRUE)3",6.24198474627521e-09
+"C279","Gompertz","N_0",3.05669089783539
+"C279","Gompertz","N_max",4.28826014107551
+"C279","Gompertz","r_max",0.0226582682377054
+"C279","Gompertz","t_lag",69.0101123408156
+"C279","Quadratic","(Intercept)",3.18608675391285
+"C279","Quadratic","poly(Time, 2, raw = TRUE)1",0.00367891681632902
+"C279","Quadratic","poly(Time, 2, raw = TRUE)2",-2.79367511544735e-06
+"C280","Cubic","(Intercept)",3.29015130020064
+"C280","Cubic","poly(Time, 3, raw = TRUE)1",0.00340038966069887
+"C280","Cubic","poly(Time, 3, raw = TRUE)2",-5.36680173539512e-06
+"C280","Cubic","poly(Time, 3, raw = TRUE)3",2.82720395891274e-09
+"C280","Gompertz","N_0",3.10298416078781
+"C280","Gompertz","N_max",4.16331116478084
+"C280","Gompertz","r_max",0.00348834300859756
+"C280","Gompertz","t_lag",-217.028535579004
+"C280","Quadratic","(Intercept)",3.42731775612227
+"C280","Quadratic","poly(Time, 2, raw = TRUE)1",0.00161020076622078
+"C280","Quadratic","poly(Time, 2, raw = TRUE)2",-9.61036332602209e-07
+"C281","Cubic","(Intercept)",3.27269281051138
+"C281","Cubic","poly(Time, 3, raw = TRUE)1",0.0028517525944
+"C281","Cubic","poly(Time, 3, raw = TRUE)2",-4.14091092093794e-06
+"C281","Cubic","poly(Time, 3, raw = TRUE)3",2.13800114665344e-09
+"C281","Gompertz","N_0",3.05490086998154
+"C281","Gompertz","N_max",4.14181804565297
+"C281","Gompertz","r_max",0.00305712527459761
+"C281","Gompertz","t_lag",-253.707115804223
+"C281","Quadratic","(Intercept)",3.37255806253461
+"C281","Quadratic","poly(Time, 2, raw = TRUE)1",0.00151111985781991
+"C281","Quadratic","poly(Time, 2, raw = TRUE)2",-8.17544235242535e-07
+"C282","Cubic","(Intercept)",3.30951443377731
+"C282","Cubic","poly(Time, 3, raw = TRUE)1",0.00309791742783557
+"C282","Cubic","poly(Time, 3, raw = TRUE)2",-4.54394335835224e-06
+"C282","Cubic","poly(Time, 3, raw = TRUE)3",2.21362548056687e-09
+"C282","Gompertz","N_0",3.10298416078781
+"C282","Gompertz","N_max",4.14842468928643
+"C282","Gompertz","r_max",0.003263909060419
+"C282","Gompertz","t_lag",-243.445855283028
+"C282","Quadratic","(Intercept)",3.41648737511486
+"C282","Quadratic","poly(Time, 2, raw = TRUE)1",0.00170013838181602
+"C282","Quadratic","poly(Time, 2, raw = TRUE)2",-1.09889462313434e-06
+"C283","Cubic","(Intercept)",3.00935040154649
+"C283","Cubic","poly(Time, 3, raw = TRUE)1",0.00478288101492047
+"C283","Cubic","poly(Time, 3, raw = TRUE)2",-6.74459130318562e-06
+"C283","Cubic","poly(Time, 3, raw = TRUE)3",3.03263893032106e-09
+"C283","Gompertz","N_0",2.78561965050217
+"C283","Gompertz","N_max",4.14727391592444
+"C283","Gompertz","r_max",0.00827356742161879
+"C283","Gompertz","t_lag",-83.3341835387692
+"C283","Quadratic","(Intercept)",3.16285908078042
+"C283","Quadratic","poly(Time, 2, raw = TRUE)1",0.0028129413126346
+"C283","Quadratic","poly(Time, 2, raw = TRUE)2",-1.9802267396174e-06
+"C284","Cubic","(Intercept)",3.27035028953094
+"C284","Cubic","poly(Time, 3, raw = TRUE)1",0.00410300615719314
+"C284","Cubic","poly(Time, 3, raw = TRUE)2",-6.52813979306879e-06
+"C284","Cubic","poly(Time, 3, raw = TRUE)3",3.25182708913838e-09
+"C284","Gompertz","N_0",3.10298416078781
+"C284","Gompertz","N_max",4.18498720017879
+"C284","Gompertz","r_max",0.00670425294917916
+"C284","Gompertz","t_lag",-81.0483787236643
+"C284","Quadratic","(Intercept)",3.41716896137014
+"C284","Quadratic","poly(Time, 2, raw = TRUE)1",0.00210225209159354
+"C284","Quadratic","poly(Time, 2, raw = TRUE)2",-1.52203736128424e-06
+"C285","Cubic","(Intercept)",2.72982755096158
+"C285","Cubic","poly(Time, 3, raw = TRUE)1",-7.63241536753791e-05
+"C285","Cubic","poly(Time, 3, raw = TRUE)2",6.46473367022643e-06
+"C285","Cubic","poly(Time, 3, raw = TRUE)3",-6.5316064017021e-09
+"C285","Gompertz","N_0",2.6529955291533
+"C285","Gompertz","N_max",3.70266490380616
+"C285","Gompertz","r_max",0.00681913414690116
+"C285","Gompertz","t_lag",115.864149830568
+"C285","Quadratic","(Intercept)",2.54988410328379
+"C285","Quadratic","poly(Time, 2, raw = TRUE)1",0.00275640252052667
+"C285","Quadratic","poly(Time, 2, raw = TRUE)2",-1.96878049754834e-06
+"C286","Cubic","(Intercept)",2.96005783939517
+"C286","Cubic","poly(Time, 3, raw = TRUE)1",-0.00364709127970854
+"C286","Cubic","poly(Time, 3, raw = TRUE)2",1.4716205997457e-05
+"C286","Cubic","poly(Time, 3, raw = TRUE)3",-1.14633277613014e-08
+"C286","Gompertz","N_0",2.59093311766298
+"C286","Gompertz","N_max",3.75063796907036
+"C286","Gompertz","r_max",0.0661899486012892
+"C286","Gompertz","t_lag",269.325444693545
+"C286","Quadratic","(Intercept)",2.65085259232181
+"C286","Quadratic","poly(Time, 2, raw = TRUE)1",0.00128627614013929
+"C286","Quadratic","poly(Time, 2, raw = TRUE)2",-4.37376967185846e-08
+"C287","Cubic","(Intercept)",2.70396779494524
+"C287","Cubic","poly(Time, 3, raw = TRUE)1",-0.000602598127570075
+"C287","Cubic","poly(Time, 3, raw = TRUE)2",9.32155807610252e-06
+"C287","Cubic","poly(Time, 3, raw = TRUE)3",-8.91615684677949e-09
+"C287","Gompertz","N_0",2.56407008957028
+"C287","Gompertz","N_max",3.60984055323547
+"C287","Gompertz","r_max",0.187435574688076
+"C287","Gompertz","t_lag",239.331342866023
+"C287","Quadratic","(Intercept)",2.46046714893901
+"C287","Quadratic","poly(Time, 2, raw = TRUE)1",0.00324896307658505
+"C287","Quadratic","poly(Time, 2, raw = TRUE)2",-2.17338253138952e-06
+"C288","Cubic","(Intercept)",2.71361938609929
+"C288","Cubic","poly(Time, 3, raw = TRUE)1",-0.0010935191249063
+"C288","Cubic","poly(Time, 3, raw = TRUE)2",7.59019792904152e-06
+"C288","Cubic","poly(Time, 3, raw = TRUE)3",-5.63135356213776e-09
+"C288","Gompertz","N_0",2.55180257387112
+"C288","Gompertz","N_max",3.70007334081492
+"C288","Gompertz","r_max",0.0523539602638397
+"C288","Gompertz","t_lag",271.613455838713
+"C288","Quadratic","(Intercept)",2.44198416013078
+"C288","Quadratic","poly(Time, 2, raw = TRUE)1",0.00242165566201759
+"C288","Quadratic","poly(Time, 2, raw = TRUE)2",-1.11738884451058e-06
+"C289","Cubic","(Intercept)",3.07641143399325
+"C289","Cubic","poly(Time, 3, raw = TRUE)1",-0.00231056750816629
+"C289","Cubic","poly(Time, 3, raw = TRUE)2",8.80760574406933e-06
+"C289","Cubic","poly(Time, 3, raw = TRUE)3",-6.07785070385587e-09
+"C289","Gompertz","N_0",2.85814374850474
+"C289","Gompertz","N_max",3.57866054644269
+"C289","Gompertz","r_max",0.0173484329891258
+"C289","Gompertz","t_lag",276.525037470039
+"C289","Quadratic","(Intercept)",2.78220932298417
+"C289","Quadratic","poly(Time, 2, raw = TRUE)1",0.00149275123234915
+"C289","Quadratic","poly(Time, 2, raw = TRUE)2",-6.00583095139463e-07
+"C290","Cubic","(Intercept)",2.68232691360112
+"C290","Cubic","poly(Time, 3, raw = TRUE)1",0.000331643048808663
+"C290","Cubic","poly(Time, 3, raw = TRUE)2",6.64055800847133e-06
+"C290","Cubic","poly(Time, 3, raw = TRUE)3",-5.46523282957772e-09
+"C290","Gompertz","N_0",2.63582938826951
+"C290","Gompertz","N_max",4.2944588271315
+"C290","Gompertz","r_max",0.0172208970053013
+"C290","Gompertz","t_lag",194.859573223764
+"C290","Quadratic","(Intercept)",2.44515309765375
+"C290","Quadratic","poly(Time, 2, raw = TRUE)1",0.00360498900213015
+"C290","Quadratic","poly(Time, 2, raw = TRUE)2",-1.72056752097512e-06
+"C291","Cubic","(Intercept)",2.61289686632849
+"C291","Cubic","poly(Time, 3, raw = TRUE)1",0.0012140245934319
+"C291","Cubic","poly(Time, 3, raw = TRUE)2",4.53103843527032e-06
+"C291","Cubic","poly(Time, 3, raw = TRUE)3",-4.12955436572738e-09
+"C291","Gompertz","N_0",2.67096537082589
+"C291","Gompertz","N_max",4.34801666719858
+"C291","Gompertz","r_max",0.0154406068384021
+"C291","Gompertz","t_lag",198.772099218787
+"C291","Quadratic","(Intercept)",2.43407207965538
+"C291","Quadratic","poly(Time, 2, raw = TRUE)1",0.00368527412911844
+"C291","Quadratic","poly(Time, 2, raw = TRUE)2",-1.7851273343516e-06
+"C292","Cubic","(Intercept)",3.03715996687035
+"C292","Cubic","poly(Time, 3, raw = TRUE)1",0.000700481122251913
+"C292","Cubic","poly(Time, 3, raw = TRUE)2",3.59537505271446e-06
+"C292","Cubic","poly(Time, 3, raw = TRUE)3",-3.05212499992736e-09
+"C292","Gompertz","N_0",3.06702877900114
+"C292","Gompertz","N_max",4.3349687196317
+"C292","Gompertz","r_max",0.00816121813096276
+"C292","Gompertz","t_lag",172.935133856565
+"C292","Quadratic","(Intercept)",2.90724854022409
+"C292","Quadratic","poly(Time, 2, raw = TRUE)1",0.00251779671929772
+"C292","Quadratic","poly(Time, 2, raw = TRUE)2",-1.06629386931619e-06
+"C293","Cubic","(Intercept)",2.64909393054663
+"C293","Cubic","poly(Time, 3, raw = TRUE)1",0.00302322246470805
+"C293","Cubic","poly(Time, 3, raw = TRUE)2",-1.51886830257969e-08
+"C293","Cubic","poly(Time, 3, raw = TRUE)3",-1.33430189738974e-09
+"C293","Gompertz","N_0",2.70777521187768
+"C293","Gompertz","N_max",4.35660534396393
+"C293","Gompertz","r_max",0.0089332285146734
+"C293","Gompertz","t_lag",75.8975136106394
+"C293","Quadratic","(Intercept)",2.5916206633675
+"C293","Quadratic","poly(Time, 2, raw = TRUE)1",0.00381884133781834
+"C293","Quadratic","poly(Time, 2, raw = TRUE)2",-2.05225130383126e-06
+"C294","Cubic","(Intercept)",2.77729535540967
+"C294","Cubic","poly(Time, 3, raw = TRUE)1",0.00359466807101118
+"C294","Cubic","poly(Time, 3, raw = TRUE)2",-2.55688697412399e-06
+"C294","Cubic","poly(Time, 3, raw = TRUE)3",4.35654259654186e-10
+"C294","Gompertz","N_0",2.69018521809906
+"C294","Gompertz","N_max",4.30567543626751
+"C294","Gompertz","r_max",0.00699727456360139
+"C294","Gompertz","t_lag",-16.4714061958131
+"C294","Quadratic","(Intercept)",2.78518637266509
+"C294","Quadratic","poly(Time, 2, raw = TRUE)1",0.0033875645688779
+"C294","Quadratic","poly(Time, 2, raw = TRUE)2",-1.9436010460824e-06
+"C295","Cubic","(Intercept)",2.74215443500904
+"C295","Cubic","poly(Time, 3, raw = TRUE)1",0.00541422087729677
+"C295","Cubic","poly(Time, 3, raw = TRUE)2",-6.02111354706134e-06
+"C295","Cubic","poly(Time, 3, raw = TRUE)3",2.13896260000894e-09
+"C295","Gompertz","N_0",2.8602819780801
+"C295","Gompertz","N_max",4.30333910182796
+"C295","Gompertz","r_max",0.0149665793588885
+"C295","Gompertz","t_lag",85.183827549909
+"C295","Quadratic","(Intercept)",2.82907717708615
+"C295","Quadratic","poly(Time, 2, raw = TRUE)1",0.00416346239959376
+"C295","Quadratic","poly(Time, 2, raw = TRUE)2",-2.77547987811235e-06
+"C296","Cubic","(Intercept)",2.82208646539841
+"C296","Cubic","poly(Time, 3, raw = TRUE)1",0.00609270953298934
+"C296","Cubic","poly(Time, 3, raw = TRUE)2",-7.93547372994569e-06
+"C296","Cubic","poly(Time, 3, raw = TRUE)3",3.35264024164933e-09
+"C296","Gompertz","N_0",3.06866613142957
+"C296","Gompertz","N_max",4.37900209278857
+"C296","Gompertz","r_max",0.00981219749096121
+"C296","Gompertz","t_lag",46.2323650931662
+"C296","Quadratic","(Intercept)",3.01323877115937
+"C296","Quadratic","poly(Time, 2, raw = TRUE)1",0.00391042537024711
+"C296","Quadratic","poly(Time, 2, raw = TRUE)2",-2.6266537629018e-06
+"C297","Cubic","(Intercept)",2.80076639766578
+"C297","Cubic","poly(Time, 3, raw = TRUE)1",0.00533415276530122
+"C297","Cubic","poly(Time, 3, raw = TRUE)2",-6.79736045684042e-06
+"C297","Cubic","poly(Time, 3, raw = TRUE)3",3.00477140044737e-09
+"C297","Gompertz","N_0",2.95561261316045
+"C297","Gompertz","N_max",4.37968770843255
+"C297","Gompertz","r_max",0.0117806287266261
+"C297","Gompertz","t_lag",85.9921660439102
+"C297","Quadratic","(Intercept)",2.92766305467211
+"C297","Quadratic","poly(Time, 2, raw = TRUE)1",0.00356423077552244
+"C297","Quadratic","poly(Time, 2, raw = TRUE)2",-2.23040168112967e-06
+"C298","Cubic","(Intercept)",2.61412291935391
+"C298","Cubic","poly(Time, 3, raw = TRUE)1",0.00492445099161838
+"C298","Cubic","poly(Time, 3, raw = TRUE)2",-3.99730266859447e-06
+"C298","Cubic","poly(Time, 3, raw = TRUE)3",6.90432814130650e-10
+"C298","Gompertz","N_0",2.75544883927443
+"C298","Gompertz","N_max",4.32284538434173
+"C298","Gompertz","r_max",0.0171365496727793
+"C298","Gompertz","t_lag",118.415620468003
+"C298","Quadratic","(Intercept)",2.64357826247158
+"C298","Quadratic","poly(Time, 2, raw = TRUE)1",0.00451638793142824
+"C298","Quadratic","poly(Time, 2, raw = TRUE)2",-2.94696241051073e-06
+"C299","Cubic","(Intercept)",2.52664339354143
+"C299","Cubic","poly(Time, 3, raw = TRUE)1",0.00698001092221473
+"C299","Cubic","poly(Time, 3, raw = TRUE)2",-8.96251453735159e-06
+"C299","Cubic","poly(Time, 3, raw = TRUE)3",3.76312295508658e-09
+"C299","Gompertz","N_0",2.678068785733
+"C299","Gompertz","N_max",4.3375798523176
+"C299","Gompertz","r_max",0.025302382753197
+"C299","Gompertz","t_lag",106.772612471689
+"C299","Quadratic","(Intercept)",2.68437294034715
+"C299","Quadratic","poly(Time, 2, raw = TRUE)1",0.00477293751865349
+"C299","Quadratic","poly(Time, 2, raw = TRUE)2",-3.25591501640865e-06
+"C300","Cubic","(Intercept)",1.57093125798531
+"C300","Cubic","poly(Time, 3, raw = TRUE)1",0.107048963795115
+"C300","Cubic","poly(Time, 3, raw = TRUE)2",-0.000237256960911114
+"C300","Cubic","poly(Time, 3, raw = TRUE)3",-1.17641733163963e-06
+"C300","Gompertz","N_0",1.68627498440197
+"C300","Gompertz","N_max",8.97910422210925
+"C300","Gompertz","r_max",0.247496617134666
+"C300","Gompertz","t_lag",4.47195634857608
+"C300","Quadratic","(Intercept)",1.47175590187264
+"C300","Quadratic","poly(Time, 2, raw = TRUE)1",0.118316363665801
+"C300","Quadratic","poly(Time, 2, raw = TRUE)2",-0.000464486485996281
+"C301","Cubic","(Intercept)",1.25686584053155
+"C301","Cubic","poly(Time, 3, raw = TRUE)1",0.203371337427793
+"C301","Cubic","poly(Time, 3, raw = TRUE)2",-0.00154828826255186
+"C301","Cubic","poly(Time, 3, raw = TRUE)3",2.81039095541818e-06
+"C301","Gompertz","N_0",1.82479836518834
+"C301","Gompertz","N_max",9.18712916898659
+"C301","Gompertz","r_max",0.368363122644662
+"C301","Gompertz","t_lag",3.3564777770039
+"C301","Quadratic","(Intercept)",1.37472467042264
+"C301","Quadratic","poly(Time, 2, raw = TRUE)1",0.187518688894539
+"C301","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0011379696593233
+"C302","Cubic","(Intercept)",1.08104924821734
+"C302","Cubic","poly(Time, 3, raw = TRUE)1",0.331593881848627
+"C302","Cubic","poly(Time, 3, raw = TRUE)2",-0.002850053627131
+"C302","Cubic","poly(Time, 3, raw = TRUE)3",-8.86655229790252e-06
+"C302","Gompertz","N_0",1.91725561068704
+"C302","Gompertz","N_max",9.23749161902121
+"C302","Gompertz","r_max",0.720707857561321
+"C302","Gompertz","t_lag",4.04729589620072
+"C302","Quadratic","(Intercept)",0.988729097311248
+"C302","Quadratic","poly(Time, 2, raw = TRUE)1",0.35041616321629
+"C302","Quadratic","poly(Time, 2, raw = TRUE)2",-0.00364313382035345
+"C303","Cubic","(Intercept)",1.72551589258439
+"C303","Cubic","poly(Time, 3, raw = TRUE)1",0.454536388323021
+"C303","Cubic","poly(Time, 3, raw = TRUE)2",-0.000420833442235521
+"C303","Cubic","poly(Time, 3, raw = TRUE)3",-0.000216172896406122
+"C303","Gompertz","N_0",1.72727445908617
+"C303","Gompertz","N_max",9.16981421572145
+"C303","Gompertz","r_max",1.28032064528829
+"C303","Gompertz","t_lag",1.59140603020552
+"C303","Quadratic","(Intercept)",1.56955526510898
+"C303","Quadratic","poly(Time, 2, raw = TRUE)1",0.564175992594553
+"C303","Quadratic","poly(Time, 2, raw = TRUE)2",-0.0102220209589366
+"C304","Cubic","(Intercept)",1.481808931429
+"C304","Cubic","poly(Time, 3, raw = TRUE)1",0.00935572279756837
+"C304","Cubic","poly(Time, 3, raw = TRUE)2",6.97112636910925e-06
+"C304","Cubic","poly(Time, 3, raw = TRUE)3",-1.88955900313572e-08
+"C304","Gompertz","N_0",1.54769744823179
+"C304","Gompertz","N_max",5.03694287303975
+"C304","Gompertz","r_max",0.0293595955226832
+"C304","Gompertz","t_lag",32.8798621392752
+"C304","Quadratic","(Intercept)",1.4463690814889
+"C304","Quadratic","poly(Time, 2, raw = TRUE)1",0.0108759025990611
+"C304","Quadratic","poly(Time, 2, raw = TRUE)2",-3.79105022794794e-06
+"C305","Cubic","(Intercept)",1.40997422058476
+"C305","Cubic","poly(Time, 3, raw = TRUE)1",0.0412187696801411
+"C305","Cubic","poly(Time, 3, raw = TRUE)2",-4.38142080120658e-05
+"C305","Cubic","poly(Time, 3, raw = TRUE)3",-4.71471606505542e-08
+"C305","Gompertz","N_0",1.59389898663449
+"C305","Gompertz","N_max",8.62021628752406
+"C305","Gompertz","r_max",0.0913014618687244
+"C305","Gompertz","t_lag",11.1615743367412
+"C305","Quadratic","(Intercept)",1.34066567610268
+"C305","Quadratic","poly(Time, 2, raw = TRUE)1",0.044367264799875
+"C305","Quadratic","poly(Time, 2, raw = TRUE)2",-6.77085900294771e-05

@@ -1,0 +1,6 @@
+Population Growth model fitting summary
+Curves processed: 305
+Successful Quadratic fits: 305
+Successful Cubic fits: 305
+Successful Gompertz fits: 303
+Curves with a best-model assignment: 305

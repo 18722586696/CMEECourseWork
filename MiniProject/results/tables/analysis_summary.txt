@@ -1,0 +1,12 @@
+Population Growth analysis summary
+Successful Quadratic fits: 305
+Successful Cubic fits: 305
+Successful Gompertz fits: 303
+Best-model assignments: 305
+Quadratic wins: 36
+Cubic wins: 93
+Gompertz wins: 176
+Example curve plotted: C146
+Mean AIC for Quadratic: -2.6852
+Mean AIC for Cubic: -11.6067
+Mean AIC for Gompertz: -18.0336
