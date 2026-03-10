@@ -5,62 +5,155 @@
 \usepackage{lineno}
 \usepackage{graphicx}
 \usepackage{booktabs}
-\usepackage{longtable}
 \usepackage{float}
 \usepackage{hyperref}
 \usepackage{natbib}
+\usepackage{amsmath}
 
 \setstretch{1.5}
 \linenumbers
+\hypersetup{hidelinks}
 
 \title{Comparing Mathematical Models for Microbial Population Growth Curves}
-\author{Author Name \\ Affiliation}
-\date{\today}
+\author{Hanxiao Wang \\ Department of Life Sciences, Imperial College London \\ Living Planet with Computational Methods in Ecology and Evolution}
+\date{March 10, 2026}
 
 \begin{document}
 
+\pagenumbering{gobble}
 \begin{titlepage}
     \centering
     {\Large Comparing Mathematical Models for Microbial Population Growth Curves\par}
     \vspace{1cm}
-    {\large Author Name\par}
-    {\large Affiliation\par}
+    {\large Hanxiao Wang\par}
+    {\large Department of Life Sciences, Imperial College London\par}
+    {\large Living Planet with Computational Methods in Ecology and Evolution\par}
     \vfill
-    {\large Word count: XXXX\par}
+    {\large Word count: 2779\par}
     \vspace{1cm}
-    {\large \today\par}
+    {\large March 10, 2026\par}
 \end{titlepage}
+\clearpage
+\pagenumbering{arabic}
 
 \begin{abstract}
-This report compares alternative mathematical models for microbial population growth curves in the Population Growth dataset. The final abstract will summarize the biological background, analytical objectives, fitting strategy, main findings, and take-home messages in approximately 200 words.
+Microbial population growth curves are routinely used to summarize lag phases, exponential growth, and stationary behaviour, but the most appropriate mathematical description is not always obvious. This report compares three candidate models for a course-provided Population Growth dataset containing 4,387 observations grouped into 305 independent curves. A simple quadratic polynomial, a cubic polynomial, and a nonlinear Gompertz model were fitted to $\log_{10}(\mathrm{PopBio})$ as a function of time. Python was used for data cleaning and exploratory graphics, whereas R and \texttt{minpack.lm} were used for batch model fitting. Model performance was assessed primarily with Akaike's information criterion (AIC), supported by Bayesian information criterion (BIC) and $R^2$. All 305 curves were fitted successfully by the quadratic and cubic models, while the Gompertz model converged for 303 curves. The Gompertz model achieved the lowest AIC for 176 curves, compared with 93 for the cubic model and 36 for the quadratic model. Mean AIC values also favoured Gompertz over both polynomial alternatives. An example \textit{Lactobaciulus plantarum} curve showed the same pattern, with Gompertz providing the best visual and numerical fit. Overall, the results support the use of biologically motivated nonlinear growth models when the aim is to describe microbial population trajectories across heterogeneous experimental conditions.
 \end{abstract}
 
 \section{Introduction}
-This section will introduce the biological importance of microbial population growth curves and explain why comparing mathematical models is useful. It will define the study objective, justify the model comparison framework, and establish the narrative that links phenomenological and nonlinear growth models.
+Population growth curves are a central quantitative tool in microbial ecology because they summarize how microbial abundance changes through time under different temperatures, media, and experimental settings. Curves of this type are often used to estimate biologically meaningful quantities such as lag duration, maximum growth rate, and asymptotic abundance. For that reason, the choice of mathematical model matters: an inadequate model can distort growth phases, while an overly flexible model may capture noise rather than process \citep{Zwietering1990,Baranyi1994}.
+
+This miniproject focuses on the Population Growth dataset supplied for the course. The dataset combines many microbial growth trajectories from different published experiments, creating a useful test bed for comparing models across diverse species and conditions. Rather than asking whether a single curve can be fitted acceptably, the more informative question is whether some model classes are consistently more appropriate across a broad collection of curves. Model comparison is a standard ecological problem, and information-theoretic criteria such as AIC provide a coherent way to compare models with different levels of complexity \citep{Johnson2004}.
+
+The present analysis compares two phenomenological polynomial models with one nonlinear growth model. Quadratic and cubic polynomials were used as simple baselines because they are easy to fit and flexible enough to describe broad curvature. These were compared with a Gompertz model, which has a stronger biological interpretation and has long been used for bacterial growth analysis \citep{Zwietering1990}. The aim was to determine which model most often provides the best trade-off between fit and complexity, and to assess whether the nonlinear model offers a meaningful practical advantage over simpler polynomial descriptions.
+
+There is also a useful conceptual contrast between the chosen candidate models. Polynomial models are mathematically convenient and often perform well over restricted domains, but they do not encode explicit biological assumptions about growth. Their parameters are hard to interpret biologically, and their fitted shape can become unrealistic outside the observed time range. By contrast, sigmoidal models such as Gompertz are motivated by the expectation that microbial populations begin slowly, accelerate, and then decelerate as limiting conditions emerge. Even if such models are still simplifications, they provide parameters that map more naturally onto microbial growth processes and therefore may be preferable when the objective is explanation as well as prediction \citep{Baranyi1994,Zwietering1990}.
+
+The specific objectives of this report were threefold. First, I aimed to build a fully reproducible workflow that starts from the raw Population Growth data and ends with a compiled \LaTeX{} report. Second, I aimed to compare the relative support for quadratic, cubic, and Gompertz models across all usable curves in the dataset using a common fitting and ranking procedure. Third, I aimed to interpret the outcome in biological terms, asking whether the more mechanistic nonlinear model provides a consistent advantage over the simpler polynomial alternatives. The broader expectation was that a sigmoidal model would perform best for many curves, but that empirical polynomial models might still be competitive when the observed trajectory covers only part of the full growth process.
+
+\section{Data}
+The analysis used the course-provided Population Growth files \texttt{logistic\_growth\_data.csv} and \texttt{logistic\_growth\_meta\_data.csv}. The main response variable was \texttt{PopBio}, recorded through time for many microbial populations. Time was stored in hours for the curves examined here, while abundance was reported either as cell number or optical density depending on the underlying study. Because the raw files did not contain a ready-made unique identifier for each trajectory, a new curve identifier was constructed from species, temperature, medium, replicate, and citation metadata. This step was necessary to ensure that observations from distinct experimental conditions were not merged incorrectly.
+
+After preprocessing, all 4,387 input observations were retained and grouped into 305 unique growth curves. Curve length was heterogeneous, with 192 curves containing at least 10 observations and the remainder being shorter but still usable for fitting. The selected example curve for detailed visualization was curve C146, corresponding to \textit{Lactobaciulus plantarum} grown in MRS medium at 10 metadata temperature units in the original source study \citep{Zwietering1994}. This curve contained 151 observations and therefore provided a suitable case for examining the behaviour of the candidate models in detail.
+
+An additional practical issue was that a small number of records contained non-positive \texttt{PopBio} values. Because the chosen fitting workflow used a $\log_{10}$ transformation, these values could not be modeled directly and were therefore excluded at the fitting stage. This affected only seven curves and did not change the set of curves retained for analysis, but it illustrates that even apparently simple growth datasets require explicit preprocessing decisions. The resulting cleaned dataset preserved all original rows for descriptive summaries while allowing the fitting stage to operate consistently on positive abundance observations.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.72\textwidth]{../results/figures/curve_observation_distribution.png}
+    \caption{Distribution of observation counts per growth curve in the cleaned Population Growth dataset. The dataset spans many short and long trajectories, which makes it useful for testing model robustness across heterogeneous sampling intensity.}
+    \label{fig:obsdist}
+\end{figure}
 
 \section{Methods}
-
-\subsection{Data}
-This subsection will describe the source dataset, the key variables (\texttt{Time} and \texttt{PopBio}), and the procedure used to define unique curves from species, temperature, medium, replicate, and citation metadata.
-
 \subsection{Computing tools}
-This subsection will explain how each language was used in the workflow.
+The workflow combined Python, R, and \LaTeX{} to keep the project reproducible in the submitted environment. Python was used to clean the raw data, generate unique curve identifiers, write summary tables, produce exploratory and final figures, and orchestrate the final end-to-end workflow through \texttt{run\_MiniProject.py}. R was used for model fitting because the nonlinear stage benefited from direct access to \texttt{nlsLM} in the \texttt{minpack.lm} package. The final report was written and compiled in \LaTeX{} so that figures, citations, and formatting could be regenerated from source files. A shell-based top-level runner was initially considered, but the final project was developed and verified in a Windows environment where direct bash invocation of the required R and LaTeX executables was not reliable, so the Python runner was retained as the single supported entry point.
 
-\begin{itemize}
-    \item Bash will orchestrate the full workflow from data preparation to report compilation.
-    \item Python will prepare the data, generate exploratory visualizations, and summarize intermediate outputs.
-    \item R will fit and compare alternative models, including nonlinear models.
-    \item \LaTeX{} will assemble the final report in a reproducible form.
-\end{itemize}
+\subsection{Model definitions}
+All models were fitted to $\log_{10}(\mathrm{PopBio})$ rather than raw abundance in order to reduce scale differences across curves and stabilize residual variation. Let $y(t)$ denote $\log_{10}(\mathrm{PopBio})$ at time $t$. The polynomial baseline models were
+\[
+y(t)=\beta_0+\beta_1 t+\beta_2 t^2
+\]
+for the quadratic model and
+\[
+y(t)=\beta_0+\beta_1 t+\beta_2 t^2+\beta_3 t^3
+\]
+for the cubic model. Both were fitted with ordinary least squares in R.
 
-\subsection{Model fitting}
-This subsection will document the candidate models, fitting strategy, model-selection criteria, and handling of failed fits.
+The nonlinear candidate was a Gompertz growth model, written in the same transformed response scale as
+\[
+y(t)=N_0+(N_{\max}-N_0)\exp\left[-\exp\left(\frac{r_{\max}e(t_{\mathrm{lag}}-t)}{(N_{\max}-N_0)\log 10}+1\right)\right].
+\]
+Here $N_0$ is the initial abundance on the log scale, $N_{\max}$ is the asymptotic abundance, $r_{\max}$ controls the maximum slope, and $t_{\mathrm{lag}}$ represents lag timing. This formulation follows the standard use of Gompertz-type models in microbial growth analysis \citep{Zwietering1990}.
+
+\subsection{Fitting strategy and model comparison}
+For each curve, observations with non-positive \texttt{PopBio} values were excluded before transformation; this affected seven curves but left all 305 curves analyzable. Quadratic and cubic models were fitted directly once at least four positive observations with four unique time values were available. The Gompertz model was fitted with \texttt{nlsLM}, using multiple starting-value combinations for $t_{\mathrm{lag}}$, $r_{\max}$, $N_0$, and $N_{\max}$ to reduce sensitivity to local minima. The best converged nonlinear fit for each curve was taken as the one with the lowest AIC among successful starting-value combinations.
+
+Model comparison was based primarily on AIC, with BIC and $R^2$ used as supplementary summaries. The preferred model for each curve was defined as the successful fit with the lowest AIC. This information-theoretic approach is appropriate when the goal is to compare several plausible models fitted to the same response variable, rather than to perform null-hypothesis testing \citep{Johnson2004}. An additional qualitative comparison was made by plotting all fitted curves for the selected example trajectory C146.
+
+Although $R^2$ was reported for convenience, it was not treated as the primary basis for model choice. For nonlinear or differently parameterized models, $R^2$ can suggest a good fit simply because the fitted curve follows the overall direction of the data, even when a simpler or more biologically appropriate model would be preferred after penalizing complexity. AIC was therefore the main ranking criterion because it evaluates goodness of fit relative to model complexity in a common framework. BIC was retained as an additional penalty-based metric, but the narrative in this report focuses on AIC because it is widely used for ecological model comparison and fits the central question posed here \citep{Johnson2004}.
 
 \section{Results}
-This section will present exploratory figures, model-comparison tables, and the main quantitative findings.
+The cleaned dataset contained 305 independent curves and showed substantial variation in curve length (Figure~\ref{fig:obsdist}). This heterogeneity matters because short curves provide less information for nonlinear estimation, while longer trajectories are more capable of revealing sigmoidal growth. Despite this variation, the fitting workflow was highly stable. Quadratic and cubic models converged for all 305 curves, and the Gompertz model converged for 303 curves. The two nonlinear failures were caused by singular gradient problems at the starting stage rather than by missing data.
+
+\begin{table}[H]
+    \centering
+    \caption{Summary of model-fitting outcomes across the 305 growth curves. Mean AIC values are calculated across successful fits only. Lower AIC indicates better support.}
+    \label{tab:fit_summary}
+    \begin{tabular}{lccc}
+        \toprule
+        Model & Successful fits & Curves won by AIC & Mean AIC \\
+        \midrule
+        Quadratic & 305 & 36 & -2.69 \\
+        Cubic & 305 & 93 & -11.61 \\
+        Gompertz & 303 & 176 & -18.03 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+The information-theoretic comparison strongly favoured the nonlinear model (Table~\ref{tab:fit_summary}). Gompertz achieved the lowest AIC for 176 of 305 curves, which corresponds to 57.7\% of the dataset. The cubic model ranked first for 93 curves (30.5\%), while the quadratic model ranked first for only 36 curves (11.8\%). Figure~\ref{fig:modelwins} shows the same result graphically. Mean AIC values followed the same order, with Gompertz outperforming cubic and cubic outperforming quadratic. This indicates that the improvement obtained by the nonlinear model was not confined to a few exceptional curves but was a general pattern across the dataset.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.68\textwidth]{../results/figures/model_win_counts.png}
+    \caption{Number of curves for which each candidate model achieved the lowest AIC. Gompertz was the most frequently selected model, followed by the cubic polynomial.}
+    \label{fig:modelwins}
+\end{figure}
+
+The distribution of AIC values across individual fits also supported this ranking (Figure~\ref{fig:aicdist}). The quadratic model was consistently weakest, reflecting its limited ability to represent sigmoidal growth with a clear lag phase and upper asymptote. The cubic model improved substantially on quadratic by allowing stronger curvature, but it still remained an empirical approximation without a direct biological interpretation. Gompertz combined flexibility with a sigmoidal structure that better matches microbial growth dynamics, which explains its lower AIC values in most cases.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.78\textwidth]{../results/figures/model_aic_distribution.png}
+    \caption{Distribution of AIC values across successful fits. More negative values indicate stronger support after penalizing model complexity.}
+    \label{fig:aicdist}
+\end{figure}
+
+The detailed example curve C146 illustrated the same pattern (Figure~\ref{fig:c146fits}). For this \textit{Lactobaciulus plantarum} trajectory, the quadratic model achieved an AIC of 16.39, the cubic model an AIC of 5.65, and the Gompertz model an AIC of -7.29. All three models captured the broad increase in abundance, but the Gompertz model matched the lower early-growth values and the upper plateau more convincingly. Its $R^2$ was also the highest among the three fits (0.956). This example supports the broader dataset-level conclusion that nonlinear sigmoidal structure matters when describing microbial growth across time.
+
+Visual inspection of the example curve helps explain the numerical ranking. The quadratic fit rose too smoothly and had limited freedom to account for the clear transition from low initial abundance to rapid increase and eventual saturation. The cubic fit improved the shape substantially but still treated the overall trajectory as an unconstrained polynomial trend. The Gompertz curve, by contrast, aligned better with the early slow-growth period and then bent naturally towards an upper asymptote. This is the type of behaviour expected if growth is initially limited by acclimation or lag processes and later limited by resource depletion or density dependence. The example therefore provides an intuitive graphical counterpart to the overall AIC result.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{../results/figures/best_curve_model_fits.png}
+    \caption{Observed data and fitted models for the selected example curve C146 (\textit{Lactobaciulus plantarum}, MRS medium, 10 metadata units). The Gompertz fit provided both the lowest AIC and the best visual agreement with the observed plateau.}
+    \label{fig:c146fits}
+\end{figure}
 
 \section{Discussion}
-This section will interpret the main findings, discuss biological implications, note limitations, and conclude with the main take-home message.
+Across the full Population Growth dataset, the Gompertz model provided the strongest overall performance. It converged for nearly every curve and was selected by AIC more often than either polynomial alternative. This result is biologically plausible because microbial growth trajectories are commonly sigmoidal, with an initial lag phase, a period of rapid increase, and eventual deceleration towards an upper bound. Polynomial models can imitate parts of this shape, especially over restricted time ranges, but they do not encode these biological phases directly and can behave unrealistically near the boundaries of the observed interval \citep{Zwietering1990,Baranyi1994}.
+
+The cubic model nevertheless performed substantially better than the quadratic baseline, which shows that additional flexibility does matter when fitting diverse growth trajectories. In practical terms, a cubic polynomial may still be useful as a quick exploratory baseline or as a fallback for curves where nonlinear fitting is unstable. However, its weaker average AIC and lower win count suggest that it should not be the default choice when the purpose is to describe microbial growth in a mechanistically interpretable way. The quadratic model was the least competitive and appears too rigid for general use on these data.
+
+The results also highlight the importance of evaluating models across many curves rather than drawing conclusions from one or two illustrative examples. It would have been easy to find a specific trajectory for which cubic matched Gompertz closely, or a noisy short curve where the difference between models was negligible. Such isolated cases would not resolve the broader question. By fitting all available curves in the cleaned dataset, this analysis shows that the preference for Gompertz is not anecdotal. Instead, it emerges repeatedly across a varied collection of species, media, and temperatures, which makes the conclusion more defensible.
+
+At the same time, the dominance of Gompertz was not absolute. More than forty percent of curves were still best described by one of the polynomial models according to AIC. This is a useful reminder that empirical data often depart from idealized shapes. Some trajectories may be too short, too noisy, or too partial to reveal the full sigmoidal form cleanly. Others may reflect measurement artefacts, shifts in conditions, or biologically unusual patterns. A sensible practical approach is therefore not to assume that one model must fit every curve best, but to treat Gompertz as the strongest candidate in a small comparative set while still checking alternatives.
+
+Several limitations should be acknowledged. First, all models were fitted independently to each curve, so the analysis does not borrow strength across species or experimental conditions. A hierarchical approach could improve estimates for sparse curves. Second, model comparison was based mainly on AIC, which evaluates relative support within the candidate set rather than absolute adequacy. Third, the project used only one nonlinear model. Other mechanistic growth models, such as Baranyi-type formulations, may perform similarly or better on some datasets \citep{Baranyi1994}. Finally, the full workflow was executed in a local Windows environment, so \texttt{run\_MiniProject.py} served as the verified end-to-end entry point after the shell-based top-level wrapper was removed for compatibility reasons.
+
+There are several obvious next steps if the project were extended. One would be to add a second nonlinear competitor such as the Baranyi model and ask whether the preference for Gompertz remains after comparison with another sigmoidal formulation that explicitly represents adaptation processes. Another would be to stratify model performance by taxon, medium, or temperature to test whether certain biological contexts favour one model class more strongly than others. A third would be to move beyond curve-by-curve fitting and use multilevel modeling or partial pooling to share information among related curves. Each of these extensions would increase complexity, but they would also bring the analysis closer to the kinds of comparative modeling questions asked in applied microbial ecology and food microbiology.
+
+Despite these limitations, the main conclusion is clear. When microbial population trajectories are compared across many species and conditions, a biologically motivated nonlinear model outperforms simple polynomial alternatives in most cases. The Gompertz model therefore provides the most defensible default among the models tested here, while cubic and quadratic polynomials are better viewed as baseline comparators than as final analytical choices.
 
 \bibliographystyle{apalike}
 \bibliography{references}
