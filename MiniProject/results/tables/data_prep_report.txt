@@ -1,0 +1,15 @@
+Population Growth data preparation summary
+Input rows processed: 4387
+Rows retained: 4387
+Rows skipped: 0
+Unique curves: 305
+Curves with at least 10 observations: 192
+
+Selected nonlinear fitting candidate
+CurveID: C146
+Species: Lactobaciulus plantarum
+Temperature: 10.000000
+Medium: MRS
+Replicate: 1
+Observations: 151
+Unique time values: 151

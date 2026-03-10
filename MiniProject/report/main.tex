@@ -1,0 +1,68 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{lineno}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{natbib}
+
+\setstretch{1.5}
+\linenumbers
+
+\title{Comparing Mathematical Models for Microbial Population Growth Curves}
+\author{Author Name \\ Affiliation}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    {\Large Comparing Mathematical Models for Microbial Population Growth Curves\par}
+    \vspace{1cm}
+    {\large Author Name\par}
+    {\large Affiliation\par}
+    \vfill
+    {\large Word count: XXXX\par}
+    \vspace{1cm}
+    {\large \today\par}
+\end{titlepage}
+
+\begin{abstract}
+This report compares alternative mathematical models for microbial population growth curves in the Population Growth dataset. The final abstract will summarize the biological background, analytical objectives, fitting strategy, main findings, and take-home messages in approximately 200 words.
+\end{abstract}
+
+\section{Introduction}
+This section will introduce the biological importance of microbial population growth curves and explain why comparing mathematical models is useful. It will define the study objective, justify the model comparison framework, and establish the narrative that links phenomenological and nonlinear growth models.
+
+\section{Methods}
+
+\subsection{Data}
+This subsection will describe the source dataset, the key variables (\texttt{Time} and \texttt{PopBio}), and the procedure used to define unique curves from species, temperature, medium, replicate, and citation metadata.
+
+\subsection{Computing tools}
+This subsection will explain how each language was used in the workflow.
+
+\begin{itemize}
+    \item Bash will orchestrate the full workflow from data preparation to report compilation.
+    \item Python will prepare the data, generate exploratory visualizations, and summarize intermediate outputs.
+    \item R will fit and compare alternative models, including nonlinear models.
+    \item \LaTeX{} will assemble the final report in a reproducible form.
+\end{itemize}
+
+\subsection{Model fitting}
+This subsection will document the candidate models, fitting strategy, model-selection criteria, and handling of failed fits.
+
+\section{Results}
+This section will present exploratory figures, model-comparison tables, and the main quantitative findings.
+
+\section{Discussion}
+This section will interpret the main findings, discuss biological implications, note limitations, and conclude with the main take-home message.
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}

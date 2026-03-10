@@ -1,2 +1,14 @@
 *~ 
 *.tmp
+MiniProject/sandbox/
+MiniProject/report/*.aux
+MiniProject/report/*.bbl
+MiniProject/report/*.bcf
+MiniProject/report/*.blg
+MiniProject/report/*.fdb_latexmk
+MiniProject/report/*.fls
+MiniProject/report/*.log
+MiniProject/report/*.out
+MiniProject/report/*.pdf
+MiniProject/report/*.run.xml
+MiniProject/report/*.synctex.gz
