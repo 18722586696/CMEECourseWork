@@ -1,6 +1,6 @@
 # MiniProject
 
-This directory contains the completed Population Growth miniproject for the CMEE coursework.
+Population Growth miniproject for the CMEE coursework.
 
 ## Current status
 
@@ -24,7 +24,6 @@ MiniProject/
 |  |- figures/
 |  `- tables/
 |- report/
-|- sandbox/
 |- run_MiniProject.py
 `- README.md
 ```
@@ -42,7 +41,7 @@ MiniProject/
 - `code/04_analysis_plot.py`: summarizes model-fitting outcomes and exports core afternoon figures.
 - `run_MiniProject.py`: runs the full workflow and compiles the LaTeX report in the verified Windows environment.
 
-## Outputs produced by the current workflow
+## Outputs
 
 - `data/cleaned_growth_data.csv`
 - `results/tables/curve_summary.csv`
@@ -73,17 +72,6 @@ python run_MiniProject.py
 Compile the report only:
 
 ```powershell
-cd report
-latexmk -pdf main.tex
-```
-
-Manual step-by-step execution:
-
-```powershell
-python code/01_data_prep.py
-python code/02_plot_raw_curves.py
-& 'C:\Program Files\R\R-4.5.2\bin\Rscript.exe' code/03_model_fit.R
-python code/04_analysis_plot.py
 cd report
 latexmk -pdf main.tex
 ```
