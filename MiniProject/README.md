@@ -2,18 +2,6 @@
 
 Population Growth miniproject for the CMEE coursework.
 
-## Current status
-
-The workflow, analysis outputs, and report are complete:
-
-- project scaffold created;
-- Population Growth data copied into `data/`;
-- data preparation script added;
-- exploratory plotting script added;
-- batch model fitting script added;
-- model comparison plotting script added;
-- submission-ready LaTeX report added and compiled.
-
 ## Directory layout
 
 ```text
